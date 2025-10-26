@@ -11551,6 +11551,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Water 1", "Dragon"],
 		requiredItem: "DragoniniteZA",
 	},
+//a
 	malamarmegaza: {
 		num: 687,
 		name: "Malamar-Mega-ZA",
