@@ -11438,7 +11438,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	floettemegaza: {
 		num: 670,
 		name: "Floette-Mega-ZA",
-		baseSpecies: "Floette",
+		baseSpecies: "Floette-Eternal",
 		forme: "Mega",
 		types: ["Fairy"],
 		gender: "F",
@@ -11551,7 +11551,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Water 1", "Dragon"],
 		requiredItem: "DragoniniteZA",
 	},
-//a
 	malamarmegaza: {
 		num: 687,
 		name: "Malamar-Mega-ZA",
