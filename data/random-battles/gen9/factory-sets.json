@@ -26,6 +26,7 @@
 			"weight": 90,
 			"sets": [{
 				"species": "Abyluxneon",
+				"level": 10,
 				"weight": 50,
 				"item": ["Choice Scarf"],
 				"ability": ["Orichalcum Pulse"],
@@ -35,6 +36,7 @@
 				"moves": [["Low Kick", "Close Combat"], ["Flare Blitz"], ["Outrage", "Dragon Claw"], ["U-turn"]]
 			}, {
 				"species": "Abyluxneon",
+				"level": 10,
 				"weight": 50,
 				"item": ["Loaded Dice"],
 				"ability": ["Orichalcum Pulse"],
