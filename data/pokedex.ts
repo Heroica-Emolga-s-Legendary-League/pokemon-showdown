@@ -23829,6 +23829,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     weightkg: 0.9,
     color: "White",
     eggGroups: ["Undiscovered"],
+    otherFormes: ['Floette-Mega-ZA'],
+    formeOrder: ["Floette-Eternal", "Floette-Mega-ZA"],
   },
   florges: {
     num: 671,

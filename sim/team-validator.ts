@@ -723,7 +723,8 @@ export class TeamValidator {
 				} else if (!Object.values(species.abilities).includes(ability.name)) {
 					if (tierSpecies.abilities[0] === ability.name) {
 						set.ability = species.abilities[0];
-					} else {
+					} else{
+						console.log(set.ability, species.abilities[0]);
 						problems.push(`${name} can't have ${set.ability}.`);
 					}
 				}
