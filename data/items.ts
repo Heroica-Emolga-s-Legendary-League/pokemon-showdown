@@ -1758,8 +1758,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	"floettiteza": {
 		name: "FloettiteZA",
 		megaStone: "Floette-Mega-ZA",
-		itemUser: ["Floette"],
-		megaEvolves: "Floette",
+		itemUser: ["Floette-Eteneral"],
+		megaEvolves: "Floette-Eteneral",
 		num: -1008,
 		isNonstandard: "Past",
 		gen: 9,
