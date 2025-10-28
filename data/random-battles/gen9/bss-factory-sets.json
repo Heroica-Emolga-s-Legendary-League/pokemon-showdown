@@ -5,6 +5,7 @@
           {
               "species": "Chien-Pao",
               "weight": 35,
+              "level": 78,
               "moves": [
                   ["Icicle Crash"],
                   ["Sucker Punch"],
@@ -130,6 +131,31 @@
           }
       ]
   },
+  "serperior": {
+		"weight": 10,
+		"sets": [{
+			"species": "Serperior",
+			"weight": 50,
+			"item": ["Serperiorite"],
+			"ability": ["Contrary"],
+			"evs": {"hp": 4, "spa": 252, "spe": 252},
+            "ivs": {"atk": 0},
+			"nature": ["Timid"],
+			"teraType": ["Grass"],
+			"moves": [["Leaf Storm"], ["Dragon Pulse"], ["Giga Drain"], ["Hidden Power Fire"]]
+		},
+        {
+			"species": "Serperior",
+			"weight": 50,
+			"item": ["Serperiorite"],
+			"ability": ["Contrary"],
+			"evs": {"hp": 252, "spa": 4, "spe": 252},
+			"ivs": {"atk": 0},
+			"nature": ["Timid"],
+			"teraType": ["Grass"],
+			"moves": [["Glare"], ["Leech Seed"], ["Substitute"], ["Giga Drain"]]
+		}]
+	},
   "dragonite": {
       "weight": 10,
       "sets": [

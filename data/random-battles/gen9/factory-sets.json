@@ -22,52 +22,6 @@
 				"moves": [["Low Kick", "Substitute"], ["Flare Blitz"], ["Scale Shot"], ["Swords Dance"]]
 			}]
 		},
-		"abyluxneon": {
-			"weight": 90,
-			"sets": [{
-				"species": "Abyluxneon",
-				"level": 10,
-				"weight": 50,
-				"item": ["Choice Scarf"],
-				"ability": ["Orichalcum Pulse"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": ["Jolly"],
-				"teraType": ["Fire", "Ghost"],
-				"moves": [["Low Kick", "Close Combat"], ["Flare Blitz"], ["Outrage", "Dragon Claw"], ["U-turn"]]
-			}, {
-				"species": "Abyluxneon",
-				"level": 10,
-				"weight": 50,
-				"item": ["Loaded Dice"],
-				"ability": ["Orichalcum Pulse"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": ["Jolly"],
-				"teraType": ["Fire", "Ghost"],
-				"moves": [["Low Kick", "Substitute"], ["Flare Blitz"], ["Scale Shot"], ["Swords Dance"]]
-			}]
-		},
-		"venusaur": {
-			"weight": 90,
-			"sets": [{
-				"species": "Venusaur",
-				"weight": 50,
-				"item": ["Venusaurite"],
-				"ability": ["Orichalcum Pulse"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": ["Jolly"],
-				"teraType": ["Fire", "Ghost"],
-				"moves": [["Low Kick", "Close Combat"], ["Flare Blitz"], ["Outrage", "Dragon Claw"], ["U-turn"]]
-			}, {
-				"species": "Venusaur",
-				"weight": 50,
-				"item": ["Venusaurite"],
-				"ability": ["Orichalcum Pulse"],
-				"evs": {"atk": 252, "def": 4, "spe": 252},
-				"nature": ["Jolly"],
-				"teraType": ["Fire", "Ghost"],
-				"moves": [["Low Kick", "Substitute"], ["Flare Blitz"], ["Scale Shot"], ["Swords Dance"]]
-			}]
-		},
 		"necrozmaduskmane": {
 			"weight": 10,
 			"sets": [{

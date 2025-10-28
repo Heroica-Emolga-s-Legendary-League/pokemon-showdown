@@ -1,0 +1,162 @@
+{
+	"axbone": {
+		"weight": 10,
+		"sets": [{
+			"species": "Ax Bone",
+			"weight": 50,
+			"item": ["Booster Energy"],
+			"ability": ["Protosynthesis"],
+			"evs": {"hp": 72, "atk": 184, "spe": 252},
+			"nature": ["Jolly"],
+			"teraType": ["Fairy", "Ground"],
+			"moves": [["Play Rough"], ["Earthquake"], ["Encore", "Knock Off", "Ice Spinner", "Stone Axe"], ["Swords Dance"]]
+		}]
+	},
+	"gardevoirhell": {
+		"weight": 10,
+		"sets": [{
+			"species": "Gardevoir-HELL",
+			"weight": 50,
+			"item": ["Choice Specs"],
+			"ability": ["Petrifying Gaze"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": ["Timid"],
+			"teraType": ["Fairy", "Ground"],
+			"moves": [["Earth Power"], ["Moonblast"], ["Mystical Fire", "Light of Ruin", "Psychic"], ["Trick"]]
+		}]
+	},
+	"ledigod": {
+		"weight": 10,
+		"sets": [{
+			"species": "Ledigod",
+			"weight": 50,
+			"item": ["Life Orb"],
+			"ability": ["Iron Fist"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": ["Jolly"],
+			"teraType": ["Fighting", "Dark"],
+			"moves": [["Drain Punch", "Close Combat"], ["Ice Punch"], ["Knock Off"], ["Victory Dance"]]
+		}]
+	},
+	"mightyspine": {
+		"weight": 10,
+		"sets": [{
+			"species": "Mighty Spine",
+			"weight": 50,
+			"item": ["Booster Energy", "Life Orb"],
+			"ability": ["Protosynthesis"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": ["Adamant", "Jolly"],
+			"teraType": ["Fighting", "Dark", "Poison"],
+			"moves": [["Close Combat"], ["Knock Off"], ["Dire Claw"], ["No Retreat"]]
+		}]
+	},
+	"slicingsegment": {
+		"weight": 10,
+		"sets": [{
+			"species": "Slicing Segment",
+			"weight": 20,
+			"item": ["Heavy-Duty Boots", "Focus Sash"],
+			"ability": ["Protosynthesis"],
+			"evs": {"hp": 248, "def": 252, "spd": 8},
+			"nature": ["Impish"],
+			"teraType": ["Water", "Fairy", "Steel"],
+			"moves": [["Spikes"], ["Sticky Web", "Glare", "Knock Off"], ["Slack Off", "Toxic Spikes"], ["U-Turn", "Gunk Shot"]]
+		},
+		{
+			"species": "Slicing Segment",
+			"weight": 20,
+			"item": ["Booster Energy"],
+			"ability": ["Protosynthesis"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": ["Timid"],
+			"teraType": ["Ground"],
+			"moves": [["Sludge Wave"], ["Bug Buzz"], ["Tera Blast"], ["Tail Glow"]]
+		},
+		{
+			"species": "Slicing Segment",
+			"weight": 20,
+			"item": ["Booster Energy"],
+			"ability": ["Protosynthesis"],
+			"evs": {"hp": 176,"atk": 76, "spd": 4, "spe": 252},
+			"nature": ["Jolly"],
+			"teraType": ["Ground", "Poison", "Dark"],
+			"moves": [["Gunk Shot"], ["Earthquake"], ["Knock Off"], ["Swords Dance"]]
+		},
+		{
+			"species": "Slicing Segment",
+			"weight": 20,
+			"item": ["Heavy-Duty Boots"],
+			"ability": ["Protosynthesis"],
+			"evs": {"hp": 248,"atk": 252, "spd": 8},
+			"nature": ["Adamant"],
+			"teraType": ["Water", "Fairy", "Steel"],
+			"moves": [["First Impression"], ["U-Turn"], ["Gunk Shot"], ["Glare", "Spikes"]]
+		},
+		{
+			"species": "Slicing Segment",
+			"weight": 20,
+			"item": ["Heavy-Duty Boots"],
+			"ability": ["Protosynthesis"],
+			"evs": {"hp": 248, "def": 252, "spd": 8},
+			"nature": ["Impish"],
+			"teraType": ["Water", "Fairy", "Steel"],
+			"moves": [["Glare"], ["Slack Off"], ["Knock Off"], ["U-Turn"]]
+		}
+		]
+	},
+	"combeehisuiswarm": {
+		"weight": 10,
+		"sets": [{
+			"species": "Combee-Hisui-Swarm",
+			"weight": 50,
+			"item": ["Heavy-Duty Boots"],
+			"ability": ["Intimidate"],
+			"evs": {"hp": 248, "atk": 252, "spd": 8},
+			"nature": ["Adamant"],
+			"teraType": ["Ground", "Water", "Fighting"],
+			"moves": [["Dual Wingbeat"], ["Lunge"], ["Tera Blast"], ["Ominous Wind"]]
+		}]
+	},
+	"serperior": {
+		"weight": 10,
+		"sets": [{
+			"species": "Serperior",
+			"weight": 50,
+			"item": ["Serperiorite"],
+			"ability": ["Contrary"],
+			"evs": {"hp": 4, "spa": 252, "spe": 252},
+			"ivs": {"atk": 0},
+			"nature": ["Timid"],
+			"teraType": ["Grass"],
+			"moves": [["Leaf Storm"], ["Dragon Pulse"], ["Giga Drain"], ["Hidden Power Fire"]]
+		},
+		{
+			"species": "Serperior",
+			"weight": 50,
+			"item": ["Serperiorite"],
+			"ability": ["Contrary"],
+			"evs": {"hp": 252, "spa": 4, "spe": 252},
+			"ivs": {"atk": 0},
+			"nature": ["Timid"],
+			"teraType": ["Grass"],
+			"moves": [["Glare"], ["Leech Seed"], ["Substitute"], ["Giga Drain"]]
+		}
+		]
+	},
+	"toxtricity": {
+		"weight": 10,
+		"sets": [{
+			"species": "Toxtricity",
+			"weight": 50,
+			"item": ["Toxtricite"],
+			"ability": ["Punk Rock"],
+			"evs": {"atk": 180, "spa": 76, "spe": 252},
+			"nature": ["Mild"],
+			"teraType": ["Electric"],
+			"moves": [["Boomburst"], ["Shift Gear"], ["Fire Punch", "Drain Punch"], ["Throat Chop", "Sludge Wave"]]
+		}
+		]
+	}
+
+}
