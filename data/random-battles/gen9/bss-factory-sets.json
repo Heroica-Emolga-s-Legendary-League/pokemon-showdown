@@ -329,6 +329,317 @@
 			"moves": [["Close Combat"], ["Flare Blitz"], ["Knock Off", "Gunk Shot"], ["Swords Dance", "U-Turn"]]
 		}
 		]
+	},
+	"chromehorse": {
+		"weight": 10,
+		"sets": [{
+			"species": "Chrome Horse",
+			"weight": 50,
+			"item": ["Booster Energy"],
+			"ability": ["Quark Drive"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": ["Jolly"],
+			"teraType": ["Fire", "Fairy", "Electric"],
+			"wantsTera": true,
+			"moves": [["Flare Blitz"], ["Wild Charge"], ["Play Rough"], ["Swords Dance"]]
+		}
+		]
+	},
+	"dragapult": {
+		"weight": 10,
+		"sets": [{
+			"species": "Dragapult",
+			"weight": 50,
+			"item": ["Dragapultite"],
+			"ability": ["Clear Body"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": ["Adamant"],
+			"teraType": ["Dragon"],
+			"moves": [["Double-Edge"], ["Dragon Darts"], ["Phantom Force"], ["Dragon Dance"]]
+		},
+		{
+			"species": "Dragapult",
+			"weight": 50,
+			"item": ["Dragapultite"],
+			"ability": ["Clear Body"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": ["Timid"],
+			"teraType": ["Dragon"],
+			"moves": [["Draco Meteor"], ["Shadow Ball"], ["Tri Attack"], ["U-Turn"]]
+		}
+		]
+	},
+	"chienpaounleashed": {
+		"weight": 10,
+		"sets": [{
+			"species": "Chien-Pao-Unleashed",
+			"weight": 50,
+			"item": ["Heavy-Duty Boots"],
+			"ability": ["Sword of Ruin"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": ["Jolly"],
+			"teraType": ["Ice", "Electric", "Fire"],
+			"wantsTera": true,
+			"moves": [["Ice Spinner"], ["Flare Blitz"], ["Swords Dance", "Parting Shot"], ["Thunder Punch"]]
+		}
+		]
+	},
+	"chiyuunleashed": {
+		"weight": 10,
+		"sets": [{
+			"species": "Chi-Yu-Unleashed",
+			"weight": 50,
+			"item": ["Air Balloon", "Power Herb", "Heavy-Duty Boots"],
+			"ability": ["Beads of Ruin"],
+			"evs": {"def": 4, "spa": 252, "spe": 252},
+			"nature": ["Timid", "Modest"],
+			"teraType": ["Fire", "Rock", "Water"],
+			"wantsTera": true,
+			"moves": [["Power Gem"], ["Flamethrower", "Fire Blast"], ["Nasty Plot", "Meteor Beam"], ["Flame Charge", "Autotomize"]]
+		}
+		]
+	},
+	"tingluunleashed": {
+		"weight": 10,
+		"sets": [{
+			"species": "Ting-Lu-Unleashed",
+			"weight": 50,
+			"item": ["Leftovers"],
+			"ability": ["Vessel of Ruin"],
+			"evs": {"hp": 252, "def": 4, "spd": 252},
+			"nature": ["Sassy", "Careful"],
+			"teraType": ["Flying", "Fairy", "Poison"],
+			"wantsTera": true,
+			"moves": [["Spikes"], ["Stealth Rock", "Sticky Web", "Protect"], ["Earthquake", "Body Press", "Scald"], ["Ruination", "Toxic"]]
+		},
+		{
+			"species": "Ting-Lu-Unleashed",
+			"weight": 50,
+			"item": ["Leftovers"],
+			"ability": ["Water Bubble"],
+			"evs": {"hp": 252, "atk": 252, "spd": 4},
+			"nature": ["Adamant"],
+			"teraType": ["Water"],
+			"moves": [["Liquidation"], ["Spikes"], ["Sleep Talk"], ["Rest"]]
+		}
+		]
+	},
+	"wochienunleashed": {
+		"weight": 10,
+		"sets": [{
+			"species": "Wo-Chien-Unleashed",
+			"weight": 50,
+			"item": ["Leftovers"],
+			"ability": ["Tablets of Ruin"],
+			"evs": {"hp": 248, "def": 252, "spd": 8},
+			"nature": ["Bold"],
+			"teraType": ["Water", "Dark"],
+			"wantsTera": true,
+			"moves": [["Leech Seed"], ["Sludge Bomb"], ["Knock Off", "Ruination"], ["Protect"]]
+		},
+		{
+			"species": "Wo-Chien-Unleashed",
+			"weight": 50,
+			"item": ["Leftovers"],
+			"ability": ["Tablets of Ruin"],
+			"evs": {"def": 4, "spa": 252, "spe": 252},
+			"ivs": {"atk": 0},
+			"nature": ["Timid"],
+			"teraType": ["Grass", "Poison", "Fighting"],
+			"wantsTera": true,
+			"moves": [["Giga Drain"], ["Focus Blast"], ["Sludge Bomb"], ["Nasty Plot"]]
+		}
+		]
+	},
+	"tinkaton": {
+		"weight": 10,
+		"sets": [{
+			"species": "Tinkaton",
+			"weight": 50,
+			"item": ["Tinkatonite"],
+			"ability": ["Own Tempo"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": ["Jolly"],
+			"teraType": ["Fairy"],
+			"moves": [["Gigaton Hammer"], ["Knock Off"], ["Play Rough"], ["Swords Dance"]]
+		}
+		]
+	},
+	"ceruledge": {
+		"weight": 10,
+		"sets": [{
+			"species": "Ceruledge",
+			"weight": 50,
+			"item": ["Ceruledgite"],
+			"ability": ["Flash Fire"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": ["Jolly"],
+			"teraType": ["Fire"],
+			"moves": [["Bitter Blade"], ["Close Combat"], ["Flame Charge"], ["Swords Dance"]]
+		}
+		]
+	},
+	"irondetector": {
+		"weight": 10,
+		"sets": [{
+			"species": "Iron Detector",
+			"weight": 50,
+			"item": ["Choice Specs"],
+			"ability": ["Quark Drive"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"ivs": {"atk": 0},
+			"wantsTera": true,
+			"nature": ["Timid"],
+			"teraType": ["Fairy"],
+			"moves": [["Dazzling Gleam"], ["Psychic Noise", "Psychic", "Psyshock"], ["Dark Pulse"], ["Volt Switch"]]
+		},
+		{
+			"species": "Iron Detector",
+			"weight": 50,
+			"item": ["Booster Energy"],
+			"ability": ["Quark Drive"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"ivs": {"atk": 0},
+			"wantsTera": true,
+			"nature": ["Timid"],
+			"teraType": ["Fairy"],
+			"moves": [["Nasty Plot"], ["Dark Pulse"], ["Dazzling Gleam"], ["Psyshock"]]
+		},
+		{
+			"species": "Iron Detector",
+			"weight": 50,
+			"item": ["Focus Sash"],
+			"ability": ["Quark Drive"],
+			"evs": {"hp": 248, "atk": 8, "spe": 252},
+			"nature": ["Naive"],
+			"teraType": ["Fairy"],
+			"moves": [["Encore"], ["Psychic Noise"], ["Knock Off"], ["Thunder Wave"]]
+		}
+		]
+	},
+	"frostywaifu": {
+		"weight": 10,
+		"sets": [{
+			"species": "Frosty Waifu",
+			"weight": 50,
+			"item": ["Leftovers", "Heavy-Duty Boots"],
+			"ability": ["Protosynthesis"],
+			"evs": {"hp": 252, "def": 252, "spa": 4},
+			"ivs": {"atk": 0},
+			"nature": ["Bold"],
+			"teraType": ["Fairy"],
+			"moves": [["Bitter Malice"], ["Parting Shot", "Will-O-Wisp", "Spikes"], ["Draco Meteor", "Dragon Pulse"], ["Recover"]]
+		},
+		{
+			"species": "Frosty Waifu",
+			"weight": 50,
+			"item": ["Leftovers", "Life Orb"],
+			"ability": ["Protosynthesis"],
+			"evs": {"hp": 252, "atk": 252, "spd": 4},
+			"nature": ["Adamant"],
+			"teraType": ["Ghost", "Ground", "Dark", "Fairy"],
+			"moves": [["Last Respects", "Spirit Shackle"], ["Knock Off"], ["Recover"], ["Headlong Rush", "Psyshield Bash", "Earthquake"]]
+		},
+		{
+			"species": "Frosty Waifu",
+			"weight": 50,
+			"item": ["Booster Energy"],
+			"ability": ["Protosynthesis"],
+			"evs": {"hp": 252, "spa": 252, "spd": 4},
+			"nature": ["Modest"],
+			"teraType": ["Fairy", "Poison", "Dragon"],
+			"ivs": {"atk": 0},
+			"moves": [["Nasty Plot"], ["Draco Meteor", "Dragon Pulse"], ["Bitter Malice", "Shadow Ball"], ["Sludge Bomb"]]
+		}
+		]
+	},
+	"ironclaw": {
+		"weight": 10,
+		"sets": [{
+			"species": "Iron Claw",
+			"weight": 50,
+			"item": ["Choice Scarf", "Choice Band"],
+			"ability": ["Quark Drive"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": ["Jolly"],
+			"teraType": ["Poison", "Grass", "Electric"],
+			"moves": [["Dire Claw"], ["Power Whip"], ["Volt Tackle"], ["Knock Off", "Psycho Cut", "Superpower", "Shadow Claw"]]
+		}
+		]
+	},
+	"shatterjaw": {
+		"weight": 10,
+		"sets": [{
+			"species": "Shatter Jaw",
+			"weight": 50,
+			"item": ["Booster Energy"],
+			"ability": ["Protosynthesis"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": ["Jolly"],
+			"teraType": ["Flying"],
+			"wantsTera": true,
+			"moves": [["Acrobatics"], ["Clangorous Soul"], ["Glaive Rush"], ["Head Smash"]]
+		},
+		{
+			"species": "Shatter Jaw",
+			"weight": 50,
+			"item": ["Choice Band"],
+			"ability": ["Protosynthesis"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": ["Jolly", "Adamant"],
+			"teraType": ["Water", "Ground", "Rock", "Dragon"],
+			"moves": [["Accelerock"], ["Wave Crash"], ["Glaive Rush"], ["Earthquake"]]
+		}
+		]
+	},
+	"ironpod": {
+		"weight": 10,
+		"sets": [{
+			"species": "Iron Pod",
+			"weight": 50,
+			"item": ["Leftovers"],
+			"ability": ["Quark Drive"],
+			"evs": {"hp": 252, "def": 252, "spd": 4},
+			"nature": ["Bold"],
+			"teraType": ["Grass"],
+			"moves": [["Recover"], ["Thunder Wave", "Volt Switch"], ["Rapid Spin"], ["Scald"]]
+		},
+		{
+			"species": "Iron Pod",
+			"weight": 50,
+			"item": ["Electric Seed"],
+			"ability": ["Quark Drive"],
+			"evs": {"hp": 252, "spa": 252, "spd": 4},
+			"ivs": {"atk": 0},
+			"nature": ["Modest"],
+			"teraType": ["Electric", "Steel", "Water"],
+			"moves": [["Electric Terrain"], ["Rising Voltage"], ["Hydro Pump"], ["Nasty Plot", "Power Gem", "Flash Cannon"]]
+		}
+		]
+	},
+	"shimmeringbloom": {
+		"weight": 10,
+		"sets": [{
+			"species": "Shimmering Bloom",
+			"weight": 50,
+			"item": ["Choice Scarf"],
+			"ability": ["Protosynthesis"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": ["Timid"],
+			"teraType": ["Ice", "Electric", "Fairy", "Water", "Psychic"],
+			"moves": [["Flip Turn"], ["Freeze-Dry"], ["Hydro Pump", "Dazzling Gleam", "Thunderbolt"], ["Psychic Noise"]]
+		},
+		{
+			"species": "Shimmering Bloom",
+			"weight": 50,
+			"item": ["Booster Energy"],
+			"ability": ["Protosynthesis"],
+			"evs": {"spa": 192, "spd": 64, "spe": 252},
+			"nature": ["Timid"],
+			"teraType": ["Electric", "Ice", "Psychic"],
+			"moves": [["Freeze-Dry"], ["Thunderbolt"], ["Psychic Noise"], ["Rapid Spin", "Calm Mind"]]
+		}
+		]
 	}
 
 }
