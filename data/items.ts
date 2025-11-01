@@ -2657,6 +2657,24 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			if (pokemon.hasAbility('quarkdrive') && !this.field.isTerrain('electricterrain') && pokemon.useItem()) {
 				pokemon.addVolatile('quarkdrive');
 			}
+			if (pokemon.hasAbility('pureharvest') && !this.field.isTerrain('grassyterrain') && pokemon.useItem()) {
+				pokemon.addVolatile('pureharvest');
+			}
+			if (pokemon.hasAbility('mysticzone') && !this.field.isTerrain('mistyterrain') && pokemon.useItem()) {
+				pokemon.addVolatile('mysticzone');
+			}
+			if (pokemon.hasAbility('psychoritual') && !this.field.isTerrain('psychicterrain') && pokemon.useItem()) {
+				pokemon.addVolatile('psychoritual');
+			}
+			if (pokemon.hasAbility('atlantisblessing') && !this.field.isWeather('raindance') && pokemon.useItem()) {
+				pokemon.addVolatile('atlantisblessing');
+			}
+			if (pokemon.hasAbility('lithogrit') && !this.field.isWeather('sandstorm') && pokemon.useItem()) {
+				pokemon.addVolatile('lithogrit');
+			}
+			if (pokemon.hasAbility('tundracore') && !this.field.isWeather('snowscape') && pokemon.useItem()) {
+				pokemon.addVolatile('tundracore');
+			}
 		},
 		onTakeItem(item, source) {
 			if (source.baseSpecies.tags.includes("Paradox")) return false;

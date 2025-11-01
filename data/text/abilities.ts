@@ -45,28 +45,28 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		"desc": "Boosts the highest stat in Snow.",
 		"shortDesc": "Boosts the highest stat in Snow."
 	},
-	"desertheart": {
-		"name": "Desert Heart",
+	"lithogrit": {
+		"name": "Lithogrit",
 		"desc": "Boosts the highest stat in Sandstorm.",
 		"shortDesc": "Boosts the highest stat in Sandstorm."
 	},
-	"aquacircuit": {
-		"name": "Aqua Circuit",
+	"atlantisblessing": {
+		"name": "Atlantis Blessing",
 		"desc": "Boosts the highest stat in Rain.",
 		"shortDesc": "Boosts the highest stat in Rain."
 	},
-	"psychicpulse": {
-		"name": "Psychic Pulse",
+	"psychoritual": {
+		"name": "Psycho Ritual",
 		"desc": "Boosts the highest stat in Psychic Terrain.",
 		"shortDesc": "Boosts the highest stat in Psychic Terrain."
 	},
-	"mysticaura": {
-		"name": "Mystic Aura",
+	"mysticzone": {
+		"name": "Mystic Zone",
 		"desc": "Boosts the highest stat in Misty Terrain.",
 		"shortDesc": "Boosts the highest stat in Misty Terrain."
 	},
-	"overgrowthengine": {
-		"name": "Overgrowth Engine",
+	"pureharvest": {
+		"name": "Pure Harvest",
 		"desc": "Boosts the highest stat in Grassy Terrain.",
 		"shortDesc": "Boosts the highest stat in Grassy Terrain."
 	},
