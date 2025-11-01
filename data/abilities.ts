@@ -106,81 +106,402 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -1008,
 		rating: 4,
 	},
-	tundrecore: {
-		name: 'Tundre Core',
+	tundracore: {
+		onSwitchInPriority: -2,
 		onStart(pokemon) {
 			this.singleEvent('WeatherChange', this.effect, this.effectState, pokemon);
 		},
 		onWeatherChange(pokemon) {
-			if (!['snow', 'hail'].includes(pokemon.effectiveWeather())) return;
-			const bestStat = pokemon.getBestStat();
-			this.boost({ [bestStat]: 1.5 }, pokemon);
+			// Tundra Core is not affected by Utility Umbrella
+			if (this.field.isWeather('snowscape')) {
+				pokemon.addVolatile('tundracore');
+			} else if (!pokemon.volatiles['tundracore']?.fromBooster && !this.field.isWeather('snowscape')) {
+				pokemon.removeVolatile('tundracore');
+			}
 		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['tundracore'];
+			this.add('-end', pokemon, 'tundracore', '[silent]');
+		},
+		condition: {
+			noCopy: true,
+			onStart(pokemon, source, effect) {
+				if (effect?.name === 'Booster Energy') {
+					this.effectState.fromBooster = true;
+					this.add('-activate', pokemon, 'ability: Tundra Core', '[fromitem]');
+				} else {
+					this.add('-activate', pokemon, 'ability: Tundra Core');
+				}
+				this.effectState.bestStat = pokemon.getBestStat(false, true);
+				this.add('-start', pokemon, 'Tundra Core' + this.effectState.bestStat);
+			},
+			onModifyAtkPriority: 5,
+			onModifyAtk(atk, pokemon) {
+				if (this.effectState.bestStat !== 'atk' || pokemon.ignoringAbility()) return;
+				this.debug('Tundra Core atk boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifyDefPriority: 6,
+			onModifyDef(def, pokemon) {
+				if (this.effectState.bestStat !== 'def' || pokemon.ignoringAbility()) return;
+				this.debug('Tundra Core def boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpAPriority: 5,
+			onModifySpA(spa, pokemon) {
+				if (this.effectState.bestStat !== 'spa' || pokemon.ignoringAbility()) return;
+				this.debug('Tundra Core spa boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpDPriority: 6,
+			onModifySpD(spd, pokemon) {
+				if (this.effectState.bestStat !== 'spd' || pokemon.ignoringAbility()) return;
+				this.debug('Tundra Core spd boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpe(spe, pokemon) {
+				if (this.effectState.bestStat !== 'spe' || pokemon.ignoringAbility()) return;
+				this.debug('Tundra Core spe boost');
+				return this.chainModify(1.5);
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Tundra Core');
+			},
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, notransform: 1 },
+		name: "Tundra Core",
 		num: -1009,
 		rating: 4,
 	},
-	desertheart: {
-		name: 'Desert Heart',
+	lithogrit: {
+		onSwitchInPriority: -2,
 		onStart(pokemon) {
 			this.singleEvent('WeatherChange', this.effect, this.effectState, pokemon);
 		},
 		onWeatherChange(pokemon) {
-			if (!['sandstorm'].includes(pokemon.effectiveWeather())) return;
-			const bestStat = pokemon.getBestStat();
-			this.boost({ [bestStat]: 1.5 }, pokemon);
+			// Lithogrit is not affected by Utility Umbrella
+			if (this.field.isWeather('sandstorm')) {
+				pokemon.addVolatile('lithogrit');
+			} else if (!pokemon.volatiles['lithogrit']?.fromBooster && !this.field.isWeather('sandstorm')) {
+				pokemon.removeVolatile('lithogrit');
+			}
 		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['lithogrit'];
+			this.add('-end', pokemon, 'lithogrit', '[silent]');
+		},
+		condition: {
+			noCopy: true,
+			onStart(pokemon, source, effect) {
+				if (effect?.name === 'Booster Energy') {
+					this.effectState.fromBooster = true;
+					this.add('-activate', pokemon, 'ability: Lithogrit', '[fromitem]');
+				} else {
+					this.add('-activate', pokemon, 'ability: Lithogrit');
+				}
+				this.effectState.bestStat = pokemon.getBestStat(false, true);
+				this.add('-start', pokemon, 'Lithogrit' + this.effectState.bestStat);
+			},
+			onModifyAtkPriority: 5,
+			onModifyAtk(atk, pokemon) {
+				if (this.effectState.bestStat !== 'atk' || pokemon.ignoringAbility()) return;
+				this.debug('Lithogrit atk boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifyDefPriority: 6,
+			onModifyDef(def, pokemon) {
+				if (this.effectState.bestStat !== 'def' || pokemon.ignoringAbility()) return;
+				this.debug('Lithogrit def boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpAPriority: 5,
+			onModifySpA(spa, pokemon) {
+				if (this.effectState.bestStat !== 'spa' || pokemon.ignoringAbility()) return;
+				this.debug('Lithogrit spa boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpDPriority: 6,
+			onModifySpD(spd, pokemon) {
+				if (this.effectState.bestStat !== 'spd' || pokemon.ignoringAbility()) return;
+				this.debug('Lithogrit spd boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpe(spe, pokemon) {
+				if (this.effectState.bestStat !== 'spe' || pokemon.ignoringAbility()) return;
+				this.debug('Lithogrit spe boost');
+				return this.chainModify(1.5);
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Lithogrit');
+			},
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, notransform: 1 },
+		name: "Lithogrit",
 		num: -1010,
 		rating: 4,
 	},
-	aquacircuit: {
-		name: 'Aqua Circuit',
+	atlantisblessing: {
+		onSwitchInPriority: -2,
 		onStart(pokemon) {
 			this.singleEvent('WeatherChange', this.effect, this.effectState, pokemon);
 		},
 		onWeatherChange(pokemon) {
-			if (!['raindance'].includes(pokemon.effectiveWeather())) return;
-			const bestStat = pokemon.getBestStat();
-			this.boost({ [bestStat]: 1.3 }, pokemon);
+			// Atlantis Blessing is not affected by Utility Umbrella
+			if (this.field.isWeather('raindance')) {
+				pokemon.addVolatile('atlantisblessing');
+			} else if (!pokemon.volatiles['atlantisblessing']?.fromBooster && !this.field.isWeather('raindance')) {
+				pokemon.removeVolatile('atlantisblessing');
+			}
 		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['atlantisblessing'];
+			this.add('-end', pokemon, 'atlantisblessing', '[silent]');
+		},
+		condition: {
+			noCopy: true,
+			onStart(pokemon, source, effect) {
+				if (effect?.name === 'Booster Energy') {
+					this.effectState.fromBooster = true;
+					this.add('-activate', pokemon, 'ability: Atlantis Blessing', '[fromitem]');
+				} else {
+					this.add('-activate', pokemon, 'ability: Atlantis Blessing');
+				}
+				this.effectState.bestStat = pokemon.getBestStat(false, true);
+				this.add('-start', pokemon, 'Atlantis Blessing' + this.effectState.bestStat);
+			},
+			onModifyAtkPriority: 5,
+			onModifyAtk(atk, pokemon) {
+				if (this.effectState.bestStat !== 'atk' || pokemon.ignoringAbility()) return;
+				this.debug('Atlantis Blessing atk boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifyDefPriority: 6,
+			onModifyDef(def, pokemon) {
+				if (this.effectState.bestStat !== 'def' || pokemon.ignoringAbility()) return;
+				this.debug('Atlantis Blessing def boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpAPriority: 5,
+			onModifySpA(spa, pokemon) {
+				if (this.effectState.bestStat !== 'spa' || pokemon.ignoringAbility()) return;
+				this.debug('Atlantis Blessing spa boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpDPriority: 6,
+			onModifySpD(spd, pokemon) {
+				if (this.effectState.bestStat !== 'spd' || pokemon.ignoringAbility()) return;
+				this.debug('Atlantis Blessing spd boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpe(spe, pokemon) {
+				if (this.effectState.bestStat !== 'spe' || pokemon.ignoringAbility()) return;
+				this.debug('Atlantis Blessing spe boost');
+				return this.chainModify(1.5);
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Atlantis Blessing');
+			},
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, notransform: 1 },
+		name: "Atlantis Blessing",
 		num: -1011,
 		rating: 4,
 	},
-	psychicpulse: {
-		name: 'Psychic Pulse',
+	psychoritual: {
+		onSwitchInPriority: -2,
 		onStart(pokemon) {
 			this.singleEvent('TerrainChange', this.effect, this.effectState, pokemon);
 		},
 		onTerrainChange(pokemon) {
-			if (!this.field.isTerrain('psychicterrain')) return;
-			const bestStat = pokemon.getBestStat();
-			this.boost({ [bestStat]: 1.3 }, pokemon);
+			if (this.field.isTerrain('psychicterrain')) {
+				pokemon.addVolatile('psychoritual');
+			} else if (!pokemon.volatiles['psychoritual']?.fromBooster) {
+				pokemon.removeVolatile('psychoritual');
+			}
 		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['psychoritual'];
+			this.add('-end', pokemon, 'Psycho Ritual', '[silent]');
+		},
+		condition: {
+			noCopy: true,
+			onStart(pokemon, source, effect) {
+				if (effect?.name === 'Booster Energy') {
+					this.effectState.fromBooster = true;
+					this.add('-activate', pokemon, 'ability: Psycho Ritual', '[fromitem]');
+				} else {
+					this.add('-activate', pokemon, 'ability: Psycho Ritual');
+				}
+				this.effectState.bestStat = pokemon.getBestStat(false, true);
+				this.add('-start', pokemon, 'psychoritual' + this.effectState.bestStat);
+			},
+			onModifyAtkPriority: 5,
+			onModifyAtk(atk, pokemon) {
+				if (this.effectState.bestStat !== 'atk' || pokemon.ignoringAbility()) return;
+				this.debug('Psycho Ritual atk boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifyDefPriority: 6,
+			onModifyDef(def, pokemon) {
+				if (this.effectState.bestStat !== 'def' || pokemon.ignoringAbility()) return;
+				this.debug('Psycho Ritual def boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpAPriority: 5,
+			onModifySpA(spa, pokemon) {
+				if (this.effectState.bestStat !== 'spa' || pokemon.ignoringAbility()) return;
+				this.debug('Psycho Ritual spa boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpDPriority: 6,
+			onModifySpD(spd, pokemon) {
+				if (this.effectState.bestStat !== 'spd' || pokemon.ignoringAbility()) return;
+				this.debug('Psycho Ritual spd boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpe(spe, pokemon) {
+				if (this.effectState.bestStat !== 'spe' || pokemon.ignoringAbility()) return;
+				this.debug('Psycho Ritual spe boost');
+				return this.chainModify(1.5);
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Psycho Ritual');
+			},
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, notransform: 1 },
+		name: "Psycho Ritual",
 		num: -1012,
 		rating: 4,
 	},
-	mysticaura: {
-		name: 'Mystic Aura',
+	mysticzone: {
+		onSwitchInPriority: -2,
 		onStart(pokemon) {
 			this.singleEvent('TerrainChange', this.effect, this.effectState, pokemon);
 		},
 		onTerrainChange(pokemon) {
-			if (!this.field.isTerrain('mistyterrain')) return;
-			const bestStat = pokemon.getBestStat();
-			this.boost({ [bestStat]: 1.3 }, pokemon);
+			if (this.field.isTerrain('mistyterrain')) {
+				pokemon.addVolatile('mysticzone');
+			} else if (!pokemon.volatiles['mysticzone']?.fromBooster) {
+				pokemon.removeVolatile('mysticzone');
+			}
 		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['mysticzone'];
+			this.add('-end', pokemon, 'Mystic Zone', '[silent]');
+		},
+		condition: {
+			noCopy: true,
+			onStart(pokemon, source, effect) {
+				if (effect?.name === 'Booster Energy') {
+					this.effectState.fromBooster = true;
+					this.add('-activate', pokemon, 'ability: Mystic Zone', '[fromitem]');
+				} else {
+					this.add('-activate', pokemon, 'ability: Mystic Zone');
+				}
+				this.effectState.bestStat = pokemon.getBestStat(false, true);
+				this.add('-start', pokemon, 'mysticzone' + this.effectState.bestStat);
+			},
+			onModifyAtkPriority: 5,
+			onModifyAtk(atk, pokemon) {
+				if (this.effectState.bestStat !== 'atk' || pokemon.ignoringAbility()) return;
+				this.debug('Mystic Zone atk boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifyDefPriority: 6,
+			onModifyDef(def, pokemon) {
+				if (this.effectState.bestStat !== 'def' || pokemon.ignoringAbility()) return;
+				this.debug('Mystic Zone def boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpAPriority: 5,
+			onModifySpA(spa, pokemon) {
+				if (this.effectState.bestStat !== 'spa' || pokemon.ignoringAbility()) return;
+				this.debug('Mystic Zone spa boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpDPriority: 6,
+			onModifySpD(spd, pokemon) {
+				if (this.effectState.bestStat !== 'spd' || pokemon.ignoringAbility()) return;
+				this.debug('Mystic Zone spd boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpe(spe, pokemon) {
+				if (this.effectState.bestStat !== 'spe' || pokemon.ignoringAbility()) return;
+				this.debug('Mystic Zone spe boost');
+				return this.chainModify(1.5);
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Mystic Zone');
+			},
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, notransform: 1 },
+		name: "Mystic Zone",
 		num: -1013,
 		rating: 4,
 	},
-	overgrowthengine: {
-		name: 'Overgrowth Engine',
+	pureharvest: {
+		onSwitchInPriority: -2,
 		onStart(pokemon) {
 			this.singleEvent('TerrainChange', this.effect, this.effectState, pokemon);
 		},
 		onTerrainChange(pokemon) {
-			if (!this.field.isTerrain('grassyterrain')) return;
-			const bestStat = pokemon.getBestStat();
-			this.boost({ [bestStat]: 1.3 }, pokemon);
+			if (this.field.isTerrain('grassyterrain')) {
+				pokemon.addVolatile('pureharvest');
+			} else if (!pokemon.volatiles['pureharvest']?.fromBooster) {
+				pokemon.removeVolatile('pureharvest');
+			}
 		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['pureharvest'];
+			this.add('-end', pokemon, 'Pure Harvest', '[silent]');
+		},
+		condition: {
+			noCopy: true,
+			onStart(pokemon, source, effect) {
+				if (effect?.name === 'Booster Energy') {
+					this.effectState.fromBooster = true;
+					this.add('-activate', pokemon, 'ability: Pure Harvest', '[fromitem]');
+				} else {
+					this.add('-activate', pokemon, 'ability: Pure Harvest');
+				}
+				this.effectState.bestStat = pokemon.getBestStat(false, true);
+				this.add('-start', pokemon, 'pureharvest' + this.effectState.bestStat);
+			},
+			onModifyAtkPriority: 5,
+			onModifyAtk(atk, pokemon) {
+				if (this.effectState.bestStat !== 'atk' || pokemon.ignoringAbility()) return;
+				this.debug('Pure Harvest atk boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifyDefPriority: 6,
+			onModifyDef(def, pokemon) {
+				if (this.effectState.bestStat !== 'def' || pokemon.ignoringAbility()) return;
+				this.debug('Pure Harvest def boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpAPriority: 5,
+			onModifySpA(spa, pokemon) {
+				if (this.effectState.bestStat !== 'spa' || pokemon.ignoringAbility()) return;
+				this.debug('Pure Harvest spa boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpDPriority: 6,
+			onModifySpD(spd, pokemon) {
+				if (this.effectState.bestStat !== 'spd' || pokemon.ignoringAbility()) return;
+				this.debug('Pure Harvest spd boost');
+				return this.chainModify([5325, 4096]);
+			},
+			onModifySpe(spe, pokemon) {
+				if (this.effectState.bestStat !== 'spe' || pokemon.ignoringAbility()) return;
+				this.debug('Pure Harvest spe boost');
+				return this.chainModify(1.5);
+			},
+			onEnd(pokemon) {
+				this.add('-end', pokemon, 'Pure Harvest');
+			},
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, notransform: 1 },
+		name: "Pure Harvest",
 		num: -1014,
 		rating: 4,
 	},
