@@ -189,6 +189,35 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
+    "natureclaw": {
+    "name": "Nature Claw",
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 50,
+      "atk": 148,
+      "def": 50,
+      "spa": 104,
+      "spd": 120,
+      "spe": 98
+    },
+    "abilities": {
+      "0": "Pure Harvest"
+    },
+    "heightm": 1.5,
+    "weightkg": 200,
+    "evoType": "trade",
+    "num": -1009,
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
   "dragapultmega": {
     "name": "Dragapult-Mega",
     "types": [
@@ -1632,6 +1661,35 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
+  "fantasticknight": {
+    "name": "Fantastic Knight",
+    "types": [
+      "Steel",
+      "Fighting"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 96,
+      "atk": 116,
+      "def": 98,
+      "spa": 74,
+      "spd": 90,
+      "spe": 96
+    },
+    "abilities": {
+      "0": "Mystic Zone"
+    },
+    "heightm": 2,
+    "weightkg": 200,
+    "evoType": "trade",
+    "num": -1053,
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
   "slicingsegment": {
     "name": "Slicing Segment",
     "types": [
@@ -1661,8 +1719,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "ironmissile": {
-    "name": "Iron Missile",
+  "strangemissile": {
+    "name": "Strange Missile",
     "types": [
       "Electric",
       "Flying"
@@ -2879,6 +2937,35 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
+  "fantasticgear": {
+    "name": "Fantastic Gear",
+    "types": [
+      "Psychic",
+      "Water"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 64,
+      "atk": 96,
+      "def": 108,
+      "spa": 128,
+      "spd": 84,
+      "spe": 110
+    },
+    "abilities": {
+      "0": "Mystic Zone"
+    },
+    "heightm": 1,
+    "weightkg": 100,
+    "evoType": "trade",
+    "num": -1097,
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
   "ironsaw": {
     "name": "Iron Saw",
     "types": [
@@ -2899,6 +2986,35 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     "abilities": {
       "0": "Quark Drive"
+    },
+    "heightm": 1,
+    "weightkg": 90,
+    "evoType": "trade",
+    "num": -1098,
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  "naturesaw": {
+    "name": "Nature Saw",
+    "types": [
+      "Electric",
+      "Grass"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 82,
+      "atk": 112,
+      "def": 74,
+      "spa": 106,
+      "spd": 78,
+      "spe": 138
+    },
+    "abilities": {
+      "0": "Pure Harvest"
     },
     "heightm": 1,
     "weightkg": 90,
@@ -2937,11 +3053,40 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "ironmask": {
-    "name": "Iron Mask",
+  "strangespike": {
+    "name": "Strange Spike",
+    "types": [
+      "Water",
+      "Psychic"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 100,
+      "atk": 90,
+      "def": 100,
+      "spa": 102,
+      "spd": 112,
+      "spe": 86
+    },
+    "abilities": {
+      "0": "Psycho Ritual"
+    },
+    "heightm": 1.2,
+    "weightkg": 130,
+    "evoType": "trade",
+    "num": -1099,
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  "strangemask": {
+    "name": "Strange Mask",
     "types": [
       "Flying",
-      "Electric"
+      "Psychic"
     ],
     "genderRatio": {
       "M": 0.875,
@@ -2956,7 +3101,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 110
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Psycho Ritual"
     },
     "heightm": 12,
     "weightkg": 1000,
@@ -3102,6 +3247,35 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     "abilities": {
       "0": "Quark Drive"
+    },
+    "heightm": 1,
+    "weightkg": 70,
+    "evoType": "trade",
+    "num": -1105,
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  "fantasticfriends": {
+    "name": "Fantastic Friends",
+    "types": [
+      "Psychic",
+      "Normal"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 122,
+      "atk": 82,
+      "def": 116,
+      "spa": 110,
+      "spd": 116,
+      "spe": 44
+    },
+    "abilities": {
+      "0": "Mystic Zone"
     },
     "heightm": 1,
     "weightkg": 70,
@@ -3343,8 +3517,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "wavingtongue": {
-    "name": "Waving Tongue",
+  "strangetongue": {
+    "name": "Strange Tongue",
     "types": [
       "Ghost",
       "Poison"
@@ -3362,7 +3536,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 93
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Psycho Ritual"
     },
     "heightm": 1,
     "weightkg": 85,
@@ -5965,8 +6139,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "chromehorse": {
-    "name": "Chrome Horse",
+  "fantastichorse": {
+    "name": "Fantastic Horse",
     "types": [
       "Fire",
       "Electric"
@@ -5984,7 +6158,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 134
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Mystic Zone"
     },
     "heightm": 2.5,
     "weightkg": 175,
@@ -5994,11 +6168,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "chromeprince": {
-    "name": "Chrome Prince",
+  "fantasticprince": {
+    "name": "Fantastic Prince",
     "types": [
       "Psychic",
-      "Steel"
+      "Fairy"
     ],
     "genderRatio": {
       "M": 0.875,
@@ -6013,7 +6187,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 90
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Mystic Zone"
     },
     "heightm": 3,
     "weightkg": 98,
@@ -6052,11 +6226,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "chromeranger": {
-    "name": "Chrome Ranger",
+  "fantasticranger": {
+    "name": "Fantastic Ranger",
     "types": [
       "Steel",
-      "Psychic"
+      "Normal"
     ],
     "genderRatio": {
       "M": 0.875,
@@ -6071,7 +6245,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 118
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Mystic Zone"
     },
     "heightm": 1,
     "weightkg": 92,
@@ -6081,11 +6255,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "chrometurbo": {
-    "name": "Chrome Turbo",
+  "fantasticturbo": {
+    "name": "Fantastic Turbo",
     "types": [
       "Fairy",
-      "Electric"
+      "Flying"
     ],
     "genderRatio": {
       "M": 0.875,
@@ -6100,7 +6274,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 108
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Mystic Zone"
     },
     "heightm": 1,
     "weightkg": 134,
@@ -6500,8 +6674,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "crescentrunner": {
-    "name": "Crescent Runner",
+  "strangerunner": {
+    "name": "Strange Runner",
     "types": [
       "Psychic",
       "Fairy"
@@ -6519,7 +6693,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 115
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Psycho Ritual"
     },
     "heightm": 2.4,
     "weightkg": 130,
@@ -6529,8 +6703,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "shadowhunter": {
-    "name": "Shadow Hunter",
+  "strangehunter": {
+    "name": "Strange Hunter",
     "types": [
       "Dark",
       "Ghost"
@@ -6548,7 +6722,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 91
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Psycho Ritual"
     },
     "heightm": 2,
     "weightkg": 110,
@@ -8158,11 +8332,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "irondoll": {
-    "name": "Iron Doll",
+  "fantasticdoll": {
+    "name": "Fantastic Doll",
     "types": [
-      "Steel",
-      "Electric"
+      "Fairy",
+      "Normal"
     ],
     "genderRatio": {
       "M": 0.875,
@@ -8177,7 +8351,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 90
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Mystic Zone"
     },
     "heightm": 0.7,
     "weightkg": 152.8,
@@ -8245,8 +8419,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "ironspark": {
-    "name": "Iron Spark",
+  "naturespark": {
+    "name": "Nature Spark",
     "types": [
       "Electric",
       "Psychic"
@@ -8264,7 +8438,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 116
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Pure Harvest"
     },
     "heightm": 2,
     "weightkg": 270,
@@ -8332,6 +8506,35 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
+  "naturewind": {
+    "name": "Nature Wind",
+    "types": [
+      "Fairy",
+      "Flying"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 147,
+      "atk": 79,
+      "def": 76,
+      "spa": 79,
+      "spd": 76,
+      "spe": 113
+    },
+    "abilities": {
+      "0": "Pure Harvest"
+    },
+    "heightm": 1.5,
+    "weightkg": 55,
+    "evoType": "trade",
+    "num": -1277,
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
   "spikeclaw": {
     "name": "Spike Claw",
     "types": [
@@ -8361,10 +8564,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "ironterrarium": {
-    "name": "Iron Terrarium",
+  "natureterrarium": {
+    "name": "Nature Terrarium",
     "types": [
-      "Grass",
+      "Ground",
       "Fairy"
     ],
     "genderRatio": {
@@ -8380,7 +8583,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 50
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Pure Harvest"
     },
     "heightm": 2.5,
     "weightkg": 400,
@@ -8880,8 +9083,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "lunarjumper": {
-    "name": "Lunar Jumper",
+  "stranejumper": {
+    "name": "Strange Jumper",
     "types": [
       "Fighting",
       "Normal"
@@ -8899,7 +9102,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 125
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Psycho Ritual"
     },
     "heightm": 2,
     "weightkg": 135,
@@ -9242,11 +9445,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "primaltriffid": {
-    "name": "Primal Triffid",
+  "naturetriffid": {
+    "name": "Nature Triffid",
     "types": [
       "Dragon",
-      "Grass"
+      "Poison"
     ],
     "genderRatio": {
       "M": 0.875,
@@ -9261,7 +9464,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 101
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Pure Harvest"
     },
     "heightm": 1.5,
     "weightkg": 101,
@@ -10041,8 +10244,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "savagegrace": {
-    "name": "Savage Grace",
+  "fantasticgrace": {
+    "name": "Fantastic Grace",
     "types": [
       "Dragon",
       "Psychic"
@@ -10060,7 +10263,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 121
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Mystic Zone"
     },
     "heightm": 1.4,
     "weightkg": 101,
@@ -27483,7 +27686,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     prevo: "Clobbopus",
     evoType: "levelMove",
     evoMove: "Taunt",
-    otherForms: ["Grapplick"],
+    otherFormes: ["Grapplick"],
     eggGroups: ["Water 1", "Human-Like"],
   },
   sinistea: {
