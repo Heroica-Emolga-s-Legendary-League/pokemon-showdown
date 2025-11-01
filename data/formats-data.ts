@@ -7,6 +7,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "comfeymega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "corviknightmega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironclaw": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "natureclaw": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "dragapultmega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironpod": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "shatterjaw": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
@@ -53,8 +54,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "leafeonmega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "shimmeringbloom": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironvwoom": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "fantasticknight": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "slicingsegment": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "ironmissile": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "strangemissile": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "armarougemega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ceruledgemega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "gyaradosmegay": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
@@ -93,14 +95,18 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "ironphantom": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "irondrill": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "irongear": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "fantasticgear": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironsaw": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "naturesaw": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironspike": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "ironmask": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "strangespike": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "strangemask": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "soaringhalo": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironobliviontype1": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironobliviontype2": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironobliviontype3": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironyfriends": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "fantasticfriends": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "jaggedmaw": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "mightyspine": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "slicingsear": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
@@ -109,7 +115,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "toxingland": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "venommatrix": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "voidarm": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "wavingtongue": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "strangetongue": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "annihilapechained": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "blazikenchained": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "lucariochained": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
@@ -194,11 +200,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "chesnaughtchained": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "serperiorchained": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "torterrachained": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "chromehorse": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "chromeprince": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "fantastichorse": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "fantasticprince": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "chromerider": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "chromeranger": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "chrometurbo": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "fantasticranger": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "fantasticturbo": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "cleffaluma": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "throhmario": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "sawkluigi": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
@@ -212,8 +218,8 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "gardevoirsuper": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "gardevoirmegasuper": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "combeehisuiswarm": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "crescentrunner": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "shadowhunter": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "strangerunner": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "strangehunter": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "crossblue": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "diamoneye": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "diamoneyemega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
@@ -266,14 +272,16 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "hatterenealola": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "hatterenealolagmax": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "axbone": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "irondoll": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "fantasticdoll": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironmatrix": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironpixel": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "ironspark": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "naturespark": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironspore": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "naturespore": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "wildwind": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "naturewind": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "spikeclaw": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "ironterrarium": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "natureterrarium": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "mankeyhisuifury": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "mankeyhisuicalm": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "primeapehisuioven": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
@@ -290,7 +298,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "latius": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "moltik": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "lavantula": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "lunarjumper": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "strangejumper": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "luxraysnowpoint": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "azelfchained": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "mespritchained": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
@@ -302,7 +310,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "orchestarrot": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "pecharuntpure": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "plasmatomb": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "primaltriffid": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "naturetriffid": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "regifly": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "revavroomgearmoto": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "revavroomgearpull": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
@@ -328,7 +336,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "eldegossmega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "orbeetlemega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "wailordmega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "savagegrace": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "fantasticgrace": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "rotomkaijo": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "rotomstring": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "rotombeat": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }

@@ -330,13 +330,13 @@
 		}
 		]
 	},
-	"chromehorse": {
+	"fantastichorse": {
 		"weight": 10,
 		"sets": [{
-			"species": "Chrome Horse",
+			"species": "Fantastic Horse",
 			"weight": 50,
 			"item": ["Booster Energy"],
-			"ability": ["Quark Drive"],
+			"ability": ["Mystic Zone"],
 			"evs": {"atk": 252, "spd": 4, "spe": 252},
 			"nature": "Jolly",
 			"teraType": ["Fire", "Fairy", "Electric"],
@@ -676,10 +676,10 @@
 		}
 		]
 	},
-	"ironmissile": {
+	"strangemissile": {
 		"weight": 10,
 		"sets": [{
-			"species": "Iron Missile",
+			"species": "Strange Missile",
 			"weight": 50,
 			"item": ["Choice Band"],
 			"ability": ["Quark Drive"],
@@ -689,7 +689,7 @@
 			"moves": [["Brave Bird"], ["Extreme Speed", "Explosion"], ["U-Turn"], ["Supercell Slam"]]
 		},
 		{
-			"species": "Iron Missile",
+			"species": "Strange Missile",
 			"weight": 50,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Quark Drive"],
@@ -1781,27 +1781,27 @@
 			"moves": [["Glare"], ["Leech Seed"], ["Substitute"], ["Giga Drain"]]
 		}]
 	},
-	"chromeprince": {
+	"fantasticprince": {
 		"weight": 10,
 		"sets": [{
-			"species": "Chrome Prince",
+			"species": "Fantastic Prince",
 			"weight": 50,
 			"item": ["Life Orb"],
-			"ability": ["Quark Drive"],
+			"ability": ["Mystic Zone"],
 			"evs": {"atk": 252, "spd": 4, "spe": 252},
 			"nature": "Adamant",
 			"teraType": ["Psychic", "Steel", "Fighting"],
-			"moves": [["Shift Gear"], ["Iron Head"], ["Zen Headbutt"], ["Close Combat"]]
+			"moves": [["Swords Dance"], ["Play Rough"], ["Zen Headbutt"], ["Close Combat"]]
 		},
 		{
-			"species": "Chrome Prince",
+			"species": "Fantastic Prince",
 			"weight": 50,
 			"item": ["Leftovers"],
-			"ability": ["Quark Drive"],
+			"ability": ["Mystic Zone"],
 			"evs": {"hp": 252, "spa": 252, "spd": 4},
 			"nature": "Modest",
 			"teraType": ["Psychic", "Grass", "Steel"],
-			"moves": [["Calm Mind"], ["Leech Seed"], ["Psyshock"], ["Flash Cannon"]]
+			"moves": [["Calm Mind"], ["Leech Seed"], ["Psyshock"], ["Moonblast"]]
 		}]
 	},
 	"chromerider": {
