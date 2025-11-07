@@ -2375,16 +2375,13 @@
 			"nature": "Quiet",
 			"teraType": ["Grass", "Steel", "Water"],
 			"moves": [["Diamond Storm"], ["Moonblast"], ["Stealth Rock"], ["Mystical Fire"]]
-		}]
-	},
-	"diancieangelmega": {
-		"weight": 10,
-		"sets": [{
-			"species": "Diancie-Angel-Mega",
+		},
+		{
+			"species": "Diancie-Angel",
 			"weight": 50,
 			"level": 75,
 			"item": ["Diancite Angel"],
-			"ability": ["Magic Bounce"],
+			"ability": ["Clear Body"],
 			"evs": {"atk": 4, "spa": 252, "spe": 252},
 			"nature": "Hasty",
 			"teraType": ["Rock"],
@@ -2403,16 +2400,13 @@
 			"nature": "Adamant",
 			"teraType": ["Ghost", "Fairy"],
 			"moves": [["Diamond Storm"], ["Crunch"], ["Stealth Rock"], ["Taunt"]]
-		}]
-	},
-	"diancieinnerdemonmega": {
-		"weight": 10,
-		"sets": [{
-			"species": "Diancie-Inner-Demon-Mega",
+		},
+		{
+			"species": "Diancie-Inner-Demon",
 			"weight": 50,
 			"level": 75,
 			"item": ["Diancite Inner Demon"],
-			"ability": ["Magic Bounce"],
+			"ability": ["Clear Body"],
 			"evs": {"atk": 252, "spd": 4, "spe": 252},
 			"nature": "Adamant",
 			"teraType": ["Fairy", "Ghost"],
@@ -2431,16 +2425,13 @@
 			"nature": "Adamant",
 			"teraType": ["Grass", "Dragon"],
 			"moves": [["Diamond Storm"], ["Scald"], ["Flip Turn"], ["Stealth Rock"]]
-		}]
-	},
-	"dianciemegasea": {
-		"weight": 10,
-		"sets": [{
-			"species": "Diancie-Mega-Sea",
+		},
+		{
+			"species": "Diancie-Sea",
 			"weight": 50,
 			"level": 75,
 			"item": ["Diancite Sea"],
-			"ability": ["Magic Bounce"],
+			"ability": ["Clear Body"],
 			"evs": {"atk": 252, "spd": 4, "spe": 252},
 			"nature": "Jolly",
 			"teraType": ["Grass", "Dragon"],
@@ -3220,7 +3211,7 @@
 			"evs": {"hp": 252, "spd": 4, "spe": 252},
 			"nature": "Jolly",
 			"teraType": ["Poison"],
-			"moves": [["Coil"], ["Poison Jab"], ["Glare"], ["Knock Off"]]
+			"moves": [["Coil"], ["Gunk Shot"], ["Glare"], ["Knock Off"]]
 		}]
 	},
 	"pikachu": {
@@ -6008,7 +5999,586 @@
 			"nature": "Impish",
 			"teraType": ["Water"],
 			"wantsTera": true,
-			"moves": [["Spikes", "Stealth Rock"], ["Earthquake"], ["Knock Off", "Toxic", "Stealth Rock"], ["U-turn"]]
+			"moves": [["Spikes"], ["Earthquake"], ["Knock Off", "Toxic", "Stealth Rock"], ["U-turn"]]
+		}]
+	},
+	"steelix": {
+		"weight": 5,
+		"sets": [{
+			"species": "Steelix",
+			"weight": 50,
+			"level": 75,
+			"item": ["Leftovers"],
+			"ability": ["Sturdy"],
+			"evs": {"hp": 252, "atk": 4, "spd": 252},
+			"nature": "Careful",
+			"teraType": ["Water", "Fairy"],
+			"wantsTera": true,
+			"moves": [["Heavy Slam"], ["Earthquake"], ["Stealth Rock"], ["Toxic"]]
+		},
+		{
+			"species": "Steelix",
+			"weight": 50,
+			"level": 75,
+			"item": ["Steelixite"],
+			"ability": ["Sturdy"],
+			"evs": {"hp": 252, "atk": 4, "spd": 252},
+			"nature": "Impish",
+			"teraType": ["Steel"],
+			"moves": [["Curse"], ["Heavy Slam"], ["Rest"], ["Sleep Talk"]]
+		},
+		{
+			"species": "Steelix",
+			"weight": 50,
+			"level": 75,
+			"item": ["Steelixite"],
+			"ability": ["Sturdy"],
+			"evs": {"hp": 252, "atk": 32, "def": 8, "spd": 216},
+			"nature": "Sassy",
+			"ivs": {"spe": 0},
+			"teraType": ["Steel"],
+			"moves": [["Stealth Rock"], ["Earthquake"], ["Gyro Ball"], ["Toxic"]]
+		}]
+	},
+	"granbull": {
+		"weight": 5,
+		"sets": [{
+			"species": "Granbull",
+			"weight": 50,
+			"level": 75,
+			"item": ["Leftovers"],
+			"ability": ["Intimidate"],
+			"evs": {"hp": 252, "atk": 252, "spd": 4},
+			"nature": "Adamant",
+			"teraType": ["Ground", "Steel"],
+			"moves": [["Bulk Up"], ["Play Rough"], ["Earthquake"], ["Trailblaze"]]
+		}]
+	},
+	"qwilfish": {
+		"weight": 5,
+		"sets": [{
+			"species": "Qwilfish",
+			"weight": 50,
+			"level": 75,
+			"item": ["Rocky Helmet"],
+			"ability": ["Intimidate"],
+			"evs": {"hp": 252, "def": 240, "spe": 16},
+			"nature": "Impish",
+			"teraType": ["Ground", "Ghost"],
+			"moves": [["Spikes"], ["Barb Barrage"], ["Flip Turn"], ["Pain Split", "Taunt", "Thunder Wave", "Toxic"]]
+		},
+		{
+			"species": "Qwilfish",
+			"weight": 50,
+			"level": 75,
+			"item": ["Leftovers", "Life Orb"],
+			"ability": ["Intimidate"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Water"],
+			"moves": [["Swords Dance"], ["Gunk Shot"], ["Liquidation"], ["Aqua Jet", "Self-Destruct"]]
+		}]
+	},
+	"qwilfishhisui": {
+		"weight": 5,
+		"sets": [{
+			"species": "Qwilfish-Hisui",
+			"weight": 50,
+			"level": 75,
+			"item": ["Eviolite"],
+			"ability": ["Intimidate"],
+			"evs": {"hp": 252, "spd": 240, "spe": 16},
+			"nature": "Careful",
+			"teraType": ["Ghost"],
+			"moves": [["Spikes"], ["Barb Barrage"], ["Crunch"], ["Pain Split", "Taunt", "Toxic"]]
+		},
+		{
+			"species": "Qwilfish-Hisui",
+			"weight": 50,
+			"level": 75,
+			"item": ["Eviolite"],
+			"ability": ["Intimidate"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Water", "Ghost"],
+			"moves": [["Swords Dance"], ["Gunk Shot"], ["Crunch"], ["Aqua Jet", "Self-Destruct"]]
+		}]
+	},
+	"scizor": {
+		"weight": 5,
+		"sets": [{
+			"species": "Scizor",
+			"weight": 50,
+			"level": 75,
+			"item": ["Choice Band"],
+			"ability": ["Technician"],
+			"evs": {"hp": 120, "atk": 252, "spe": 136},
+			"nature": "Adamant",
+			"teraType": ["Steel", "Flying"],
+			"wantsTera": true,
+			"moves": [["Bullet Punch"], ["U-turn"], ["Knock Off"], ["Close Combat", "Dual Wingbeat"]]
+		},
+		{
+			"species": "Scizor",
+			"weight": 50,
+			"level": 75,
+			"item": ["Life Orb"],
+			"ability": ["Technician"],
+			"evs": {"hp": 120, "atk": 252, "spe": 136},
+			"nature": "Adamant",
+			"teraType": ["Steel", "Fire"],
+			"wantsTera": true,
+			"moves": [["Swords Dance"], ["Bullet Punch"], ["Close Combat"], ["Knock Off"]]
+		},
+		{
+			"species": "Scizor",
+			"weight": 50,
+			"level": 75,
+			"item": ["Sitrus Berry", "Heavy-Duty Boots"],
+			"ability": ["Technician"],
+			"evs": {"hp": 248, "atk": 252, "spd": 8},
+			"nature": "Adamant",
+			"teraType": ["Steel", "Dragon"],
+			"wantsTera": true,
+			"moves": [["Bullet Punch"], ["U-turn"], ["Knock Off"], ["Defog"]]
+		},
+		{
+			"species": "Scizor",
+			"weight": 50,
+			"level": 75,
+			"item": ["Scizorite"],
+			"ability": ["Light Metal"],
+			"evs": {"hp": 248, "def": 112, "spd": 128, "spe": 20},
+			"nature": "Impish",
+			"teraType": ["Bug"],
+			"moves": [["Swords Dance"], ["Bullet Punch"], ["Knock Off", "U-turn", "Sand Tomb"], ["Roost"]]
+		},
+		{
+			"species": "Scizor",
+			"weight": 50,
+			"level": 75,
+			"item": ["Scizorite"],
+			"ability": ["Light Metal"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": "Adamant",
+			"teraType": ["Bug"],
+			"moves": [["Swords Dance"], ["Bullet Punch"], ["Close Combat"], ["Knock Off", "Sand Tomb"]]
+		}]
+	},
+	"shuckle": {
+		"weight": 5,
+		"sets": [{
+			"species": "Shuckle",
+			"weight": 50,
+			"level": 75,
+			"item": ["Mental Herb"],
+			"ability": ["Sturdy"],
+			"evs": {"hp": 252, "def": 252, "spd": 4},
+			"nature": "Bold",
+			"ivs": {"atk": 0},
+			"teraType": ["Steel", "Fighting"],
+			"moves": [["Stealth Rock"], ["Sticky Web"], ["Encore"], ["Final Gambit", "Toxic"]]
+		}]
+	},
+	"heracross": {
+		"weight": 5,
+		"sets": [{
+			"species": "Heracross",
+			"weight": 50,
+			"level": 75,
+			"item": ["Flame Orb"],
+			"ability": ["Guts"],
+			"evs": {"atk": 252, "def": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Dark", "Normal"],
+			"wantsTera": true,
+			"moves": [["Close Combat"], ["Knock Off"], ["Facade"], ["Trailblaze", "Megahorn", "Swords Dance"]]
+		},
+		{
+			"species": "Heracross",
+			"weight": 50,
+			"level": 75,
+			"item": ["Eviolite"],
+			"ability": ["Moxie"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Steel", "Rock"],
+			"wantsTera": true,
+			"moves": [["Swords Dance"], ["Close Combat"], ["Megahorn"], ["Stone Edge", "Trailblaze"]]
+		},
+		{
+			"species": "Heracross",
+			"weight": 50,
+			"level": 75,
+			"item": ["Heracronite"],
+			"ability": ["Guts"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": "Adamant",
+			"teraType": ["Fighting"],
+			"moves": [["Swords Dance"], ["Close Combat"], ["Rock Blast"], ["Knock Off", "Substitute"]]
+		}]
+	},
+	"sneasel": {
+		"weight": 5,
+		"sets": [{
+			"species": "Sneasel",
+			"weight": 50,
+			"level": 75,
+			"item": ["Heavy-Duty Boots"],
+			"ability": ["Inner Focus"],
+			"evs": {"atk": 252, "def": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Ice", "Dark", "Fighting"],
+			"moves": [["Swords Dance"], ["Ice Shard"], ["Knock Off"], ["Icicle Crash", "Low Kick"]]
+		},
+		{
+			"species": "Sneasel",
+			"weight": 50,
+			"level": 75,
+			"item": ["Choice Band"],
+			"ability": ["Inner Focus"],
+			"evs": {"atk": 252, "def": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Ice", "Dark"],
+			"moves": [["Knock Off"], ["Triple Axel", "Icicle Crash"], ["Ice Shard"], ["Low Kick"]]
+		}]
+	},
+	"sneaselhisui": {
+		"weight": 5,
+		"sets": [{
+			"species": "Sneasel-Hisui",
+			"weight": 50,
+			"level": 75,
+			"item": ["Eviolite"],
+			"ability": ["Inner Focus"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Dark", "Grass"],
+			"wantsTera": true,
+			"moves": [["Swords Dance"], ["Close Combat"], ["Gunk Shot"], ["Throat Chop", "Trailblaze"]]
+		},
+		{
+			"species": "Sneasel-Hisui",
+			"weight": 50,
+			"level": 75,
+			"item": ["Choice Band", "Choice Scarf"],
+			"ability": ["Inner Focus"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Fighting", "Dark"],
+			"moves": [["Close Combat"], ["Gunk Shot"], ["Throat Chop", "Swords Dance"], ["Switcheroo"]]
+		}]
+	},
+	"ursaring": {
+		"weight": 5,
+		"sets": [{
+			"species": "Ursaring",
+			"weight": 50,
+			"level": 75,
+			"item": ["Flame Orb"],
+			"ability": ["Guts"],
+			"evs": {"hp": 248, "atk": 252, "spd": 8},
+			"nature": "Adamant",
+			"teraType": ["Normal"],
+			"moves": [["Facade"], ["Close Combat"], ["Crunch"], ["Earthquake"]]
+		},
+		{
+			"species": "Ursaring",
+			"weight": 50,
+			"level": 75,
+			"item": ["Eviolite"],
+			"ability": ["Guts"],
+			"evs": {"hp": 4, "atk": 252, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Normal", "Grass"],
+			"moves": [["Swords Dance"], ["Trailblaze"], ["Return"], ["Earthquake"]]
+		}]
+	},
+	"ironmirage": {
+		"weight": 5,
+		"sets": [{
+			"species": "Iron Mirage",
+			"weight": 50,
+			"level": 75,
+			"item": ["Assault Vest"],
+			"ability": ["Quark Drive"],
+			"evs": {"hp": 252, "spa": 252, "spd": 4},
+			"nature": "Modest",
+			"ivs": {"atk": 0},
+			"teraType": ["Electric", "Fairy", "Steel"],
+			"moves": [["Overheat"], ["Volt Switch"], ["Thunderclap"], ["Psyshock"]]
+		}]
+	},
+	"magcargo": {
+		"weight": 5,
+		"sets": [{
+			"species": "Magcargo",
+			"weight": 50,
+			"level": 80,
+			"item": ["White Herb"],
+			"ability": ["Flame Body"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": "Modest",
+			"teraType": ["Grass"],
+			"wantsTera": true,
+			"moves": [["Shell Smash"], ["Flamethrower"], ["Power Gem"], ["Tera Blast"]]
+		}]
+	},
+	"piloswine": {
+		"weight": 5,
+		"sets": [{
+			"species": "Piloswine",
+			"weight": 50,
+			"level": 75,
+			"item": ["Eviolite"],
+			"ability": ["Oblivious", "Thick Fat"],
+			"evs": {"hp": 252, "atk": 252, "spd": 4},
+			"nature": "Adamant",
+			"teraType": ["Grass", "Fairy"],
+			"moves": [["Stealth Rock"], ["High Horsepower"], ["Icicle Crash"], ["Ice Shard"]]
+		},
+		{
+			"species": "Piloswine",
+			"weight": 50,
+			"level": 75,
+			"item": ["Choice Band"],
+			"ability": ["Thick Fat"],
+			"evs": {"hp": 132, "atk": 252, "spe": 124},
+			"nature": "Adamant",
+			"teraType": ["Grass", "Fairy"],
+			"moves": [["High Horsepower"], ["Icicle Crash"], ["Ice Shard"], ["Earthquake"]]
+		}]
+	},
+	"corsola": {
+		"weight": 5,
+		"sets": [{
+			"species": "Corsola",
+			"weight": 50,
+			"level": 86,
+			"item": ["Choice Band"],
+			"ability": ["Hustle"],
+			"evs": {"hp": 252, "atk": 252, "spd": 4},
+			"nature": "Adamant",
+			"teraType": ["Normal"],
+			"moves": [["Explosion"], ["Head Smash"], ["Liquidation"], ["Earthquake"]]
+		},
+		{
+			"species": "Corsola",
+			"weight": 50,
+			"level": 85,
+			"item": ["Heavy-Duty Boots"],
+			"ability": ["Regenerator"],
+			"evs": {"hp": 252, "def": 252, "spa": 4},
+			"nature": "Bold",
+			"ivs": {"atk": 0},
+			"teraType": ["Grass"],
+			"moves": [["Stealth Rock"], ["Scald"], ["Power Gem"], ["Recover", "Toxic", "Ice Beam"]]
+		}]
+	},
+	"corsolagalar": {
+		"weight": 5,
+		"sets": [{
+			"species": "Corsola-Galar",
+			"weight": 50,
+			"level": 75,
+			"item": ["Eviolite"],
+			"ability": ["Cursed Body"],
+			"evs": {"hp": 252, "def": 4, "spd": 252},
+			"nature": "Calm",
+			"ivs": {"atk": 0},
+			"teraType": ["Fairy"],
+			"moves": [["Stealth Rock"], ["Night Shade"], ["Whirlpool", "Mirror Coat", "Will-O-Wisp"], ["Strength Sap"]]
+		}]
+	},
+	"octillery": {
+		"weight": 5,
+		"sets": [{
+			"species": "Octillery",
+			"weight": 50,
+			"level": 75,
+			"item": ["Leftovers"],
+			"ability": ["Moody"],
+			"evs": {"hp": 252, "def": 4, "spa": 252},
+			"nature": "Modest",
+			"ivs": {"atk": 0},
+			"teraType": ["Grass"],
+			"moves": [["Protect"], ["Scald"], ["Energy Ball"], ["Flamethrower"]]
+		},
+		{
+			"species": "Octillery",
+			"weight": 50,
+			"level": 80,
+			"item": ["Scope Lens"],
+			"ability": ["Sniper"],
+			"evs": {"hp": 252, "spa": 252, "spd": 4},
+			"nature": "Modest",
+			"ivs": {"atk": 0},
+			"teraType": ["Water", "Fire", "Grass"],
+			"moves": [["Focus Energy"], ["Hydro Pump"], ["Fire Blast"], ["Energy Ball"]]
+		}]
+	},
+	"delibird": {
+		"weight": 5,
+		"sets": [{
+			"species": "Delibird",
+			"weight": 50,
+			"level": 87,
+			"item": ["Choice Band"],
+			"ability": ["Hustle"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Ice", "Grass"],
+			"moves": [["Ice Shard"], ["Brave Bird"], ["Ice Spinner"], ["Seed Bomb"]]
+		}]
+	},
+	"mantine": {
+		"weight": 5,
+		"sets": [{
+			"species": "Mantine",
+			"weight": 50,
+			"level": 75,
+			"item": ["Heavy-Duty Boots"],
+			"ability": ["Water Absorb"],
+			"evs": {"hp": 248, "def": 164, "spe": 96},
+			"nature": "Bold",
+			"wantsTera": true,
+			"teraType": ["Ground", "Dragon", "Grass", "Water"],
+			"moves": [["Defog"], ["Scald"], ["Roost"], ["Haze"]]
+		}]
+	},
+	"skarmory": {
+		"weight": 5,
+		"sets": [{
+			"species": "Skarmory",
+			"weight": 50,
+			"level": 75,
+			"item": ["Rocky Helmet"],
+			"ability": ["Sturdy"],
+			"evs": {"hp": 248, "def": 16, "spd": 180, "spe": 64},
+			"nature": "Impish",
+			"ivs": {"atk": 0},
+			"teraType": ["Ghost"],
+			"moves": [["Spikes", "Stealth Rock"], ["Body Press", "Brave Bird"], ["Whirlwind"], ["Roost"]]
+		}]
+	},
+	"houndoom": {
+		"weight": 5,
+		"sets": [{
+			"species": "Houndoom",
+			"weight": 50,
+			"level": 75,
+			"item": ["Life Orb", "Heavy-Duty Boots"],
+			"ability": ["Flash Fire"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": "Timid",
+			"teraType": ["Poison"],
+			"moves": [["Nasty Plot"], ["Fire Blast"], ["Dark Pulse"], ["Sludge Bomb"]]
+		},
+		{
+			"species": "Houndoom",
+			"weight": 50,
+			"level": 75,
+			"item": ["Houndoominite"],
+			"ability": ["Flash Fire"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": "Timid",
+			"ivs": {"atk": 0},
+			"teraType": ["Dark"],
+			"moves": [["Nasty Plot"], ["Dark Pulse"], ["Fire Blast"], ["Sludge Bomb"]]
+		}]
+	},
+	"kingdra": {
+		"weight": 5,
+		"sets": [{
+			"species": "Kingdra",
+			"weight": 50,
+			"level": 75,
+			"item": ["Choice Specs"],
+			"ability": ["Swift Swim"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": "Modest",
+			"ivs": {"atk": 0},
+			"teraType": ["Water"],
+			"moves": [["Hydro Pump", "Weather Ball"], ["Draco Meteor"], ["Hurricane", "Ice Beam"], ["Dragon Pulse", "Surf", "Flip Turn"]]
+		},
+		{
+			"species": "Kingdra",
+			"weight": 50,
+			"level": 75,
+			"item": ["Scope Lens"],
+			"ability": ["Sniper"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": "Timid",
+			"ivs": {"atk": 0},
+			"teraType": ["Dragon", "Water", "Steel"],
+			"moves": [["Focus Energy"], ["Agility"], ["Draco Meteor"], ["Hydro Pump", "Surf"]]
+		}]
+	},
+	"donphan": {
+		"weight": 5,
+		"sets": [{
+			"species": "Donphan",
+			"weight": 50,
+			"level": 75,
+			"item": ["Leftovers", "Rocky Helmet", "Heavy-Duty Boots"],
+			"ability": ["Sturdy"],
+			"evs": {"hp": 248, "atk": 16, "def": 244},
+			"nature": "Impish",
+			"teraType": ["Ghost", "Water"],
+			"moves": [["Stealth Rock"], ["Earthquake"], ["Knock Off", "Ice Spinner"], ["Rapid Spin"]]
+		}]
+	},
+	"porygon2": {
+		"weight": 5,
+		"sets": [{
+			"species": "Porygon2",
+			"weight": 50,
+			"level": 75,
+			"item": ["Eviolite"],
+			"ability": ["Trace"],
+			"evs": {"hp": 252, "spa": 4, "spd": 252},
+			"nature": "Calm",
+			"teraType": ["Poison", "Ghost", "Fairy"],
+			"moves": [["Recover"], ["Tri Attack", "Ice Beam"], ["Shadow Ball", "Thunderbolt", "Foul Play"], ["Thunder Wave"]]
+		}]
+	},
+	"stantler": {
+		"weight": 5,
+		"sets": [{
+			"species": "Stantler",
+			"weight": 50,
+			"level": 78,
+			"item": ["Choice Scarf"],
+			"ability": ["Intimidate"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Ghost"],
+			"moves": [["Double-Edge"], ["Earthquake"], ["Thief"], ["Trick"]]
+		},
+		{
+			"species": "Stantler",
+			"weight": 50,
+			"level": 78,
+			"item": ["Eviolite"],
+			"ability": ["Intimidate"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": "Timid",
+			"teraType": ["Ghost", "Normal"],
+			"moves": [["Calm Mind"], ["Tera Blast"], ["Earth Power"], ["Shadow Ball"]]
+		}]
+	},
+	"smeargle": {
+		"weight": 5,
+		"sets": [{
+			"species": "Smeargle",
+			"weight": 50,
+			"level": 75,
+			"item": ["Focus Sash"],
+			"ability": ["Own Tempo"],
+			"evs": {"hp": 252, "def": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Ghost"],
+			"moves": [["Sticky Web"], ["Stone Axe"], ["Ceaseless Edge"], ["Mortal Spin", "Nuzzle"]]
 		}]
 	}
 }
