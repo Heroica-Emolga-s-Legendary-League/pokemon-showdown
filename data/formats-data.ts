@@ -1404,7 +1404,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	gengarmega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "Uber",
 	},
 	gengargmax: {
 		isNonstandard: "Past",
@@ -3131,7 +3131,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	rayquazamega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "Uber",
 	},
 	jirachi: {
 		tier: "HELL",
@@ -4714,7 +4714,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	xerneas: {
 		isNonstandard: "Past",
 		tier: "Illegal",
-		natDexTier: "AG",
+		natDexTier: "Uber",
 	},
 	xerneasneutral: {
 		isNonstandard: "Custom", // can't be used in battle
@@ -5813,7 +5813,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	calyrexshadow: {
 		tier: "HELL",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "Uber",
 	},
 	enamorus: {
 		tier: "HELL",
@@ -6208,12 +6208,12 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	koraidon: {
 		tier: "HELL",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "Uber",
 	},
 	miraidon: {
 		tier: "HELL",
 		doublesTier: "DUber",
-		natDexTier: "AG",
+		natDexTier: "Uber",
 	},
 	tinkatink: {
 		tier: "LC",
