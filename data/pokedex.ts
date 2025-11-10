@@ -9083,7 +9083,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "stranejumper": {
+  "strangejumper": {
     "name": "Strange Jumper",
     "types": [
       "Fighting",
