@@ -431,6 +431,101 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		"desc": "On switch-in, this Pokémon sets Trick Room for 5 turns. If Gravity is already active when it switches in, Trick Room is removed instead.",
 		"shortDesc": "Sets Trick Room for 5 turns or ends it if already active."
 	},
+	"boneeater": {
+		"name": "Bone Eater",
+		"desc": "On switch-in, removes stealth rocks and heals 1/8 from it. heals 1/4 from rock moves.",
+		"shortDesc": "Immune to stealth rocks, removes it, heals 1/8. heals 1/4 from rock moves."
+	},
+	"restorationinterruption": {
+		"name": "Restoration Interruption",
+		"desc": "Prevents all healing to be done on the field. Healing moves and items will fail and draining attacks will only deal damage",
+		"shortDesc": "Prevents healing to be done on the field."
+	},
+	"adrenalinerush": {
+		"name": "Adrenaline Rush",
+		"desc": "Knocking an opponent with an attack raises the user's speed by 1",
+		"shortDesc": "Knocking an opponent with an attack raises the user's speed by 1"
+	},
+	"departingcurse": {
+		"name": "Departing Curse",
+		"desc": "If the user is knocked out by an attack, gives the opponent the curse effect",
+		"shortDesc": "If the user is knocked out by an attack, gives the opponent the curse effect"
+	},
+	"lychbane": {
+		"name": "Lych Bane",
+		"desc": "On switch in, removes stat buffs from opponent and heals 1/8 for each stat buff",
+		"shortDesc": "On switch in, removes stat buffs from opponent and heals 1/8 for each stat buff"
+	},
+	"sleepingdisaster": {
+		"name": "Sleeping Disaster",
+		"desc": "If this pokemon is asleep: attack, special attack, and speed is doubled",
+		"shortDesc": "If this pokemon is asleep: attack, special attack, and speed is doubled"
+	},
+	"holychime": {
+		"name": "Holy Chime",
+		"desc": "Heals entire team's status conditions on switch in",
+		"shortDesc": "Heals entire team's status conditions on switch in"
+	},
+	"lifesteal": {
+		"name": "Life Steal",
+		"desc": "Heals 1/4 of the damage dealt",
+		"shortDesc": "Heals 1/4 of the damage dealt"
+	},
+	"weaknessenhancer": {
+		"name": "Weakness Enhancer",
+		"desc": "Dealing a supereffective hit raises the user's attack by 1",
+		"shortDesc": "Dealing a supereffective hit raises the user's attack by 1"
+	},
+	"laststand": {
+		"name": "Last Stand",
+		"desc": "If user has 1/4 or less health, attacks hit twice with 75% power each hit",
+		"shortDesc": "If user has 1/4 or less health, attacks hit twice with 75% power each hit"
+	},
+	"rouletteroll": {
+		"name": "Roulette Roll",
+		"desc": "Attacks can either deal 0.25x damage, 1x damage, 3x damage, or heal opponent for 1/2 max health",
+		"shortDesc": "Attacks can either deal 0.25x damage, 1x damage, 3x damage, or heal opponent for 1/2 max health"
+	},
+	"cursedhusk": {
+		"name": "Cursed Husk",
+		"desc": "+1 defense, special defense and -1 attack,special attack,speed on switch in. Opponents attacking this pokemon have a 20% chance of having their defenses lowered by 1 ",
+		"shortDesc": "+1 defenses, -1 attacks and speed on switch in. 20% to lower opponent's defense when being attacked."
+	},
+	"flashattack": {
+		"name": "Flash Attack",
+		"desc": "Attacking first gives a 1.3x damage boost",
+		"shortDesc": "Attacking first gives a 1.3x damage boost"
+	},
+	"crabshield": {
+		"name": "Crab Shield",
+		"desc": "Switching in on an attack reduces the damage by half",
+		"shortDesc": "Switching in on an attack reduces the damage by half"
+	},
+	"caprice": {
+		"name": "Caprice",
+		"desc": "First attack out on the field will always result in a crit",
+		"shortDesc": "First attack out on the field will always result in a crit"
+	},
+	"equinox": {
+		"name": "Equinox",
+		"desc": "At max health, this pokemon has +1 speed",
+		"shortDesc": "At max health, this pokemon has +1 speed"
+	},
+	"vulcanarmor": {
+		"name": "Vulcan Armor",
+		"desc": "burn does not reduce attack, heals instead of dealing damage",
+		"shortDesc": "burn does not reduce attack, heals instead of dealing damage"
+	},
+	"whisper": {
+		"name": "Whisper",
+		"desc": "Dealing a crit raises speed by 1",
+		"shortDesc": "Dealing a crit raises speed by 1"
+	},
+	"elementalking": {
+		"name": "Elemental King",
+		"desc": "Ground, Water, and Fire attacks have STAB",
+		"shortDesc": "Ground, Water, and Fire attacks have STAB"
+	},
 	ancienttrungnology: {
 		name: "Ancient Trungnology",
 		shortDesc: "The user's Sp. Atk is tripled.",
