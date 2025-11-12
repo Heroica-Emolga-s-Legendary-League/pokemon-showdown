@@ -23223,7 +23223,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     forme: "Prime",
     types: ["Bug", "Steel"],
     baseStats: { hp: 78, atk: 129, def: 132, spa: 68, spd: 68, spe: 129 },
-    abilities: { 0: "Swarm", 1: "Hustle", H: "Truant" },
+    abilities: { 0: "Compound Eyes", 1: "Hustle", H: "Truant" },
     heightm: 0.4,
     weightkg: 50,
     color: "Black",

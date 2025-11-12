@@ -5,6 +5,36 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		"desc": "Summons rain for 10 turns when this Pokémon enters the battle.",
 		"shortDesc": "Summons rain for 10 turns."
 	},
+	"sheerwillpower": {
+		"name": "Sheer Willpower",
+		"desc": "Two turn moves become one and recharge moves no longer need recharge",
+		"shortDesc": "Double turn moves/Recharge removed"
+	},
+	"repetitiveforce": {
+		"name": "Repetitive Force",
+		"desc": "Using moves consecutively raises its power by 1.2x. Maxes at 2x damage boost",
+		"shortDesc": "Metronome effect on attacks"
+	},
+	"petrifyinggaze": {
+		"name": "Petrifying Gaze",
+		"desc": "On switch-in, this Pokemon lowers the Speed of opposing Pokemon by 1 stage",
+		"shortDesc": "On switch-in, this Pokemon lowers the Speed of opposing Pokemon by 1 stage"
+	},
+	"rezero": {
+		"name": "ReZero",
+		"desc": "On switch-in, gets rid of all stat changes, hazards, screens, rooms, terrains, and weathers",
+		"shortDesc": "On switch-in, gets rid of all stat changes, hazards, screens, rooms, terrains, and weathers"
+	},
+	"dnatracing": {
+		"name": "DNA Tracing",
+		"desc": "Synchronoise ignores immunities and resistances. This pokemon uses Reflect type right before attacking and goes back to its original type at the end of the turn.",
+		"shortDesc": "Synchronoise ignores immunities and resistances. Uses reflect type before attacking and goes back at the end of the turn"
+	},
+	"ejected": {
+		"name": "Ejected",
+		"desc": "Switching out heals 20% max health. At the end of the turn if the pokemon has less than 1/2 health, it switches out",
+		"shortDesc": "20% health Regenerator, Emergency Exit end of turn"
+	},
 	"blizzardveil": {
 		"name": "Blizzard Veil",
 		"desc": "Summons snow for 10 turns when this Pokémon enters the battle.",
@@ -390,6 +420,16 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		"name": "Rightside Down",
 		"desc": "On switch-in, all opposing Pokémon have their stat changes inverted. Stat boosts become drops, and stat drops become boosts.",
 		"shortDesc": "Opponents' stat changes are inverted on switch-in."
+	},
+	"wonderwonder": {
+		"name": "Wonder Wonder",
+		"desc": "On switch-in, this Pokémon sets Wonder Room for 5 turns. If Wonder Room is already active when it switches in, Wonder Room is removed instead.",
+		"shortDesc": "Sets Wonder Room for 5 turns or ends it if already active."
+	},
+	"speedflipper": {
+		"name": "Speed Flipper",
+		"desc": "On switch-in, this Pokémon sets Trick Room for 5 turns. If Gravity is already active when it switches in, Trick Room is removed instead.",
+		"shortDesc": "Sets Trick Room for 5 turns or ends it if already active."
 	},
 	ancienttrungnology: {
 		name: "Ancient Trungnology",
