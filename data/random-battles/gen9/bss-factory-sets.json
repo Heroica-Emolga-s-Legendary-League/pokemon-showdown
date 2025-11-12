@@ -588,7 +588,7 @@
 		"sets": [{
 			"species": "Fantastic Horse",
 			"weight": 50,
-			"level": 75,
+			"level": 71,
 			"item": ["Booster Energy"],
 			"ability": ["Mystic Zone"],
 			"evs": {"atk": 252, "spd": 4, "spe": 252},
@@ -2881,7 +2881,7 @@
 		"sets": [{
 			"species": "Driflight",
 			"weight": 50,
-			"level": 75,
+			"level": 80,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Volt Absorb"],
 			"evs": {"spa": 252, "spd": 4, "spe": 252},
@@ -2892,7 +2892,7 @@
 		{
 			"species": "Driflight",
 			"weight": 50,
-			"level": 75,
+			"level": 80,
 			"item": ["Sitrus Berry"],
 			"ability": ["Unburden"],
 			"evs": {"spa": 252, "spd": 4, "spe": 252},
@@ -4136,7 +4136,7 @@
 		"sets": [{
 			"species": "Victreebel",
 			"weight": 25,
-			"level": 75,
+			"level": 79,
 			"item": ["Heavy-Duty Boots", "Life Orb"],
 			"ability": ["Chlorophyll"],
 			"evs": {"atk": 252, "def": 4, "spe": 252},
@@ -4147,7 +4147,7 @@
 		{
 			"species": "Victreebel",
 			"weight": 50,
-			"level": 75,
+			"level": 79,
 			"item": ["Victreebelite"],
 			"ability": ["Chlorophyll"],
 			"evs": {"atk": 252, "def": 4, "spe": 252},
@@ -4493,7 +4493,7 @@
 		"sets": [{
 			"species": "Hypno",
 			"weight": 50,
-			"level": 75,
+			"level": 82,
 			"item": ["Life Orb"],
 			"ability": ["Inner Focus"],
 			"evs": {"hp": 252, "spa": 252, "spd": 4},
@@ -5461,7 +5461,7 @@
 		"sets": [{
 			"species": "Dragonite",
 			"weight": 25,
-			"level": 75,
+			"level": 72,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Multiscale"],
 			"evs": {"atk": 252, "def": 4, "spe": 252},
@@ -5472,7 +5472,7 @@
 		{
 			"species": "Dragonite",
 			"weight": 25,
-			"level": 75,
+			"level": 72,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Multiscale"],
 			"evs": {"atk": 252, "def": 4, "spe": 252},
@@ -5483,7 +5483,7 @@
 		{
 			"species": "Dragonite",
 			"weight": 25,
-			"level": 75,
+			"level": 72,
 			"item": ["Loaded Dice"],
 			"ability": ["Multiscale"],
 			"evs": {"atk": 252, "def": 4, "spe": 252},
@@ -5494,7 +5494,7 @@
 		{
 			"species": "Dragonite",
 			"weight": 25,
-			"level": 75,
+			"level": 72,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Multiscale"],
 			"evs": {"hp": 252, "atk": 240, "spe": 16},
@@ -5505,7 +5505,7 @@
 		{
 			"species": "Dragonite",
 			"weight": 25,
-			"level": 75,
+			"level": 72,
 			"item": ["Choice Band"],
 			"ability": ["Multiscale"],
 			"evs": {"atk": 252, "def": 4, "spe": 252},
@@ -5516,7 +5516,7 @@
 		{
 			"species": "Dragonite",
 			"weight": 50,
-			"level": 75,
+			"level": 72,
 			"item": ["Dragontieite Z"],
 			"ability": ["Multiscale"],
 			"evs": {"atk": 4, "spa": 252, "spe": 252},
@@ -5527,7 +5527,7 @@
 		{
 			"species": "Dragonite",
 			"weight": 50,
-			"level": 75,
+			"level": 72,
 			"item": ["Dragoniteite A"],
 			"ability": ["Multiscale"],
 			"evs": {"atk": 252, "spd": 4, "spe": 252},
@@ -7245,7 +7245,7 @@
 		"sets": [{
 			"species": "Linoone",
 			"weight": 50,
-			"level": 75,
+			"level": 69,
 			"item": ["Iapapa Berry"],
 			"ability": ["Gluttony"],
 			"evs": {"hp": 4, "atk": 252, "spe": 252},
@@ -10510,7 +10510,7 @@
 		"sets": [{
 			"species": "Leafeon",
 			"weight": 25,
-			"level": 75,
+			"level": 78,
 			"item": ["Life Orb", "Leftovers"],
 			"ability": ["Chlorophyll"],
 			"teraType": ["Fire", "Poison", "Rock"],
@@ -14520,9 +14520,14 @@
 			"nature": "Timid",
 			"ivs": {"atk": 0},
 			"moves": [["Surf"], ["Dark Pulse"], ["Ice Beam"], ["Water Shuriken", "Sludge Wave"]]
-		},
+		}
+		]
+	},
+	"greninjabond": {
+		"weight": 5,
+		"sets": [
 		{
-			"species": "Greninja",
+			"species": "Greninja-Bond",
 			"weight": 25,
 			"level": 75,
 			"item": ["Life Orb", "Expert Belt"],
@@ -14533,7 +14538,7 @@
 			"moves": [["Surf"], ["Dark Pulse"], ["Ice Beam"], ["Sludge Wave", "Protect", "Grass Knot"]]
 		},
 		{
-			"species": "Greninja",
+			"species": "Greninja-Bond",
 			"weight": 50,
 			"level": 75,
 			"item": ["Greninjite"],
@@ -14542,7 +14547,8 @@
 			"evs": {"spa": 252, "spd": 4, "spe": 252},
 			"nature": "Timid",
 			"moves": [["Surf"], ["Sludge Wave"], ["Dark Pulse"], ["Water Shuriken", "Ice Beam"]]
-		}]
+		}
+		]
 	},
 	"diggersby": {
 		"weight": 5,
@@ -19577,7 +19583,7 @@
 		"sets": [{
 			"species": "Basculegion-Prime",
 			"weight": 50,
-			"level": 68,
+			"level": 67,
 			"item": ["Choice Specs"],
 			"ability": ["Supreme Overlord"],
 			"teraType": ["Ghost", "Water"],
@@ -19588,7 +19594,7 @@
 		{
 			"species": "Basculegion-Prime",
 			"weight": 50,
-			"level": 68,
+			"level": 67,
 			"item": ["Mystic Water"],
 			"ability": ["Swift Swim"],
 			"teraType": ["Ghost"],
@@ -19599,7 +19605,7 @@
 		{
 			"species": "Basculegion-Prime",
 			"weight": 50,
-			"level": 68,
+			"level": 67,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Adaptability"],
 			"teraType": ["Ghost", "Fairy", "Ground"],
@@ -22338,7 +22344,7 @@
 			"item": ["Booster Energy"],
 			"ability": ["Mystic Zone"],
 			"teraType": ["Ghost", "Fairy"],
-			"evs": {"hp": 4, "spa": 252, "spe": 252},
+			"evs": {"hp": 36, "spa": 220, "spe": 252},
 			"nature": "Timid",
 			"ivs": {"atk": 0},
 			"moves": [["Calm Mind"], ["Recover", "Thunderbolt", "Signal Beam", "Shadow Ball"], ["Scald"], ["Psychic", "Psyshock"]]
@@ -22868,7 +22874,7 @@
 		"sets": [{
 			"species": "Venusaur-Prime",
 			"weight": 50,
-			"level": 75,
+			"level": 70,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Grassy Surge"],
 			"teraType": ["Grass", "Ground"],
@@ -22879,7 +22885,7 @@
 		{
 			"species": "Venusaur-Prime",
 			"weight": 50,
-			"level": 75,
+			"level": 70,
 			"item": ["Life Orb"],
 			"ability": ["Chlorophyll"],
 			"teraType": ["Fire"],

@@ -1347,25 +1347,39 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: -1072,
 	},
-	windwalker: {
-		name: "Wind Walker",
-		onStart(pokemon) {
-			// Tailwind duration increase occurs in moves.ts/Tailwind/DurationCallback
-			pokemon.side.addSideCondition("tailwind");
-		},
-		flags: {},
-		rating: 3.5,
-		num: -1073,
-	},
 	gravitygenerator: {
 		name: "Gravity Generator",
 		onStart(pokemon) {
-			// Gravity duration increase occurs in moves.ts/Gravity/DurationCallback
-			pokemon.side.addSideCondition('gravity');
+			if (this.field.getPseudoWeather('gravity')) {
+				this.field.removePseudoWeather('gravity');
+				this.add('-ability', pokemon, 'Gravity Generator');
+				this.add('-fieldend', 'move: Gravity', '[from] ability: Gravity Generator');
+			} else {
+				this.field.addPseudoWeather('gravity');
+				this.add('-ability', pokemon, 'Gravity Generator');
+				//this.add('-fieldstart', 'move: Gravity', '[from] ability: Gravity Generator');
+			}
 		},
 		flags: {},
 		rating: 3.5,
 		num: -1074,
+	},
+	windwalker: {
+		name: "Wind Walker",
+		onStart(pokemon) {
+			if (pokemon.side.getSideCondition('tailwind')) {
+				pokemon.side.removeSideCondition('tailwind');
+				this.add('-ability', pokemon, 'Wind Walker');
+				this.add('-sideend', pokemon.side, 'move: Tailwind', '[from] ability: Wind Walker');
+			} else {
+				pokemon.side.addSideCondition('tailwind');
+				this.add('-ability', pokemon, 'Wind Walker');
+				//this.add('-sidestart', pokemon.side, 'move: Tailwind', '[from] ability: Wind Walker');
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1073,
 	},
 	cleanfreak: {
 		name: 'Clean Freak',
@@ -1579,6 +1593,414 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		rating: 5,
 		num: -1083,
+	},
+	wonderwonder: {
+		name: "Wonder Wonder",
+		onStart(pokemon) {
+			if (this.field.getPseudoWeather('wonderroom')) {
+				this.field.removePseudoWeather('wonderroom');
+				this.add('-ability', pokemon, 'Wonder Wonder');
+				this.add('-fieldend', 'move: Wonder Room', '[from] ability: Wonder Wonder');
+			} else {
+				this.field.addPseudoWeather('wonderroom');
+				this.add('-ability', pokemon, 'Wonder Wonder');
+				//this.add('-fieldstart', 'move: Wonder Room', '[from] ability: Wonder Wonder');
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1084,
+	},
+	speedflipper: {
+		name: "Speed Flipper",
+		onStart(pokemon) {
+			if (this.field.getPseudoWeather('trickroom')) {
+				this.field.removePseudoWeather('trickroom');
+				this.add('-ability', pokemon, 'Speed Flipper');
+				this.add('-fieldend', 'move: Trick Room', '[from] ability: Speed Flipper');
+			} else {
+				this.field.addPseudoWeather('trickroom');
+				this.add('-ability', pokemon, 'Speed Flipper');
+				//this.add('-fieldstart', 'move: Trick Room', '[from] ability: Speed Flipper');
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1085,
+	},
+	stancechangetwo: {
+		onModifyMovePriority: 1,
+		onModifyMove(move, attacker, defender) {
+			if (attacker.species.baseSpecies !== 'Runerigus-Hisui-Defense' || attacker.transformed) return;
+			if (move.category === 'Status' && move.id !== 'protect') return;
+			const targetForme = (move.id === 'protect' ? 'Runerigus-Hisui-Defense' : 'Runerigus-Hisui-Attack');
+			if (attacker.species.name !== targetForme) attacker.formeChange(targetForme);
+		},
+		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1 },
+		name: "Stance Change Two",
+		rating: 4,
+		num: -1086,
+	},
+	boneeater: {
+		name: "Bone Eater",
+		onTryHit(target, source, move) {
+			if (move.type === 'Rock') {
+				this.heal(target.baseMaxhp / 4);
+				this.add('-immune', target, '[from] ability: Bone Eater');
+				return null;
+			}
+		},
+		onSwitchIn(pokemon) {
+			if (pokemon.side.getSideCondition('stealthrock')) {
+				this.heal(pokemon.baseMaxhp / 8);
+				this.add('-heal', pokemon, pokemon.getHealth, '[from] ability: Bone Eater');
+				this.add('-sideend', pokemon.side, 'move: Stealth Rock', '[from] ability: Bone Eater');
+			}
+		},
+		onDamage(damage, target, source, effect) {
+			if (effect?.id === 'stealthrock') {
+				return false;
+			}
+		},
+		flags: {breakable: 1},
+		rating: 3.5,
+		num: -1087,
+	},
+	restorationinterruption: {
+		name: "Restoration Interruption",
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Restoration Interruption');
+			this.add('-message', 'All healing is prevented by Restoration Interruption!');
+		},
+		onTryHeal(damage, target, source, effect) {
+			//if (effect?.id === 'breathe' || effect?.id === 'ingrain' || effect?.id === 'shoreup') return damage;
+			this.add('-activate', this.effectState.target, 'ability: Restoration Interruption');
+			return false;
+		},
+		onAnyTryHeal(damage, target, source, effect) {
+			//if (effect?.id === 'breathe' || effect?.id === 'ingrain' || effect?.id === 'shoreup') return damage;
+			if (target === this.effectState.target) return;
+			this.add('-activate', this.effectState.target, 'ability: Restoration Interruption');
+			return false;
+		},
+		flags: {},
+		rating: 4,
+		num: -1088,
+	},
+	adrenalinerush: {
+		onSourceAfterFaint(length, target, source, effect) {
+			if (effect && effect.effectType === 'Move') {
+				this.boost({ spe: length }, source);
+			}
+		},
+		flags: {},
+		name: "Adrenaline Rush",
+		rating: 3,
+		num: -1089,
+	},
+	departingcurse: {
+		name: "Departing Curse",
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (!target.hp) {
+				this.add('-ability', target, 'Departing Curse');
+				source.addVolatile('curse');
+				this.add('-start', source, 'move: Curse', '[from] ability: Departing Curse');
+			}
+		},
+		flags: {},
+		rating: 2.5,
+		num: -1090,
+	},
+	lychbane: {
+		name: "Lych Bane",
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				let totalBoosts = 0;
+				const boosts = target.boosts;
+				for (const stat in boosts) {
+					if (boosts[stat as BoostID] > 0) {
+						totalBoosts += boosts[stat as BoostID]!;
+					}
+				}
+				
+				if (totalBoosts > 0) {
+					if (!activated) {
+						this.add('-ability', pokemon, 'Lych Bane');
+						activated = true;
+					}
+					const healAmount = pokemon.baseMaxhp * totalBoosts / 8;
+					this.heal(healAmount, pokemon, pokemon);
+					target.clearBoosts();
+					this.add('-clearboost', target, '[from] ability: Lych Bane');
+				}
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1091,
+	},
+	sleepingdisaster: {
+		name: "Sleeping Disaster",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.status === 'slp') {
+				this.debug('Sleeping Disaster boost');
+				return this.chainModify(2);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			if (pokemon.status === 'slp') {
+				this.debug('Sleeping Disaster boost');
+				return this.chainModify(2);
+			}
+		},
+		onModifySpePriority: 5,
+		onModifySpe(spe, pokemon) {
+			if (pokemon.status === 'slp') {
+				this.debug('Sleeping Disaster boost');
+				return this.chainModify(2);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1092,
+	},
+	holychime: {
+		name: "Holy Chime",
+		onSwitchIn(pokemon) {
+			this.add('-ability', pokemon, 'Holy Chime');
+			this.add('-activate', pokemon, 'ability: Holy Chime');
+			
+			let success = false;
+			for (const ally of pokemon.side.pokemon) {
+				if (ally.status) {
+					ally.cureStatus();
+					success = true;
+				}
+			}
+			
+			if (success) {
+				this.add('-message', 'A soothing chime healed the team\'s status conditions!');
+			}
+		},
+		flags: {},
+		rating: 2.5,
+		num: -1093,
+	},
+	lifesteal: {
+		name: "Life Steal",
+		onModifyMove(move) {
+			if (!move || move.category === 'Status') return;
+			if (!move.drain) move.drain = [1, 4];
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1094,
+	},
+	weaknessenhancer: {
+		name: "Weakness Enhancer",
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (move.category === 'Status' || !move.totalDamage) return;
+			if (target.getMoveHitData(move).typeMod > 0) {
+				this.boost({atk: 1}, source, source, this.effect);
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1095,
+	},
+	laststand: {
+		name: "Last Stand",
+		onModifyMove(move, pokemon) {
+			if (pokemon.hp > pokemon.maxhp / 4) return;
+			if (move.multihit) return;
+			if (move.category === 'Status') return;
+			
+			if (!move.multihit) {
+				move.multihit = 2;
+			}
+		},
+		onBasePowerPriority: 7,
+		onBasePower(basePower, pokemon, target, move) {
+			if (pokemon.hp > pokemon.maxhp / 4) return;
+			if (move.multihit === 2 && move.category !== 'Status') {
+				return this.chainModify(0.75);
+			}
+		},
+		flags: {},
+		rating: 4,
+		num: -1096,
+	},
+	rouletteroll: {
+		name: "Roulette Roll",
+		onBasePowerPriority: 8,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.category === 'Status') return;
+			
+			const roll = this.random(4); // 0, 1, 2, or 3
+			
+			switch (roll) {
+				case 0: // 0.25x damage
+					this.add('-activate', pokemon, 'ability: Roulette Roll');
+					this.add('-message', 'Roulette Roll: Low power hit!');
+					return this.chainModify(0.25);
+				case 1: // 1x damage (normal)
+					return; // No modification
+				case 2: // 3x damage
+					this.add('-activate', pokemon, 'ability: Roulette Roll');
+					this.add('-message', 'Roulette Roll: High power hit!');
+					return this.chainModify(3);
+				case 3: // Heal opponent
+					this.add('-activate', pokemon, 'ability: Roulette Roll');
+					this.add('-message', 'Roulette Roll: Opponent healed!');
+					this.heal(target.baseMaxhp / 2, target, pokemon);
+					return this.chainModify(0); // No damage dealt
+			}
+		},
+		flags: {},
+		rating: 1,
+		num: -1097,
+	},
+	cursedhusk: {
+		name: "Cursed Husk",
+		onStart(pokemon) {
+			this.boost({def: 1, spd: 1, atk: -1, spa: -1, spe: -1}, pokemon, pokemon, this.effect);
+		},
+		onDamagingHit(damage, target, source, move) {
+			if (this.randomChance(1, 5)) { // 20% chance
+				this.boost({def: -1, spd: -1}, source, target, null, true);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1098,
+	},
+	flashattack: {
+		name: "Flash Attack",
+		onBasePowerPriority: 21,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.category === 'Status') return;
+			
+			// Reverse of Analytic: boost if moving before all other active Pokémon
+			let boosted = true;
+			for (const active of this.getAllActive()) {
+				if (active === pokemon) continue;
+				if (this.queue.willMove(active)) {
+					// If any other Pokémon will move later, user is not last
+					// So for Flash Attack, we want the opposite: boost if NO other Pokémon will move later
+					boosted = false;
+					break;
+				}
+			}
+			
+			// If boosted is still true, it means user is moving last (no one will move after)
+			// But we want the user to be moving FIRST, so we need to invert this
+			if (!boosted) {
+				this.debug('Flash Attack boost');
+				return this.chainModify(1.3);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1099,
+	},
+	crabshield: {
+		name: "Crab Shield",
+		onSourceModifyDamage(damage, source, target, move) {
+			// Check if this is the first turn the target is active AND it's being targeted by an attack
+			if (target.activeTurns === 0 && move.target === 'normal') {
+				this.debug('Crab Shield weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		flags: {breakable: 1},
+		rating: 3,
+		num: -1100,
+	},
+	caprice: {
+		name: "Caprice",
+		onSwitchIn(pokemon) {
+			pokemon.abilityState.capriceUsed = false;
+		},
+		onModifyCritRatio(critRatio, source, target, move) {
+			if (move.category === 'Status') return;
+			if (!source.abilityState.capriceUsed) {
+				source.abilityState.capriceUsed = true;
+				this.add('-activate', source, 'ability: Caprice');
+				return 5; // Guaranteed critical hit
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1101,
+	},
+	equinox: {
+		name: "Equinox",
+		onModifySpe(spe, pokemon) {
+			if (pokemon.hp === pokemon.maxhp) {
+				this.debug('Equinox speed boost');
+				return this.chainModify(1.5);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1102,
+	},
+	vulcanarmor: {
+		name: "Vulcan Armor",
+		onResidualOrder: 5,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (pokemon.status === 'brn') {
+				this.add('-activate', pokemon, 'ability: Vulcan Armor');
+				this.heal(pokemon.baseMaxhp / 12);
+			}
+		},
+		onDamagePriority: 1,
+		onDamage(damage, target, source, effect) {
+			if (effect?.id === 'brn') {
+				this.add('-activate', target, 'ability: Vulcan Armor');
+				return false;
+			}
+		},
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.status === 'brn') {
+				return this.chainModify(2); // Prevents attack reduction
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1103,
+	},
+	whisper: {
+		name: "Whisper",
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (move.category === 'Status') return;
+			if (target.getMoveHitData(move).crit) {
+				this.boost({spe: 1}, source, source, this.effect);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1104,
+	},
+	elementalking: {
+		name: "Elemental King",
+		onModifySTAB(stab, source, target, move) {
+			if (move.type === 'Ground' || move.type === 'Water' || move.type === 'Fire') {
+				if (stab === 2) {
+					return 2.25; // Same-type STAB
+				}
+				return 2; // Non-STAB bonus
+			}
+		},
+		flags: {},
+		rating: 4,
+		num: -1105,
 	},
 	// End of Custom Abilities
 	noability: {

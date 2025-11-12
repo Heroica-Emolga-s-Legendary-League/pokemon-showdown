@@ -559,6 +559,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "HELL",
 		natDexTier: "HELL",
 	},
+	ironthornsprime: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
 	bigtrungus: {
 		isNonstandard: "Past",
 		tier: "HELL",
