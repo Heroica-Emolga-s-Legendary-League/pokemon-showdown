@@ -317,7 +317,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "revavroomgearrail": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "yamaskhisui": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "runerigushisuiattack": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "runerigushisuidefense": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "runerigushisui": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "sepielago": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "swampwalker": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "tulimeow": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }

@@ -25,6 +25,28 @@
 			"nature": "Timid",
 			"teraType": ["Fairy", "Ground"],
 			"moves": [["Earth Power"], ["Moonblast"], ["Mystical Fire", "Light of Ruin", "Psychic"], ["Trick"]]
+		},
+		{
+			"species": "Gardevoir-HELL",
+			"weight": 50,
+			"level": 75,
+			"item": ["Choice Scarf"],
+			"ability": ["Magic Guard"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": "Timid",
+			"teraType": ["Fairy"],
+			"moves": [["Light of Ruin"], ["Earth Power"], ["Mystical Fire"], ["Aura Sphere"]]
+		},
+		{
+			"species": "Gardevoir-HELL",
+			"weight": 50,
+			"level": 75,
+			"item": ["Life Orb"],
+			"ability": ["Magic Guard"],
+			"evs": {"spa": 252, "spd": 4, "spe": 252},
+			"nature": "Timid",
+			"teraType": ["Fairy"],
+			"moves": [["Agility"], ["Light of Ruin"], ["Earth Power"], ["Mystical Fire"]]
 		}]
 	},
 	"ledigod": {
@@ -8251,7 +8273,7 @@
 		"sets": [{
 			"species": "Whiscash",
 			"weight": 50,
-			"level": 82,
+			"level": 85,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Oblivious"],
 			"evs": {"hp": 248, "def": 8, "spd": 252},
@@ -8263,7 +8285,7 @@
 		{
 			"species": "Whiscash",
 			"weight": 50,
-			"level": 82,
+			"level": 85,
 			"item": ["Life Orb"],
 			"ability": ["Oblivious"],
 			"evs": {"atk": 252, "spa": 4, "spe": 252},
@@ -15164,7 +15186,7 @@
 		"sets": [{
 			"species": "Sliggoo-Hisui",
 			"weight": 50,
-			"level": 78,
+			"level": 81,
 			"item": ["Eviolite"],
 			"ability": ["Gooey", "Sap Sipper", "Shell Armor"],
 			"teraType": ["Water", "Grass"],
@@ -15176,7 +15198,7 @@
 		{
 			"species": "Sliggoo-Hisui",
 			"weight": 50,
-			"level": 78,
+			"level": 81,
 			"item": ["Eviolite"],
 			"ability": ["Shell Armor", "Gooey", "Sap Sipper"],
 			"teraType": ["Water", "Fairy", "Grass"],

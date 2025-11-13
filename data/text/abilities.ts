@@ -526,6 +526,66 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		"desc": "Ground, Water, and Fire attacks have STAB",
 		"shortDesc": "Ground, Water, and Fire attacks have STAB"
 	},
+	"precision": {
+		"name": "Precision",
+		"desc": "No Guard + Punching Glove effect",
+		"shortDesc": "No Guard + Punching Glove effect"
+	},
+	"theoathkeeper": {
+		"name": "The Oath Keeper",
+		"desc": "If the target has 30% or less health, then this pokemon will always crit it",
+		"shortDesc": "If the target has 30% or less health, then this pokemon will always crit it"
+	},
+	"voltagecharge": {
+		"name": "Voltage Charge",
+		"desc": "Electric attacks have a 20% extra chance to paralyze",
+		"shortDesc": "Electric attacks have a 20% extra chance to paralyze"
+	},
+	"superconductor": {
+		"name": "Voltage Charge",
+		"desc": "Electric type attacks deal 1.3x more damage to paralyzed targets",
+		"shortDesc": "Electric type attacks deal 1.3x more damage to paralyzed targets"
+	},
+	"deitypenalization": {
+		"name": "Deity Penalization",
+		"desc": "If the user is knocked out by an opposing attack, deal 20% max health to the opponent",
+		"shortDesc": "If the user is knocked out by an opposing attack, deal 20% max health to the opponent"
+	},
+	"fallingflowers": {
+		"name": "Falling Flowers",
+		"desc": "Grass STAB and takes 50% damage from grass attacks",
+		"shortDesc": "Grass STAB and takes 50% damage from grass attacks"
+	},
+	"redsunrise": {
+		"name": "Red Sunrise",
+		"desc": "If the user uses a STAB attack and brings the target to 10% or less health, then they will be executed",
+		"shortDesc": "If the user uses a STAB attack and brings the target to 10% or less health, then they will be executed"
+	},
+	"bodyofsmith": {
+		"name": "Body of Smith",
+		"desc": "The user's attack increases by 1 for each 30% damage dealt to it by the opponent",
+		"shortDesc": "The user's attack increases by 1 for each 30% damage dealt to it by the opponent"
+	},
+	"windtalk": {
+		"name": "Windtalk",
+		"desc": "All wind attacks have a 20% extra chance to confuse",
+		"shortDesc": "All wind attacks have a 20% extra chance to confuse"
+	},
+	"tamerofdemons": {
+		"name": "Tamer of Demons",
+		"desc": "Deals 1.5x more damage but takes 1.25x more damage",
+		"shortDesc": "Deals 1.5x more damage but takes 1.25x more damage"
+	},
+	"bloodlust": {
+		"name": "Bloodlust",
+		"desc": "2x damage to opponents at full health, .75x if they aren't",
+		"shortDesc": "2x damage to opponents at full health, .75x if they aren't"
+	},
+	"combatring": {
+		"name": "Combat Ring",
+		"desc": "Traps fighting type pokemon",
+		"shortDesc": "Traps fighting type pokemon"
+	},
 	ancienttrungnology: {
 		name: "Ancient Trungnology",
 		shortDesc: "The user's Sp. Atk is tripled.",

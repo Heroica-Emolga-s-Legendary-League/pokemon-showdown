@@ -1631,9 +1631,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	stancechangetwo: {
 		onModifyMovePriority: 1,
 		onModifyMove(move, attacker, defender) {
-			if (attacker.species.baseSpecies !== 'Runerigus-Hisui-Defense' || attacker.transformed) return;
+			if (attacker.species.baseSpecies !== 'Runerigus-Hisui' || attacker.transformed) return;
 			if (move.category === 'Status' && move.id !== 'protect') return;
-			const targetForme = (move.id === 'protect' ? 'Runerigus-Hisui-Defense' : 'Runerigus-Hisui-Attack');
+			const targetForme = (move.id === 'protect' ? 'Runerigus-Hisui' : 'Runerigus-Hisui-Attack');
 			if (attacker.species.name !== targetForme) attacker.formeChange(targetForme);
 		},
 		flags: { failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1, cantsuppress: 1 },
@@ -1956,7 +1956,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onResidual(pokemon) {
 			if (pokemon.status === 'brn') {
 				this.add('-activate', pokemon, 'ability: Vulcan Armor');
-				this.heal(pokemon.baseMaxhp / 12);
+				this.heal(pokemon.baseMaxhp / 8);
 			}
 		},
 		onDamagePriority: 1,
@@ -1995,12 +1995,238 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				if (stab === 2) {
 					return 2.25; // Same-type STAB
 				}
-				return 2; // Non-STAB bonus
+				return 1.5; // Non-STAB bonus
 			}
 		},
 		flags: {},
 		rating: 4,
 		num: -1105,
+	},
+	precision: {
+		name: "Precision",
+		// No Guard effect
+		onAnyInvulnerabilityPriority: 1,
+		onAnyInvulnerability(target, source, move) {
+			if (move && (source === this.effectState.target || target === this.effectState.target)) return 0;
+		},
+		onAnyAccuracy(accuracy, target, source, move) {
+			if (move && (source === this.effectState.target || target === this.effectState.target)) {
+				return true;
+			}
+			return accuracy;
+		},
+		// Punching Glove effect
+		onBasePowerPriority: 23,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['punch']) {
+				this.debug('Precision punch boost');
+				return this.chainModify(1.1);
+			}
+		},
+		onModifyMove(move, pokemon, target) {
+			if (move.flags['punch']) {
+				move.ignoreImmunity = true;
+			}
+		},
+		flags: {},
+		rating: 4,
+		num: -1106,
+	},
+	theoathkeeper: {
+	name: "The Oath Keeper",
+	onModifyCritRatio(critRatio, source, target, move) {
+		if (target.hp <= target.maxhp * 0.3) {
+			return 5; // Guaranteed critical hit
+		}
+	},
+	flags: {},
+	rating: 3.5,
+	num: -1107,
+	},
+	voltagecharge: {
+		name: "Voltage Charge",
+		onModifyMovePriority: -1,
+		onModifyMove(move) {
+			if (move.type === 'Electric') {
+				if (!move.secondaries) move.secondaries = [];
+				move.secondaries.push({
+					chance: 20,
+					status: 'par',
+				});
+			}
+		},
+		flags: {},
+		rating: 2.5,
+		num: -1108,
+	},
+	superconductor: {
+		name: "Super Conductor",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Electric' && defender.status === 'par') {
+				this.debug('Super Conductor boost');
+				return this.chainModify(1.3);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Electric' && defender.status === 'par') {
+				this.debug('Super Conductor boost');
+				return this.chainModify(1.3);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1109,
+	},
+	deitypenalization: {
+		name: "Deity Penalization",
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (!target.hp) {
+				this.add('-ability', target, 'Deity Penalization');
+				this.damage(source.baseMaxhp / 5, source, target);
+			}
+		},
+		flags: {},
+		rating: 2.5,
+		num: -1110,
+	},
+	fallingflowers: {
+		name: "Falling Flowers",
+		onModifySTAB(stab, source, target, move) {
+			if (move.type === 'Grass') {
+				if (stab === 2) {
+					return 2.25; // Same-type STAB
+				}
+				return 1.5; // Non-STAB bonus
+			}
+		},
+		onSourceModifyDamage(damage, source, target, move) {
+			if (move.type === 'Grass') {
+				this.debug('Falling Flowers weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		flags: {breakable: 1},
+		rating: 4,
+		num: -1111,
+	},
+	redsunrise: {
+		name: "Red Sunrise",
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (move.category === 'Status') return;
+			if (!source.hasType(move.type)) return; // Not STAB
+			if (!target.hp) return; // Target already fainted
+			
+			// Check if target is at 10% or less HP after the attack
+			if (target.hp <= target.maxhp * 0.1) {
+				this.add('-activate', source, 'ability: Red Sunrise');
+				this.add('-message', 'Red Sunrise ensures the faint!');
+				this.damage(target.hp, target, source, this.dex.conditions.get('redsunrise'));
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1112,
+	},
+	bodyofsmith: {
+		name: "Body of Smith",
+		onDamagingHit(damage, target, source, move) {
+			const damageTaken = damage;
+			const maxHp = target.maxhp;
+			const damagePercentage = (damageTaken / maxHp) * 100;
+			
+			// Calculate how many 30% increments were taken
+			const boosts = Math.floor(damagePercentage / 30);
+			if (boosts > 0) {
+				this.boost({atk: boosts}, target, target, this.effect);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1113,
+	},
+	windtalk: {
+		name: "Windtalk",
+		onModifyMovePriority: -1,
+		onModifyMove(move) {
+			const windMoves = ['hurricane', 'heatwave', 'blizzard', 'twister', 'aircutter', 'gust', 'blizzard', 'aeroblast', 'icywind', 'petalblizzard','fairywind', 'springtidestorm', 'bleakwindstorm', 'wildboltstorm', 'sandsearstorm'];
+			if (windMoves.includes(move.id)) {
+				if (!move.secondaries) move.secondaries = [];
+				move.secondaries.push({
+					chance: 20,
+					volatileStatus: 'confusion',
+				});
+			}
+		},
+		flags: {},
+		rating: 2.5,
+		num: -1114,
+	},
+	tamerofdemons: {
+		name: "Tamer of Demons",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			this.debug('Tamer of Demons boost');
+			return this.chainModify(1.5);
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			this.debug('Tamer of Demons boost');
+			return this.chainModify(1.5);
+		},
+		onSourceModifyDamage(damage, source, target, move) {
+			this.debug('Tamer of Demons weaken');
+			return this.chainModify(1.25);
+		},
+		flags: {},
+		rating: 3,
+		num: -1115,
+	},
+	bloodlust: {
+		name: "Bloodlust",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (defender.hp === defender.maxhp) {
+				this.debug('Bloodlust boost');
+				return this.chainModify(2);
+			} else {
+				this.debug('Bloodlust weaken');
+				return this.chainModify(0.75);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (defender.hp === defender.maxhp) {
+				this.debug('Bloodlust boost');
+				return this.chainModify(2);
+			} else {
+				this.debug('Bloodlust weaken');
+				return this.chainModify(0.75);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1116,
+	},
+	combatring: {
+		name: "Combat Ring",
+		onFoeTrapPokemon(pokemon) {
+			if (pokemon.hasType('Fighting') && pokemon.isAdjacent(this.effectState.target)) {
+				pokemon.tryTrap(true);
+			}
+		},
+		onFoeMaybeTrapPokemon(pokemon, source) {
+			if (!source) source = this.effectState.target;
+			if (!source || !pokemon.isAdjacent(source)) return;
+			if (!pokemon.knownType || pokemon.hasType('Fighting')) {
+				pokemon.maybeTrapped = true;
+			}
+		},
+		flags: {},
+		rating: 4,
+		num: -1117,
 	},
 	// End of Custom Abilities
 	noability: {

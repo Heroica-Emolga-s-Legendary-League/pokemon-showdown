@@ -9625,14 +9625,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
   },
   "runerigushisuiattack": {
     "name": "Runerigus-Hisui-Attack",
-    "types": [
-      "Ghost",
-      "Normal"
-    ],
-    "genderRatio": {
-      "M": 0.875,
-      "F": 0.125
-    },
+    "types": ["Ghost","Normal"],
+    "genderRatio": {"M": 0.875,"F": 0.125},
     "baseStats": {
       "hp": 58,
       "atk": 165,
@@ -9641,28 +9635,22 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spd": 30,
       "spe": 30
     },
-    "abilities": {
-      "0": "Wandering Spirit"
-    },
+    "abilities": {"0": "Stance Change Two"},
     "heightm": 1.8,
     "weightkg": 280,
     "prevo": "Yamask-Hisui",
     "evoType": "trade",
     "num": -1314,
-    "eggGroups": [
-      "Undiscovered"
-    ]
+    "eggGroups": ["Undiscovered"],
+    "requiredAbility": "Stance Change Two",
+    "battleOnly": "Runerigus-Hisui",
+    "baseSpecies": "Runerigus-Hisui",
+    "forme": "Attack",
   },
-  "runerigushisuidefense": {
-    "name": "Runerigus-Hisui-Defense",
-    "types": [
-      "Ghost",
-      "Normal"
-    ],
-    "genderRatio": {
-      "M": 0.875,
-      "F": 0.125
-    },
+  "runerigushisui": {
+    "name": "Runerigus-Hisui",
+    "types": ["Ghost","Normal"],
+    "genderRatio": {"M": 0.875,"F": 0.125},
     "baseStats": {
       "hp": 58,
       "atk": 75,
@@ -9671,17 +9659,16 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spd": 125,
       "spe": 30
     },
-    "abilities": {
-      "0": "Wandering Spirit"
-    },
+    "abilities": {"0": "Stance Change Two"},
     "heightm": 1.8,
     "weightkg": 280,
     "prevo": "Yamask-Hisui",
     "evoType": "trade",
     "num": -1315,
-    "eggGroups": [
-      "Undiscovered"
-    ]
+    "eggGroups": ["Undiscovered"],
+    "otherFormes": ["Runerigus-Hisui-Attack"],
+    "formeOrder": ["Runerigus-Hisui", "Runerigus-Hisui-Attack"],
+    "baseForme": "Defense",
   },
   "sepielago": {
     "name": "Sepielago",
