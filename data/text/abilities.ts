@@ -586,6 +586,101 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		"desc": "Traps fighting type pokemon",
 		"shortDesc": "Traps fighting type pokemon"
 	},
+	"seacradle": {
+		"name": "Sea Cradle",
+		"desc": "Sets Aqua Ring on switch in",
+		"shortDesc": "Sets Aqua Ring on switch in"
+	},
+	"crumblingtemple": {
+		"name": "Crumbling Temple",
+		"desc": "If hit by contact move, sets up stealth rocks",
+		"shortDesc": "If hit by contact move, sets up stealth rocks"
+	},
+	"primevalflames": {
+		"name": "Primeval Flames",
+		"desc": "Fire moves 1.3x power and deals double damage to dragon types",
+		"shortDesc": "Fire moves 1.3x power and deals double damage to dragon types"
+	},
+	"worldtree": {
+		"name": "World Tree",
+		"desc": "If grassy terrain is up, opposing pokemon are trapped.",
+		"shortDesc": "If grassy terrain is up, opposing pokemon are trapped."
+	},
+	"liquidarmor": {
+		"name": "Liquid Armor",
+		"desc": "If hit by contact move, opponent becomes pure water type",
+		"shortDesc": "If hit by contact move, opponent becomes pure water type"
+	},
+	"gigacannon": {
+		"name": "Giga Cannon",
+		"desc": "Special attacks deal 1.5x damage but can only select first move used",
+		"shortDesc": "Special attacks deal 1.5x damage but can only select first move used"
+	},
+	"aerodynamic": {
+		"name": "Aerodynamic",
+		"desc": "Immune to flying attacks and boosts speed by 1 instead",
+		"shortDesc": "Immune to flying attacks and boosts speed by 1 instead"
+	},
+	"avenger": {
+		"name": "Avenger",
+		"desc": "Deals double damage if ally fainted in the previous turn",
+		"shortDesc": "Deals double damage if ally fainted in the previous turn"
+	},
+	"fishsenses": {
+		"name": "Fish Senses",
+		"desc": "Adds water type onto user",
+		"shortDesc": "Adds water type onto user"
+	},
+	"moltenlava": {
+		"name": "Molten Lava",
+		"desc": "Fire attacks deal 4x damage to rock types",
+		"shortDesc": "Fire attacks deal 4x damage to rock types"
+	},
+	"icedew": {
+		"name": "Ice Dew",
+		"desc": "Immune to Ice attacks and boosts attack by 1 instead",
+		"shortDesc": "Immune to Ice attacks and boosts attack by 1 instead"
+	},
+	"funguy": {
+		"name": "Fun Guy",
+		"desc": "If hit by contact move, sets up leech seed on opponent",
+		"shortDesc": "If hit by contact move, sets up leech seed on opponent"
+	},
+	"rusting": {
+		"name": "Rusting",
+		"desc": "Steel types on the field lose 1/10 max health each turn",
+		"shortDesc": "Steel types on the field lose 1/10 max health each turn"
+	},
+	"fairytale": {
+		"name": "Fairy Tale",
+		"desc": "Adds fairy type onto the user",
+		"shortDesc": "Adds fairy type onto the user"
+	},
+	"moonblessing": {
+		"name": "Moon Blessing",
+		"desc": "Fairy and Dark STAB and Moonlight heals 75%",
+		"shortDesc": "Fairy and Dark STAB and Moonlight heals 75%"
+	},
+	"cowardess": {
+		"name": "Cowardess",
+		"desc": "If stat is lowered, switches out",
+		"shortDesc": "If stat is lowered, switches out"
+	},
+	"weatherabsorber": {
+		"name": "Weather Absorber",
+		"desc": "Ends weather and boosts stat depending on weather: Rain: SpA+2; Sun: Atk+2; Sand: Def+2; Snow: SpD+2",
+		"shortDesc": "Ends weather and boosts stat depending on weather: Rain: SpA+2; Sun: Atk+2; Sand: Def+2; Snow: SpD+2"
+	},
+	"textureswap": {
+		"name": "Texture Swap",
+		"desc": "Before being hit by an attack, type random changes",
+		"shortDesc": "Before being hit by an attack, type random changes"
+	},
+	"explosivetantrum": {
+		"name": "Explosive Tantrum",
+		"desc": "If stat is lowered, attack increases by 1 and user explodes",
+		"shortDesc": "If stat is lowered, attack increases by 1 and user explodes"
+	},
 	ancienttrungnology: {
 		name: "Ancient Trungnology",
 		shortDesc: "The user's Sp. Atk is tripled.",

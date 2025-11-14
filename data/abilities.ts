@@ -1990,13 +1990,13 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	elementalking: {
 		name: "Elemental King",
-		onModifySTAB(stab, source, target, move) {
-			if (move.type === 'Ground' || move.type === 'Water' || move.type === 'Fire') {
-				if (stab === 2) {
-					return 2.25; // Same-type STAB
-				}
-				return 1.5; // Non-STAB bonus
-			}
+		onModifyAtk(_, _attacker, _defender, move) {
+			if (move.type !== 'Ground' && move.type !== 'Water' && move.type !== 'Fire') return;
+			return this.chainModify(1.5);
+		},
+		onModifySpA(_, _attacker, _defender, move) {
+			if (move.type !== 'Ground' && move.type !== 'Water' && move.type !== 'Fire') return;
+			return this.chainModify(1.5);
 		},
 		flags: {},
 		rating: 4,
@@ -2094,13 +2094,15 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	fallingflowers: {
 		name: "Falling Flowers",
-		onModifySTAB(stab, source, target, move) {
-			if (move.type === 'Grass') {
-				if (stab === 2) {
-					return 2.25; // Same-type STAB
-				}
-				return 1.5; // Non-STAB bonus
-			}
+		onModifyAtk(_, _attacker, _defender, move) {
+			if (move.type !== 'Grass') return;
+			this.debug('Falling Flowers boost');
+			return this.chainModify(1.5);
+		},
+		onModifySpA(_, _attacker, _defender, move) {
+			if (move.type !== 'Grass') return;
+			this.debug('Falling Flowers boost');
+			return this.chainModify(1.5);
 		},
 		onSourceModifyDamage(damage, source, target, move) {
 			if (move.type === 'Grass') {
@@ -2227,6 +2229,373 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		rating: 4,
 		num: -1117,
+	},
+	seacradle: {
+		name: "Sea Cradle",
+		onSwitchIn(pokemon) {
+			this.add('-ability', pokemon, 'Sea Cradle');
+			pokemon.addVolatile('aquaring');
+			this.add('-start', pokemon, 'Aqua Ring', '[from] ability: Sea Cradle');
+		},
+		flags: {},
+		rating: 3,
+		num: -1118,
+	},
+	crumblingtemple: {
+		name: "Crumbling Temple",
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target)) {
+				if (!source.side.getSideCondition('stealthrock')) {
+					source.side.addSideCondition('stealthrock');
+				}
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1119,
+	},
+	primevalflames: {
+		name: "Primeval Flames",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				this.debug('Primeval Flames boost');
+				let multiplier = 1.3;
+				if (defender.hasType('Dragon')) {
+					multiplier *= 2;
+				}
+				return this.chainModify(multiplier);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fire') {
+				this.debug('Primeval Flames boost');
+				let multiplier = 1.3;
+				if (defender.hasType('Dragon')) {
+					multiplier *= 2;
+				}
+				return this.chainModify(multiplier);
+			}
+		},
+		flags: {},
+		rating: 4,
+		num: -1120,
+	},
+	worldtree: {
+		name: "World Tree",
+		onFoeTrapPokemon(pokemon) {
+			if (this.field.isTerrain('grassyterrain') && pokemon.isAdjacent(this.effectState.target)) {
+				pokemon.tryTrap(true);
+			}
+		},
+		onFoeMaybeTrapPokemon(pokemon, source) {
+			if (!source) source = this.effectState.target;
+			if (!source || !pokemon.isAdjacent(source)) return;
+			if (this.field.isTerrain('grassyterrain')) {
+				pokemon.maybeTrapped = true;
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1121,
+	},
+	liquidarmor: {
+		name: "Liquid Armor",
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target)) {
+				if (source.getTypes().join() === 'Water' && !source.volatiles['typechange']) return;
+				if (!source.setType('Water')) return;
+				this.add('-start', source, 'typechange', 'Water', '[from] ability: Liquid Armor');
+			}
+		},
+		flags: {},
+		rating: 2.5,
+		num: -1122,
+	},
+	gigacannon: {
+		name: "Giga Cannon",
+		onModifySpAPriority: 5,
+		onModifySpA(spa) {
+			return this.chainModify(1.5);
+		},
+		onStart(pokemon) {
+			pokemon.abilityState.choiceLock = "";
+		},
+		onBeforeMove(pokemon, target, move) {
+			if (move.isZOrMaxPowered || move.id === 'struggle') return;
+			if (pokemon.abilityState.choiceLock && pokemon.abilityState.choiceLock !== move.id) {
+				this.addMove('move', pokemon, move.name);
+				this.attrLastMove('[still]');
+				this.debug("Disabled by Giga Cannon");
+				this.add('-fail', pokemon);
+				return false;
+			}
+		},
+		onModifyMove(move, pokemon) {
+			if (pokemon.abilityState.choiceLock || move.isZOrMaxPowered || move.id === 'struggle') return;
+			pokemon.abilityState.choiceLock = move.id;
+		},
+		onDisableMove(pokemon) {
+			if (!pokemon.abilityState.choiceLock) return;
+			if (pokemon.volatiles['dynamax']) return;
+			for (const moveSlot of pokemon.moveSlots) {
+				if (moveSlot.id !== pokemon.abilityState.choiceLock) {
+					pokemon.disableMove(moveSlot.id, false, this.effectState.sourceEffect);
+				}
+			}
+		},
+		onEnd(pokemon) {
+			pokemon.abilityState.choiceLock = "";
+		},
+		flags: {},
+		rating: 4,
+		num: -1124,
+	},
+	aerodynamic: {
+		name: "Aerodynamic",
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Flying') {
+				this.add('-immune', target, '[from] ability: Aerodynamic');
+				this.boost({spe: 1}, target, target, this.effect);
+				return null;
+			}
+		},
+		flags: {breakable: 1},
+		rating: 3,
+		num: -1125,
+	},
+	avenger: {
+		name: "Avenger",
+		onBasePowerPriority: 21,
+		onBasePower(basePower, attacker, defender, move) {
+			if (attacker.side.faintedLastTurn) {
+				this.debug('Avenger boost');
+				return this.chainModify(2);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1126,
+	},
+	fishsenses: {
+		name: "Fish Senses",
+		onStart(pokemon) {
+			if (pokemon.getTypes().join() === 'Water' || !pokemon.addType('Water')) return;
+			this.add('-start', pokemon, 'typeadd', 'Water', '[from] ability: Fish Senses');
+		},
+		flags: {},
+		rating: 3,
+		num: -1127,
+	},
+	moltenlava: {
+		name: "Molten Lava",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Fire' && defender.hasType('Rock')) {
+				this.debug('Molten Lava boost');
+				return this.chainModify(4);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Fire' && defender.hasType('Rock')) {
+				this.debug('Molten Lava boost');
+				return this.chainModify(4);
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1128,
+	},
+	icedew: {
+		name: "Ice Dew",
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Ice') {
+				this.add('-immune', target, '[from] ability: Ice Dew');
+				this.boost({atk: 1}, target, target, this.effect);
+				return null;
+			}
+		},
+		flags: {breakable: 1},
+		rating: 3,
+		num: -1129,
+	},
+	funguy: {
+		name: "Fun Guy",
+		onDamagingHit(damage, target, source, move) {
+			if (this.checkMoveMakesContact(move, source, target)) {
+				if (source.volatiles['leechseed'] || source.hasType('Grass')) return;
+				source.addVolatile('leechseed', target);
+				this.add('-start', source, 'move: Leech Seed', '[from] ability: Fun Guy');
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1130,
+	},
+	rusting: {
+		name: "Rusting",
+		onResidualOrder: 5,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			for (const target of this.getAllActive()) {
+				if (target.hasType('Steel') && target !== pokemon) {
+					this.damage(target.baseMaxhp / 10, target, pokemon);
+				}
+			}
+		},
+		flags: {},
+		rating: 2.5,
+		num: -1131,
+	},
+	fairytale: {
+		name: "Fairy Tale",
+		onStart(pokemon) {
+			if (pokemon.getTypes().join() === 'Fairy' || !pokemon.addType('Fairy')) return;
+			this.add('-start', pokemon, 'typeadd', 'Fairy', '[from] ability: Fairy Tale');
+		},
+		flags: {},
+		rating: 3,
+		num: -1132,
+	},
+	moonblessing: {
+		name: "Moon Blessing",
+		onModifyAtk(_, _attacker, _defender, move) {
+			if (move.type !== 'Fairy') return;
+			return this.chainModify(1.5);
+		},
+		onModifySpA(_, _attacker, _defender, move) {
+			if (move.type !== 'Fairy') return;
+			return this.chainModify(1.5);
+		},
+		onTryHeal(damage, target, source, effect) {
+			if (effect?.id === 'moonlight') {
+				this.add('-activate', target, 'ability: Moon Blessing');
+				return this.chainModify(1.5); // 75% healing instead of 50%
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1133,
+	},
+	cowardess: {
+		name: "Cowardess",
+		onAfterEachBoost(boost, target, source, effect) {
+			if (!source || target.isAlly(source)) return;
+			
+			let statsLowered = false;
+			for (const stat in boost) {
+				if (boost[stat as BoostID]! < 0) {
+					statsLowered = true;
+					break;
+				}
+			}
+			
+			if (statsLowered && this.canSwitch(target.side)) {
+				this.add('-activate', target, 'ability: Cowardess');
+				target.switchFlag = true;
+			}
+		},
+		flags: {},
+		rating: 1,
+		num: -1134,
+	},
+	supremegrudge: {
+		name: "Supreme Grudge",
+		onDamagingHitOrder: 1,
+		onDamagingHit(damage, target, source, move) {
+			if (!target.hp) {
+				this.add('-ability', target, 'Supreme Grudge');
+				const moveIndex = source.moveSlots.findIndex(ms => ms.id === move.id);
+				if (moveIndex >= 0) {
+					source.moveSlots[moveIndex].pp = 0;
+					this.add('-activate', target, 'ability: Supreme Grudge', move.name);
+				}
+			}
+		},
+		flags: {},
+		rating: 2.5,
+		num: -1135,
+	},
+	weatherabsorber: {
+		name: "Weather Absorber",
+		onSwitchIn(pokemon) {
+			if (!this.field.weather) return;
+			
+			const weather = this.field.weather;
+			this.field.clearWeather();
+			this.add('-activate', pokemon, 'ability: Weather Absorber');
+			this.add('-weather', 'none', '[from] ability: Weather Absorber');
+			
+			switch (weather) {
+				case 'raindance':
+				case 'primordialsea':
+					this.boost({spa: 2}, pokemon, pokemon, this.effect);
+					break;
+				case 'sunnyday':
+				case 'desolateland':
+					this.boost({atk: 2}, pokemon, pokemon, this.effect);
+					break;
+				case 'sandstorm':
+					this.boost({def: 2}, pokemon, pokemon, this.effect);
+					break;
+				case 'hail':
+				case 'snow':
+					this.boost({spd: 2}, pokemon, pokemon, this.effect);
+					break;
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1136,
+	},
+	textureswap: {
+		name: "Texture Swap",
+		onTryHit(target, source, move) {
+			if (target.isSemiInvulnerable()) return;
+			
+			const types: string[] = ['Normal', 'Fire', 'Water', 'Electric', 'Grass', 'Ice', 'Fighting', 'Poison', 'Ground', 'Flying', 'Psychic', 'Bug', 'Rock', 'Ghost', 'Dragon', 'Dark', 'Steel', 'Fairy'];
+			
+			// Randomly choose single or dual type
+			const typeCount = this.random(2) + 1; // 1 or 2 types
+			const newTypes: string[] = [];
+			for (let i = 0; i < typeCount; i++) {
+				const randomType = this.sample(types);
+				if (!newTypes.includes(randomType)) {
+					newTypes.push(randomType);
+				}
+			}
+			
+			target.setType(newTypes);
+			this.add('-start', target, 'typechange', newTypes.join('/'), '[from] ability: Texture Swap');
+		},
+		flags: {},
+		rating: 3,
+		num: -1137,
+	},
+	explosivetantrum: {
+		name: "Explosive Tantrum",
+		onAfterEachBoost(boost, target, source, effect) {
+			if (!source || target.isAlly(source)) return;
+			
+			let statsLowered = false;
+			for (const stat in boost) {
+				if (boost[stat as BoostID]! < 0) {
+					statsLowered = true;
+					break;
+				}
+			}
+			
+			if (statsLowered) {
+				this.boost({atk: 1}, target, target, this.effect);
+				this.add('-activate', target, 'ability: Explosive Tantrum');
+				this.actions.useMove('explosion', target);
+			}
+		},
+		flags: {},
+		rating: 2,
+		num: -1138,
 	},
 	// End of Custom Abilities
 	noability: {

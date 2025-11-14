@@ -13783,7 +13783,7 @@
 		"sets": [{
 			"species": "Heatmor",
 			"weight": 50,
-			"level": 80,
+			"level": 85,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Flash Fire"],
 			"teraType": ["Grass"],
@@ -19827,7 +19827,7 @@
 			"item": ["Sitrus Berry"],
 			"ability": ["Sharpness"],
 			"teraType": ["Water", "Dark"],
-			"evs": {"hp": 4, "atk": 252, "spe": 252},
+			"evs": {"spd": 4, "atk": 252, "spe": 252},
 			"nature": "Adamant",
 			"moves": [["Fillet Away"], ["Aqua Cutter"], ["Psycho Cut"], ["Aqua Jet", "Night Slash"]]
 		}]
