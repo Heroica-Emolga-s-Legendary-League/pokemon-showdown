@@ -11634,7 +11634,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
   },
   smughog: {
     num: -1656,
-    name: "Grumpig",
+    name: "Smughog",
     types: ["Psychic", "Dark"],
     baseStats: { hp: 110, atk: 65, def: 75, spa: 105, spd: 115, spe: 80 },
     abilities: { 0: "Thick Fat", 1: "Own Tempo", H: "Gluttony" },
@@ -11654,7 +11654,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     heightm: 1.4,
     weightkg: 41.6,
     color: "Pink",
-    prevo: "Sailomola",
+    prevo: "Alomomola",
     eggGroups: ["Water 1", "Water 2"],
   },
   smoochummahitian: {
@@ -11768,7 +11768,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
   },
   archivory: {
     num: -1667,
-    name: "Herobsidian",
+    name: "Archivory",
     types: ["Fire", "Flying"],
     baseStats: { hp: 75, atk: 85, def: 60, spa: 100, spd: 80, spe: 125 },
     abilities: { 0: "Flash Fire", H: "Weak Armor" },
