@@ -69,7 +69,7 @@
 		"sets": [{
 			"species": "Mighty Spine",
 			"weight": 50,
-			"level": 75,
+			"level": 70,
 			"item": ["Booster Energy", "Life Orb"],
 			"ability": ["Protosynthesis"],
 			"evs": {"atk": 252, "spd": 4, "spe": 252},
@@ -5218,7 +5218,7 @@
 			"ivs": {"atk": 0},
 			"nature": "Timid",
 			"teraType": ["Fire"],
-			"moves": [["Flamethower"], ["Calm Mind"], ["Shadow Ball"], ["Scorching Sands"]]
+			"moves": [["Flamethrower"], ["Calm Mind"], ["Shadow Ball"], ["Scorching Sands"]]
 		}]
 	},
 	"jolteon": {
@@ -20027,7 +20027,7 @@
 		"sets": [{
 			"species": "Jolteon-Prime",
 			"weight": 50,
-			"level": 75,
+			"level": 69,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Transistor"],
 			"teraType": ["Psychic", "Electric"],
@@ -20039,7 +20039,7 @@
 		{
 			"species": "Jolteon-Prime",
 			"weight": 50,
-			"level": 75,
+			"level": 69,
 			"item": ["Choice Specs"],
 			"ability": ["Transistor"],
 			"teraType": ["Normal"],
@@ -21211,7 +21211,7 @@
 			"wantsTera": true,
 			"evs": {"atk": 252, "spd": 4, "spe": 252},
 			"nature": "Jolly",
-			"moves": [["Swords Dance"], ["Mighty Cleave"], ["Earthquake", "Zen Headbutt"], ["Close Combat", "Earthquake"]]
+			"moves": [["Swords Dance"], ["Mighty Cleave"], ["Earthquake", "Zen Headbutt"], ["Close Combat"]]
 		}]
 	},
 	"ironcrown": {

@@ -2597,6 +2597,46 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 2,
 		num: -1138,
 	},
+	teraslayer: {
+		name: "Tera Slayer",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (defender.terastallized) {
+				this.debug('Tera Slayer boost');
+				return this.chainModify(2);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (defender.terastallized) {
+				this.debug('Tera Slayer boost');
+				return this.chainModify(2);
+			}
+		},
+		flags: {},
+		rating: 4,
+		num: -1139,
+	},
+	megahunter: {
+		name: "Mega Hunter",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (defender.volatiles['dynamax'] || defender.species.name.includes('-Mega') || defender.species.name.includes('-Primal')) {
+				this.debug('Mega Hunter boost');
+				return this.chainModify(2);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (defender.volatiles['dynamax'] || defender.species.name.includes('-Mega') || defender.species.name.includes('-Primal')) {
+				this.debug('Mega Hunter boost');
+				return this.chainModify(2);
+			}
+		},
+		flags: {},
+		rating: 4,
+		num: -1140,
+	},
 	// End of Custom Abilities
 	noability: {
 		isNonstandard: "Past",

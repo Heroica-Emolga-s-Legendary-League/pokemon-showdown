@@ -574,6 +574,126 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "HELL",
 		natDexTier: "HELL",
 	},
+	serperiormahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	incineroarmahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	swampertmahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	glaivir: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	remoraidmahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	octillerymahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	lurantismahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	yampermahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	boltundmahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	bouffaliant: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	smughog: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	sailomola: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	smoochummahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	hexx: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	copperajahmahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	pyukumukumahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	snikupiku: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	shelgonmahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	salamencemahitian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	herobsidian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	archivory: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	nimbuseon: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	emperorus: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	emperorustherian: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
 	// End of Custom Pokemon Tier
 	//ZA Start
 	greninjamegaza: {
