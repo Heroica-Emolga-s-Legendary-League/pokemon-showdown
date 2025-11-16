@@ -681,6 +681,16 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		"desc": "If stat is lowered, attack increases by 1 and user explodes",
 		"shortDesc": "If stat is lowered, attack increases by 1 and user explodes"
 	},
+	"teraslayer": {
+		"name": "Tera Slayer",
+		"desc": "Double Damage to terastalized pokemon",
+		"shortDesc": "Double Damage to terastalized pokemon"
+	},
+	"megahunter": {
+		"name": "Mega Hunter",
+		"desc": "Double Damage to Mega evolve'd, dynamaxed, and primal pokemon",
+		"shortDesc": "Double Damage to Mega evolve'd, dynamaxed, and primal pokemon"
+	},
 	ancienttrungnology: {
 		name: "Ancient Trungnology",
 		shortDesc: "The user's Sp. Atk is tripled.",

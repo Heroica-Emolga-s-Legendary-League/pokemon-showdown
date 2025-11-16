@@ -365,7 +365,32 @@ export const PokedexText: { [id: IDEntry]: PokedexText; } = {
 	, "lugaya": { "name": "Lugaya" }
 	, "mewtwah": { "name": "Mewtwah" }
 	, "marshydow": { "name": "Marshydow" }
-	, "ledigod": { "name": "Ledigod" },
+	, "ledigod": { "name": "Ledigod" }
+	, "serperiormahitian": { "name": "Serperior Ma-Hitian" }
+	, "incineroarmahitian": { "name": "Incineroar Ma-Hitian" }
+	, "swampertmahitian": { "name": "Swampert Ma-Hitian" }
+	, "glavir": { "name": "Glaivir" }
+	, "remoraidmahitian": { "name": "Remoraid Ma-Hitian" }
+	, "octillerymahitian": { "name": "Octillery Ma-Hitian" }
+	, "lurantismahitian": { "name": "Lurantis Ma-Hitian" }
+	, "yampermahitian": { "name": "Yamper Ma-Hitian" }
+	, "boltundmahitian": { "name": "Boltund Ma-Hitian" }
+	, "bouffaliant": { "name": "Bouffaliant" }
+	, "smughog": { "name": "Smughog" }
+	, "sailomola": { "name": "Sailomola" }
+	, "smoochummahitian": { "name": "Smoochum Ma-Hitian" }
+	, "hexx": { "name": "Hexx" }
+	, "copperajahmahitian": { "name": "Copperajah Ma-Hitian" }
+	, "pyukumukumahitian": { "name": "Pyukumuku Ma-Hitian" }
+	, "snikupiku": { "name": "Snikupiku" }
+	, "shelgonmahitian": { "name": "Shelgon Ma-Hitian" }
+	, "salamencemahitian": { "name": "Salamence Ma-Hitian" }
+	, "herobsidian": { "name": "Herobsidian" }
+	, "archivory": { "name": "Archivory" }
+	, "nimbuseon": { "name": "Nimbuseon" }
+	, "emperorus": { "name": "Emperorus" }
+	, "emperorustherian": { "name": "Emperorus-Therian" }
+	,
 
 	// End of Custom Pokemon
 	bulbasaur: {
