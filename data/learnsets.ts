@@ -4298,6 +4298,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			weatherball: ["9M"],
 			wildboltstorm: ["9M"],
 		},
+	},
 	// End of Custom Pokemon Learnset
 	missingno: {
 		learnset: {
