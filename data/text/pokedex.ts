@@ -390,6 +390,20 @@ export const PokedexText: { [id: IDEntry]: PokedexText; } = {
 	, "nimbuseon": { "name": "Nimbuseon" }
 	, "emperorus": { "name": "Emperorus" }
 	, "emperorustherian": { "name": "Emperorus-Therian" }
+	, "tinkatonmegaz": { "name": "Tinkaton-Mega-Z" }
+	, "togekissmega": { "name": "Togekiss-Mega" }
+	, "talonflamemega": { "name": "Talonflame-Mega" }
+	, "vivillonmega": { "name": "Vivillon-Mega" }
+	, "arcaninemega": { "name": "Arcanine-Mega" }
+	, "arcaninemegah": { "name": "Arcanine-Mega-H" }
+	, "kricketunemega": { "name": "Kricketune-Mega" }
+	, "yanmegamega": { "name": "Yanmega-Mega" }
+	, "mausholdmega": { "name": "Maushold-Mega" }
+	, "kleavormega": { "name": "Kleavor-Mega" }
+	, "hydrapplemega": { "name": "Hydrapple-Mega" }
+	, "volcaronamega": { "name": "Volcarona-Mega" }
+	, "crustlemega": { "name": "Crustle-Mega" }
+	, "bellossommega": { "name": "Bellossom-Mega" }
 	,
 
 	// End of Custom Pokemon

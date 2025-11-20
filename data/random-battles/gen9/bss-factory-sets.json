@@ -22680,7 +22680,7 @@
 			"item": ["Booster Energy"],
 			"ability": ["Protosynthesis"],
 			"teraType": ["Fighting", "Ice"],
-			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"evs": {"atk": 204, "hp": 52, "spe": 252},
 			"nature": "Jolly",
 			"moves": [["Swords Dance"], ["Crabhammer"], ["X-Scissor"], ["Close Combat", "Ice Spinner"]]
 		},
@@ -22691,7 +22691,7 @@
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Protosynthesis"],
 			"teraType": ["Bug", "Water"],
-			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"evs": {"atk": 204, "hp": 52, "spe": 252},
 			"nature": "Jolly",
 			"moves": [["Rapid Spin"], ["Crabhammer"], ["Swords Dance"], ["Leech Life"]]
 		}]
