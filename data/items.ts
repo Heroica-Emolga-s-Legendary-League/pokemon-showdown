@@ -2025,6 +2025,216 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return true;
 		},
 	},
+	"tinkatonitez": {
+		name: "Tinkatonite Z",
+		megaStone: "Tinkaton-Mega-Z",
+		itemUser: ["Tinkaton"],
+		megaEvolves: "Tinkaton",
+		num: -1026,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"togekissite": {
+		name: "Togekissite",
+		megaStone: "Togekiss-Mega",
+		itemUser: ["Togekiss"],
+		megaEvolves: "Togekiss",
+		num: -1027,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"talonflamite": {
+		name: "Talonflamite",
+		megaStone: "Talonflame-Mega",
+		itemUser: ["Talonflame"],
+		megaEvolves: "Talonflame",
+		num: -1028,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"vivillonite": {
+		name: "Vivillonite",
+		megaStone: "Vivillon-Mega",
+		itemUser: ["Vvillon"],
+		megaEvolves: "Vivillon",
+		num: -1029,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"arcanite": {
+		name: "Arcanite",
+		megaStone: "Arcanine-Mega",
+		itemUser: ["Arcanine"],
+		megaEvolves: "Arcanine",
+		num: -1030,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"arcaniteh": {
+		name: "Arcanite H",
+		megaStone: "Arcanine-Mega-H",
+		itemUser: ["Harcanine"],
+		megaEvolves: "Harcanine",
+		num: -1031,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"kricketunite": {
+		name: "Kricketunite",
+		megaStone: "Kricketune-Mega",
+		itemUser: ["Kricketune"],
+		megaEvolves: "Kricketune",
+		num: -1032,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"yanmegite": {
+		name: "Yanmegite",
+		megaStone: "Yanmega-Mega",
+		itemUser: ["Yanmega"],
+		megaEvolves: "Yanmega",
+		num: -1033,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"mausholdite": {
+		name: "Mausholdite",
+		megaStone: "Maushold-Mega",
+		itemUser: ["Maushold"],
+		megaEvolves: "Maushold",
+		num: -1034,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"kleavorite": {
+		name: "Kleavorite",
+		megaStone: "Kleavor-Mega",
+		itemUser: ["Kleavor"],
+		megaEvolves: "Kleavor",
+		num: -1035,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"hydrapplite": {
+		name: "Hydrapplite",
+		megaStone: "Hydrapple-Mega",
+		itemUser: ["Hydrapple"],
+		megaEvolves: "Hydrapple",
+		num: -1036,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"volcaronite": {
+		name: "Volcaronite",
+		megaStone: "Volcarona-Mega",
+		itemUser: ["Volcarona"],
+		megaEvolves: "Volcarona",
+		num: -1037,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"crustlite": {
+		name: "Crustlite",
+		megaStone: "Crustle-Mega",
+		itemUser: ["Crustle"],
+		megaEvolves: "Crustle",
+		num: -1038,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"bellossomite": {
+		name: "Bellossomite",
+		megaStone: "Bellossom-Mega",
+		itemUser: ["Bellossom"],
+		megaEvolves: "Bellossom",
+		num: -1039,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
 
 //a
 
