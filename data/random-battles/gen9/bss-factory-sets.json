@@ -2630,7 +2630,7 @@
 		"sets": [{
 			"species": "Strange Hunter",
 			"weight": 50,
-			"level": 75,
+			"level": 65,
 			"item": ["Booster Energy"],
 			"ability": ["Psycho Ritual"],
 			"evs": {"hp": 248, "atk": 8, "spe": 252},
@@ -2641,7 +2641,7 @@
 		{
 			"species": "Strange Hunter",
 			"weight": 50,
-			"level": 75,
+			"level": 72,
 			"item": ["Assault Vest"],
 			"ability": ["Psycho Ritual"],
 			"evs": {"hp": 252, "atk": 252, "spd": 4},
@@ -18786,7 +18786,7 @@
 		"sets": [{
 			"species": "Basculegion",
 			"weight": 50,
-			"level": 75,
+			"level": 68,
 			"item": ["Leftovers", "Metronome", "Heavy-Duty Boots"],
 			"ability": ["Adaptability"],
 			"teraType": ["Water", "Dark", "Ghost"],
@@ -18797,7 +18797,7 @@
 		{
 			"species": "Basculegion",
 			"weight": 50,
-			"level": 75,
+			"level": 68,
 			"item": ["Choice Band"],
 			"ability": ["Swift Swim"],
 			"teraType": ["Water", "Ghost"],
@@ -18808,7 +18808,7 @@
 		{
 			"species": "Basculegion",
 			"weight": 50,
-			"level": 75,
+			"level": 68,
 			"item": ["Choice Scarf"],
 			"ability": ["Adaptability"],
 			"teraType": ["Water"],
@@ -19616,7 +19616,7 @@
 		{
 			"species": "Basculegion-Prime",
 			"weight": 50,
-			"level": 67,
+			"level": 65,
 			"item": ["Mystic Water"],
 			"ability": ["Swift Swim"],
 			"teraType": ["Ghost"],
@@ -19627,7 +19627,7 @@
 		{
 			"species": "Basculegion-Prime",
 			"weight": 50,
-			"level": 67,
+			"level": 65,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Adaptability"],
 			"teraType": ["Ghost", "Fairy", "Ground"],
@@ -20001,7 +20001,7 @@
 		"sets": [{
 			"species": "Brambleghast-Prime",
 			"weight": 50,
-			"level": 75,
+			"level": 68,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Shadow Shield"],
 			"teraType": ["Water", "Steel"],
@@ -22443,7 +22443,7 @@
 		{
 			"species": "Iron Oblivion-Type-1",
 			"weight": 50,
-			"level": 66,
+			"level": 60,
 			"item": ["Booster Energy"],
 			"ability": ["Quark Drive"],
 			"teraType": ["Ghost"],

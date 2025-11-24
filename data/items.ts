@@ -2235,6 +2235,66 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return true;
 		},
 	},
+	"arbolivite": {
+		name: "Arbolivite",
+		megaStone: "Arboliva-Mega",
+		itemUser: ["Arboliva"],
+		megaEvolves: "Arboliva",
+		num: -1040,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"belliboltite": {
+		name: "Belliboltite",
+		megaStone: "Bellibolt-Mega",
+		itemUser: ["Bellibolt"],
+		megaEvolves: "Bellibolt",
+		num: -1041,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"claydolite": {
+		name: "Claydolite",
+		megaStone: "Claydol-Mega",
+		itemUser: ["Claydol"],
+		megaEvolves: "Claydol",
+		num: -1042,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"cryogonite": {
+		name: "Cryogonite",
+		megaStone: "Cryogonal-Mega",
+		itemUser: ["Cryogonal"],
+		megaEvolves: "Cryogonal",
+		num: -1043,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
 
 //a
 
