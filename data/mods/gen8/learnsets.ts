@@ -53030,7 +53030,7 @@ export const Learnsets: import('../../../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "7M", "6M", "5M", "4M"],
 			workup: ["7M"],
 			zenheadbutt: ["9M"],
-			jetpunch: ["9M"],
+			jetpunch: ["9M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
 			{ generation: 4, level: 40, gender: "M", nature: "Mild", moves: ["flamethrower", "thunderpunch", "grassknot", "helpinghand"], pokeball: "cherishball" },
