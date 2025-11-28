@@ -7981,7 +7981,7 @@
 		"sets": [{
 			"species": "Luvdisc",
 			"weight": 50,
-			"level": 100,
+			"level": 115,
 			"item": ["Leftovers"],
 			"ability": ["Swift Swim"],
 			"evs": {"hp": 252, "spa": 4, "spe": 252},
@@ -12643,7 +12643,7 @@
 		"sets": [{
 			"species": "Unown",
 			"weight": 25,
-			"level": 100,
+			"level": 125,
 			"item": ["Choice Scarf"],
 			"ability": ["Levitate"],
 			"teraType": ["Normal", "Water", "Grass", "Fire", "Electric", "Steel", "Rock", "Ground", "Fairy", "Dragon", "Flying", "Psychic", "Ghost", "Dark", "Fighting", "Ice", "Bug", "Poison"],
@@ -12657,7 +12657,7 @@
 		{
 			"species": "Unown",
 			"weight": 50,
-			"level": 83,
+			"level": 95,
 			"item": ["Unownite"],
 			"ability": ["Levitate"],
 			"teraType": ["Normal", "Water", "Grass", "Fire", "Electric", "Steel", "Rock", "Ground", "Fairy", "Dragon", "Flying", "Psychic", "Ghost", "Dark", "Fighting", "Ice", "Bug", "Poison"],

@@ -4479,6 +4479,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			machpunch: ["9M", "9L1"],
 			suckerpunch: ["9M", "9L1"],
 			hell: ["9M", "9L1"],
+			bulletpunch: ["9M", "9L1"],
 		},
 		eventData: [
 			{ generation: 5, level: 70, shiny: true, abilities: ["ironfist"], moves: ["shadowpunch", "hyperbeam", "gyroball", "hammerarm"], pokeball: "cherishball" },
