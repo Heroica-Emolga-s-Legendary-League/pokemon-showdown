@@ -590,7 +590,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 	},
 	{
 		name: "[Gen 8] NatDex Draft",
-		mod: 'gen9',
+		mod: 'gen8',
 		searchShow: false,
 		teraPreviewDefault: true,
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1', '+LGPE'],
