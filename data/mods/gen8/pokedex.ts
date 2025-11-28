@@ -19776,7 +19776,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     name: "Chimchar",
     types: ["Fire"],
     genderRatio: { M: 0.875, F: 0.125 },
-    baseStats: { hp: 44, atk: 58, def: 44, spa: 58, spd: 44, spe: 61 },
+    baseStats: { hp: 144, atk: 158, def: 144, spa: 158, spd: 144, spe: 161 },
     abilities: { 0: "Blaze", H: "Iron Fist" },
     heightm: 0.5,
     weightkg: 6.2,
