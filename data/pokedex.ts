@@ -3328,12 +3328,12 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "hp": 109,
       "atk": 103,
       "def": 95,
-      "spa": 77,
+      "spa": 67,
       "spd": 95,
-      "spe": 91
+      "spe": 101
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Tough Claws"
     },
     "heightm": 2.3,
     "weightkg": 210,
