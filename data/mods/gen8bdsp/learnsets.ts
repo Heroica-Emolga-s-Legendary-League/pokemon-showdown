@@ -19718,6 +19718,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			heatwave: ["8E"],
 			helpinghand: ["8E"],
 			irontail: ["8M"],
+			jetpunch: ["8M"],
 			leer: ["8L1"],
 			lowsweep: ["8M"],
 			nastyplot: ["8M", "8L23"],
