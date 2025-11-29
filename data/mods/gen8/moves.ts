@@ -10194,6 +10194,7 @@ export const Moves: import('../../../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Water",
 		contestType: "Cool",
+		isNonstandard: "Past",
 	},
 	judgment: {
 		num: 449,
