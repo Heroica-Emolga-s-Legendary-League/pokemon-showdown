@@ -516,6 +516,7 @@ export const Moves: import('../../../sim/dex-moves').ModdedMoveDataTable = {
 		target: "normal",
 		type: "Water",
 		contestType: "Cool",
+		isNonstandard: "Past",
 	},
 	judgment: {
 		inherit: true,
