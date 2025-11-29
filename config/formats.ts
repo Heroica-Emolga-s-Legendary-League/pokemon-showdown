@@ -583,14 +583,14 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Dragon Rage', 'Sonic Boom'],
 	},
 	{
-		name: "[Gen 8] Draft",
-		mod: 'gen8',
+		name: "[Gen 8 BDSP] Draft",
+		mod: 'gen8bdsp',
 		searchShow: false,
 		ruleset: ['Standard Draft', 'Dynamax Clause'],
 	},
 	{
-		name: "[Gen 8] NatDex Draft",
-		mod: 'gen8',
+		name: "[Gen 8 BDSP] NatDex Draft",
+		mod: 'gen8bdsp',
 		searchShow: false,
 		teraPreviewDefault: true,
 		ruleset: ['Standard Draft', '+Unobtainable', '+Past', 'Min Source Gen = 1', '+LGPE'],

@@ -52978,6 +52978,7 @@ export const Learnsets: import('../../../sim/dex-species').LearnsetDataTable = {
 			honeclaws: ["6M", "5M"],
 			incinerate: ["6M", "5M"],
 			irontail: ["7T", "6T", "5T", "4M"],
+			jetpunch: ["9M", "8M", "7M", "6M", "5M", "4M"],
 			knockoff: ["9M"],
 			leer: ["9L1", "7L1", "6L1", "5L1", "5S1", "5S3", "4L1"],
 			lowkick: ["9M", "7T", "6T", "5T", "4T"],
@@ -53030,7 +53031,6 @@ export const Learnsets: import('../../../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "7M", "6M", "5M", "4M"],
 			workup: ["7M"],
 			zenheadbutt: ["9M"],
-			jetpunch: ["9M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
 			{ generation: 4, level: 40, gender: "M", nature: "Mild", moves: ["flamethrower", "thunderpunch", "grassknot", "helpinghand"], pokeball: "cherishball" },

@@ -1,6 +1,6 @@
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 8,
-	inherit: 'gen8',
+	inherit: 'gen9',
 	side: {
 		inherit: true,
 		canDynamaxNow() {
