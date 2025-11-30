@@ -1,7 +1,6 @@
 import { Moves } from './moves';
-import { Pokedex } from './pokedex';
-import { Learnsets } from './learnsets';
 import { FormatsData } from './formats-data';
+import { Items } from './items';
 
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 9,
@@ -10,6 +9,16 @@ export const Scripts: ModdedBattleScriptsData = {
 		const keys = Object.keys(FormatsData).filter(k => FormatsData[k as keyof typeof FormatsData].isNonstandard === undefined || FormatsData[k as keyof typeof FormatsData].isNonstandard === 'Future');
 		for (const k of keys) {
 			this.modData('FormatsData', k).isNonstandard = 'Past';
+		}
+
+		const items = Object.keys(Items).filter(i => Items[i as keyof typeof Items].isNonstandard === undefined || Items[i as keyof typeof Items].isNonstandard === 'Future');
+		for (const i of items) {
+			this.modData('Items', i).isNonstandard = 'Past';
+		}
+
+		const moves = Object.keys(Moves).filter(m => Moves[m as keyof typeof Moves].isNonstandard === undefined || Moves[m as keyof typeof Moves].isNonstandard === 'Future');
+		for (const m of moves) {
+			this.modData('Moves', m).isNonstandard = 'Past';
 		}
 	}
 };
