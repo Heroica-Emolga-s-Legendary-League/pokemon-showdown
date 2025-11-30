@@ -8,6 +8,9 @@ export const Scripts: ModdedBattleScriptsData = {
 
 		for (const id of bdspPokedex) {
 			this.modData('Pokedex', id).isNonstandard = 'Past';
+			if (this.modData('Pokedex', id).tier === 'Illegal') {
+				this.modData('Pokedex', id).tier = 'OU';
+			}
 		}
 	}
 };
