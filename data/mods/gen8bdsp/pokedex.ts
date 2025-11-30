@@ -3856,7 +3856,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     "eggGroups": [
       "Undiscovered"
     ],
-    "gen": 8,
   },
   "dittofreakyfusion": {
     "name": "Ditto-Freaky-Fusion",

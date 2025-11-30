@@ -125,7 +125,7 @@ export const FormatsData: import('../../../sim/dex-species').SpeciesFormatsDataT
 	, "queendradarkmega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "eelektrosshell": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "eelektrossmegahell": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "abyluxneon": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "abyluxneon": {"tier": "HELL", "natDexTier": "HELL" }
 	, "dittofreakyfusion": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "aggronfreakyfusion": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "cinderacefreakyfusion": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
