@@ -586,7 +586,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 8 BDSP] Draft",
 		mod: 'gen8bdsp',
 		searchShow: false,
-		ruleset: ['Standard Draft', 'Dynamax Clause', '+Past'],
+		ruleset: ['Standard Draft', '+Unobtainable', '+Past', '+LGPE', 'Min Source Gen = 1'],
 	},
 	{
 		name: "[Gen 8 BDSP] NatDex Draft",
