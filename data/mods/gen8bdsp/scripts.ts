@@ -18,9 +18,9 @@ export const Scripts: ModdedBattleScriptsData = {
 			this.modData('Items', i).isNonstandard = 'Past';
 		}
 
-		const moves = Object.keys(Moves).filter(m => Moves[m as keyof typeof Moves].isNonstandard === undefined || Moves[m as keyof typeof Moves].isNonstandard === 'Future');
+		const moves = Object.keys(Moves).filter(m => Moves[m as keyof typeof Moves].isNonstandard === undefined);
 		for (const m of moves) {
-			this.modData('Moves', m).gen = 8;
+			this.modData('Moves', m).gen = 9;
 		}
 
 		const abilities = Object.keys(Abilities).filter(a => Abilities[a as keyof typeof Abilities].isNonstandard === undefined || Abilities[a as keyof typeof Abilities].isNonstandard === 'Future');
