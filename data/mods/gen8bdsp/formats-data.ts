@@ -6455,6 +6455,7 @@ export const FormatsData: import('../../../sim/dex-species').SpeciesFormatsDataT
 		tier: "LC",
 	},
 	armarouge: {
+		isNonstandard: "Past",
 		tier: "HELL",
 		doublesTier: "DUU",
 		natDexTier: "RU",
