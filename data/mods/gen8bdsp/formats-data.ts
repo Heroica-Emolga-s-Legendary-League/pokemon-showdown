@@ -6459,7 +6459,7 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		isNonstandard: "Past",
 		tier: "HELL",
 		doublesTier: "DUU",
-		natDexTier: "RU",
+		natDexTier: "HELL",
 	},
 	ceruledge: {
 		isNonstandard: "Past",
