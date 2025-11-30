@@ -3,7 +3,7 @@ import { FormatsData } from './formats-data';
 import { Items } from './items';
 
 export const Scripts: ModdedBattleScriptsData = {
-	gen: 9,
+	gen: 8,
 	inherit: 'gen9',
 	init() {
 		const keys = Object.keys(FormatsData).filter(k => FormatsData[k as keyof typeof FormatsData].isNonstandard === undefined || FormatsData[k as keyof typeof FormatsData].isNonstandard === 'Future');
