@@ -1,6 +1,7 @@
 import { Moves } from './moves';
 import { FormatsData } from './formats-data';
 import { Items } from './items';
+import { Abilities } from './abilities';
 
 export const Scripts: ModdedBattleScriptsData = {
 	gen: 8,
@@ -20,6 +21,11 @@ export const Scripts: ModdedBattleScriptsData = {
 		const moves = Object.keys(Moves).filter(m => Moves[m as keyof typeof Moves].isNonstandard === undefined || Moves[m as keyof typeof Moves].isNonstandard === 'Future');
 		for (const m of moves) {
 			this.modData('Moves', m).gen = 8;
+		}
+
+		const abilities = Object.keys(Abilities).filter(a => Abilities[a as keyof typeof Abilities].isNonstandard === undefined || Abilities[a as keyof typeof Abilities].isNonstandard === 'Future');
+		for (const a of abilities) {
+			this.modData('Abilities', a).gen = 8;
 		}
 	}
 };
