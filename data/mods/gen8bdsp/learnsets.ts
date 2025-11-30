@@ -100716,7 +100716,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 		eventData: [
 			{ generation: 9, level: 88, nature: "Timid", moves: ["nastyplot", "toxic", "malignantchain", "shadowball"] },
 		],
-		eventOnly: true,
+		// eventOnly: true,
 	},
 	syclar: {
 		learnset: {
