@@ -6452,16 +6452,17 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		natDexTier: "RU",
 	},
 	charcadet: {
+		isNonstandard: "Past",
 		tier: "LC",
 	},
 	armarouge: {
-		inherit: true,
 		isNonstandard: "Past",
 		tier: "HELL",
 		doublesTier: "DUU",
 		natDexTier: "RU",
 	},
 	ceruledge: {
+		isNonstandard: "Past",
 		tier: "HELL",
 		doublesTier: "(DUU)",
 		natDexTier: "UUBL",
