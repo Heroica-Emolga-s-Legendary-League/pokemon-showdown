@@ -1,4 +1,4 @@
-export const FormatsData: import('../../../sim/dex-species').SpeciesFormatsDataTable = {
+export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormatsDataTable = {
 	// Custom Pokemon Tier
 	// Still Hurting someone
 	"serperiormega": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
@@ -6455,6 +6455,7 @@ export const FormatsData: import('../../../sim/dex-species').SpeciesFormatsDataT
 		tier: "LC",
 	},
 	armarouge: {
+		inherit: true,
 		isNonstandard: "Past",
 		tier: "HELL",
 		doublesTier: "DUU",

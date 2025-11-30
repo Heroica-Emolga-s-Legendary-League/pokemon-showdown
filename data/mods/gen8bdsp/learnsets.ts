@@ -1,7 +1,7 @@
 import { Pokedex } from './pokedex';
 import { toID } from './../../../sim/dex';
 
-export const Learnsets: import('../../../sim/dex-species').LearnsetDataTable = {
+export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTable = {
 
 	// Custom Pokemon Learnset
 	"serperiormega": { "learnset": { "hell": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"] } }
