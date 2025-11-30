@@ -99360,7 +99360,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	armarouge: {
 		learnset: {
-			acidspray: ["9M"],
+			acidspray: ["9M", "8M"],
 			allyswitch: ["9L42"],
 			armorcannon: ["9L62"],
 			astonish: ["9L1"],
