@@ -9,6 +9,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		const keys = Object.keys(FormatsData).filter(k => FormatsData[k as keyof typeof FormatsData].isNonstandard === undefined || FormatsData[k as keyof typeof FormatsData].isNonstandard === 'Future');
 		for (const k of keys) {
 			this.modData('FormatsData', k).isNonstandard = 'Past';
+			this.modData('Pokedex', k).gen = 8;
 		}
 
 		const items = Object.keys(Items).filter(i => Items[i as keyof typeof Items].isNonstandard === undefined || Items[i as keyof typeof Items].isNonstandard === 'Future');
