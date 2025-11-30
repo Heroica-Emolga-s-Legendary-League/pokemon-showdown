@@ -29903,6 +29903,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     evoType: "useItem",
     evoItem: "Auspicious Armor",
     eggGroups: ["Human-Like"],
+    gen: 8,
   },
   ceruledge: {
     num: 937,
