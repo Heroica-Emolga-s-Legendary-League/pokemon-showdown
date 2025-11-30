@@ -586,8 +586,8 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 8 BDSP] Draft",
 		mod: 'gen8bdsp',
 		searchShow: false,
-		ruleset: ['Standard', 'Evasion Abilities Clause', '+Past', 'Min Source Gen = 1'],
-		banlist: ['Uber', 'Arena Trap', 'Drizzle', 'Moody', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Baton Pass'],
+		teraPreviewDefault: true,
+		ruleset: ['Standard', 'Evasion Abilities Clause', '+Past', 'Min Source Gen = 1', '+LGPE'],
 	},
 	{
 		name: "[Gen 8 BDSP] NatDex Draft",
