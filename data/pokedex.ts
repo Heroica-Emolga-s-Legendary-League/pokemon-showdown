@@ -861,14 +861,14 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     "baseStats": {
       "hp": 130,
-      "atk": 145,
-      "def": 55,
-      "spa": 85,
-      "spd": 95,
-      "spe": 20
+      "atk": 105,
+      "def": 85,
+      "spa": 65,
+      "spd": 120,
+      "spe": 25
     },
     "abilities": {
-      "0": "Unaware"
+      "0": "Iron Barbs"
     },
     "heightm": 2.3,
     "weightkg": 650,
@@ -10115,11 +10115,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     "baseStats": {
       "hp": 75,
-      "atk": 125,
+      "atk": 135,
       "def": 78,
-      "spa": 105,
+      "spa": 85,
       "spd": 78,
-      "spe": 136
+      "spe": 146
     },
     "abilities": {
       "0": "Eerie Resonance"
@@ -10179,11 +10179,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     "baseStats": {
       "hp": 60,
-      "atk": 95,
+      "atk": 65,
       "def": 115,
-      "spa": 110,
+      "spa": 130,
       "spd": 125,
-      "spe": 100
+      "spe": 110
     },
     "abilities": {
       "0": "Mindscape Domain"
