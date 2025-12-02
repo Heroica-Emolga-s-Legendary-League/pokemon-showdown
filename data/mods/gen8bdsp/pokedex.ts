@@ -18995,7 +18995,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
   milotic: {
     num: 350,
     name: "Milotic",
-    types: ["Water"],
+    types: ["Water", "Fairy"],
     baseStats: { hp: 95, atk: 60, def: 79, spa: 100, spd: 125, spe: 81 },
     abilities: { 0: "Marvel Scale", 1: "Competitive", H: "Cute Charm" },
     heightm: 6.2,
@@ -21413,7 +21413,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     types: ["Water"],
     gender: "N",
     baseStats: { hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100 },
-    abilities: { 0: "Hydration" },
+    abilities: { 0: "Poseidon" },
     heightm: 0.3,
     weightkg: 1.4,
     color: "Blue",
