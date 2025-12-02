@@ -20778,7 +20778,7 @@
 		"sets": [{
 			"species": "Dipplin",
 			"weight": 50,
-			"level": 85,
+			"level": 76,
 			"item": ["Eviolite"],
 			"ability": ["Sticky Hold"],
 			"teraType": ["Poison", "Fairy", "Steel"],
