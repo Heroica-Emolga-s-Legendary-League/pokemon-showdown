@@ -9433,7 +9433,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 30
     },
     "abilities": {
-      "0": "Pressure",
+      "0": "Voltage Charge",
       "H": "Infiltrator"
     },
     "heightm": 2,
@@ -9905,7 +9905,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 115
     },
     "abilities": {
-      "0": "Dancer",
+      "0": "Falling Flowers",
       "H": "No Guard"
     },
     "heightm": 1.1,
