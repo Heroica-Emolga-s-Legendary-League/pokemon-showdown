@@ -9433,7 +9433,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 30
     },
     "abilities": {
-      "0": "Voltage Charge",
+      "0": "Pressure",
       "H": "Infiltrator"
     },
     "heightm": 2,
@@ -12255,7 +12255,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     name: "Magnypno",
     types: ["Dark", "Fighting"],
     baseStats: { hp: 115, atk: 93, def: 125, spa: 73, spd: 80, spe: 57 },
-    abilities: { 0: "Anticipation", 1: "Forewarn", H: "Inner Focus" },
+    abilities: { 0: "Anticipation", 1: "Forewarn", H: "Weakness Enhancer" },
     heightm: 2.1,
     weightkg: 115.6,
     color: "Yellow",
