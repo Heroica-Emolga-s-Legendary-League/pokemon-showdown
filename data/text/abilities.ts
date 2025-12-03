@@ -691,6 +691,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		"desc": "Double Damage to Mega evolve'd, dynamaxed, and primal pokemon",
 		"shortDesc": "Double Damage to Mega evolve'd, dynamaxed, and primal pokemon"
 	},
+	"poseidon": {
+		"name": "Poseidon",
+		"desc": "If rain is up, takes half damage and cures status at end of turn",
+		"shortDesc": "If rain is up, takes half damage and cures status at end of turn"
+	},
 	ancienttrungnology: {
 		name: "Ancient Trungnology",
 		shortDesc: "The user's Sp. Atk is tripled.",

@@ -2637,6 +2637,28 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: -1140,
 	},
+	poseidon: {
+		name: "Poseidon",
+		onSourceModifyDamage(damage, source, target, move) {
+			if (['raindance', 'primordialsea'].includes(target.effectiveWeather())) {
+				this.debug('Poseidon weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
+				if (pokemon.status) {
+					this.add('-activate', pokemon, 'ability: Poseidon');
+					pokemon.cureStatus();
+				}
+			}
+		},
+		flags: {breakable: 1},
+		rating: 4,
+		num: -1141,
+	},
 	// End of Custom Abilities
 	noability: {
 		isNonstandard: "Past",

@@ -19801,6 +19801,10 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			toxic: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			uproar: ["8M", "7T", "6T", "5T", "4T"],
 			watergun: ["7V"],
+			slackoff: ["8M"],
+			trailblaze: ["8M"],
+			rockpolish: ["8M"],
+			suckerpunch: ["8M"],
 		},
 		eventData: [
 			{ generation: 3, level: 44, moves: ["sing", "earthquake", "swordsdance", "rockslide"] },
@@ -19910,6 +19914,10 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			toxic: ["8V", "7M"],
 			uproar: ["8M", "7T"],
 			willowisp: ["8M", "8L36", "8V", "7M", "7L23"],
+			slackoff: ["8M"],
+			trailblaze: ["8M"],
+			rockpolish: ["8M"],
+			suckerpunch: ["8M"],
 		},
 	},
 	marowakalolatotem: {
@@ -22189,6 +22197,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			weatherball: ["8M"],
 			whirlpool: ["9M", "9L1", "8M", "8L1", "7V", "4M"],
 			yawn: ["9L1", "8L1", "7L1", "6L1", "5L1", "4L1"],
+			snipeshot: ["8M"],
 		},
 		eventData: [
 			{ generation: 3, level: 50, abilities: ["swiftswim"], moves: ["leer", "watergun", "twister", "agility"], pokeball: "pokeball" },
@@ -24683,6 +24692,8 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			waterpulse: ["9M", "7T", "6T", "4M", "3M"],
 			whirlpool: ["9M", "9L4", "8M", "8L4", "7V", "4M"],
 			zapcannon: ["7V"],
+			dragonrush: ["8M"],
+			breakingswipe: ["8M"],
 		},
 		eventData: [
 			{ generation: 6, level: 50, moves: ["waterfall", "earthquake", "icefang", "dragondance"], pokeball: "cherishball" },
@@ -26583,6 +26594,9 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			whirlwind: ["8E", "7E", "7V", "6E", "5E", "4E", "3E"],
 			wideguard: ["8E", "7E", "7S1", "6E"],
 			wingattack: ["8L10", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
+			headsmash: ["8M"],
+			bravebird: ["8M"],
+			uturn: ["8M"],
 		},
 		eventData: [
 			{ generation: 5, level: 15, gender: "M", abilities: ["pressure"], moves: ["steelwing", "icefang", "firefang", "thunderfang"], pokeball: "cherishball" },
@@ -36277,6 +36291,13 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			watergun: ["8L5"],
 			waterpulse: ["8E", "7T", "7E", "6T", "6E", "5E", "4M", "3M"],
 			whirlpool: ["8M", "7V", "4M"],
+			gigadrain: ["8M", "7M"],
+			flipturn: ["8M", "7M"],
+			energyball: ["8M", "7M"],
+			synthesis: ["8M", "7M"],
+			grassyglide: ["8M", "7M"],
+			seedbomb: ["8M", "7M"],
+			bulletseed: ["8M", "7M"],
 		},
 		eventData: [
 			{ generation: 3, level: 5, shiny: 1, moves: ["tackle", "mudsport"], pokeball: "pokeball", emeraldEventEgg: true },
@@ -47154,6 +47175,9 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			uproar: ["9M", "9L52", "8M", "8L52", "7T", "7L40", "6T", "6L40"],
 			uturn: ["9M", "8M", "7M", "6M", "5M", "4M", "4S1"],
 			vacuumwave: ["8M"],
+			leechlife: ["8M"],
+			xscissor: ["8M"],
+			lunge: ["8M"],
 		},
 		eventData: [
 			{ generation: 3, level: 45, moves: ["sandtomb", "crunch", "dragonbreath", "screech"], pokeball: "pokeball" },
@@ -49679,6 +49703,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 	dusknoir: {
 		learnset: {
 			allyswitch: ["8M", "7T"],
+			drainpunch: ["8M", "7T"],
 			astonish: ["9L1", "8L1", "7L1", "6L1", "5L14", "4L14"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
 			bind: ["9L1", "8L1", "7T", "7L1", "6T", "6L1", "5T", "5L1", "4L1"],
@@ -50189,6 +50214,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			wish: ["3S0"],
 			xscissor: ["8M", "7M", "6M", "5M", "4M"],
 			zenheadbutt: ["8M", "7T", "7E", "6T", "6E", "5T", "5E", "4T", "4E"],
+			moonblast: ["8M", "7M"],
 		},
 		eventData: [
 			{ generation: 3, level: 5, shiny: 1, abilities: ["pressure"], moves: ["scratch", "leer", "wish"], pokeball: "pokeball" },
@@ -51922,6 +51948,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			whirlpool: ["9M", "8M", "4M"],
 			wish: ["9L30", "8L30", "7L1", "7S7", "7S8", "6L1", "5L5", "4L5", "3L5"],
 			zenheadbutt: ["9M", "9L40", "8M", "8L40", "8S10", "7T", "7L41", "6T", "6L40", "5T", "5L40", "4T", "4L40", "4S4"],
+			voltswitch: ["8M"],
 		},
 		eventData: [
 			{ generation: 3, level: 40, shiny: 1, moves: ["watersport", "refresh", "mistball", "psychic"] },
@@ -55175,6 +55202,12 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			uturn: ["9M", "7M", "6M", "5M", "4M"],
 			voltswitch: ["9M", "7M", "6M", "5M"],
 			wildcharge: ["8M"],
+			fleurcannon: ["8M", "7M"],
+			icebeam: ["8M", "7M"],
+			dazzlinggleam: ["8M", "7M"],
+			tailglow: ["8M", "7M"],
+			moonblast: ["8M", "7M"],
+			calmmind: ["8M", "7M"],
 		},
 		eventData: [
 			{ generation: 6, level: 50, nature: "Impish", ivs: { hp: 31, atk: 31, def: 31, spa: 14, spd: 31, spe: 31 }, isHidden: true, moves: ["nuzzle", "superfang", "followme", "protect"], pokeball: "cherishball" },
@@ -61456,6 +61489,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			uproar: ["8M", "7T", "6T", "5T"],
 			wildcharge: ["8M", "7M", "6M", "5M"],
 			workup: ["8M", "8L1", "7M", "7L20", "6L20", "5M", "5L20"],
+			swordsdance: ["8M"],
 		},
 		encounters: [
 			{ generation: 5, level: 23 },
@@ -66202,6 +66236,12 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			willowisp: ["8M", "8L16", "7M", "7L21", "7S0", "6M", "6L21", "5M", "5L21"],
 			wonderroom: ["8M", "7T", "6T", "5T"],
 			zenheadbutt: ["8M", "7T", "6T"],
+			flashcannon: ["8M", "7M"],
+			ironhead: ["8M", "7M"],
+			heavyslam: ["8M", "7M"],
+			metalsound: ["8M", "7M"],
+			gyroball: ["8M", "7M"],
+			spikes: ["8M", "7M"],
 		},
 		eventData: [
 			{ generation: 7, level: 66, gender: "M", moves: ["willowisp", "shadowball", "powersplit", "darkpulse"], pokeball: "cherishball" },
@@ -80001,6 +80041,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			wildcharge: ["9M", "8M", "7M", "6M"],
 			wingattack: ["9L16", "8L16", "7L16", "6L16"],
 			xscissor: ["9M", "8M", "7M", "6M"],
+			overdrive: ["8M"],
 		},
 	},
 	xerneas: {
@@ -82754,11 +82795,13 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			toxic: ["7M"],
 			trailblaze: ["8M"],
 			zenheadbutt: ["9M", "8M", "7T"],
+			counter: ["8M"],
 		},
 	},
 	lycanrocmidnight: {
 		learnset: {
 			attract: ["8M", "7M"],
+			accelerock: ["8M"],
 			bite: ["9L20", "8L20", "7L1"],
 			bodyslam: ["8M"],
 			brickbreak: ["9M", "8M", "7M"],
@@ -82990,6 +83033,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			waterpulse: ["8E", "7T", "7E"],
 			watersport: ["7E"],
 			whirlpool: ["8M", "7E"],
+			recover: ["8M"],
 		},
 	},
 	mareanie: {
@@ -86666,6 +86710,8 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			workup: ["8M", "7M"],
 			worryseed: ["7T"],
 			zenheadbutt: ["8M", "8L45", "7T", "7L48", "7S0", "7S1"],
+			playrough: ["8M", "7M"],
+			grassyglide: ["8M", "7M"],
 		},
 		eventData: [
 			{ generation: 7, level: 60, moves: ["naturesmadness", "zenheadbutt", "megahorn", "skullbash"] },
@@ -87474,6 +87520,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			toxic: ["7M"],
 			wideguard: ["8L25", "7L1"],
 			wringout: ["7L67", "7S0"],
+			slackoff: ["8M"],
 		},
 		eventData: [
 			{ generation: 7, level: 70, moves: ["thrash", "gastroacid", "heavyslam", "wringout"] },
@@ -97752,7 +97799,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			bodypress: ["8M"],
 			bodyslam: ["8M"],
 			brickbreak: ["9M", "9L28", "9S0"],
-			bulkup: ["8M"],
 			bulldoze: ["9M", "9L7"],
 			closecombat: ["9M", "9L63"],
 			defensecurl: ["8M"],
@@ -97772,8 +97818,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			highhorsepower: ["8M"],
 			hornattack: ["8M"],
 			hyperbeam: ["8M"],
-			icefang: ["8M"],
-			icespinner: ["8M"],
 			ironhead: ["8M"],
 			knockoff: ["9M", "9L42", "9S0", "9S1"],
 			megahorn: ["8M"],
@@ -100452,7 +100496,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			dracometeor: ["8M"],
 			dragoncheer: ["8M"],
 			dragonclaw: ["9M", "9L28"],
-			dragondance: ["8M"],
 			dragonpulse: ["8M"],
 			dragonrush: ["9L56", "9S0"],
 			dragontail: ["8M"],
