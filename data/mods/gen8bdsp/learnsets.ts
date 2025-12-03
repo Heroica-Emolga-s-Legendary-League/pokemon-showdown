@@ -58477,7 +58477,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 	},
 	rotomfan: {
 		learnset: {
-			airslash: ["9R", "8R", "7R", "6R", "5R", "4R"],
+			hurricane: ["9R", "8R", "7R", "6R", "5R", "4R"],
 		},
 	},
 	rotommow: {
