@@ -8497,7 +8497,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			protect: ["9M"],
 			psychup: ["9M"],
 			psychocut: ["9M"],
-			quckguard: ["9M"],
+			quickguard: ["9M"],
 			reflect: ["9M"],
 			rest: ["9M"],
 			shadowball: ["9M"],
