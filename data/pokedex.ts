@@ -12535,7 +12535,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     forme: "Drift",
     types: ["Electric"],
     gender: "N",
-    baseStats: { hp: 50, atk: 105, def: 87, spa: 65, spd: 87, spe: 126 },
+    baseStats: { hp: 50, atk: 65, def: 87, spa: 105, spd: 87, spe: 126 },
     abilities: { 0: "Levitate" },
     heightm: 0.3,
     weightkg: 0.3,
@@ -12662,7 +12662,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
   },
   turquolance: {
     num: -1728,
-    name: "Turquolace",
+    name: "Turquolance",
     types: ["Fire", "Steel"],
     baseStats: { hp: 125, atk: 100, def: 85, spa: 75, spd: 60, spe: 80 },
     abilities: { 0: "Flash Fire", H: "Weak Armor" },
