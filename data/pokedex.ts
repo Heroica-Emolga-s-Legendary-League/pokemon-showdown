@@ -9433,7 +9433,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 30
     },
     "abilities": {
-      "0": "Voltage Charge",
+      "0": "Pressure",
       "H": "Infiltrator"
     },
     "heightm": 2,
