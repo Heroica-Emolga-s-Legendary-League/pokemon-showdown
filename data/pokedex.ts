@@ -1738,7 +1738,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 142
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Psycho Ritual"
     },
     "heightm": 4,
     "weightkg": 600,
@@ -8468,6 +8468,35 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     "abilities": {
       "0": "Quark Drive"
+    },
+    "heightm": 1.3,
+    "weightkg": 40,
+    "evoType": "trade",
+    "num": -1276,
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  "naturespore": {
+    "name": "Nature Spore",
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 48,
+      "atk": 74,
+      "def": 108,
+      "spa": 108,
+      "spd": 108,
+      "spe": 124
+    },
+    "abilities": {
+      "0": "Pure Harvest"
     },
     "heightm": 1.3,
     "weightkg": 40,
