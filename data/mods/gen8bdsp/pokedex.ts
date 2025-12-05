@@ -1738,7 +1738,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
       "spe": 142
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Psycho Ritual"
     },
     "heightm": 4,
     "weightkg": 600,
@@ -8468,6 +8468,35 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     },
     "abilities": {
       "0": "Quark Drive"
+    },
+    "heightm": 1.3,
+    "weightkg": 40,
+    "evoType": "trade",
+    "num": -1276,
+    "eggGroups": [
+      "Undiscovered"
+    ]
+  },
+  "naturespore": {
+    "name": "Nature Spore",
+    "types": [
+      "Grass",
+      "Steel"
+    ],
+    "genderRatio": {
+      "M": 0.875,
+      "F": 0.125
+    },
+    "baseStats": {
+      "hp": 48,
+      "atk": 74,
+      "def": 108,
+      "spa": 108,
+      "spd": 108,
+      "spe": 124
+    },
+    "abilities": {
+      "0": "Pure Harvest"
     },
     "heightm": 1.3,
     "weightkg": 40,
@@ -16136,7 +16165,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     num: 168,
     name: "Ariados",
     types: ["Bug", "Poison"],
-    baseStats: { hp: 70, atk: 90, def: 70, spa: 60, spd: 70, spe: 40 },
+    baseStats: { hp: 100, atk: 120, def: 90, spa: 60, spd: 90, spe: 60 },
     abilities: { 0: "Swarm", 1: "Insomnia", H: "Sniper" },
     heightm: 1.1,
     weightkg: 33.5,
@@ -18294,7 +18323,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     num: 303,
     name: "Mawile",
     types: ["Steel", "Fairy"],
-    baseStats: { hp: 70, atk: 95, def: 120, spa: 55, spd: 90, spe: 50 },
+    baseStats: { hp: 70, atk: 75, def: 120, spa: 55, spd: 90, spe: 50 },
     abilities: { 0: "Huge Power", 1: "Intimidate", H: "Sheer Force" },
     heightm: 0.6,
     weightkg: 11.5,
@@ -19157,8 +19186,8 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     num: 358,
     name: "Chimecho",
     types: ["Psychic"],
-    baseStats: { hp: 75, atk: 50, def: 80, spa: 95, spd: 90, spe: 65 },
-    abilities: { 0: "Levitate" },
+    baseStats: { hp: 115, atk: 50, def: 80, spa: 95, spd: 90, spe: 95 },
+    abilities: { 0: "Levitate", 1: "Holy Chime" },
     heightm: 0.6,
     weightkg: 1,
     color: "Blue",
@@ -20054,7 +20083,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
   bastiodon: {
     num: 411,
     name: "Bastiodon",
-    types: ["Rock", "Steel"],
+    types: ["Ground", "Steel"],
     genderRatio: { M: 0.875, F: 0.125 },
     baseStats: { hp: 60, atk: 52, def: 168, spa: 47, spd: 138, spe: 30 },
     abilities: { 0: "Sturdy", H: "Soundproof" },
@@ -22440,8 +22469,8 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     num: 542,
     name: "Leavanny",
     types: ["Bug", "Grass"],
-    baseStats: { hp: 75, atk: 103, def: 80, spa: 70, spd: 80, spe: 92 },
-    abilities: { 0: "Swarm", 1: "Chlorophyll", H: "Overcoat" },
+    baseStats: { hp: 75, atk: 123, def: 80, spa: 70, spd: 80, spe: 112 },
+    abilities: { 0: "Tinted Lens", 1: "Chlorophyll", H: "Overcoat" },
     heightm: 1.2,
     weightkg: 20.5,
     color: "Yellow",
@@ -22736,7 +22765,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     num: 556,
     name: "Maractus",
     types: ["Grass"],
-    baseStats: { hp: 75, atk: 86, def: 67, spa: 106, spd: 67, spe: 60 },
+    baseStats: { hp: 95, atk: 86, def: 87, spa: 106, spd: 87, spe: 90 },
     abilities: { 0: "Water Absorb", 1: "Chlorophyll", H: "Storm Drain" },
     heightm: 1,
     weightkg: 28,
@@ -24340,7 +24369,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     types: ["Fire", "Psychic"],
     genderRatio: { M: 0.875, F: 0.125 },
     baseStats: { hp: 75, atk: 69, def: 72, spa: 114, spd: 100, spe: 104 },
-    abilities: { 0: "Blaze", H: "Magician" },
+    abilities: { 0: "Blaze", H: "Equinox" },
     heightm: 1.5,
     weightkg: 39,
     color: "Red",
@@ -24925,7 +24954,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     num: 687,
     name: "Malamar",
     types: ["Dark", "Psychic"],
-    baseStats: { hp: 86, atk: 92, def: 88, spa: 68, spd: 75, spe: 73 },
+    baseStats: { hp: 86, atk: 102, def: 88, spa: 78, spd: 95, spe: 88 },
     abilities: { 0: "Contrary", 1: "Suction Cups", H: "Infiltrator" },
     heightm: 1.5,
     weightkg: 47,
@@ -28610,7 +28639,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     baseForme: "Vanilla-Cream",
     types: ["Fairy"],
     gender: "F",
-    baseStats: { hp: 65, atk: 60, def: 75, spa: 110, spd: 121, spe: 64 },
+    baseStats: { hp: 95, atk: 60, def: 75, spa: 110, spd: 121, spe: 64 },
     abilities: { 0: "Sweet Veil", H: "Aroma Veil" },
     heightm: 0.3,
     weightkg: 0.5,

@@ -300,4 +300,608 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		},
 		onTakeItem: false,
 	},
+	arbolivite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	altaritehell: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	arcanite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	arcaniteh: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	vent: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	armarougite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	articunite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	aurorusite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	azumarillite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	beheeyemite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	bellossomite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	bellibolite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	bronzongite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	butterfrite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	ceruledgite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	chandelurite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	charizarditea: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	charizarditez: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	chesnaughtite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	claydolite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	clodsirite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	comfeyite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	corviknightite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	crustlite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	cryogonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	darkraite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	darkritez: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	delphoxite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	diamoneyite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	dianciteangel: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	dianciteinnerdemon: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	diancitessea: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	dragapultite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	dragoniteitea: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	dragontieitez: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	drapionite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	drifblimitehell: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	dusknoirite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	eelektrossitehell: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	eldegossite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	emboarite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	emboaritey: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	emolgite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	emolgitey: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	empoleonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	enteite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	espeonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	feraligatrite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	flareonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	florgesitelove: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	flygonitea: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	flygonitez: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	froslassite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	frosmothite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	galvantulite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	gardevoiritesuper: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	glaceonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	greninjite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	gyaradositey: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	helioliskite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	hydrapplite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	infernapite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	jirachite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	jolteonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	jynxite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	kricketunite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	kleavorite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	laprasite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	leafeonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	ludicolite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	lumineonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	mausholdite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	meganiumite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	mewtwonitea: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	mewtwonitez: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	miloticite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	miloticitehell: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	miltankite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	moltresite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	noctowlite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	noivernite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	orbeetlite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	queendritedark: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	queendrite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	raikite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	roseraditehell: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	runerigusite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	samurottite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	samurottitey: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	serperiorite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	serperioriteivy: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	shiftrite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	sirfetchdite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	slowbroniteg: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	snorlaxitehell: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	starmite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	sudowoodite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	suicunite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	swellowite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	sylveonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	talonflamite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	tinkatonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	tinkatonitez: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	togekissite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	torterrite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	toxtricite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	tropiusite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	turtonatorite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	typhlosionite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	typhlosioniteh: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	tyrantrumite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	umbreonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	unownite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	vaporeonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	victreebelite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	vivillonite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	volcaronite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	wailordite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	yanmegite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	zapdosite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	zebstrikite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 };
