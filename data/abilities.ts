@@ -113,9 +113,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		onWeatherChange(pokemon) {
 			// Tundra Core is not affected by Utility Umbrella
-			if (this.field.isWeather('snowscape')) {
+			if (this.field.isWeather('snowscape') || this.field.isWeather('hail')) {
 				pokemon.addVolatile('tundracore');
-			} else if (!pokemon.volatiles['tundracore']?.fromBooster && !this.field.isWeather('snowscape')) {
+			} else if (!pokemon.volatiles['tundracore']?.fromBooster && !this.field.isWeather('snowscape')&& !this.field.isWeather('hail')) {
 				pokemon.removeVolatile('tundracore');
 			}
 		},
