@@ -46,8 +46,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	blizzardveil: {
 		name: 'Blizzard Veil',
 		onStart(_) {
-			if (this.field.isWeather('hail')) return;
-			this.field.setWeather('hail');
+			if (this.field.isWeather('snowscape')) return;
+			this.field.setWeather('snowscape');
 		},
 		num: -1002,
 		rating: 4,
