@@ -21,6 +21,9 @@ export const Scripts: ModdedBattleScriptsData = {
 
 		const moves = Object.keys(Moves);
 		for (const m of moves) {
+			if (Moves[m as keyof typeof Moves].isNonstandard === "Past") {
+				this.modData('Moves', m).isNonstandard = null;
+			}
 			this.modData('Moves', m).gen = 9;
 		}
 
