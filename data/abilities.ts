@@ -46,8 +46,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	blizzardveil: {
 		name: 'Blizzard Veil',
 		onStart(_) {
-			if (this.field.isWeather('hail')) return;
-			this.field.setWeather('hail');
+			if (this.field.isWeather('snowscape')) return;
+			this.field.setWeather('snowscape');
 		},
 		num: -1002,
 		rating: 4,
@@ -113,9 +113,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		onWeatherChange(pokemon) {
 			// Tundra Core is not affected by Utility Umbrella
-			if (this.field.isWeather('snowscape')) {
+			if (this.field.isWeather('snowscape') || this.field.isWeather('hail')) {
 				pokemon.addVolatile('tundracore');
-			} else if (!pokemon.volatiles['tundracore']?.fromBooster && !this.field.isWeather('snowscape')) {
+			} else if (!pokemon.volatiles['tundracore']?.fromBooster && !this.field.isWeather('snowscape')&& !this.field.isWeather('hail')) {
 				pokemon.removeVolatile('tundracore');
 			}
 		},
