@@ -46,8 +46,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	blizzardveil: {
 		name: 'Blizzard Veil',
 		onStart(_) {
-			if (this.field.isWeather('hail')) return;
-			this.field.setWeather('hail');
+			if (this.field.isWeather('snowscape')) return;
+			this.field.setWeather('snowscape');
 		},
 		num: -1002,
 		rating: 4,
@@ -113,9 +113,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},
 		onWeatherChange(pokemon) {
 			// Tundra Core is not affected by Utility Umbrella
-			if (this.field.isWeather('snowscape')) {
+			if (this.field.isWeather('snowscape') || this.field.isWeather('hail')) {
 				pokemon.addVolatile('tundracore');
-			} else if (!pokemon.volatiles['tundracore']?.fromBooster && !this.field.isWeather('snowscape')) {
+			} else if (!pokemon.volatiles['tundracore']?.fromBooster && !this.field.isWeather('snowscape')&& !this.field.isWeather('hail')) {
 				pokemon.removeVolatile('tundracore');
 			}
 		},
@@ -2636,6 +2636,28 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		rating: 4,
 		num: -1140,
+	},
+	poseidon: {
+		name: "Poseidon",
+		onSourceModifyDamage(damage, source, target, move) {
+			if (['raindance', 'primordialsea'].includes(target.effectiveWeather())) {
+				this.debug('Poseidon weaken');
+				return this.chainModify(0.5);
+			}
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (['raindance', 'primordialsea'].includes(pokemon.effectiveWeather())) {
+				if (pokemon.status) {
+					this.add('-activate', pokemon, 'ability: Poseidon');
+					pokemon.cureStatus();
+				}
+			}
+		},
+		flags: {breakable: 1},
+		rating: 4,
+		num: -1141,
 	},
 	// End of Custom Abilities
 	noability: {
