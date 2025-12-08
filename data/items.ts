@@ -1758,8 +1758,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	"floettiteza": {
 		name: "FloettiteZA",
 		megaStone: "Floette-Mega-ZA",
-		itemUser: ["Floette-Eteneral"],
-		megaEvolves: "Floette-Eteneral",
+		itemUser: ["Floette-Eternal"],
+		megaEvolves: "Floette-Eternal",
 		num: -1008,
 		isNonstandard: "Past",
 		gen: 9,
@@ -1831,7 +1831,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 	},
 	"excadriteza": {
-		name: "ExcadrteZA",
+		name: "ExcadriteZA",
 		megaStone: "Excadrill-Mega-ZA",
 		itemUser: ["Excadrill"],
 		megaEvolves: "Excadrill",
