@@ -12842,7 +12842,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 	floettemegaza: {
 		num: 670,
 		name: "Floette-Mega-ZA",
-		baseSpecies: "Floette-Eternal",
+		baseSpecies: "FloetteZAZA",
 		forme: "Mega",
 		types: ["Fairy"],
 		gender: "F",
@@ -12853,7 +12853,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "FloettiteZA",
-		battleOnly: "Floette-Eternal",
+		battleOnly: "FloetteZAZA",
 	},
 	pyroarmegaza: {
 		num: 668,
@@ -25247,6 +25247,20 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
     otherFormes: ['Floette-Mega-ZA'],
     formeOrder: ["Floette-Eternal", "Floette-Mega-ZA"],
+  },
+  floettezaza: {
+    num: 670,
+    name: "FloetteZAZA",
+    types: ["Fairy"],
+    gender: "F",
+    baseStats: { hp: 74, atk: 65, def: 67, spa: 125, spd: 128, spe: 92 },
+    abilities: { 0: "Flower Veil", 1: "Symbiosis" },
+    heightm: 0.2,
+    weightkg: 0.9,
+    color: "White",
+    eggGroups: ["Undiscovered"],
+    otherFormes: ['Floette-Mega-ZA'],
+    formeOrder: ["FloetteZAZA", "Floette-Mega-ZA"],
   },
   florges: {
     num: 671,
