@@ -4947,6 +4947,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "HELL",
 		natDexTier: "OU",
 	},
+	floettezaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "OU",
+	},
 	florges: {
 		tier: "HELL",
 		doublesTier: "(DUU)",
