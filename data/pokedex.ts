@@ -5804,7 +5804,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     ]
   },
   "snorlaxhell": {
-    "name": "Snorlax-Hell",
+    "name": "Snorlax-HELL",
     "types": [
       "Ice",
       "Ground"
@@ -5835,7 +5835,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     ]
   },
   "snorlaxhellmega": {
-    "name": "Snorlax-Hell-Mega",
+    "name": "Snorlax-HELL-Mega",
     "types": [
       "Ice",
       "Ground"

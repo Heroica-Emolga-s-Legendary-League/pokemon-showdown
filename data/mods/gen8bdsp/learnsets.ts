@@ -53066,7 +53066,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			honeclaws: ["6M", "5M"],
 			incinerate: ["6M", "5M"],
 			irontail: ["7T", "6T", "5T", "4M"],
-			jetpunch: ["9M", "8M", "7M", "6M", "5M", "4M"],
 			knockoff: ["8M"],
 			leer: ["9L1", "7L1", "6L1", "5L1", "5S1", "5S3", "4L1"],
 			lowkick: ["9M", "7T", "6T", "5T", "4T"],
