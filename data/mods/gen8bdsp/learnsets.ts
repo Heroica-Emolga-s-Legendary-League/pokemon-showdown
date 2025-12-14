@@ -40033,7 +40033,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			tackle: ["9L1", "8L1", "7L1", "6L1", "5L1", "4L1", "3L1"],
 			takedown: ["9M", "9L30", "8L30", "7L44", "6L31", "5L31", "4L31", "3L31"],
 			terablast: ["8M"],
-			toxic: ["7M", "6M", "5M", "4M", "3M"],
+			toxic: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			uproar: ["9M", "8M", "7T", "6T"],
 			waterfall: ["9M", "8M", "7M", "6M", "5M", "4M", "3M"],
 			watergun: ["9L1", "8L1", "7L1", "6L1", "5L1", "4L1", "3L1"],
