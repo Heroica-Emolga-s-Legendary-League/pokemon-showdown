@@ -14,6 +14,7 @@ export const Scripts: ModdedBattleScriptsData = {
 			if (this.modData('Learnsets', k) !== undefined) {
 				if (this.modData('Learnsets', k).eventData) {
 					this.modData('Learnsets', k).eventData = [];
+					this.modData('Learnsets', k).eventOnly = false;
 				}
 			}
 		}
