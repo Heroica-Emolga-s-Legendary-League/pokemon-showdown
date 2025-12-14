@@ -48330,7 +48330,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			taunt: ["9M", "9L8", "8M", "8L8", "7M", "7L34", "6M", "6L32", "5M", "5L32", "4M", "4L32", "3M", "3L31"],
 			terablast: ["8M"],
 			thief: ["8M"],
-			toxic: ["7M", "6M", "5M", "4M", "3M"],
+			toxic: ["8M", "7M", "6M", "5M", "4M", "3M"],
 			trumpcard: ["7E", "6E", "5E"],
 			visegrip: ["7L7", "6L7", "5L10", "4L10", "3L10"],
 			waterfall: ["9M", "8M", "7M", "6M", "5M", "4M", "3M"],
