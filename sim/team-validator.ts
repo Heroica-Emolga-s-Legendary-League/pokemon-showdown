@@ -2697,9 +2697,9 @@ export class TeamValidator {
 					}
 					moveSources.add(`${learned} ${species.id}`);
 					const eventLearnset = dex.species.getLearnsetData(species.id);
-					if (eventLearnset.eventData?.[parseInt(learned.charAt(2))].emeraldEventEgg && learnedGen === 3) {
-						moveSources.pomegEventEgg = `${learned} ${species.id}`;
-					}
+					// if (eventLearnset.eventData?.[parseInt(learned.charAt(2))].emeraldEventEgg && learnedGen === 3) {
+					// 	moveSources.pomegEventEgg = `${learned} ${species.id}`;
+					// }
 				} else if (learned.charAt(1) === 'D') {
 					// DW moves:
 					//   only if that was the source
