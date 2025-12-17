@@ -12721,7 +12721,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 
   //Legends ZA mons
 	chesnaughtmegaza: {
-		num: 652,
+		num: -652,
 		name: "Chesnaught-Mega-ZA",
 		baseSpecies: "Chesnaught",
 		forme: "Mega",
@@ -12736,7 +12736,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "ChesnaughtiteZA",
 	},
   delphoxmegaza: {
-    num: 655,
+    num: -655,
     name: "Delphox-Mega-ZA",
     baseSpecies: "Delphox",
     forme: "Mega",
@@ -12751,7 +12751,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     requiredItem: "DelphoxiteZA",
 	},
 	greninjamegaza: {
-    num: 658,
+    num: -658,
     name: "Greninja-Mega-ZA",
     baseSpecies: "Greninja",
     forme: "Mega",
@@ -12766,7 +12766,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     requiredItem: "GreninjiteZA",
 	},
 	meganiummegaza: {
-		num: 154,
+		num: -154,
 		name: "Meganium-Mega-ZA",
 		baseSpecies: "Meganium",
 		forme: "Mega",
@@ -12781,7 +12781,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "MeganiumiteZA",
 	},
 	emboarmegaza: {
-		num: 500,
+		num: -500,
 		name: "Emboar-Mega-ZA",
 		baseSpecies: "Emboar",
 		forme: "Mega",
@@ -12796,7 +12796,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "EmboariteZA",
 	},
 	feraligatrmegaza: {
-		num: 160,
+		num: -160,
 		name: "Feraligatr-Mega-ZA",
 		baseSpecies: "Feraligatr",
 		forme: "Mega",
@@ -12811,7 +12811,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "FeraligiteZA",
 	},
 	barbaraclemegaza: {
-		num: 689,
+		num: -689,
 		name: "Barbaracle-Mega-ZA",
 		baseSpecies: "Barbaracle",
 		forme: "Mega",
@@ -12825,7 +12825,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "BarbaraciteZA",
 	},
 	starmiemegaza: {
-		num: 121,
+		num: -121,
 		name: "Starmie-Mega-ZA",
 		baseSpecies: "Starmie",
 		forme: "Mega",
@@ -12840,7 +12840,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "StarminiteZA",
 	},
 	floettemegaza: {
-		num: 670,
+		num: -670,
 		name: "Floette-Mega-ZA",
 		baseSpecies: "FloetteZAZA",
 		forme: "Mega",
@@ -12856,7 +12856,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		battleOnly: "FloetteZAZA",
 	},
 	pyroarmegaza: {
-		num: 668,
+		num: -668,
 		name: "Pyroar-Mega-ZA",
 		baseSpecies: "Pyroar",
 		forme: "Mega",
@@ -12871,7 +12871,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "PyroariteZA",
 	},
 	clefablemegaza: {
-		num: 36,
+		num: -36,
 		name: "Clefable-Mega-ZA",
 		baseSpecies: "Clefable",
 		forme: "Mega",
@@ -12886,7 +12886,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "ClefabliteZA",
 	},
 	scolipedemegaza: {
-		num: 545,
+		num: -545,
 		name: "Scolipede-Mega-ZA",
 		baseSpecies: "Scolipede",
 		forme: "Mega",
@@ -12900,7 +12900,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "ScolipiteZA",
 	},
 	victreebelmegaza: {
-		num: 71,
+		num: -71,
 		name: "Victreebel-Mega-ZA",
 		baseSpecies: "Victreebel",
 		forme: "Mega",
@@ -12914,7 +12914,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "VictreebeliteZA",
 	},
 	excadrillmegaza: {
-		num: 530,
+		num: -530,
 		name: "Excadrill-Mega-ZA",
 		baseSpecies: "Excadrill",
 		forme: "Mega",
@@ -12928,7 +12928,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "ExcadriteZA",
 	},
 	eelektrossmegaza: {
-		num: 604,
+		num: -604,
 		name: "Eelektross-Mega-ZA",
 		baseSpecies: "Eelektross",
 		forme: "Mega",
@@ -12942,7 +12942,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "EelektrossiteZA",
 	},
 	dragonitemegaza: {
-		num: 149,
+		num: -149,
 		name: "Dragonite-Mega-ZA",
 		baseSpecies: "Dragonite",
 		forme: "Mega",
@@ -12956,7 +12956,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "DragoniniteZA",
 	},
 	malamarmegaza: {
-		num: 687,
+		num: -687,
 		name: "Malamar-Mega-ZA",
 		baseSpecies: "Malamar",
 		forme: "Mega",
@@ -12970,7 +12970,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "MalamariteZA",
 	},
 	dragalgemegaza: {
-		num: 691,
+		num: -691,
 		name: "Dragalge-Mega-ZA",
 		baseSpecies: "Dragalge",
 		forme: "Mega",
@@ -12984,7 +12984,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "DragalgiteZA",
 	},
 	froslassmegaza: {
-		num: 478,
+		num: -478,
 		name: "Froslass-Mega-ZA",
 		baseSpecies: "Froslass",
 		forme: "Mega",
@@ -12999,7 +12999,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "FroslassiteZA",
 	},
 	hawluchamegaza: {
-		num: 701,
+		num: -701,
 		name: "Hawlucha-Mega-ZA",
 		baseSpecies: "Hawlucha",
 		forme: "Mega",
@@ -13013,7 +13013,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "HawluchaniteZA",
 	},
 	scraftymegaza: {
-		num: 560,
+		num: -560,
 		name: "Scrafty-Mega-ZA",
 		baseSpecies: "Scrafty",
 		forme: "Mega",
@@ -13027,7 +13027,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "ScraftiniteZA",
 	},
 	chandeluremegaza: {
-		num: 609,
+		num: -609,
 		name: "Chandelure-Mega-ZA",
 		baseSpecies: "Chandelure",
 		forme: "Mega",
@@ -13041,7 +13041,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "ChandeluriteZA",
 	},
 	falinksmegaza: {
-		num: 870,
+		num: -870,
 		name: "Falinks-Mega-ZA",
 		baseSpecies: "Falinks",
 		forme: "Mega",
@@ -13056,7 +13056,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "FalinksiteZA",
 	},
 	skarmorymegaza: {
-		num: 227,
+		num: -227,
 		name: "Skarmory-Mega-ZA",
 		baseSpecies: "Skarmory",
 		forme: "Mega",
@@ -13070,7 +13070,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "SkarmoriteZA",
 	},
 	drampamegaza: {
-		num: 780,
+		num: -780,
 		name: "Drampa-Mega-ZA",
 		baseSpecies: "Drampa",
 		forme: "Mega",
@@ -13084,7 +13084,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		requiredItem: "DrampaniteZA",
 	},
 	zygardemegaza: {
-		num: 718,
+		num: -718,
 		name: "Zygarde-Mega-ZA",
 		baseSpecies: "Zygarde",
 		forme: "Mega",
