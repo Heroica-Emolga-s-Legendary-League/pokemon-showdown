@@ -2295,6 +2295,306 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return true;
 		},
 	},
+	"raichitexza": {
+		name: "RaichiteXZA",
+		megaStone: "Raichu-Mega-X-ZA",
+		itemUser: ["Raichu"],
+		megaEvolves: "Raichu",
+		num: -1044,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"raichiteyza": {
+		name: "RaichiteYZA",
+		megaStone: "Raichu-Mega-Y-ZA",
+		itemUser: ["Raichu"],
+		megaEvolves: "Raichu",
+		num: -1045,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"chimechiteza": {
+		name: "ChimechiteZA",
+		megaStone: "Chimecho-Mega-ZA",
+		itemUser: ["Chimecho"],
+		megaEvolves: "Chimecho",
+		num: -1046,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"absolitezza": {
+		name: "AbsoliteZZA",
+		megaStone: "Absol-Mega-Z-ZA",
+		itemUser: ["Absol"],
+		megaEvolves: "Absol",
+		num: -1047,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"staraptoriteza": {
+		name: "StaraptoriteZA",
+		megaStone: "Staraptor-Mega-ZA",
+		itemUser: ["Staraptor"],
+		megaEvolves: "Staraptor",
+		num: -1048,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"garchompitezza": {
+		name: "GarchompiteZZA",
+		megaStone: "Garchomp-Mega-Z-ZA",
+		itemUser: ["Garchomp"],
+		megaEvolves: "Garchomp",
+		num: -1049,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"lucarionitezza": {
+		name: "LucarioniteZZA",
+		megaStone: "Lucario-Mega-Z-ZA",
+		itemUser: ["Lucario"],
+		megaEvolves: "Lucario",
+		num: -1050,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"heatraniteza": {
+		name: "HeatraniteZA",
+		megaStone: "Heatran-Mega-ZA",
+		itemUser: ["Heatran"],
+		megaEvolves: "Heatran",
+		num: -1051,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"darkriteza": {
+		name: "DarkriteZA",
+		megaStone: "Darkrai-Mega-ZA",
+		itemUser: ["Darkrai"],
+		megaEvolves: "Darkrai",
+		num: -1051,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"golurkiteza": {
+		name: "GolurkiteZA",
+		megaStone: "Golurk-Mega-ZA",
+		itemUser: ["Golurk"],
+		megaEvolves: "Golurk",
+		num: -1052,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"meowsticiteza": {
+		name: "MeowsticiteZA",
+		megaStone: "Meowstic-Mega-ZA",
+		itemUser: ["Meowstic"],
+		megaEvolves: "Meowstic",
+		num: -1053,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"crabominabiteza": {
+		name: "CrabominabiteZA",
+		megaStone: "Crabominable-Mega-ZA",
+		itemUser: ["Crabominable"],
+		megaEvolves: "Crabominable",
+		num: -1053,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"golisopoditeza": {
+		name: "GolisopoditeZA",
+		megaStone: "Golisopod-Mega-ZA",
+		itemUser: ["Golisopod"],
+		megaEvolves: "Golisopod",
+		num: -1054,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"magearniteza": {
+		name: "MagearniteZA",
+		megaStone: "Magearna-Mega-ZA",
+		itemUser: ["Magearna"],
+		megaEvolves: "Magearna",
+		num: -1054,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"zeraoriteza": {
+		name: "ZeraoriteZA",
+		megaStone: "Zeraora-Mega-ZA",
+		itemUser: ["Zeraora"],
+		megaEvolves: "Zeraora",
+		num: -1055,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"scovillainiteza": {
+		name: "ScovillainiteZA",
+		megaStone: "Scovillain-Mega-ZA",
+		itemUser: ["Scovillain"],
+		megaEvolves: "Scovillain",
+		num: -1056,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"glimmoriteza": {
+		name: "GlimmoriteZA",
+		megaStone: "Glimmora-Mega-ZA",
+		itemUser: ["Glimmora"],
+		megaEvolves: "Glimmora",
+		num: -1056,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"tatsugiriteza": {
+		name: "TatsugiriteZA",
+		megaStone: "Tatsugiri-Mega-ZA",
+		itemUser: ["Tatsugiri"],
+		megaEvolves: "Tatsugiri",
+		num: -1057,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"baxcaliburiteza": {
+		name: "BaxcaliburiteZA",
+		megaStone: "Baxcalibur-Mega-ZA",
+		itemUser: ["Baxcalibur"],
+		megaEvolves: "Baxcalibur",
+		num: -1058,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"cofagrigite": {
+		name: "Cofagrigite",
+		megaStone: "Cofagrigus-Mega (Sealed)",
+		itemUser: ["Cofagrigus"],
+		megaEvolves: "Cofagrigus",
+		num: -1058,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
 
 //a
 

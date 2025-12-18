@@ -1171,6 +1171,106 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "HELL",
 		natDexTier: "HELL",
 	},
+	raichumegaxza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	raichumegayza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	chimechomegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	absolmegazza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	staraptormegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	garchompmegazza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	lucariomegazza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	heatranmegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	darkraimegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	golurkmegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	meowsticmegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	crabominablemegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	golisopodmegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	magearnamegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	zeraoramegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	scovillainmegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	glimmoramegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	tatsugirimegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	baxcaliburmegaza: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	cofagrigusmegasealed: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
 	//ZA END
 	bulbasaur: {
 		tier: "LC",
