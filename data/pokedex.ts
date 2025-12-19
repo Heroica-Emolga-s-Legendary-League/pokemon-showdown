@@ -13233,7 +13233,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     types: ["Fighting", "Steel"],
     genderRatio: { M: 0.875, F: 0.125 },
     baseStats: { hp: 70, atk: 100, def: 70, spa: 164, spd: 70, spe: 151 },
-    abilities: { 0: "Steadfast", 1: "Inner Focus", H: "Justified" },
+    abilities: { 0: "Opportunist" },
     heightm: 1.2,
     weightkg: 54,
     color: "Blue",
