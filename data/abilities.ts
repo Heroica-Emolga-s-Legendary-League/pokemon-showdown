@@ -2659,6 +2659,44 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: -1141,
 	},
+	souldrain: {
+		name: "Soul Drain",
+		onDamagingHit(damage, target, source, move) {
+			const healAmount = damage * 0.3;
+			this.heal(healAmount, target, target);
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (pokemon.hp <= pokemon.maxhp * 0.7 && pokemon.species.id === 'cofagrigusmegasealed') {
+				this.add('-activate', pokemon, 'ability: Soul Drain');
+				pokemon.formeChange('Cofagrigus-Mega (Unsealed)', this.effect, true);
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1142,
+	},
+	soultouch: {
+		name: "Soul Touch",
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (move.category !== 'Status' && move.totalDamage) {
+				const healAmount = move.totalDamage * 0.5;
+				this.heal(healAmount, source, source);
+			}
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			if (pokemon.hp >= pokemon.maxhp * 0.7 && pokemon.species.id === 'cofagrigusmegaunsealed') {
+				this.add('-activate', pokemon, 'ability: Soul Touch');
+				pokemon.formeChange('Cofagrigus-Mega (Sealed)', this.effect, true);
+			}
+		},
+		flags: {},
+		rating: 4,
+		num: -1143,
+	},
 	// End of Custom Abilities
 	noability: {
 		isNonstandard: "Past",
