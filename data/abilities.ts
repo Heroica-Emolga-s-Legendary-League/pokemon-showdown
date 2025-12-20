@@ -1487,28 +1487,53 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onStart(pokemon) {
 			pokemon.addVolatile('repetitiveforce');
 		},
+		onSwitchIn(pokemon) {
+			pokemon.addVolatile('repetitiveforce');
+		},
+		onSwitchOut(pokemon) {
+			pokemon.removeVolatile('repetitiveforce');
+		},
 		onEnd(pokemon) {
 			pokemon.removeVolatile('repetitiveforce');
 		},
 		onBasePowerPriority: 21,
-		onBasePower(_, attacker, defender, move) {
-			const reptitiveForce = attacker.volatiles['repetitiveforce'];
-			if (!reptitiveForce) return;
-
-			if (move.id !== reptitiveForce.lastMove)
-				reptitiveForce.counter = 0;
-			else
-				reptitiveForce.counter++;
-
-			reptitiveForce.lastMove = move.id;
-
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.category === 'Status') return;
+			
+			const repetitiveForce = attacker.volatiles['repetitiveforce'];
+			if (!repetitiveForce) {
+				// Initialize the volatile
+				attacker.addVolatile('repetitiveforce');
+				return;
+			}
+			
+			// Reset counter if using a different move
+			if (move.id !== repetitiveForce.lastMove) {
+				repetitiveForce.counter = 0;
+				repetitiveForce.lastMove = move.id;
+				return;
+			}
+			
+			// Increase counter for consecutive same move
+			repetitiveForce.counter = (repetitiveForce.counter || 0) + 1;
+			repetitiveForce.lastMove = move.id;
+			
 			const boostTable = [1, 1.2, 1.4, 1.6, 1.8, 2];
-			const boost = boostTable[Math.min(reptitiveForce.counter, 5)];
-
-			if (reptitiveForce.counter <= 0) return;
-			this.add('-ability', attacker, 'Reptitive Force');
-			this.add('-message', `${attacker.name}'s consecutive hits boost its power (x${boost.toFixed(1)})`);
-			return this.chainModify(boost);
+			const boostIndex = Math.min(repetitiveForce.counter, 5);
+			const boost = boostTable[boostIndex];
+			
+			if (repetitiveForce.counter > 0) {
+				this.add('-activate', attacker, 'ability: Repetitive Force');
+				this.add('-message', `${attacker.name}'s consecutive hits boost its power (x${boost.toFixed(1)})`);
+				return this.chainModify(boost);
+			}
+		},
+		condition: {
+			noCopy: true,
+			onStart(pokemon) {
+				this.effectState.counter = 0;
+				this.effectState.lastMove = '';
+			},
 		},
 		flags: {},
 		rating: 3.5,
