@@ -571,7 +571,6 @@ export class ModdedDex {
 						formeLetter = (species.forme || '').split(/ |-/).map(part => toID(part).charAt(0)).join('') as ID;
 					}
 					addFuzzy(forme, id);
-					console.debug(`Adding fuzzy alias for ${id}: ${forme}`);
 				}
 
 				addFuzzyForme(toID(name), id, forme, formeLetter);
@@ -596,6 +595,7 @@ export class ModdedDex {
 
 		(this as any).aliases = aliases satisfies this['aliases'];
 		(this as any).fuzzyAliases = fuzzyAliases satisfies this['fuzzyAliases'];
+		console.debug('Loaded aliases for', this.currentMod, Object.keys(aliases).length, 'entries');
 		return this.aliases!;
 	}
 	loadData(): DexTableData {
