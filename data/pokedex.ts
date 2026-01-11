@@ -12783,7 +12783,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     weightkg: 108,
     color: "Gray",
     prevo: "Golisopod",
-    evos: ["Kyojisopod"],
     nfe: true,
     evoLevel: 30,
     eggGroups: ["Bug", "Water 3"],

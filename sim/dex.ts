@@ -595,7 +595,6 @@ export class ModdedDex {
 
 		(this as any).aliases = aliases satisfies this['aliases'];
 		(this as any).fuzzyAliases = fuzzyAliases satisfies this['fuzzyAliases'];
-		console.debug('Loaded aliases for', this.currentMod, Object.keys(aliases).length, 'entries');
 		return this.aliases!;
 	}
 	loadData(): DexTableData {
