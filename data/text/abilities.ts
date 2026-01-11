@@ -696,6 +696,11 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		"desc": "If rain is up, takes half damage and cures status at end of turn",
 		"shortDesc": "If rain is up, takes half damage and cures status at end of turn"
 	},
+	"guardianoftheabyss": {
+		"name": "Guardian of the Abyss",
+		"desc": "Ignores opponent's ability when taking damage",
+		"shortDesc": "Ignores opponent's ability when taking damage"
+	},
 	ancienttrungnology: {
 		name: "Ancient Trungnology",
 		shortDesc: "The user's Sp. Atk is tripled.",
