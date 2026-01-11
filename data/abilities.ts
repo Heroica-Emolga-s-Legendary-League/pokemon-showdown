@@ -2722,6 +2722,43 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: -1143,
 	},
+	guardianoftheabyss: {
+		name: "Guardian of the Abyss",
+		onAnyPrepareHit(source, target, move) {
+			if (target !== this.effectState.target) return;
+			if (move.category === 'Status') return;
+			
+			// Store original ability
+			const originalAbility = source.getAbility();
+			if (originalAbility.flags['cantsuppress'] || originalAbility.id === 'guardianoftheabyss') return;
+			
+			// Temporarily change opponent's ability to "No Ability"
+			source.abilityState.originalAbility = originalAbility.id;
+			source.setAbility('noability', target, this.effect);
+			
+			// Make move ignore abilities (prevents type changes, damage boosts, etc.)
+			move.ignoreAbility = true;
+		},
+		onFaint(target, source, effect) {
+			// Restore ability if Pokémon faints during the attack
+			if (source && source.abilityState.originalAbility) {
+				source.setAbility(source.abilityState.originalAbility, this.effectState.target, this.effect);
+				delete source.abilityState.originalAbility;
+			}
+		},
+		onAfterMove(source, target, move) {
+			// Restore opponent's original ability after ANY move completes
+			for (const active of this.getAllActive()) {
+				if (active.abilityState.originalAbility) {
+					active.setAbility(active.abilityState.originalAbility, this.effectState.target, this.effect);
+					delete active.abilityState.originalAbility;
+				}
+			}
+		},
+		flags: {breakable: 1},
+		rating: 4,
+		num: -1144,
+	},
 	// End of Custom Abilities
 	noability: {
 		isNonstandard: "Past",
