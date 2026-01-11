@@ -511,11 +511,11 @@ export class ModdedDex {
 		const aliases = new Map<ID, ID>();
 		for (const [alias, target] of Object.entries(exported.Aliases)) {
 			aliases.set(alias as ID, toID(target));
-			console.debug(`Loaded alias ${alias} -> ${target}`);
 		}
 		const compoundNames = new Map<ID, string>();
 		for (const name of exported.CompoundWordNames) {
 			compoundNames.set(toID(name), name);
+			console.debug(`Adding compound name ${name} as ${toID(name)}`);
 		}
 
 		const fuzzyAliases = new Map<ID, ID[]>();
