@@ -515,7 +515,6 @@ export class ModdedDex {
 		const compoundNames = new Map<ID, string>();
 		for (const name of exported.CompoundWordNames) {
 			compoundNames.set(toID(name), name);
-			console.debug(`Adding compound name ${name} as ${toID(name)}`);
 		}
 
 		const fuzzyAliases = new Map<ID, ID[]>();
@@ -572,6 +571,7 @@ export class ModdedDex {
 						formeLetter = (species.forme || '').split(/ |-/).map(part => toID(part).charAt(0)).join('') as ID;
 					}
 					addFuzzy(forme, id);
+					console.debug(`Adding fuzzy alias for ${id}: ${forme}`);
 				}
 
 				addFuzzyForme(toID(name), id, forme, formeLetter);
