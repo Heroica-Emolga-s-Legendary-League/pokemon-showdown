@@ -409,6 +409,9 @@ export const PokedexText: { [id: IDEntry]: PokedexText; } = {
 	, "belliboltmega": { "name": "Bellibolt-Mega" }
 	, "claydolmega": { "name": "Claydol-Mega" }
 	, "cryogonalmega": { "name": "Cryogonal-Mega" }
+	, "culluroala": { "name": "Culluroala" }
+	, "sigirath": { "name": "Sigirath" }
+	, "kyojisopod": { "name": "Kyojisopod" }
 	,
 
 	// End of Custom Pokemon

@@ -12763,7 +12763,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
   },
   sigirath: {
     num: -1732,
-    name: "Sigilyph",
+    name: "Sigirath",
     types: ["Psychic", "Flying"],
     baseStats: { hp: 98, atk: 40, def: 90, spa: 130, spd: 90, spe: 117 },
     abilities: { 0: "Wonder Skin", 1: "Magic Guard", H: "Tinted Lens" },
