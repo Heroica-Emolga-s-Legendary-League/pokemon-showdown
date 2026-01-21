@@ -9570,7 +9570,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			chillingwater: ["9M"],
 			confide: ["7M", "6M"],
 			confusion: ["7V"],
-			counter: ["7V", "3T"],
+			counter: ["8M", "7V", "3T"],
 			curse: ["7V"],
 			defensecurl: ["7V", "3T"],
 			dig: ["9M", "8M", "8V", "7V", "6M", "5M", "4M", "3M"],
