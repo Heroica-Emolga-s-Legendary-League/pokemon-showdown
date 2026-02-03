@@ -60071,7 +60071,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			refresh: ["7L50", "6L50", "5L50", "4L50"],
 			rest: ["9M", "7M", "6M", "5M", "4M"],
 			retaliate: ["6M", "5M"],
-			return: ["7M", "6M", "5M", "4M"],
+			return: ["8M","7M", "6M", "5M", "4M"],
 			roar: ["9M", "7M", "6M", "5M", "4M"],
 			roaroftime: ["4S0"],
 			rockclimb: ["4M"],
