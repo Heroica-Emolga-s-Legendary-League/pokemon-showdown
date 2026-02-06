@@ -30233,7 +30233,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     types: ["Fairy", "Steel"],
     gender: "F",
     baseStats: { hp: 85, atk: 75, def: 77, spa: 70, spd: 105, spe: 94 },
-    abilities: { 0: "Mold Breaker", 1: "Own Tempo", H: "Pickpocket" },
+    abilities: { 0: "Mold Breaker", 1: "Tinkaton's Workshop", H: "Pickpocket" },
     heightm: 0.7,
     weightkg: 112.8,
     color: "Pink",
