@@ -20071,7 +20071,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			takedown: ["8M"],
 			terablast: ["8M"],
 			thief: ["9M", "8M", "7M", "7V", "6M", "5M", "4M", "3M"],
-			toxic: ["7M", "7V", "6M", "5M", "4M", "3M"],
+			toxic: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			upperhand: ["8M"],
 			uproar: ["9M", "8M", "7T", "6T", "5T", "4T"],
 			vacuumwave: ["9M", "9E", "8E", "7E", "6E", "5E", "4T", "4E"],
