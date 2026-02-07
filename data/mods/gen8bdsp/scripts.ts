@@ -11,6 +11,12 @@ export const Scripts: ModdedBattleScriptsData = {
 		for (const k of keys) {
 			this.modData('FormatsData', k).isNonstandard = 'Past';
 			this.modData('Pokedex', k).gen = 8;
+			if (this.modData('Learnsets', k) !== undefined) {
+				if (this.modData('Learnsets', k).eventData) {
+					this.modData('Learnsets', k).eventData = [];
+					this.modData('Learnsets', k).eventOnly = false;
+				}
+			}
 		}
 
 		const items = Object.keys(Items).filter(i => Items[i as keyof typeof Items].isNonstandard === undefined || Items[i as keyof typeof Items].isNonstandard === 'Future');
@@ -21,6 +27,9 @@ export const Scripts: ModdedBattleScriptsData = {
 
 		const moves = Object.keys(Moves);
 		for (const m of moves) {
+			if (Moves[m as keyof typeof Moves].isNonstandard === "Past") {
+				this.modData('Moves', m).isNonstandard = null;
+			}
 			this.modData('Moves', m).gen = 9;
 		}
 
