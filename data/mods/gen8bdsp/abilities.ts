@@ -2659,6 +2659,26 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		rating: 4,
 		num: -1141,
 	},
+	tinkatonsworkshop: {
+		name: "Tinkaton's Workshop",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (defender.hasType('Steel') && defender.hasType('Flying')) {
+				this.debug('Tinkaton\'s Workshop boost');
+				return this.chainModify(10);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (defender.hasType('Steel') && defender.hasType('Flying')) {
+				this.debug('Tinkaton\'s Workshop boost');
+				return this.chainModify(10);
+			}
+		},
+		flags: {},
+		rating: 5,
+		num: -1145,
+	},
 	// End of Custom Abilities
 	noability: {
 		isNonstandard: "Past",

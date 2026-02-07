@@ -69336,6 +69336,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			highhorsepower: ["8M"],
 			tripleaxel: ["8M"],
 			bodypress: ["8M"],
+			recover: ["8M"],
 		},
 	},
 	tynamo: {

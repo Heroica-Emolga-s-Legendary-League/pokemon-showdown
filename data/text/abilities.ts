@@ -705,6 +705,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		name: "Ancient Trungnology",
 		shortDesc: "The user's Sp. Atk is tripled.",
 	},
+	tinkatonsworkshop: {
+		name: "Tinkaton's Workshop",
+		shortDesc: "Damage is 10x on a steel/flying target",
+	},
 	// End of Custom Abilities
 	noability: {
 		name: "No Ability",
