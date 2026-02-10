@@ -44046,7 +44046,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			thunderpunch: ["9M", "7T", "6T", "5T", "4T"],
 			thunderwave: ["9M", "9L13", "7M", "7L13", "6M", "6L13", "5M", "5L15", "4M", "4L25"],
 			torment: ["7M", "6M", "5M", "4M"],
-			toxic: ["7M", "6M", "5M", "4M"],
+			toxic: ["8M", "7M", "6M", "5M", "4M"],
 			triattack: ["9L0", "7L1"],
 			voltswitch: ["9M", "7M", "6M", "5M"],
 			wideguard: ["9L1", "7L1", "6L1"],
