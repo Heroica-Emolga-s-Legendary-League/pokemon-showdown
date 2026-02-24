@@ -38600,7 +38600,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			chargebeam: ["9M", "7M", "6M", "5M", "4M"],
 			confide: ["7M", "6M"],
 			curse: ["7V"],
-			defog: ["7T", "4M"],
+			defog: ["8T", "7T", "4M"],
 			detect: ["7V"],
 			doubleedge: ["9M", "3T"],
 			doubleteam: ["7M", "7V", "6M", "5M", "4M", "3M"],
