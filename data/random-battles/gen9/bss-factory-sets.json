@@ -3587,7 +3587,7 @@
 		"sets": [{
 			"species": "Arbok",
 			"weight": 50,
-			"level": 79,
+			"level": 85,
 			"item": ["Black Sludge"],
 			"ability": ["Intimidate"],
 			"evs": {"hp": 252, "spd": 4, "spe": 252},
@@ -4087,7 +4087,7 @@
 		}]
 	},
 	"arcaninehisui": {
-		"weight": 5,
+		"weight": 10,
 		"sets": [{
 			"species": "Arcanine-Hisui",
 			"weight": 50,
@@ -4109,6 +4109,17 @@
 			"nature": "Jolly",
 			"teraType": ["Normal", "Rock", "Fire"],
 			"moves": [["Head Smash"], ["Flare Blitz"], ["Extreme Speed"], ["Close Combat", "Rock Blast"]]
+		},
+		{
+			"species": "Harcanine",
+			"weight": 100,
+			"level": 75,
+			"item": ["Arcanite H"],
+			"ability": ["Intimidate"],
+			"evs": {"atk": 252, "spd": 4, "spe": 252},
+			"nature": "Jolly",
+			"teraType": ["Fire"],
+			"moves": [["Close Combat"], ["Extreme Speed"], ["Flare Blitz"], ["Outrage"]]
 		}]
 	},
 	"poliwrath": {
