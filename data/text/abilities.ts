@@ -709,6 +709,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		name: "Tinkaton's Workshop",
 		shortDesc: "Damage is 10x on a steel/flying target",
 	},
+	thebestdefense: {
+		name: "The Best Defense",
+		shortDesc: "Attacks use half of the defense stat in damage calculation",
+	},
 	// End of Custom Abilities
 	noability: {
 		name: "No Ability",

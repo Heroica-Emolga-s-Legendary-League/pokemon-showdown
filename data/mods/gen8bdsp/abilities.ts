@@ -2642,7 +2642,7 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		onSourceModifyDamage(damage, source, target, move) {
 			if (['raindance', 'primordialsea'].includes(target.effectiveWeather())) {
 				this.debug('Poseidon weaken');
-				return this.chainModify(0.5);
+				return this.chainModify(0.8);
 			}
 		},
 		onResidualOrder: 5,
@@ -2678,6 +2678,24 @@ export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTa
 		flags: {},
 		rating: 5,
 		num: -1145,
+	},
+	thebestdefense: {
+		name: "The Best Defense",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			const def = pokemon.getStat('def', false, false);
+			const halfDef = Math.floor(def / 2);
+			return atk + halfDef;
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			const def = pokemon.getStat('def', false, false);
+			const halfDef = Math.floor(def / 2);
+			return spa + halfDef;
+		},
+		flags: {},
+		rating: 4,
+		num: -1146,
 	},
 	// End of Custom Abilities
 	noability: {

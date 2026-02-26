@@ -1496,26 +1496,37 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onEnd(pokemon) {
 			pokemon.removeVolatile('repetitiveforce');
 		},
+		onBeforeMove(pokemon, target, move) {
+			const repetitiveForce = pokemon.volatiles['repetitiveforce'];
+			if (!repetitiveForce) return;
+			
+			// Check if this is a different move than last time
+			if (repetitiveForce.lastMove && move.id !== repetitiveForce.lastMove) {
+				// Reset counter and last move when using a different move
+				repetitiveForce.counter = 0;
+				repetitiveForce.lastMove = '';
+			}
+		},
 		onBasePowerPriority: 21,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.category === 'Status') return;
 			
 			const repetitiveForce = attacker.volatiles['repetitiveforce'];
-			if (!repetitiveForce) {
-				// Initialize the volatile
-				attacker.addVolatile('repetitiveforce');
-				return;
-			}
+			if (!repetitiveForce) return;
 			
-			// Reset counter if using a different move
-			if (move.id !== repetitiveForce.lastMove) {
-				repetitiveForce.counter = 0;
+			// If this is the first move, just record it and return
+			if (!repetitiveForce.lastMove) {
 				repetitiveForce.lastMove = move.id;
+				repetitiveForce.counter = 0;
 				return;
 			}
 			
-			// Increase counter for consecutive same move
-			repetitiveForce.counter = (repetitiveForce.counter || 0) + 1;
+			// If using the same move as last time, increase counter
+			if (move.id === repetitiveForce.lastMove) {
+				repetitiveForce.counter = (repetitiveForce.counter || 0) + 1;
+			}
+			
+			// Update last move
 			repetitiveForce.lastMove = move.id;
 			
 			const boostTable = [1, 1.2, 1.4, 1.6, 1.8, 2];
@@ -2667,7 +2678,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (['raindance', 'primordialsea'].includes(target.effectiveWeather())) {
 				this.debug('Poseidon weaken');
-				return this.chainModify(0.5);
+				return this.chainModify(0.8);
 			}
 		},
 		onResidualOrder: 5,
@@ -2778,6 +2789,24 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {},
 		rating: 5,
 		num: -1145,
+	},
+	thebestdefense: {
+		name: "The Best Defense",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			const def = pokemon.getStat('def', false, false);
+			const halfDef = Math.floor(def / 2);
+			return atk + halfDef;
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			const def = pokemon.getStat('def', false, false);
+			const halfDef = Math.floor(def / 2);
+			return spa + halfDef;
+		},
+		flags: {},
+		rating: 4,
+		num: -1146,
 	},
 	// End of Custom Abilities
 	noability: {
