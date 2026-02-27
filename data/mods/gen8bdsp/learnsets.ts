@@ -47180,6 +47180,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			leechlife: ["8M"],
 			xscissor: ["8M"],
 			lunge: ["8M"],
+			nastyplot: ["8M"],
 		},
 		eventData: [
 			{ generation: 3, level: 45, moves: ["sandtomb", "crunch", "dragonbreath", "screech"], pokeball: "pokeball" },
@@ -68613,7 +68614,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			worryseed: ["7T", "6T", "5T"],
 			knockoff: ["8M"],
 			leechseed: ["8M"],
-			sappyseed: ["8M"],
 			partingshot: ["8M"],
 			shadowball: ["8M"],
 			earthpower: ["8M"],
