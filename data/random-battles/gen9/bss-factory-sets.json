@@ -7918,7 +7918,7 @@
 		"sets": [{
 			"species": "Volbeat",
 			"weight": 50,
-			"level": 80,
+			"level": 90,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Prankster"],
 			"evs": {"hp": 252, "def": 4, "spd": 252},
@@ -9561,7 +9561,7 @@
 		"sets": [{
 			"species": "Wormadam",
 			"weight": 50,
-			"level": 83,
+			"level": 93,
 			"item": ["Eviolite"],
 			"ability": ["Anticipation", "Overcoat"],
 			"teraType": ["Dragon", "Water"],
@@ -14365,6 +14365,18 @@
 			"evs": {"atk": 252, "spa": 4, "spe": 252},
 			"nature": "Naive",
 			"moves": [["Earthquake"], ["Stone Edge"], ["U-turn"], ["Grass Knot", "Stealth Rock", "Tera Blast"]]
+		},
+		{
+			"species": "Landorus-Therian",
+			"weight": 50,
+			"level": 75,
+			"item": ["Expert Belt"],
+			"ability": ["Intimidate"],
+			"teraType": ["Ground", "Water"],
+			"evs": {"hp": 16, "spa": 252, "spe": 240},
+			"ivs": {"atk": 0},
+			"nature": "Modest",
+			"moves": [["Gravity"], ["Earth Power"], ["Sludge Wave"], ["Rock Polish"]]
 		}]
 	},
 	"kyurem": {
@@ -21459,7 +21471,7 @@
 		"sets": [{
 			"species": "Iron Crown",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Choice Specs"],
 			"ability": ["Quark Drive"],
 			"teraType": ["Steel", "Fighting"],
@@ -21470,7 +21482,7 @@
 		{
 			"species": "Iron Crown",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Assault Vest"],
 			"ability": ["Quark Drive"],
 			"teraType": ["Fighting", "Fairy"],
@@ -21483,7 +21495,7 @@
 		{
 			"species": "Iron Crown",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Booster Energy"],
 			"ability": ["Quark Drive"],
 			"teraType": ["Fighting"],
