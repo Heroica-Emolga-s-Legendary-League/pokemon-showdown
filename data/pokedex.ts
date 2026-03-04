@@ -327,7 +327,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 113
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Lithogrit"
     },
     "heightm": 2.3,
     "weightkg": 103,
@@ -350,9 +350,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "baseStats": {
       "hp": 70,
       "atk": 37,
-      "def": 135,
+      "def": 145,
       "spa": 137,
-      "spd": 135,
+      "spd": 145,
       "spe": 38
     },
     "abilities": {
@@ -900,7 +900,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 51
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Tundra Core"
     },
     "heightm": 2,
     "weightkg": 250,
@@ -1622,7 +1622,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 103
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Atlantis Blessing"
     },
     "heightm": 3,
     "weightkg": 75,
@@ -1709,7 +1709,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 97
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Atlantis Blessing"
     },
     "heightm": 8,
     "weightkg": 350,
@@ -2724,7 +2724,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 125
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Tundra Core"
     },
     "heightm": 2.3,
     "weightkg": 320,
@@ -2782,7 +2782,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 71
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Atlantis Blessing"
     },
     "heightm": 2.5,
     "weightkg": 345,
@@ -3304,7 +3304,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 73
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Lithogrit"
     },
     "heightm": 2,
     "weightkg": 200,
@@ -3420,7 +3420,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 53
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Tundra Core"
     },
     "heightm": 4,
     "weightkg": 500,
@@ -3449,7 +3449,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 119
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Lithogrit"
     },
     "heightm": 6,
     "weightkg": 110,
@@ -3478,7 +3478,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 109
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Atlantis Blessing"
     },
     "heightm": 1.2,
     "weightkg": 210,
@@ -3507,7 +3507,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 107
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Tundra Core"
     },
     "heightm": 3,
     "weightkg": 500,
@@ -8322,7 +8322,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 91
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Lithogrit"
     },
     "heightm": 0.7,
     "weightkg": 102.8,
@@ -8390,8 +8390,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "ironpixel": {
-    "name": "Iron Pixel",
+  "strangepixel": {
+    "name": "Strange Pixel",
     "types": [
       "Poison",
       "Electric"
@@ -8409,7 +8409,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 126
     },
     "abilities": {
-      "0": "Quark Drive"
+      "0": "Psycho Ritual"
     },
     "heightm": 1.3,
     "weightkg": 7,
@@ -9372,7 +9372,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "spe": 99
     },
     "abilities": {
-      "0": "Protosynthesis"
+      "0": "Tundra Core"
     },
     "heightm": 1.7,
     "weightkg": 170,
@@ -11504,7 +11504,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     name: "Savage Scythe",
     types: ["Bug", "Water"],
     baseStats: { hp: 85, atk: 127, def: 91, spa: 77, spd: 83, spe: 107 },
-    abilities: { 0: "Protosynthesis" },
+    abilities: { 0: "Atlantis Blessing" },
     weightkg: 129,
     heightm: 2.6,
     color: "Green",

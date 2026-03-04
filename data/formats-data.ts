@@ -274,7 +274,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "axbone": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "fantasticdoll": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironmatrix": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "ironpixel": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
+	, "strangepixel": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "naturespark": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "ironspore": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "naturespore": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
