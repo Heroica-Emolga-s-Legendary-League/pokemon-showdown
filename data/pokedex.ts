@@ -350,9 +350,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "baseStats": {
       "hp": 70,
       "atk": 37,
-      "def": 135,
+      "def": 145,
       "spa": 137,
-      "spd": 135,
+      "spd": 145,
       "spe": 38
     },
     "abilities": {

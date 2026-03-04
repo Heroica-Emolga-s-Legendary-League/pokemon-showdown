@@ -27393,6 +27393,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			thief: ["8M"],
 			uturn: ["9M", "8M"],
 			wingattack: ["9L15", "8L15"],
+			oblivionwing: ["8M"],
 		},
 		eventData: [
 			{ generation: 8, level: 70, moves: ["fierywrath", "hurricane", "suckerpunch", "nastyplot"] },
@@ -81628,6 +81629,13 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			uproar: ["9M", "7T"],
 			uturn: ["9M", "7M"],
 			workup: ["7M"],
+			flareblitz: ["8M"],
+			flamethrower: ["8M"],
+			fireblast: ["8M"],
+			trailblaze: ["8M"],
+			thunderbolt: ["8M"],
+			solarbeam: ["8M"],
+			nastyplot: ["8M"],
 		},
 		encounters: [
 			{ generation: 7, level: 26 },
