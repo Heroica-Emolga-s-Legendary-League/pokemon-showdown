@@ -269,7 +269,7 @@ export const PokedexText: { [id: IDEntry]: PokedexText; } = {
 	, "axbone": { "name": "Axbone" }
 	, "irondoll": { "name": "Irondoll" }
 	, "ironmatrix": { "name": "Ironmatrix" }
-	, "ironpixel": { "name": "Ironpixel" }
+	, "strangepixel": { "name": "Strange Pixel" }
 	, "ironspark": { "name": "Ironspark" }
 	, "ironspore": { "name": "Ironspore" }
 	, "wildwind": { "name": "Wildwind" }

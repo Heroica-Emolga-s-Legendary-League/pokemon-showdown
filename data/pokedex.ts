@@ -2883,7 +2883,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "name": "Iron Drill",
     "types": [
       "Grass",
-      "Steel"
+      "Electric"
     ],
     "genderRatio": {
       "M": 0.875,
@@ -9463,6 +9463,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     "abilities": {
       "0": "Pressure",
+      "1": "Voltage Charge",
       "H": "Infiltrator"
     },
     "heightm": 2,
