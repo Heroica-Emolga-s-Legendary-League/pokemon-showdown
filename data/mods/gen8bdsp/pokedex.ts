@@ -15787,7 +15787,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     forme: "Galar",
     types: ["Dark", "Flying"],
     gender: "N",
-    baseStats: { hp: 90, atk: 85, def: 90, spa: 100, spd: 136, spe: 90 },
+    baseStats: { hp: 90, atk: 85, def: 90, spa: 100, spd: 125, spe: 101 },
     abilities: { 0: "Berserk" },
     heightm: 2,
     weightkg: 66,
