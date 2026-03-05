@@ -12788,6 +12788,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     evoLevel: 30,
     eggGroups: ["Bug", "Water 3"],
   },
+  yvelballs: {
+    num: -1734,
+    name: "Yvelballs",
+    types: ["Dark", "Flying"],
+    gender: "N",
+    baseStats: { hp: 88, atk: 105, def: 80, spa: 105, spd: 83, spe: 99 },
+    abilities: { 0: "Dark Aura" },
+    heightm: 5.8,
+    weightkg: 203,
+    color: "Red",
+    eggGroups: ["Undiscovered"],
+  },
   
   // End of Custom Pokemon
 
