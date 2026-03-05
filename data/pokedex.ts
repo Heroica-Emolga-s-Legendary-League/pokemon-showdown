@@ -12800,6 +12800,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Undiscovered"],
   },
+  xerneass: {
+    num: -1735,
+    name: "Xerneass",
+    types: ["Fairy"],
+    gender: "N",
+    baseStats: { hp: 96, atk: 67, def: 95, spa: 105, spd: 98, spe: 99 },
+    abilities: { 0: "Fairy Aura" },
+    heightm: 3,
+    weightkg: 215,
+    color: "Blue",
+    eggGroups: ["Undiscovered"],
+  },
   
   // End of Custom Pokemon
 
