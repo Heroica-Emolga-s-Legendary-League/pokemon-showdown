@@ -84428,7 +84428,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			flashcannon: ["8M", "7M", "6M"],
 			focusblast: ["8M", "7M", "7S4", "6M", "6S1"],
 			frustration: ["7M", "6M"],
-			geomancy: ["8L55", "7L26", "7S2", "7S3", "7S4", "6L26", "6S0", "6S1"],
 			gigaimpact: ["8M", "8L85", "7M", "7L88", "6M", "6L88"],
 			grassknot: ["8M", "7M", "7S4", "6M"],
 			gravity: ["8L1", "7T", "7L18", "6T", "6L18", "6S0"],
