@@ -12812,6 +12812,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Undiscovered"],
   },
+  iceridah: {
+    num: -1736,
+    name: "Ice Ridah",
+    types: ["Psychic", "Ice"],
+    gender: "N",
+    baseStats: { hp: 100, atk: 135, def: 110, spa: 115, spd: 90, spe: 50 },
+    abilities: { 0: "As One (Glastrier)" },
+    heightm: 2.4,
+    weightkg: 809.1,
+    color: "White",
+    eggGroups: ["Undiscovered"],
+  },
   
   // End of Custom Pokemon
 
