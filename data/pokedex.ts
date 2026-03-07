@@ -12824,6 +12824,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "White",
     eggGroups: ["Undiscovered"],
   },
+  shadowridah: {
+    num: -1736,
+    name: "Shadow Ridah",
+    types: ["Psychic", "Ghost"],
+    gender: "N",
+    baseStats: { hp: 100, atk: 115, def: 60, spa: 135, spd: 80, spe: 110 },
+    abilities: { 0: "As One (Spectrier)" },
+    heightm: 2.4,
+    weightkg: 53.6,
+    color: "Black",
+    eggGroups: ["Undiscovered"],
+  },
   
   // End of Custom Pokemon
 
