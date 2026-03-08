@@ -46,7 +46,7 @@
 			"evs": {"spa": 252, "spd": 4, "spe": 252},
 			"nature": "Timid",
 			"teraType": ["Fairy"],
-			"moves": [["Agility"], ["Light of Ruin"], ["Earth Power"], ["Mystical Fire"]]
+			"moves": [["Glare"], ["Light of Ruin"], ["Earth Power"], ["Mystical Fire"]]
 		}]
 	},
 	"ledigod": {
