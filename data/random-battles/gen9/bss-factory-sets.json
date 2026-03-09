@@ -2590,7 +2590,7 @@
 		"sets": [{
 			"species": "Latiis",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Leftovers"],
 			"ability": ["Levitate"],
 			"teraType": ["Fairy"],
@@ -3006,7 +3006,7 @@
 		"sets": [{
 			"species": "Munkidori-Unchained",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Life Orb"],
 			"ability": ["Clear Body"],
 			"evs": {"spa": 252, "spd": 4, "spe": 252},
@@ -3017,7 +3017,7 @@
 		{
 			"species": "Munkidori-Unchained",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Clear Body"],
 			"evs": {"spa": 252, "spd": 4, "spe": 252},
@@ -7918,7 +7918,7 @@
 		"sets": [{
 			"species": "Volbeat",
 			"weight": 50,
-			"level": 90,
+			"level": 80,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Prankster"],
 			"evs": {"hp": 252, "def": 4, "spd": 252},
@@ -9561,7 +9561,7 @@
 		"sets": [{
 			"species": "Wormadam",
 			"weight": 50,
-			"level": 93,
+			"level": 83,
 			"item": ["Eviolite"],
 			"ability": ["Anticipation", "Overcoat"],
 			"teraType": ["Dragon", "Water"],
@@ -10671,7 +10671,7 @@
 		"sets": [{
 			"species": "Glaceon",
 			"weight": 25,
-			"level": 78,
+			"level": 88,
 			"item": ["Choice Specs"],
 			"ability": ["Ice Body"],
 			"wantsTera": true,
@@ -21471,7 +21471,7 @@
 		"sets": [{
 			"species": "Iron Crown",
 			"weight": 50,
-			"level": 85,
+			"level": 75,
 			"item": ["Choice Specs"],
 			"ability": ["Quark Drive"],
 			"teraType": ["Steel", "Fighting"],
@@ -21482,7 +21482,7 @@
 		{
 			"species": "Iron Crown",
 			"weight": 50,
-			"level": 85,
+			"level": 75,
 			"item": ["Assault Vest"],
 			"ability": ["Quark Drive"],
 			"teraType": ["Fighting", "Fairy"],
@@ -21495,7 +21495,7 @@
 		{
 			"species": "Iron Crown",
 			"weight": 50,
-			"level": 85,
+			"level": 75,
 			"item": ["Booster Energy"],
 			"ability": ["Quark Drive"],
 			"teraType": ["Fighting"],
