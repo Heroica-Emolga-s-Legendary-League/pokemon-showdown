@@ -12848,6 +12848,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "White",
     eggGroups: ["Undiscovered"],
   },
+  chimechime: {
+    num: -1739,
+    name: "Chime Chime",
+    types: ["Psychic"],
+    gender: "N",
+    baseStats: { hp: 115, atk: 50, def: 80, spa: 95, spd: 90, spe: 95 },
+    abilities: { 0: "Levitate", 1: "Holy Chime" },
+    heightm: 0.6,
+    weightkg: 1,
+    color: "Blue",
+    eggGroups: ["Undiscovered"],
+  },
   
   // End of Custom Pokemon
 
