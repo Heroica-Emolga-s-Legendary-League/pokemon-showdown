@@ -12825,7 +12825,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     eggGroups: ["Undiscovered"],
   },
   shadowridah: {
-    num: -1736,
+    num: -1737,
     name: "Shadow Ridah",
     types: ["Psychic", "Ghost"],
     gender: "N",
@@ -12834,6 +12834,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     heightm: 2.4,
     weightkg: 53.6,
     color: "Black",
+    eggGroups: ["Undiscovered"],
+  },
+  pheromoans: {
+    num: -1738,
+    name: "Pheromoans",
+    types: ["Bug", "Fighting"],
+    gender: "N",
+    baseStats: { hp: 91, atk: 117, def: 57, spa: 117, spd: 57, spe: 131 },
+    abilities: { 0: "Beast Boost" },
+    heightm: 1.8,
+    weightkg: 25,
+    color: "White",
     eggGroups: ["Undiscovered"],
   },
   
