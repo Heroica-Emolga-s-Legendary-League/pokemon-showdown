@@ -12860,6 +12860,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Undiscovered"],
   },
+  marachappy: {
+    num: -1740,
+    name: "Marachappy",
+    types: ["Grass", "Ground"],
+    gender: "N",
+    baseStats: { hp: 75, atk: 86, def: 97, spa: 136, spd: 97, spe: 60 },
+    abilities: { 0: "Water Absorb", 1: "Rough Skin", H: "Storm Drain" },
+    heightm: 1,
+    weightkg: 28,
+    color: "Green",
+    eggGroups: ["Undiscovered"],
+  },
   
   // End of Custom Pokemon
 
