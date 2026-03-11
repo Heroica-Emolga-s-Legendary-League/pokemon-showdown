@@ -2808,6 +2808,21 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4,
 		num: -1146,
 	},
+	manofwar: {
+		name: "Man of War",
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (move.category === 'Status') return;
+			if (!this.checkMoveMakesContact(move, source, target, true)) return;
+			
+			// Apply Octolock effect to the target
+			if (target.volatiles['octolock']) return;
+			target.addVolatile('octolock', source);
+			this.add('-activate', target, 'move: Octolock', '[from] ability: Man of War');
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1147,
+	},
 	// End of Custom Abilities
 	noability: {
 		isNonstandard: "Past",

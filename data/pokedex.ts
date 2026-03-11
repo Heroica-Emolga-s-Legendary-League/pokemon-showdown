@@ -12872,6 +12872,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "Green",
     eggGroups: ["Undiscovered"],
   },
+  deligoat: {
+    num: -1741,
+    name: "Deligoat",
+    types: ["Ice", "Flying"],
+    gender: "N",
+    baseStats: { hp: 75, atk: 95, def: 75, spa: 115, spd: 75, spe: 125 },
+    abilities: { 0: "Roulette Roll", 1: "Hustle", H: "Insomnia" },
+    heightm: 0.9,
+    weightkg: 16,
+    color: "Red",
+    eggGroups: ["Undiscovered"],
+  },
   
   // End of Custom Pokemon
 
