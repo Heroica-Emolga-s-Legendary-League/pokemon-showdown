@@ -12878,7 +12878,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     types: ["Ice", "Flying"],
     gender: "N",
     baseStats: { hp: 75, atk: 95, def: 75, spa: 115, spd: 75, spe: 125 },
-    abilities: { 0: "Roulette Roll", 1: "Hustle", H: "Explosive Tantrum" },
+    abilities: { 0: "Roulette Roll", 1: "Texture Swap", H: "Explosive Tantrum" },
     heightm: 0.9,
     weightkg: 16,
     color: "Red",
