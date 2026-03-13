@@ -12884,6 +12884,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Undiscovered"],
   },
+  lovedisc: {
+    num: -1742,
+    name: "Lovedisc",
+    types: ["Water", "Fairy"],
+    gender: "N",
+    baseStats: { hp: 63, atk: 60, def: 55, spa: 120, spd: 65, spe: 137 },
+    abilities: { 0: "Swift Swim", 1: "Sea Cradle", H: "Hydration" },
+    heightm: 0.6,
+    weightkg: 8.7,
+    color: "Pink",
+    eggGroups: ["Undiscovered"],
+  },
   
   // End of Custom Pokemon
 
