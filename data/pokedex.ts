@@ -12896,6 +12896,19 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "Pink",
     eggGroups: ["Undiscovered"],
   },
+  corsolo: {
+    num: -1743,
+    name: "Corsolo",
+    types: ["Water", "Grass"],
+    gender: "N",
+    baseStats: { hp: 105, atk: 75, def: 115, spa: 85, spd: 115, spe: 35 },
+    abilities: { 0: "Hustle", 1: "Natural Cure", H: "Regenerator" },
+    heightm: 0.6,
+    weightkg: 5,
+    color: "Pink",
+    eggGroups: ["Undiscovered"],
+  },
+  
   
   // End of Custom Pokemon
 
