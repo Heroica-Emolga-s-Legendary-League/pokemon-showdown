@@ -44226,6 +44226,11 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			wildcharge: ["7M", "6M", "5M"],
 			workup: ["7M", "5M"],
 			zenheadbutt: ["7T", "6T", "5T", "4T"],
+			uturn: ["7M", "5M"],
+			knockoff: ["7M", "5M"],
+			skillswap: ["7M", "5M"],
+			moonblast: ["7M", "5M"],
+			tidyup: ["7M", "5M"],
 		},
 		eventData: [
 			{ generation: 3, level: 18, abilities: ["cutecharm"], moves: ["sweetkiss", "secretpower", "attract", "shockwave"] },
