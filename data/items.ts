@@ -645,9 +645,9 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return true;
 		},
 	},
-	"emolgite": {
-		name: "Emolgite",
-		megaStone: "Emolga-Mega",
+	"emolgitex": {
+		name: "Emolgite X",
+		megaStone: "Emolga-Mega-X",
 		itemUser: ["Emolga"],
 		megaEvolves: "Emolga",
 		num: -1046,
@@ -2586,6 +2586,21 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		itemUser: ["Cofagrigus"],
 		megaEvolves: "Cofagrigus",
 		num: -1058,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"emolgitez": {
+		name: "Emolgite Z",
+		megaStone: "Emolga-Mega-Z",
+		itemUser: ["Emolga"],
+		megaEvolves: "Emolga",
+		num: -1059,
 		isNonstandard: "Past",
 		gen: 9,
 		onTakeItem: (item, source) => {

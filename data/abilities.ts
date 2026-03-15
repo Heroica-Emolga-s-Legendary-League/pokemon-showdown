@@ -2814,13 +2814,50 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			if (move.category === 'Status') return;
 			if (!this.checkMoveMakesContact(move, source, target, true)) return;
 			
-			// Apply Octolock effect to the target
-			if (target.volatiles['octolock']) return;
-			target.addVolatile('octolock', source);
-			this.add('-activate', target, 'move: Octolock', '[from] ability: Man of War');
+			// Apply Man of War effect on target if not already applied
+			if (!target.volatiles['manofwar'] || target.volatiles['manofwar'].source !== source) {
+				target.addVolatile('manofwar', source);
+			}
+		},
+		onTryMove(pokemon, target, move) {
+			// Prevent Protect if any target has Man of War from this user
+			if (move.id === 'protect') {
+				for (const foe of pokemon.foes()) {
+					if (foe.volatiles['manofwar'] && foe.volatiles['manofwar'].source === pokemon) {
+						this.add('-fail', pokemon, 'move: Protect', '[from] ability: Man of War');
+						return false;
+					}
+				}
+			}
 		},
 		flags: {},
-		rating: 3.5,
+		condition: {
+			name: 'Man of War',
+			onStart(target, source) {
+				this.effectState.source = source;
+				this.add('-start', target, 'Man of War', `[from] ability: Man of War`, `[of] ${source}`);
+			},
+			onResidualOrder: 9,
+			onResidual(target) {
+				if (!this.effectState.source?.isActive || target.fainted) {
+					target.removeVolatile('manofwar');
+					return;
+				}
+				
+				// Lower both Defense and Special Defense by 1 stage at end of each turn
+				this.boost({def: -1, spd: -1}, target, this.effectState.source);
+			},
+			onSwitchOut(target) {
+				target.removeVolatile('manofwar');
+			},
+			onFaint(target) {
+				target.removeVolatile('manofwar');
+			},
+			onEnd(target) {
+				this.add('-end', target, 'Man of War');
+			},
+		},
+		rating: 4,
 		num: -1147,
 	},
 	// End of Custom Abilities
