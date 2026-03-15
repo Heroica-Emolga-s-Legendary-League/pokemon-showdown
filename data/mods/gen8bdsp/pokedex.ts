@@ -22764,9 +22764,9 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
   maractus: {
     num: 556,
     name: "Maractus",
-    types: ["Grass"],
-    baseStats: { hp: 95, atk: 86, def: 87, spa: 106, spd: 87, spe: 90 },
-    abilities: { 0: "Water Absorb", 1: "Chlorophyll", H: "Storm Drain" },
+    types: ["Grass", "Ground"],
+    baseStats: { hp: 75, atk: 86, def: 97, spa: 136, spd: 97, spe: 60 },
+    abilities: { 0: "Water Absorb", 1: "Rough Skin", H: "Storm Drain" },
     heightm: 1,
     weightkg: 28,
     color: "Green",
