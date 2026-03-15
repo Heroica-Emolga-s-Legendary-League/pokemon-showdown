@@ -12941,6 +12941,18 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     eggGroups: ["Field"],
     requiredItem: "Emolgite Z",
   },
+  guzzlarp: {
+    num: -1747,
+    name: "Guzzlarp",
+    types: ["Dark", "Dragon"],
+    baseStats: { hp: 223, atk: 111, def: 78, spa: 47, spd: 78, spe: 33 },
+    abilities: { 0: "Beast Boost" },
+    heightm: 5.5,
+    weightkg: 888,
+    color: "Black",
+    tags: ["Ultra Beast"],
+    eggGroups: ["Undiscovered"],
+  },
   
   
   // End of Custom Pokemon
