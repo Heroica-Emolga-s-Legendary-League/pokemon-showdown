@@ -19459,6 +19459,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L1", "8L1", "8V", "7L19", "7V", "6L19", "5L22", "4L22", "3L30"],
 			wringout: ["7L1", "6L1", "5L61", "4L55"],
 			clamp: ["9M"],
+			wavecrash: ["9M"],
+			aquajet: ["9M"],
+			barbbarrage: ["9M"],
+			mortalspin: ["9M"],
+			taunt: ["9M"],
+			lifedew: ["9M"],
 		},
 	},
 	geodude: {
