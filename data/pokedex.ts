@@ -12953,6 +12953,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
   },
+  magcargoing: {
+    num: -1748,
+    name: "Magcargoing",
+    types: ["Fire", "Rock"],
+    baseStats: { hp: 110, atk: 60, def: 145, spa: 120, spd: 95, spe: 30 },
+    abilities: { 0: "Earth Eater", 1: "Flame Body", H: "Molten Lava" },
+    heightm: 0.8,
+    weightkg: 55,
+    color: "Red",
+    eggGroups: ["Amorphous"],
+  },
   
   
   // End of Custom Pokemon
