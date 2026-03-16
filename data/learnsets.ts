@@ -19465,6 +19465,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			mortalspin: ["9M"],
 			taunt: ["9M"],
 			lifedew: ["9M"],
+			recover: ["9M"],
 		},
 	},
 	geodude: {
