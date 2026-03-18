@@ -97151,6 +97151,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			explosion: ["9M"],
 			paraboliccharge: ["9M"],
 			bugbuzz: ["9M"],
+			icebeam: ["9M"],
 		},
 	},
 	snom: {
