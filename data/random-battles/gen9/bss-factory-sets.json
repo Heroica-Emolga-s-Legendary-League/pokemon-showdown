@@ -2590,7 +2590,7 @@
 		"sets": [{
 			"species": "Latiis",
 			"weight": 50,
-			"level": 85,
+			"level": 75,
 			"item": ["Leftovers"],
 			"ability": ["Levitate"],
 			"teraType": ["Fairy"],
@@ -3006,7 +3006,7 @@
 		"sets": [{
 			"species": "Munkidori-Unchained",
 			"weight": 50,
-			"level": 85,
+			"level": 75,
 			"item": ["Life Orb"],
 			"ability": ["Clear Body"],
 			"evs": {"spa": 252, "spd": 4, "spe": 252},
@@ -3017,7 +3017,7 @@
 		{
 			"species": "Munkidori-Unchained",
 			"weight": 50,
-			"level": 85,
+			"level": 75,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Clear Body"],
 			"evs": {"spa": 252, "spd": 4, "spe": 252},
@@ -3498,7 +3498,7 @@
 		"sets": [{
 			"species": "Pidgeot",
 			"weight": 50,
-			"level": 75,
+			"level": 88,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Big Pecks"],
 			"evs": {"hp": 252, "spa": 4, "spe": 252},
@@ -3509,7 +3509,7 @@
 		{
 			"species": "Pidgeot",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Pidgeotite"],
 			"ability": ["Big Pecks"],
 			"evs": {"spa": 252, "spd": 4, "spe": 252},
@@ -10671,7 +10671,7 @@
 		"sets": [{
 			"species": "Glaceon",
 			"weight": 25,
-			"level": 88,
+			"level": 83,
 			"item": ["Choice Specs"],
 			"ability": ["Ice Body"],
 			"wantsTera": true,
@@ -12267,7 +12267,7 @@
 		"sets": [{
 			"species": "Musharna",
 			"weight": 50,
-			"level": 80,
+			"level": 90,
 			"item": ["Leftovers"],
 			"ability": ["Synchronize"],
 			"teraType": ["Steel", "Fairy"],
@@ -21921,7 +21921,7 @@
 		"sets": [{
 			"species": "Strange Jumper",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Booster Energy"],
 			"ability": ["Psycho Ritual"],
 			"teraType": ["Ice", "Flying"],
@@ -21932,7 +21932,7 @@
 		{
 			"species": "Strange Jumper",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Psycho Ritual"],
 			"teraType": ["Ice", "Bug"],

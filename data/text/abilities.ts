@@ -713,6 +713,10 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		name: "The Best Defense",
 		shortDesc: "Attacks use half of the defense stat in damage calculation",
 	},
+	manofwar: {
+		name: "Man of War",
+		shortDesc: "Contact moves apply an effect that lowers defenses by 1 every turn",
+	},
 	// End of Custom Abilities
 	noability: {
 		name: "No Ability",

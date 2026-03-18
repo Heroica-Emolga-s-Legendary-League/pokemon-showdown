@@ -12919,7 +12919,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     name: "Cthruelhu",
     types: ["Water", "Poison"],
     baseStats: { hp: 90, atk: 110, def: 80, spa: 70, spd: 125, spe: 105 },
-    abilities: { 0: "Clear Body", 1: "Liquid Ooze", H: "Man of War" },
+    abilities: { 0: "Poison Touch", 1: "Lightning Rod", H: "Man of War" },
     heightm: 1.6,
     weightkg: 55,
     color: "Blue",
@@ -12952,6 +12952,17 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "Black",
     tags: ["Ultra Beast"],
     eggGroups: ["Undiscovered"],
+  },
+  magcargoing: {
+    num: -1748,
+    name: "Magcargoing",
+    types: ["Fire", "Rock"],
+    baseStats: { hp: 110, atk: 60, def: 145, spa: 120, spd: 95, spe: 30 },
+    abilities: { 0: "Earth Eater", 1: "Flame Body", H: "Molten Lava" },
+    heightm: 0.8,
+    weightkg: 55,
+    color: "Red",
+    eggGroups: ["Amorphous"],
   },
   
   
