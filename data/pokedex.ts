@@ -12964,6 +12964,28 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "Red",
     eggGroups: ["Amorphous"],
   },
+  garbodoodoo: {
+    num: -1749,
+    name: "Garbodoodoo",
+    types: ["Poison"],
+    baseStats: { hp: 110, atk: 120, def: 92, spa: 60, spd: 92, spe: 75 },
+    abilities: { 0: "Neutralizing Gas", 1: "Weak Armor", H: "Aftermath" },
+    heightm: 1.9,
+    weightkg: 107.3,
+    color: "Green",
+    eggGroups: ["Amorphous"],
+  },
+  pincurchippy: {
+    num: -1750,
+    name: "Pincurchippy",
+    types: ["Electric"],
+    baseStats: { hp: 148, atk: 91, def: 75, spa: 101, spd: 75, spe: 15 },
+    abilities: { 0: "Lightning Rod", 1: "Water Absorb", H: "Electric Surge" },
+    heightm: 0.3,
+    weightkg: 1,
+    color: "Purple",
+    eggGroups: ["Water 1", "Amorphous"],
+  },
   
   
   // End of Custom Pokemon
