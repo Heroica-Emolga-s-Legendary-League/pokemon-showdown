@@ -1,0 +1,7 @@
+.git
+.github
+node_modules
+dist
+config/config.js
+*.log
+.env
