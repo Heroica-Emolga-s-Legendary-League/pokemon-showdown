@@ -12987,6 +12987,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     eggGroups: ["Water 1", "Amorphous"],
   },
   
+  
   // End of Custom Pokemon
 
   //Legends ZA mons
