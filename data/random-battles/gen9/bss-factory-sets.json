@@ -4420,7 +4420,7 @@
 		"sets": [{
 			"species": "Dewgong",
 			"weight": 50,
-			"level": 75,
+			"level": 81,
 			"item": ["Leftovers", "Heavy-Duty Boots"],
 			"ability": ["Thick Fat"],
 			"evs": {"hp": 252, "atk": 4, "spd": 252},
@@ -4431,7 +4431,7 @@
 		{
 			"species": "Dewgong",
 			"weight": 50,
-			"level": 75,
+			"level": 81,
 			"item": ["Leftovers"],
 			"ability": ["Thick Fat"],
 			"evs": {"hp": 252, "spa": 4, "spd": 252},
@@ -8041,7 +8041,7 @@
 		"sets": [{
 			"species": "Camerupt",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Leftovers"],
 			"ability": ["Solid Rock"],
 			"evs": {"hp": 252, "def": 4, "spd": 252},
@@ -9292,7 +9292,7 @@
 		"sets": [{
 			"species": "Monferno",
 			"weight": 50,
-			"level": 82,
+			"level": 85,
 			"item": ["Eviolite"],
 			"ability": ["Blaze", "Iron Fist"],
 			"teraType": ["Fire"],
@@ -9303,7 +9303,7 @@
 		{
 			"species": "Monferno",
 			"weight": 50,
-			"level": 82,
+			"level": 85,
 			"item": ["Eviolite"],
 			"ability": ["Blaze"],
 			"teraType": ["Dark"],
@@ -9314,7 +9314,7 @@
 		{
 			"species": "Monferno",
 			"weight": 50,
-			"level": 82,
+			"level": 85,
 			"item": ["Eviolite"],
 			"ability": ["Blaze"],
 			"teraType": ["Fire", "Fighting"],
@@ -9328,7 +9328,7 @@
 		"sets": [{
 			"species": "Prinplup",
 			"weight": 50,
-			"level": 82,
+			"level": 89,
 			"item": ["Eviolite"],
 			"ability": ["Competitive"],
 			"teraType": ["Grass"],
@@ -9546,7 +9546,7 @@
 		"sets": [{
 			"species": "Bastiodon",
 			"weight": 50,
-			"level": 75,
+			"level": 81,
 			"item": ["Leftovers"],
 			"ability": ["Soundproof"],
 			"teraType": ["Fairy", "Water"],

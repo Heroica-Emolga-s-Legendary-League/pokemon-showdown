@@ -95,6 +95,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	, "ceruledgemega": { "learnset": { "hell": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "bitterblade": ["9L4", "9L3"] } }
 	, "gyaradosmegay": { "learnset": { "hell": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"] } }
 	, "emolgamega": { "learnset": { "hell": ["9L4", "9L3"], "nuzzle": ["9L4", "9L3"], "airslash": ["9L4", "9L3"] } }
+	, "emolgamegaz": { "learnset": { "hell": ["9L4", "9L3"], "nuzzle": ["9L4", "9L3"], "airslash": ["9L4", "9L3"] } }
 	, "articunomega": { "learnset": { "hell": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "roost": ["9L4", "9L3"] } }
 	, "zapdosmega": { "learnset": { "hell": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"] } }
 	, "moltresmega": { "learnset": { "hell": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "roost": ["9L4", "9L3"] } }
@@ -8663,6 +8664,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			headlongrush: ["9M", "8M"],
 			morningsun: ["9M", "8M"],
 			uturn: ["9M", "8M"],
+			hell: ["9M"],
 		},
 	},
 	sigirath: {
@@ -8756,6 +8758,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hurricane: ["8M", "7T", "6T", "5T"],
 			weatherball: ["8M", "7T", "6T", "5T"],
 			thunderbolt: ["8M", "7T", "6T", "5T"],
+			hell: ["9M"],
 		},
 	},
 	kyojisopod: {
@@ -8847,6 +8850,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			meteormash: ["8M", "7M"],
 			bulletpunch: ["8M", "7M"],
 			flashcannon: ["8M", "7M"],
+			hell: ["9M"],
 		},
 	},
 	// End of Custom Pokemon Learnset
@@ -15563,6 +15567,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "6T", "5T", "4T"],
 		},
 	},
+	bellossommega: {
+		learnset: {
+			hell: ["8M"],
+			terablast: ["9M"],
+		}
+	},
 	paras: {
 		learnset: {
 			absorb: ["8V", "7L11"],
@@ -19467,6 +19477,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			taunt: ["9M"],
 			lifedew: ["9M"],
 			recover: ["9M"],
+			hell: ["9M"],
 		},
 	},
 	geodude: {
@@ -40413,6 +40424,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			magmastorm: ["9M"],
 			meteorbeam: ["9M"],
 			sludgebomb: ["9M"],
+			hell: ["9M"],
 		},
 	},
 	swinub: {
@@ -40891,6 +40903,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			grassyglide: ["8L5"],
 			seedbomb: ["8L5"],
 			bulletseed: ["8L5"],
+			hell: ["9M"],
 		},
 		eventData: [
 			{ generation: 3, level: 5, shiny: 1, moves: ["tackle", "mudsport"], pokeball: "pokeball",  },
@@ -41424,6 +41437,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tripleaxel: ["9M", "8T"],
 			waterpulse: ["9M", "7T", "6T", "4M", "3M"],
 			weatherball: ["9M", "8M"],
+			hell: ["9M"],
 		},
 		eventData: [
 			{ generation: 3, level: 10, gender: "M", moves: ["present"], pokeball: "pokeball" },
@@ -48998,6 +49012,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			skillswap: ["7M", "5M"],
 			moonblast: ["7M", "5M"],
 			tidyup: ["7M", "5M"],
+			hell: ["9M"],
 		},
 		eventData: [
 			{ generation: 3, level: 18, abilities: ["cutecharm"], moves: ["sweetkiss", "secretpower", "attract", "shockwave"] },
@@ -54960,6 +54975,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wrap: ["9L1", "7L1", "6L1", "5L1", "5D", "4L1", "3L1", "3S0"],
 			yawn: ["9L13", "7L13", "6L13", "5L25", "4L25", "3L25"],
 			zenheadbutt: ["9M", "7T", "6T", "5T", "4T"],
+			hell: ["9M"],
 		},
 	},
 	absol: {
@@ -55952,6 +55968,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			psyshock: ["9L13"],
 			shadowball: ["9L13"],
 			thunderwave: ["9L13"],
+			hell: ["9M"],
 		},
 	},
 	bagon: {
@@ -70599,6 +70616,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			shadowball: ["8M"],
 			quiverdance: ["8M"],
 			happyhour: ["8M"],
+			hell: ["9M"],
 		},
 	},
 	dwebble: {
@@ -70735,6 +70753,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		encounters: [
 			{ generation: 6, level: 33, maxEggMoves: 1 },
 		],
+	},
+	crustlemega: {
+		learnset: {
+			hell: ["8M"],
+			toxic: ["7M", "6M", "5M"],
+		}
 	},
 	scraggy: {
 		learnset: {
@@ -71256,6 +71280,18 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		encounters: [
 			{ generation: 6, level: 32, maxEggMoves: 1 },
 		],
+	},
+	cofagrigusmegasealed: {
+		learnset: {
+			hell: ["8M"],
+			toxicspikes: ["8M"],
+		}
+	},
+	cofagrigusmegaunsealed: {
+		learnset: {
+			hell: ["8M"],
+			toxicspikes: ["8M"],
+		}
 	},
 	runerigus: {
 		learnset: {
@@ -71855,6 +71891,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			recover: ["8M"],
 			gigatonhammer: ["8M"],
 			knockoff: ["8M"],
+			hell: ["9M"],
 		},
 		encounters: [
 			{ generation: 5, level: 31 },
@@ -77720,6 +77757,12 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		encounters: [
 			{ generation: 7, level: 41 },
 		],
+	},
+	volcaronamega: {
+		learnset: {
+			hell: ["8M"],
+			toxic: ["7M", "6M", "5M"],
+		}
 	},
 	cobalion: {
 		learnset: {
@@ -85323,6 +85366,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["7M", "6M"],
 			wonderroom: ["8M", "7T", "6T"],
 			zenheadbutt: ["8M", "7T", "6T"],
+			hell: ["9M"],
 		},
 	},
 	yveltal: {
@@ -85472,6 +85516,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			toxic: ["7M", "6M"],
 			uturn: ["8M", "7M", "6M"],
 			zenheadbutt: ["8M", "7T", "6T"],
+			hell: ["9M"],
 		},
 	},
 	zygarde: {
@@ -92576,6 +92621,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tripleaxel: ["8T"],
 			triplekick: ["8L30", "7L43", "7S0", "7S1"],
 			uturn: ["8M", "7M"],
+			hell: ["9M"],
 		},
 	},
 	xurkitree: {
@@ -92941,6 +92987,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wideguard: ["8L25", "7L1"],
 			wringout: ["7L67", "7S0"],
 			slackoff: ["7M"],
+			hell: ["9M"],
 		},
 		eventData: [
 			{ generation: 7, level: 70, moves: ["thrash", "gastroacid", "heavyslam", "wringout"] },
@@ -97153,6 +97200,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			paraboliccharge: ["9M"],
 			bugbuzz: ["9M"],
 			icebeam: ["9M"],
+			hell: ["9M"],
 		},
 	},
 	snom: {
@@ -99313,6 +99361,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uproar: ["8M"],
 			wonderroom: ["8M"],
 			zenheadbutt: ["9M", "8M"],
+			hell: ["9M"],
 		},
 	},
 	calyrexshadow: {
@@ -99521,6 +99570,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			willowisp: ["9M", "8M"],
 			wonderroom: ["8M"],
 			zenheadbutt: ["9M", "8M"],
+			hell: ["9M"],
 		},
 	},
 	enamorus: {
@@ -106194,6 +106244,72 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			withdraw: ["9L1"],
 			yawn: ["9L1"],
 		},
+	},
+	hydrapplemega: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
+	},
+	kleavormega: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
+	},
+	mausholdmega: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
+	},
+	yanmegamega: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
+	},
+	kricketunemega: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
+	},
+	arcaninemegah: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
+	},
+	arcaninemega: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
+	},
+	vivillonmega: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
+	},
+	talonflamemega: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
+	},
+	togekissmega: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
+	},
+	tinkatonmegaz: {
+		learnset: {
+			hell: ["8M"],
+			substitute: ["9M", "9L44"],
+		}
 	},
 	gougingfire: {
 		learnset: {
