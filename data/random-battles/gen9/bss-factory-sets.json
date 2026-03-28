@@ -3462,7 +3462,7 @@
 		"sets": [{
 			"species": "Beedrill",
 			"weight": 50,
-			"level": 83,
+			"level": 88,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Sniper"],
 			"evs": {"atk": 252, "spd": 4, "spe": 252},
@@ -3473,7 +3473,7 @@
 		{
 			"species": "Beedrill",
 			"weight": 50,
-			"level": 83,
+			"level": 88,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Sniper"],
 			"evs": {"atk": 252, "spd": 4, "spe": 252},
@@ -3509,7 +3509,7 @@
 		{
 			"species": "Pidgeot",
 			"weight": 50,
-			"level": 85,
+			"level": 75,
 			"item": ["Pidgeotite"],
 			"ability": ["Big Pecks"],
 			"evs": {"spa": 252, "spd": 4, "spe": 252},
@@ -4420,7 +4420,7 @@
 		"sets": [{
 			"species": "Dewgong",
 			"weight": 50,
-			"level": 75,
+			"level": 81,
 			"item": ["Leftovers", "Heavy-Duty Boots"],
 			"ability": ["Thick Fat"],
 			"evs": {"hp": 252, "atk": 4, "spd": 252},
@@ -4431,7 +4431,7 @@
 		{
 			"species": "Dewgong",
 			"weight": 50,
-			"level": 75,
+			"level": 81,
 			"item": ["Leftovers"],
 			"ability": ["Thick Fat"],
 			"evs": {"hp": 252, "spa": 4, "spd": 252},
@@ -5949,7 +5949,7 @@
 		"sets": [{
 			"species": "Togetic",
 			"weight": 50,
-			"level": 78,
+			"level": 86,
 			"item": ["Eviolite"],
 			"ability": ["Serene Grace"],
 			"evs": {"hp": 252, "spa": 4, "spd": 252},
@@ -8041,7 +8041,7 @@
 		"sets": [{
 			"species": "Camerupt",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Leftovers"],
 			"ability": ["Solid Rock"],
 			"evs": {"hp": 252, "def": 4, "spd": 252},
@@ -8423,7 +8423,7 @@
 		"sets": [{
 			"species": "Armaldo",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Battle Armor"],
 			"evs": {"hp": 252, "atk": 252, "spd": 4},
@@ -8463,7 +8463,7 @@
 		"sets": [{
 			"species": "Castform",
 			"weight": 50,
-			"level": 91,
+			"level": 95,
 			"item": ["Leftovers"],
 			"ability": ["Forecast"],
 			"evs": {"hp": 252, "spa": 4, "spd": 252},
@@ -9292,7 +9292,7 @@
 		"sets": [{
 			"species": "Monferno",
 			"weight": 50,
-			"level": 82,
+			"level": 85,
 			"item": ["Eviolite"],
 			"ability": ["Blaze", "Iron Fist"],
 			"teraType": ["Fire"],
@@ -9303,7 +9303,7 @@
 		{
 			"species": "Monferno",
 			"weight": 50,
-			"level": 82,
+			"level": 85,
 			"item": ["Eviolite"],
 			"ability": ["Blaze"],
 			"teraType": ["Dark"],
@@ -9314,7 +9314,7 @@
 		{
 			"species": "Monferno",
 			"weight": 50,
-			"level": 82,
+			"level": 85,
 			"item": ["Eviolite"],
 			"ability": ["Blaze"],
 			"teraType": ["Fire", "Fighting"],
@@ -9328,7 +9328,7 @@
 		"sets": [{
 			"species": "Prinplup",
 			"weight": 50,
-			"level": 82,
+			"level": 89,
 			"item": ["Eviolite"],
 			"ability": ["Competitive"],
 			"teraType": ["Grass"],
@@ -9546,7 +9546,7 @@
 		"sets": [{
 			"species": "Bastiodon",
 			"weight": 50,
-			"level": 75,
+			"level": 81,
 			"item": ["Leftovers"],
 			"ability": ["Soundproof"],
 			"teraType": ["Fairy", "Water"],
@@ -12211,7 +12211,7 @@
 		"sets": [{
 			"species": "Simisage",
 			"weight": 50,
-			"level": 79,
+			"level": 81,
 			"item": ["Iapapa Berry"],
 			"ability": ["Gluttony"],
 			"teraType": ["Flying"],
@@ -12222,7 +12222,7 @@
 		{
 			"species": "Simisage",
 			"weight": 50,
-			"level": 79,
+			"level": 81,
 			"item": ["Leftovers"],
 			"ability": ["Overgrow"],
 			"teraType": ["Water"],
@@ -12237,7 +12237,7 @@
 		"sets": [{
 			"species": "Simipour",
 			"weight": 50,
-			"level": 79,
+			"level": 81,
 			"item": ["Life Orb"],
 			"ability": ["Torrent"],
 			"teraType": ["Water"],
@@ -12252,7 +12252,7 @@
 		"sets": [{
 			"species": "Simisear",
 			"weight": 50,
-			"level": 79,
+			"level": 81,
 			"item": ["Life Orb", "Heavy-Duty Boots"],
 			"ability": ["Blaze"],
 			"teraType": ["Grass"],
@@ -12267,7 +12267,7 @@
 		"sets": [{
 			"species": "Musharna",
 			"weight": 50,
-			"level": 90,
+			"level": 80,
 			"item": ["Leftovers"],
 			"ability": ["Synchronize"],
 			"teraType": ["Steel", "Fairy"],
@@ -14962,7 +14962,7 @@
 		"sets": [{
 			"species": "Pangoro",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Assault Vest"],
 			"ability": ["Iron Fist"],
 			"teraType": ["Steel"],
@@ -14974,7 +14974,7 @@
 		{
 			"species": "Pangoro",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Choice Band"],
 			"ability": ["Mold Breaker"],
 			"teraType": ["Steel"],
@@ -18393,7 +18393,7 @@
 		"sets": [{
 			"species": "Indeedee-F",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Choice Scarf", "Choice Specs"],
 			"ability": ["Psychic Surge"],
 			"teraType": ["Fire"],
@@ -18405,7 +18405,7 @@
 		{
 			"species": "Indeedee-F",
 			"weight": 50,
-			"level": 75,
+			"level": 85,
 			"item": ["Terrain Extender"],
 			"ability": ["Psychic Surge"],
 			"teraType": ["Fairy", "Ghost", "Steel"],
@@ -21921,7 +21921,7 @@
 		"sets": [{
 			"species": "Strange Jumper",
 			"weight": 50,
-			"level": 85,
+			"level": 75,
 			"item": ["Booster Energy"],
 			"ability": ["Psycho Ritual"],
 			"teraType": ["Ice", "Flying"],

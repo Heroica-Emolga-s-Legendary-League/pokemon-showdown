@@ -12124,7 +12124,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     heightm: 1.4,
     weightkg: 143,
     color: "Green",
-    requiredItem: "Bellibolite",
+    requiredItem: "Belliboltite",
     baseSpecies: "Bellibolt",
     forme: "Mega",
     eggGroups: ["Water 1"],
