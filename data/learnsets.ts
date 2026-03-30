@@ -8955,6 +8955,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M"],
 			grassyterrain: ["9M"],
 			grassyglide: ["9M"],
+			headlongrush: ["9M"],
 		},
 	},
 	embarong: {
@@ -9040,6 +9041,9 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wildcharge: ["9M"],
 			willowisp: ["9M"],
 			wish: ["9M"],
+			sacredfire: ["9M"],
+			temperflare: ["9M"],
+			flamewheel: ["9M"],
 		},
 	},
 	abysshed: {
