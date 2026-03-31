@@ -9113,6 +9113,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			return: ["9M"],
 			rocksmash: ["9M"],
 			scald: ["9M"],
+			shadowball: ["9M"],
 			shadowpunch: ["9M"],
 			shadowsneak: ["9M"],
 			shedtail: ["9M"],
