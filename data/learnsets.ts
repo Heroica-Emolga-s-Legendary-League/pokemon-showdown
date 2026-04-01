@@ -9235,6 +9235,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M"],
 			wildcharge: ["9M"],
 			zenheadbutt: ["9M"],
+			honeclaws: ["9M"],
+			gunkshot: ["9M"],
 		},
 	},
 	diggersbyspringtrap: {
@@ -9337,6 +9339,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uturn: ["9M"],
 			wildcharge: ["9M"],
 			zenheadbutt: ["9M"],
+			honeclaws: ["9M"],
+			gunkshot: ["9M"],
 		},
 	},
 	// End of Custom Pokemon Learnset
