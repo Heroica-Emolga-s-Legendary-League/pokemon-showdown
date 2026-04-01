@@ -13019,6 +13019,28 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     color: "Blue",
     eggGroups: ["Water 1"],
   },
+  bunnelbyspringtrap: {
+    num: -1754,
+    name: "Bunnelby-Springtrap",
+    types: ["Steel", "Normal"],
+    baseStats: { hp: 105, atk: 70, def: 47, spa: 47, spd: 47, spe: 97 },
+    abilities: { 0: "Springlock"},
+    heightm: 0.4,
+    weightkg: 12,
+    color: "Brown",
+    eggGroups: ["Field"],
+  },
+  diggersbyspringtrap: {
+    num: -1755,
+    name: "Diggersby-Springtrap",
+    types: ["Steel", "Ghost"],
+    baseStats: { hp: 105, atk: 125, def: 87, spa: 40, spd: 87, spe: 87 },
+    abilities: { 0: "Springlock"},
+    heightm: 1.4,
+    weightkg: 92.4,
+    color: "Brown",
+    eggGroups: ["Field"],
+  },
   
   
   // End of Custom Pokemon
