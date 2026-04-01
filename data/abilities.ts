@@ -2864,63 +2864,78 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Springlock",
 		onDamagePriority: 1,
 		onDamage(damage, target, source, effect) {
-			// Logic for Bunnelby-Springtrap
-			if (target.species.id === 'bunnelbyspringtrap') {
-				// Check if this damage would KO the target
-				if (target.hp - damage <= 0) {
-					this.add('-activate', target, 'ability: Springlock');
-					this.add('-message', `${target.name} is transforming!`);
-					
-					// Transform into Diggersby-Springtrap permanently
-					target.formeChange('Diggersby-Springtrap', this.effect, true);
-					
-					// Explicitly set the ability to Springlock (itself)
-					const newAbility = this.dex.abilities.get('springlock');
-					target.ability = newAbility.id;
-					target.abilityState = {
-						id: newAbility.id,
-						effectType: 'Ability',
-						effect: newAbility,
-						source: target,
-						sourceEffect: this.effect,
-						sourceSlot: target.position,
-						target: target,
-					} as any;
-					
-					// Trigger ability onStart effects
-					this.singleEvent('Start', newAbility, target.abilityState, target);
-					
-					// Grant the stat boost immediately after transformation
-					this.boost({atk: 1, spe: 1}, target, target, this.effect);
-					this.add('-message', `${target.name} gains +1 Attack and +1 Speed!`);
-					
-					// Restore to full HP
-					target.hp = target.maxhp;
-					
-					// Clear status conditions
-					target.clearStatus();
-					
-					// Ensure the transformation is marked as permanent
-					target.transformed = false;
-					target.illusion = null;
-					
-					this.add('-message', `${target.name} transformed into Diggersby-Springtrap and restored full health!`);
-					
-					// Return false to prevent damage
-					return false;
-				}
+			// Only trigger for Bunnelby-Springtrap that hasn't transformed yet
+			if (target.species.id !== 'bunnelbyspringtrap') return;
+			if (target.abilityState.hasTransformed) return;
+			
+			// Check if this damage would KO the target
+			if (target.hp - damage <= 0) {
+				// Use heal to ensure proper HP display and updates
+				this.heal(target.maxhp, target, target);
+				
+				// Also directly set HP to max to guarantee
+				target.hp = target.maxhp;
+				
+				// Clear any status conditions
+				target.clearStatus();
+				
+				// Then transform
+				target.formeChange('Diggersby-Springtrap', this.effect, true);
+				
+				// Mark as transformed
+				target.abilityState.hasTransformed = true;
+				
+				// Set the ability back to Springlock
+				const newAbility = this.dex.abilities.get('springlock');
+				target.ability = newAbility.id;
+				target.abilityState = {
+					id: newAbility.id,
+					effectType: 'Ability',
+					effect: newAbility,
+					source: target,
+					sourceEffect: this.effect,
+					sourceSlot: target.position,
+					target: target,
+					hasTransformed: true,
+				} as any;
+				
+				// Trigger ability onStart effects
+				this.singleEvent('Start', newAbility, target.abilityState, target);
+				
+				// Grant stat boost
+				this.boost({atk: 1, spe: 1}, target, target, this.effect);
+				
+				// Force a second heal to ensure display updates
+				this.heal(target.maxhp, target, target);
+				
+				// Show messages
+				this.add('-activate', target, 'ability: Springlock');
+				this.add('-message', `${target.name} transformed into Diggersby-Springtrap and restored to full health!`);
+				
+				// Return false to prevent the original damage
+				return false;
 			}
 		},
 		onSetStatus(status, pokemon, source, effect) {
-			// Logic for Bunnelby-Springtrap with status condition
-			if (pokemon.species.id === 'bunnelbyspringtrap' && status) {
-				this.add('-activate', pokemon, 'ability: Springlock');
-				this.add('-message', `${pokemon.name} was afflicted with ${status.name} and is transforming!`);
+			// Only trigger for Bunnelby-Springtrap that hasn't transformed yet
+			if (pokemon.species.id !== 'bunnelbyspringtrap') return;
+			if (pokemon.abilityState.hasTransformed) return;
+			
+			if (status) {
+				// Heal to full using multiple methods
+				this.heal(pokemon.maxhp, pokemon, pokemon);
+				pokemon.hp = pokemon.maxhp;
 				
-				// Transform into Diggersby-Springtrap permanently
+				// Clear status
+				pokemon.clearStatus();
+				
+				// Transform
 				pokemon.formeChange('Diggersby-Springtrap', this.effect, true);
 				
-				// Explicitly set the ability to Springlock (itself)
+				// Mark as transformed
+				pokemon.abilityState.hasTransformed = true;
+				
+				// Set the ability back
 				const newAbility = this.dex.abilities.get('springlock');
 				pokemon.ability = newAbility.id;
 				pokemon.abilityState = {
@@ -2931,79 +2946,77 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 					sourceEffect: this.effect,
 					sourceSlot: pokemon.position,
 					target: pokemon,
+					hasTransformed: true,
 				} as any;
 				
-				// Trigger ability onStart effects
+				// Trigger ability onStart
 				this.singleEvent('Start', newAbility, pokemon.abilityState, pokemon);
 				
-				// Grant the stat boost immediately after transformation
+				// Grant stat boost
 				this.boost({atk: 1, spe: 1}, pokemon, pokemon, this.effect);
-				this.add('-message', `${pokemon.name} gains +1 Attack and +1 Speed!`);
 				
-				// Restore to full HP
-				pokemon.hp = pokemon.maxhp;
+				// Force second heal
+				this.heal(pokemon.maxhp, pokemon, pokemon);
 				
-				// Clear status conditions
-				pokemon.clearStatus();
+				// Show messages
+				this.add('-activate', pokemon, 'ability: Springlock');
+				this.add('-message', `${pokemon.name} transformed into Diggersby-Springtrap and restored to full health!`);
 				
-				// Ensure the transformation is marked as permanent
-				pokemon.transformed = false;
-				pokemon.illusion = null;
-				
-				this.add('-message', `${pokemon.name} transformed into Diggersby-Springtrap and restored full health!`);
-				
-				return false; // Prevent the status from being applied
+				return false; // Prevent the status
 			}
 		},
 		onWeather(pokemon) {
-			// Logic for Bunnelby-Springtrap with rain
-			if (pokemon.species.id === 'bunnelbyspringtrap') {
-				const weather = pokemon.effectiveWeather();
-				if (weather === 'raindance' || weather === 'primordialsea') {
-					this.add('-activate', pokemon, 'ability: Springlock');
-					this.add('-message', `${pokemon.name} was weakened by the rain and is transforming!`);
-					
-					// Transform into Diggersby-Springtrap permanently
-					pokemon.formeChange('Diggersby-Springtrap', this.effect, true);
-					
-					// Explicitly set the ability to Springlock (itself)
-					const newAbility = this.dex.abilities.get('springlock');
-					pokemon.ability = newAbility.id;
-					pokemon.abilityState = {
-						id: newAbility.id,
-						effectType: 'Ability',
-						effect: newAbility,
-						source: pokemon,
-						sourceEffect: this.effect,
-						sourceSlot: pokemon.position,
-						target: pokemon,
-					} as any;
-					
-					// Trigger ability onStart effects
-					this.singleEvent('Start', newAbility, pokemon.abilityState, pokemon);
-					
-					// Grant the stat boost immediately after transformation
-					this.boost({atk: 1, spe: 1}, pokemon, pokemon, this.effect);
-					this.add('-message', `${pokemon.name} gains +1 Attack and +1 Speed!`);
-					
-					// Restore to full HP
-					pokemon.hp = pokemon.maxhp;
-					
-					// Clear status conditions
-					pokemon.clearStatus();
-					
-					// Ensure the transformation is marked as permanent
-					pokemon.transformed = false;
-					pokemon.illusion = null;
-					
-					this.add('-message', `${pokemon.name} transformed into Diggersby-Springtrap and restored full health!`);
-				}
+			// Only trigger for Bunnelby-Springtrap that hasn't transformed yet
+			if (pokemon.species.id !== 'bunnelbyspringtrap') return;
+			if (pokemon.abilityState.hasTransformed) return;
+			
+			const weather = pokemon.effectiveWeather();
+			if (weather === 'raindance' || weather === 'primordialsea') {
+				// Heal to full
+				this.heal(pokemon.maxhp, pokemon, pokemon);
+				pokemon.hp = pokemon.maxhp;
+				
+				// Clear status
+				pokemon.clearStatus();
+				
+				// Transform
+				pokemon.formeChange('Diggersby-Springtrap', this.effect, true);
+				
+				// Mark as transformed
+				pokemon.abilityState.hasTransformed = true;
+				
+				// Set the ability back
+				const newAbility = this.dex.abilities.get('springlock');
+				pokemon.ability = newAbility.id;
+				pokemon.abilityState = {
+					id: newAbility.id,
+					effectType: 'Ability',
+					effect: newAbility,
+					source: pokemon,
+					sourceEffect: this.effect,
+					sourceSlot: pokemon.position,
+					target: pokemon,
+					hasTransformed: true,
+				} as any;
+				
+				// Trigger ability onStart
+				this.singleEvent('Start', newAbility, pokemon.abilityState, pokemon);
+				
+				// Grant stat boost
+				this.boost({atk: 1, spe: 1}, pokemon, pokemon, this.effect);
+				
+				// Force second heal
+				this.heal(pokemon.maxhp, pokemon, pokemon);
+				
+				// Show messages
+				this.add('-activate', pokemon, 'ability: Springlock');
+				this.add('-message', `${pokemon.name} transformed into Diggersby-Springtrap and restored to full health!`);
 			}
 		},
 		onSwitchIn(pokemon) {
-			// Logic for Diggersby-Springtrap - one-time check for fainted team members
+			// Logic for Diggersby-Springtrap - only after transformation
 			if (pokemon.species.id === 'diggersbyspringtrap' && !pokemon.abilityState.springlockBoostUsed) {
-				// Count how many Pokémon have fainted on the user's side (like Supreme Overlord)
+				// Count how many Pokémon have fainted on the user's side
 				const faintedCount = pokemon.side.pokemon.filter(p => p.fainted).length;
 				
 				if (faintedCount > 0) {
