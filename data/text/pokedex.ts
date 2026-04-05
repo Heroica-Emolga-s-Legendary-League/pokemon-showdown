@@ -412,6 +412,10 @@ export const PokedexText: { [id: IDEntry]: PokedexText; } = {
 	, "culluroala": { "name": "Culluroala" }
 	, "sigirath": { "name": "Sigirath" }
 	, "kyojisopod": { "name": "Kyojisopod" }
+	, "cthruelhu": { "name": "Cthruelhu" }
+	, "toxatrice": { "name": "Toxatrice" }
+	, "embarong": { "name": "Embarong" }
+	, "abysshed": { "name": "Abysshed" }
 	,
 
 	// End of Custom Pokemon
