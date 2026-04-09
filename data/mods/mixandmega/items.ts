@@ -904,4 +904,233 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+	greninjiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	chesnaughtiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	delphoxiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	meganiumiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	emboariteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	feraligiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	barbaraciteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	starminiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	floettiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	pyroariteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	clefabliteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	scolipiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	victreebeliteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	excadriteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	eelektrossiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	dragoniniteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	malamariteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	dragalgiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	froslassiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	hawluchaniteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	scraftiniteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	chandeluriteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	falinksiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	skarmoriteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	drampaniteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	raichitexza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	raichiteyza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	chimechiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	absolitezza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	staraptoriteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	garchompitezza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	lucarionitezza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	heatraniteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	darkriteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	golurkiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	meowsticiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	crabominabiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	golisopoditeza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	magearniteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	zeraoriteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	scovillainiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	glimmoriteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	tatsugiriteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	baxcaliburiteza: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	cofagrigite: {
+		inherit: true,
+		isNonstandard: null,
+	},
+
+	emolgitez: {
+		inherit: true,
+		isNonstandard: null,
+	},
 };

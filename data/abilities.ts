@@ -689,8 +689,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -1027,
 		rating: 3,
 	},
-	draconize: {
-		name: 'Draconize',
+	dragonize: {
+		name: 'Dragonize',
 		onBasePower(_, _pokemon, _target, move) {
 			if (move.typeChangerBoosted !== this.effect) return;
 			return this.chainModify([4915, 4096]); // 1.2x
@@ -3030,6 +3030,96 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1},
 		rating: 5,
 		num: -1148,
+	},
+	megasol: {
+		name: "Mega Sol",
+		onStart(pokemon) {
+			this.add('-ability', pokemon, 'Mega Sol');
+		},
+		onModifyMove(move, source, target) {
+			if (move.id === 'solarbeam' || move.id === 'solarblade') {
+				if (move.flags['charge']) {
+					delete move.self?.volatileStatus;
+					delete move.flags['charge'];
+				}
+				move.onTryMove = (attacker, defender, move) => {
+					if (attacker.removeVolatile(move.id)) return;
+					this.add('-prepare', attacker, move.name);
+					this.attrLastMove('[still]');
+					this.addMove('-anim', attacker, move.name, defender);
+				};
+			}
+			if (move.id === 'growth') {
+				move.onHit = function(pokemon) {
+					this.boost({atk: 1, spa: 1}, pokemon, pokemon);
+				};
+			}
+		},
+		onModifyTypePriority: 1,
+		onModifyType(move, pokemon) {
+			if (move.id === 'weatherball') {
+				move.type = 'Fire';
+			}
+		},
+		onBasePowerPriority: 1,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.id === 'weatherball') {
+				return this.chainModify(100 / basePower);
+			}
+			if (move.type === 'Fire') {
+				return this.chainModify(1.5);
+			}
+			if (move.type === 'Water') {
+				return this.chainModify(0.5);
+			}
+		},
+		onTryHeal(damage, target, source, effect) {
+			if (effect?.id === 'synthesis' || effect?.id === 'morningsun' || effect?.id === 'moonlight') {
+				return target.maxhp * 0.75;
+			}
+		},
+		onWeather(target, source, effect) {
+			if (effect?.id === 'synthesis' || effect?.id === 'morningsun' || effect?.id === 'moonlight') {
+				return false;
+			}
+		},
+		flags: {breakable: 1},
+		rating: 4.5,
+		num: -1150,
+	},
+	piercingdrill: {
+		name: "Piercing Drill",
+		onModifyMove(move) {
+			if (move.flags['contact'] && move.category !== 'Status') {
+				// Remove protect flag so the move bypasses protection (like Unseen Fist)
+				delete move.flags['protect'];
+			}
+		},
+		onBasePowerPriority: 22,
+		onBasePower(basePower, attacker, defender, move) {
+			// If the move had its protect flag removed, it's bypassing protect
+			// Check if the target actually had a protection move up
+			if (defender.volatiles['protect'] || defender.volatiles['banefulbunker'] ||
+				defender.volatiles['kingsshield'] || defender.volatiles['spikyshield'] ||
+				defender.volatiles['burningbulwark'] || defender.volatiles['silktrap']) {
+				this.debug('Piercing Drill damage reduction');
+				return this.chainModify(0.25);
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1151,
+	},
+	spicyspray: {
+		name: "Spicy Spray",
+		onDamagingHit(damage, target, source, move) {
+			if (move.category !== 'Status') {
+				source.trySetStatus('brn', target);
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1151,
 	},
 	// End of Custom Abilities
 	noability: {
