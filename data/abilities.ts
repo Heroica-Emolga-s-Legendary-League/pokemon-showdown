@@ -3064,7 +3064,25 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onBasePowerPriority: 1,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.id === 'weatherball') {
-				return this.chainModify(100 / basePower);
+				const weather = attacker.effectiveWeather();
+				switch (weather) {
+					case 'sunnyday':
+					case 'desolateland':
+						// Sun boosts Fire 1.5x naturally, just normalize BP to 100
+						return this.chainModify(100 / basePower);
+					case 'raindance':
+					case 'primordialsea':
+						// Rain halves Fire damage, compensate to reach 150 effective BP
+						return this.chainModify(300 / basePower);
+					case 'sandstorm':
+					case 'hail':
+					case 'snowscape':
+						// No weather modifier on Fire, set to 150 effective BP
+						return this.chainModify(150 / basePower);
+					default:
+						// No weather, set to 150 effective BP
+						return this.chainModify(150 / basePower);
+				}
 			}
 			if (move.type === 'Fire') {
 				return this.chainModify(1.5);
