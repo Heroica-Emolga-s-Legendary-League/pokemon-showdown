@@ -170,8 +170,8 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		"desc": "This Pokémon's Normal-type moves become Dark-type and deal 1.2x damage.",
 		"shortDesc": "Normal moves become Dark-type with 1.2x power."
 	},
-	"draconize": {
-		"name": "Draconize",
+	"dragonize": {
+		"name": "Dragonize",
 		"desc": "This Pokémon's Normal-type moves become Dragon-type and deal 1.2x damage.",
 		"shortDesc": "Normal moves become Dragon-type with 1.2x power."
 	},
@@ -716,6 +716,22 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 	manofwar: {
 		name: "Man of War",
 		shortDesc: "Contact moves apply an effect that lowers defenses by 1 every turn",
+	},
+	springlock: {
+		name: "Springlock",
+		shortDesc: "If dead by attack, status, rain revive into Diggersby-Springtrap and boosted stats",
+	},
+	megasol: {
+		name: "Mega Sol",
+		shortDesc: "This pokemon's attacks act as if under harsh sunlight",
+	},
+	piercingdrill: {
+		name: "Piercing Drill",
+		shortDesc: "Contact Moves deal 1/4 to protected opponents",
+	},
+	spicyspray: {
+		name: "Spicy Spray",
+		shortDesc: "Being hit by a damaging attack burns the attacker",
 	},
 	// End of Custom Abilities
 	noability: {
