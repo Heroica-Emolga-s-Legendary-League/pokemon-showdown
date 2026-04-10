@@ -284,6 +284,11 @@ export const Items: import('../../../sim/dex-items').ModdedItemDataTable = {
 		inherit: true,
 		isNonstandard: null,
 	},
+
+	crucibellite: {
+		inherit: true,
+		isNonstandard: null,
+	},
 	vilevial: {
 		inherit: true,
 		onBasePower(basePower, user, target, move) {
