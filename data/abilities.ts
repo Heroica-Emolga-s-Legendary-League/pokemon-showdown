@@ -1408,15 +1408,19 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	ejected: {
 		name: 'Ejected',
 		onSwitchOut(pokemon) {
-			pokemon.heal(pokemon.baseMaxhp / 5);
+			pokemon.heal(pokemon.baseMaxhp / 10);
 			this.add('-heal', pokemon, pokemon.getHealth, '[from] ability: Ejected');
 		},
 		onResidual(pokemon) {
 			if (!pokemon.hp) return;
 			if (pokemon.hp > pokemon.baseMaxhp / 2) return;
 			if (!this.canSwitch(pokemon.side) || pokemon.forceSwitchFlag || pokemon.switchFlag) return;
-			pokemon.switchFlag = true;
+			
+			// Force a random switch like Dragon Tail/Whirlwind
+			pokemon.forceSwitchFlag = true;
+			
 			this.add('-activate', pokemon, 'ability: Ejected');
+			this.add('-message', `${pokemon.name} is being forced out to a random ally!`);
 		},
 		flags: {},
 		rating: 1,
