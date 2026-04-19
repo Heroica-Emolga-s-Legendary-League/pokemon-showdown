@@ -4353,13 +4353,15 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyDefPriority: 2,
 		onModifyDef(def, pokemon) {
-			if (pokemon.baseSpecies.nfe || pokemon.species.id === 'bronzong' || pokemon.species.id === 'sableye') {
+			const includedSpecies = ['bronzong', 'sableye', 'golurk', 'tentacruel'];
+			if (pokemon.baseSpecies.nfe || includedSpecies.includes(pokemon.species.id)) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpDPriority: 2,
 		onModifySpD(spd, pokemon) {
-			if (pokemon.baseSpecies.nfe || pokemon.species.id === 'bronzong' || pokemon.species.id === 'sableye') {
+			const includedSpecies = ['bronzong', 'sableye', 'golurk', 'tentacruel'];
+			if (pokemon.baseSpecies.nfe || includedSpecies.includes(pokemon.species.id)) {
 				return this.chainModify(1.5);
 			}
 		},
