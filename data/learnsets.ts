@@ -67551,6 +67551,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			energyball: ["9M"],
 			earthpower: ["9M"],
 			waterspout: ["9M"],
+			bouncybubble: ["9M"],
 			acrobatics: ["7M", "6M", "5M"],
 			aquatail: ["7T", "6T", "5T"],
 			attract: ["7M", "6M", "5M"],
