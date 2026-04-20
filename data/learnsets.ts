@@ -15889,6 +15889,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			fierydance: ["9M"],
 			strengthsap: ["9M"],
 			spore: ["9M"],
+			eternabeam: ["9M"],
 			absorb: ["9L1", "8L1", "8V", "7V", "3L1"],
 			acid: ["9L1", "8L1", "8V", "7V"],
 			acidspray: ["9M"],
@@ -70240,7 +70241,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		learnset: {
 			hell: ["9M"],
 			closecombat: ["9M"],
-			splishysplash: ["9M"],
+			floatyfall: ["9M"],
+			boltstrike: ["9M"],
 			noretreat: ["9M"],
 			agility: ["9M"],
 			aquajet: ["9L12"],
