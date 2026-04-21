@@ -2613,7 +2613,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	explosivetantrum: {
 		name: "Explosive Tantrum",
 		onAfterEachBoost(boost, target, source, effect) {
-			if (!source || target.isAlly(source)) return;
+			if (!source) return;
+			// Allow self-inflicted drops OR drops from enemies, but not allies
+			if (source !== target && target.isAlly(source)) return;
 			
 			let statsLowered = false;
 			for (const stat in boost) {
@@ -2624,8 +2626,20 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 			
 			if (statsLowered) {
-				this.boost({atk: 1}, target, target, this.effect);
-				this.add('-activate', target, 'ability: Explosive Tantrum');
+				// Check if the stat drop came from Curse
+				const isCurse = effect?.id === 'curse';
+				
+				if (isCurse) {
+					// Give +2 Attack boost for Curse
+					this.boost({atk: 2}, target, target, this.effect);
+					this.add('-activate', target, 'ability: Explosive Tantrum');
+					this.add('-message', `${target.name}'s Explosive Tantrum triggers a massive Attack boost from Curse!`);
+				} else {
+					// Normal +1 Attack boost for other stat drops
+					this.boost({atk: 1}, target, target, this.effect);
+					this.add('-activate', target, 'ability: Explosive Tantrum');
+				}
+				
 				this.actions.useMove('explosion', target);
 			}
 		},
