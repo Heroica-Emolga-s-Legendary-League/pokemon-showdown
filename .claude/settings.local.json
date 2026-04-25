@@ -7,7 +7,13 @@
       "Bash(sed -i '60109s/shadowforce: \\\\[\"4S0\"\\\\]/shadowforce: [\"8M\", \"4S0\"]/' \"C:\\\\Users\\\\korea\\\\OneDrive\\\\Documents\\\\GitHub\\\\pokemon-showdown\\\\data\\\\mods\\\\gen8bdsp\\\\learnsets.ts\")",
       "Bash(sed -i '73190s/defog: \\\\[\"7T\"\\\\]/defog: [\"8M\", \"7T\"]/' \"C:\\\\Users\\\\korea\\\\OneDrive\\\\Documents\\\\GitHub\\\\pokemon-showdown\\\\data\\\\mods\\\\gen8bdsp\\\\learnsets.ts\")",
       "Bash(sed -i '73246s/roost: \\\\[\"7M\", \"6M\", \"5T\"\\\\]/roost: [\"8M\", \"7M\", \"6M\", \"5T\"]/' \"C:\\\\Users\\\\korea\\\\OneDrive\\\\Documents\\\\GitHub\\\\pokemon-showdown\\\\data\\\\mods\\\\gen8bdsp\\\\learnsets.ts\")",
-      "Bash(git log *)"
+      "Bash(git log *)",
+      "Bash(git *)",
+      "Bash(node pokemon-showdown *)",
+      "Bash(cat)",
+      "Bash(node /tmp/check-heatran.js)",
+      "Bash(node check-heatran.js)",
+      "Bash(rm check-heatran.js)"
     ]
   }
 }
