@@ -13,7 +13,8 @@
       "Bash(cat)",
       "Bash(node /tmp/check-heatran.js)",
       "Bash(node check-heatran.js)",
-      "Bash(rm check-heatran.js)"
+      "Bash(rm check-heatran.js)",
+      "Bash(echo \"Exit: $?\")"
     ]
   }
 }
