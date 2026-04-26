@@ -100396,17 +100396,10 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			{ generation: 9, level: 20, nature: "Lonely", ivs: { hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["ivycudgel", "slam", "growth", "vinewhip"] },
 			{ generation: 9, level: 70, nature: "Lonely", ivs: { hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["ivycudgel", "lowkick", "slam", "grassyterrain"] },
 		],
-		eventOnly: true,
 	},
-	ogerponhearthflame: {
-		eventOnly: true,
-	},
-	ogerponwellspring: {
-		eventOnly: true,
-	},
-	ogerponcornerstone: {
-		eventOnly: true,
-	},
+	ogerponhearthflame: {},
+	ogerponwellspring: {},
+	ogerponcornerstone: {},
 	archaludon: {
 		learnset: {
 			aurasphere: ["8M"],
