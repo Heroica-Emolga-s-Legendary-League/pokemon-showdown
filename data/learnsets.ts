@@ -105545,7 +105545,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 9, level: 68, nature: "Quirky", ivs: { hp: 31, atk: 31, def: 28, spa: 31, spd: 28, spe: 31 }, moves: ["powergem", "electrodrift", "endure", "terablast"], pokeball: "pokeball" },
 			{ generation: 9, level: 72, nature: "Modest", ivs: { hp: 25, atk: 31, def: 25, spa: 31, spd: 25, spe: 31 }, moves: ["hyperbeam", "charge", "electrodrift", "powergem"] },
 		],
-		eventOnly: true,
 	},
 	tinkatink: {
 		learnset: {
