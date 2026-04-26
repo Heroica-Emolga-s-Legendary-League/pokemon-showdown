@@ -33252,7 +33252,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 8, level: 1, moves: ['pound', 'reflecttype'], source: 'gen8bdsp' },
 			{ generation: 9, level: 5, moves: ["pollenpuff", "darkpulse", "dragonpulse", "thunderbolt", "dazzlinggleam", "aurasphere", "flamethrower", "airslash", "shadowball", "energyball", "earthpower", "icebeam", "hypervoice", "sludgebomb", "psyshock", "powergem", "flashcannon", "surf", "swift", "lightscreen", "lifedew"], pokeball: "pokeball" },
 		],
-		eventOnly: true,
 	},
 	chikorita: {
 		learnset: {
@@ -58033,7 +58032,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 8, level: 70, nature: "Timid", moves: ["meteormash", "psychic", "rest", "wish"], pokeball: "cherishball" },
 			{ generation: 8, level: 5, moves: ['confusion', 'wish'], source: 'gen8bdsp' },
 		],
-		eventOnly: true,
 	},
 	deoxys: {
 		learnset: {
@@ -79059,7 +79057,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 7, level: 60, shiny: 1, moves: ["earthpower", "rockslide", "earthquake", "sandstorm"] },
 			{ generation: 8, level: 70, shiny: 1, moves: ["sandtomb", "rockslide", "bulldoze", "focusblast"] },
 		],
-		eventOnly: true,
 	},
 	landorustherian: {
 		eventOnly: true,
@@ -98932,7 +98929,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 8, level: 60, perfectIVs: 3, moves: ["crosspoison", "dragonpulse", "flamethrower", "dynamaxcannon"] },
 			{ generation: 8, level: 100, shiny: true, nature: "Timid", perfectIVs: 6, moves: ["eternabeam", "dynamaxcannon", "sludgebomb", "flamethrower"], pokeball: "cherishball" },
 		],
-		eventOnly: true,
 	},
 	kubfu: {
 		learnset: {
@@ -104118,7 +104114,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 9, level: 45, nature: "Naughty", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["rapidspin", "brickbreak", "knockoff", "stompingtantrum"] },
 			{ generation: 9, level: 57, shiny: 1, moves: ["stompingtantrum", "knockoff", "earthquake", "gigaimpact"] },
 		],
-		eventOnly: true,
 	},
 	brutebonnet: {
 		learnset: {
@@ -106406,7 +106401,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		eventData: [
 			{ generation: 9, level: 70, moves: ["superpower", "crunch", "brutalswing", "poisonjab"] },
 		],
-		eventOnly: true,
 	},
 	munkidori: {
 		learnset: {

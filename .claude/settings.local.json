@@ -14,7 +14,12 @@
       "Bash(node /tmp/check-heatran.js)",
       "Bash(node check-heatran.js)",
       "Bash(rm check-heatran.js)",
-      "Bash(echo \"Exit: $?\")"
+      "Bash(echo \"Exit: $?\")",
+      "Bash(awk -F: '$1 > 32847 && $1 < 36300 || $1 > 57901 && $1 < 58100 || $1 > 78972 && $1 < 79100 || $1 > 98875 && $1 < 99000 || $1 > 106337 && $1 < 106500 {print}')",
+      "Bash(awk -F: '\\($1 > 27939 && $1 < 28100\\) || \\($1 > 52478 && $1 < 52600\\) || \\($1 > 73400 && $1 < 73500\\) || \\($1 > 73492 && $1 < 73510\\) || \\($1 > 92885 && $1 < 93000\\) || \\($1 > 97850 && $1 < 98000\\) || \\($1 > 100129 && $1 < 100250\\) {print}')",
+      "Bash(awk -F: '$1 >= 27939 && $1 < 28200')",
+      "Bash(awk -F: '$1 >= 52478 && $1 < 52600')",
+      "Bash(awk -F: 'prev && $1 - prev > 1 && /chikorita|deoxys|kubfu|brutebonnet|munkidori|kyurem/ {print prev_line\"\\\\n\"$0; print \"---\"} {prev=$1; prev_line=$0}')"
     ]
   }
 }
