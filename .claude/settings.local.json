@@ -19,7 +19,14 @@
       "Bash(awk -F: '\\($1 > 27939 && $1 < 28100\\) || \\($1 > 52478 && $1 < 52600\\) || \\($1 > 73400 && $1 < 73500\\) || \\($1 > 73492 && $1 < 73510\\) || \\($1 > 92885 && $1 < 93000\\) || \\($1 > 97850 && $1 < 98000\\) || \\($1 > 100129 && $1 < 100250\\) {print}')",
       "Bash(awk -F: '$1 >= 27939 && $1 < 28200')",
       "Bash(awk -F: '$1 >= 52478 && $1 < 52600')",
-      "Bash(awk -F: 'prev && $1 - prev > 1 && /chikorita|deoxys|kubfu|brutebonnet|munkidori|kyurem/ {print prev_line\"\\\\n\"$0; print \"---\"} {prev=$1; prev_line=$0}')"
+      "Bash(awk -F: 'prev && $1 - prev > 1 && /chikorita|deoxys|kubfu|brutebonnet|munkidori|kyurem/ {print prev_line\"\\\\n\"$0; print \"---\"} {prev=$1; prev_line=$0}')",
+      "Bash(awk -F: '$2>=105043 && $2<=105100')",
+      "Bash(awk 'NR>=105043 && NR<=105100 && \\(/encore: /||/substitute: /\\){print NR\": \"$0}' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/data/learnsets.ts)",
+      "Bash(awk '/ironbundle:/{flag=1} flag && /encore:|substitute:/{print NR\": \"$0; if\\(/substitute:/\\){flag=0}}' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/dist/data/learnsets.js)",
+      "Bash(awk '/ironbundle:/{flag=1} flag && /encore:|substitute:/{print NR\": \"$0; if\\(/substitute:/\\){flag=0}}' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/dist/data/mods/gen8bdsp/learnsets.js)",
+      "Bash(awk '/canUseHomeRelearner|getExternalLearnsetData/{print NR\": \"$0}' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/sim/team-validator.ts)",
+      "Bash(awk 'NR>=105043 && NR<=105100' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/data/learnsets.ts)",
+      "Bash(awk 'NR>=98843 && NR<=98870' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/data/mods/gen8bdsp/learnsets.ts)"
     ]
   }
 }
