@@ -713,6 +713,9 @@ export const Conditions: import('../sim/dex-conditions').ConditionDataTable = {
 			if (source?.hasItem('icyrock') || source.hasAbility('frostvolt')) {
 				return 8;
 			}
+			if (source.hasAbility('blizzardveil')) {
+				return 10;
+			}
 			return 5;
 		},
 		onModifyDefPriority: 10,
