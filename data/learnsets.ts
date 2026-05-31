@@ -113462,8 +113462,10 @@ const addToLearnset = () => {
 		const pokemon = Pokedex[key];
 		if (pokemon && pokemon.num < -1001 && pokemon.forme && pokemon.forme === "Mega") {
 			const baseLearnset = Learnsets[toID(pokemon.baseSpecies)]?.learnset;
-			const targetLearnset = Learnsets[key]?.learnset;
-			if (!baseLearnset || !targetLearnset) continue;
+			if (!baseLearnset) continue;
+			const targetData = Learnsets[key];
+			if (!targetData.learnset) targetData.learnset = {};
+			const targetLearnset = targetData.learnset;
 			for (const learnKey of Object.keys(baseLearnset) as ID[]) {
 				targetLearnset[learnKey] = baseLearnset[learnKey];
 			}

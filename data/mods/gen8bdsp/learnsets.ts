@@ -107192,8 +107192,10 @@ const addToLearnset = () => {
 		const num = pokemon.num;
 		if (typeof num !== "number" || num >= -1001) continue;
 		const baseLearnset = Learnsets[toID(pokemon.baseSpecies)]?.learnset;
-		const targetLearnset = Learnsets[key as keyof typeof Learnsets]?.learnset;
-		if (!baseLearnset || !targetLearnset) continue;
+		if (!baseLearnset) continue;
+		const targetData = Learnsets[key as keyof typeof Learnsets];
+		if (!targetData.learnset) targetData.learnset = {};
+		const targetLearnset = targetData.learnset;
 		for (const learnKey of Object.keys(baseLearnset) as (keyof typeof baseLearnset)[]) {
 			targetLearnset[learnKey] = baseLearnset[learnKey];
 		}
