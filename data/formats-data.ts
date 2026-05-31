@@ -361,13 +361,9 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 	, "gardevoirhell": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "gloomhorn": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "venusaurprime": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "venusaurmegaprime": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "charizardprime": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "charizardmegaprimex": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "charizardmegaprimey": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "flutterlame": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "blastoiseprime": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
-	, "blastoisemegaprime": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "hoho": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "lugaya": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }
 	, "mewtwah": { "isNonstandard": "Past", "tier": "HELL", "natDexTier": "HELL" }

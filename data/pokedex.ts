@@ -230,14 +230,14 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     },
     "baseStats": {
       "hp": 88,
-      "atk": 133,
-      "def": 101,
-      "spa": 127,
-      "spd": 101,
-      "spe": 150
+      "atk": 93,
+      "def": 141,
+      "spa": 177,
+      "spd": 141,
+      "spe": 60
     },
     "abilities": {
-      "0": "Aerilate"
+      "0": "Analytic"
     },
     "heightm": 8,
     "weightkg": 250,
@@ -10461,7 +10461,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "evoType": "trade",
     "requiredItem": "Dragontieite Z",
     "baseSpecies": "Dragonite",
-    "forme": "Mega-Z",
+    "forme": "Mega",
     "num": -1339,
     "eggGroups": [
       "Undiscovered"
@@ -10493,7 +10493,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "evoType": "trade",
     "requiredItem": "Charizardite Z",
     "baseSpecies": "Charizard",
-    "forme": "Mega-Z",
+    "forme": "Mega",
     "num": -1339,
     "eggGroups": [
       "Undiscovered"
@@ -10524,7 +10524,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "weightkg": 85,
     "evoType": "trade",
     "requiredItem": "Typhlosionite H",
-    "baseSpecies": "Typhlosion",
+    "baseSpecies": "Htyphlosion",
     "forme": "Mega",
     "num": -1339,
     "eggGroups": [
@@ -10557,7 +10557,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "evoType": "trade",
     "requiredItem": "Flygonite Z",
     "baseSpecies": "Flygon",
-    "forme": "Mega-Z",
+    "forme": "Mega",
     "num": -1339,
     "eggGroups": [
       "Undiscovered"
@@ -10589,7 +10589,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "evoType": "trade",
     "requiredItem": "Mewtwonite Z",
     "baseSpecies": "Mewtwo",
-    "forme": "Mega-Z",
+    "forme": "Mega",
     "num": -1339,
     "eggGroups": [
       "Undiscovered"
@@ -10620,7 +10620,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "weightkg": 90,
     "evoType": "trade",
     "requiredItem": "Slowbronite G",
-    "baseSpecies": "Slowbro",
+    "baseSpecies": "Glowbro",
     "forme": "Mega",
     "num": -1339,
     "eggGroups": [
@@ -10653,7 +10653,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "evoType": "trade",
     "requiredItem": "Darkrite Z",
     "baseSpecies": "Darkrai",
-    "forme": "Mega-Z",
+    "forme": "Mega",
     "num": -1339,
     "eggGroups": [
       "Undiscovered"
@@ -11031,38 +11031,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
       "Undiscovered"
     ]
   },
-  "venusaurmegaprime": {
-    "name": "Venusaur-Mega-Prime",
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "genderRatio": {
-      "M": 0.875,
-      "F": 0.125
-    },
-    "baseStats": {
-      "hp": 100,
-      "atk": 120,
-      "def": 143,
-      "spa": 142,
-      "spd": 140,
-      "spe": 100
-    },
-    "abilities": {
-      "0": "Thick Fat"
-    },
-    "heightm": 2.4,
-    "weightkg": 155.5,
-    "evoType": "trade",
-    "requiredItem": "Venusaurite Prime",
-    "baseSpecies": "Venusaur-Prime",
-    "forme": "Mega",
-    "num": -1352,
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
   "charizardprime": {
     "name": "Charizard-Prime",
     "types": [
@@ -11090,70 +11058,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "weightkg": 89.5,
     "evoType": "trade",
     "num": -1353,
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
-  "charizardmegaprimex": {
-    "name": "Charizard-Mega-Prime-X",
-    "types": [
-      "Fire",
-      "Dragon"
-    ],
-    "genderRatio": {
-      "M": 0.875,
-      "F": 0.125
-    },
-    "baseStats": {
-      "hp": 98,
-      "atk": 150,
-      "def": 131,
-      "spa": 150,
-      "spd": 105,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "Tough Claws"
-    },
-    "heightm": 1.7,
-    "weightkg": 110.5,
-    "evoType": "trade",
-    "requiredItem": "Charizardite Prime",
-    "baseSpecies": "Charizard-Prime",
-    "forme": "Mega-X",
-    "num": -1354,
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
-  "charizardmegaprimey": {
-    "name": "Charizard-Mega-Prime-Y",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "genderRatio": {
-      "M": 0.875,
-      "F": 0.125
-    },
-    "baseStats": {
-      "hp": 98,
-      "atk": 124,
-      "def": 98,
-      "spa": 179,
-      "spd": 135,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "Drought"
-    },
-    "heightm": 1.7,
-    "weightkg": 100.5,
-    "evoType": "trade",
-    "requiredItem": "Charizardite Prime Y",
-    "baseSpecies": "Charizard-Prime",
-    "forme": "Mega-Y",
-    "num": -1355,
     "eggGroups": [
       "Undiscovered"
     ]
@@ -11213,37 +11117,6 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     "weightkg": 85.5,
     "evoType": "trade",
     "num": -1357,
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
-  "blastoisemegaprime": {
-    "name": "Blastoise-Mega-Prime",
-    "types": [
-      "Water"
-    ],
-    "genderRatio": {
-      "M": 0.875,
-      "F": 0.125
-    },
-    "baseStats": {
-      "hp": 99,
-      "atk": 123,
-      "def": 140,
-      "spa": 155,
-      "spd": 135,
-      "spe": 98
-    },
-    "abilities": {
-      "0": "Mega Launcher"
-    },
-    "heightm": 1.6,
-    "weightkg": 101.1,
-    "evoType": "trade",
-    "requiredItem": "Blastoisite Prime",
-    "baseSpecies": "Blastoise-Prime",
-    "forme": "Mega",
-    "num": -1358,
     "eggGroups": [
       "Undiscovered"
     ]
@@ -13039,6 +12912,29 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     heightm: 1.4,
     weightkg: 92.4,
     color: "Brown",
+    eggGroups: ["Field"],
+  },
+  glowbro: {
+    num: -1756,
+    name: "Glowbro",
+    types: ["Poison", "Psychic"],
+    baseStats: { hp: 95, atk: 100, def: 95, spa: 100, spd: 70, spe: 30 },
+    abilities: { 0: "Quick Draw", 1: "Own Tempo", H: "Regenerator" },
+    heightm: 1.6,
+    weightkg: 70.5,
+    color: "Pink",
+    eggGroups: ["Monster", "Water 1"],
+  },
+  htyphlosion: {
+    num: -1757,
+    name: "Htyphlosion",
+    types: ["Fire", "Ghost"],
+    genderRatio: { M: 0.875, F: 0.125 },
+    baseStats: { hp: 73, atk: 84, def: 78, spa: 119, spd: 85, spe: 95 },
+    abilities: { 0: "Blaze", H: "Frisk" },
+    heightm: 1.6,
+    weightkg: 69.8,
+    color: "Yellow",
     eggGroups: ["Field"],
   },
   
@@ -31302,7 +31198,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     forme: "Prime",
     types: ["Grass", "Ghost"],
     baseStats: { hp: 75, atk: 135, def: 90, spa: 100, spd: 90, spe: 110 },
-    abilities: { 0: "Wind Rider", 1: "Shadow Shield", H: "Inflitrator" },
+    abilities: { 0: "Wind Rider", 1: "Shadow Shield", H: "Infiltrator" },
     heightm: 1.2,
     weightkg: 6,
     color: "Brown",
