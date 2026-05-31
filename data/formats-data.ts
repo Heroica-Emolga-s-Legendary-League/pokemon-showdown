@@ -1998,6 +1998,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DUU)",
 		natDexTier: "UU",
 	},
+	glowbro: {
+		tier: "HELL",
+		doublesTier: "(DUU)",
+		natDexTier: "UU",
+	},
 	slowking: {
 		tier: "HELL",
 		doublesTier: "(DUU)",
@@ -2620,6 +2625,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "RU",
 	},
 	typhlosionhisui: {
+		tier: "HELL",
+		doublesTier: "DUU",
+		natDexTier: "RU",
+	},
+	htyphlosion: {
 		tier: "HELL",
 		doublesTier: "DUU",
 		natDexTier: "RU",
