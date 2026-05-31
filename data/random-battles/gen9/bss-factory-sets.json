@@ -728,7 +728,7 @@
 		"sets": [{
 			"species": "Ting-Lu-Unleashed",
 			"weight": 50,
-			"level": 70,
+			"level": 60,
 			"item": ["Leftovers"],
 			"ability": ["Vessel of Ruin"],
 			"evs": {"hp": 252, "def": 4, "spd": 252},
@@ -740,7 +740,7 @@
 		{
 			"species": "Ting-Lu-Unleashed",
 			"weight": 50,
-			"level": 70,
+			"level": 60,
 			"item": ["Leftovers"],
 			"ability": ["Water Bubble"],
 			"evs": {"hp": 252, "atk": 252, "spd": 4},
@@ -1882,7 +1882,7 @@
 		"sets": [{
 			"species": "Wormatron-Copper",
 			"weight": 50,
-			"level": 91,
+			"level": 81,
 			"item": ["Heavy-Duty Boots"],
 			"ability": ["Anticipation", "Overcoat"],
 			"evs": {"hp": 248, "spa": 252, "spd": 8},
@@ -6195,7 +6195,7 @@
 		{
 			"species": "Espeon",
 			"weight": 50,
-			"level": 85,
+			"level": 75,
 			"item": ["Espeonite"],
 			"ability": ["Magic Bounce"],
 			"evs": {"spa": 252, "spd": 4, "spe": 252},

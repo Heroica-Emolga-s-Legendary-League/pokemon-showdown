@@ -1428,8 +1428,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	"typhlosioniteh": {
 		name: "Typhlosionite H",
 		megaStone: "Typhlosion-Mega-H",
-		itemUser: ["Typhlosion"],
-		megaEvolves: "Typhlosion",
+		itemUser: ["Htyphlosion"],
+		megaEvolves: "Htyphlosion",
 		num: -1100,
 		isNonstandard: "Past",
 		gen: 9,
@@ -1473,8 +1473,8 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 	"slowbroniteg": {
 		name: "Slowbronite G",
 		megaStone: "Slowbro-Mega-G",
-		itemUser: ["Slowbro"],
-		megaEvolves: "Slowbro",
+		itemUser: ["Glowbro"],
+		megaEvolves: "Glowbro",
 		num: -1100,
 		isNonstandard: "Past",
 		gen: 9,
