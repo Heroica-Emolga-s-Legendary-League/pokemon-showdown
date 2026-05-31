@@ -107028,12 +107028,15 @@ export const Learnsets: import('../../../sim/dex-species').LearnsetDataTable = {
 };
 
 const addToLearnset = () => {
-	const keys = Object.keys(Learnsets);
+	const keys = Object.keys(Learnsets) as ID[];
 	for (const key of keys) {
 		const pokemon = Pokedex[key];
 		if (pokemon && pokemon.num < -1001 && pokemon.forme && pokemon.forme === "Mega") {
-			for (const learnKey of Object.keys(Learnsets[toID(pokemon.baseSpecies)].learnset)) {
-				Learnsets[key].learnset[learnKey] = Learnsets[toID(pokemon.baseSpecies)].learnset[learnKey];
+			const baseLearnset = Learnsets[toID(pokemon.baseSpecies)]?.learnset;
+			const targetLearnset = Learnsets[key]?.learnset;
+			if (!baseLearnset || !targetLearnset) continue;
+			for (const learnKey of Object.keys(baseLearnset) as ID[]) {
+				targetLearnset[learnKey] = baseLearnset[learnKey];
 			}
 		}
 	}
