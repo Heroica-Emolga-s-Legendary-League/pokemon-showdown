@@ -103998,7 +103998,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 9, level: 75, shiny: 1, perfectIVs: 4, moves: ["takedown", "shadowball", "hex", "powergem"] },
 			{ generation: 9, level: 20, nature: "Timid", ivs: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 31 }, moves: ["astonish", "tackle"], pokeball: "cherishball" },
 		],
-		eventOnly: true,
+		eventOnly: false,
 	},
 	gholdengo: {
 		learnset: {
