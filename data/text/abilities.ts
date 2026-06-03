@@ -733,6 +733,18 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText; } = {
 		name: "Spicy Spray",
 		shortDesc: "Being hit by a damaging attack burns the attacker",
 	},
+	thelobber: {
+		name: "The Lobber",
+		shortDesc: "Bullet Moves deal 50% more damage",
+	},
+	unyielding: {
+		name: "Unyielding",
+		shortDesc: "75% 1.2x more damage, 50% 1.5x more damage, 25% 2x more damage",
+	},
+	shockingcurrents: {
+		name: "Shocking Currents",
+		shortDesc: "Water attacks have a 50% chance to paralyze target",
+	},
 	// End of Custom Abilities
 	noability: {
 		name: "No Ability",

@@ -12946,6 +12946,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     heightm: 0.8,
     weightkg: 16,
     color: "Green",
+    prevo: "Pachirisu",
     eggGroups: ["Field"],
   },
   scorcherisu: {
@@ -12957,6 +12958,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     heightm: 1,
     weightkg: 20,
     color: "Red",
+    prevo: "Pachirisu",
     eggGroups: ["Field"],
   },
   waverisu: {
@@ -12968,6 +12970,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     heightm: 1,
     weightkg: 22,
     color: "Blue",
+    prevo: "Pachirisu",
     eggGroups: ["Field"],
   },
   
@@ -21341,6 +21344,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     heightm: 0.4,
     weightkg: 3.9,
     color: "White",
+    evos: ["Cobbarisu", "Scorcherisu", "Waverisu"],
+    nfe: true,
     eggGroups: ["Field", "Fairy"],
   },
   buizel: {
