@@ -11001,38 +11001,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
       "Undiscovered"
     ]
   },
-  "venusaurmegaprime": {
-    "name": "Venusaur-Mega-Prime",
-    "types": [
-      "Grass",
-      "Poison"
-    ],
-    "genderRatio": {
-      "M": 0.875,
-      "F": 0.125
-    },
-    "baseStats": {
-      "hp": 100,
-      "atk": 120,
-      "def": 143,
-      "spa": 142,
-      "spd": 140,
-      "spe": 100
-    },
-    "abilities": {
-      "0": "Thick Fat"
-    },
-    "heightm": 2.4,
-    "weightkg": 155.5,
-    "evoType": "trade",
-    "requiredItem": "Venusaurite Prime",
-    "baseSpecies": "Venusaur-Prime",
-    "forme": "Mega",
-    "num": -1352,
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
   "charizardprime": {
     "name": "Charizard-Prime",
     "types": [
@@ -11060,70 +11028,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     "weightkg": 89.5,
     "evoType": "trade",
     "num": -1353,
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
-  "charizardmegaprimex": {
-    "name": "Charizard-Mega-Prime-X",
-    "types": [
-      "Fire",
-      "Dragon"
-    ],
-    "genderRatio": {
-      "M": 0.875,
-      "F": 0.125
-    },
-    "baseStats": {
-      "hp": 98,
-      "atk": 150,
-      "def": 131,
-      "spa": 150,
-      "spd": 105,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "Tough Claws"
-    },
-    "heightm": 1.7,
-    "weightkg": 110.5,
-    "evoType": "trade",
-    "requiredItem": "Charizardite Prime",
-    "baseSpecies": "Charizard-Prime",
-    "forme": "Mega-X",
-    "num": -1354,
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
-  "charizardmegaprimey": {
-    "name": "Charizard-Mega-Prime-Y",
-    "types": [
-      "Fire",
-      "Flying"
-    ],
-    "genderRatio": {
-      "M": 0.875,
-      "F": 0.125
-    },
-    "baseStats": {
-      "hp": 98,
-      "atk": 124,
-      "def": 98,
-      "spa": 179,
-      "spd": 135,
-      "spe": 120
-    },
-    "abilities": {
-      "0": "Drought"
-    },
-    "heightm": 1.7,
-    "weightkg": 100.5,
-    "evoType": "trade",
-    "requiredItem": "Charizardite Prime Y",
-    "baseSpecies": "Charizard-Prime",
-    "forme": "Mega-Y",
-    "num": -1355,
     "eggGroups": [
       "Undiscovered"
     ]
@@ -11183,37 +11087,6 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     "weightkg": 85.5,
     "evoType": "trade",
     "num": -1357,
-    "eggGroups": [
-      "Undiscovered"
-    ]
-  },
-  "blastoisemegaprime": {
-    "name": "Blastoise-Mega-Prime",
-    "types": [
-      "Water"
-    ],
-    "genderRatio": {
-      "M": 0.875,
-      "F": 0.125
-    },
-    "baseStats": {
-      "hp": 99,
-      "atk": 123,
-      "def": 140,
-      "spa": 155,
-      "spd": 135,
-      "spe": 98
-    },
-    "abilities": {
-      "0": "Mega Launcher"
-    },
-    "heightm": 1.6,
-    "weightkg": 101.1,
-    "evoType": "trade",
-    "requiredItem": "Blastoisite Prime",
-    "baseSpecies": "Blastoise-Prime",
-    "forme": "Mega",
-    "num": -1358,
     "eggGroups": [
       "Undiscovered"
     ]

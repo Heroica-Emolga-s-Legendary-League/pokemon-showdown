@@ -28340,7 +28340,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			{ generation: 8, level: 1, moves: ['pound', 'reflecttype'], source: 'gen8bdsp' },
 			{ generation: 9, level: 5, moves: ["pollenpuff", "darkpulse", "dragonpulse", "thunderbolt", "dazzlinggleam", "aurasphere", "flamethrower", "airslash", "shadowball", "energyball", "earthpower", "icebeam", "hypervoice", "sludgebomb", "psyshock", "powergem", "flashcannon", "surf", "swift", "lightscreen", "lifedew"], pokeball: "pokeball" },
 		],
-		eventOnly: true,
 	},
 	chikorita: {
 		learnset: {
@@ -52606,7 +52605,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			{ generation: 8, level: 70, nature: "Timid", moves: ["meteormash", "psychic", "rest", "wish"], pokeball: "cherishball" },
 			{ generation: 8, level: 5, moves: ['confusion', 'wish'], source: 'gen8bdsp' },
 		],
-		eventOnly: true,
 	},
 	deoxys: {
 		learnset: {
@@ -58409,7 +58407,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			confide: ["7M", "7S2", "6M"],
 			confuseray: ["9M", "9L10", "8L10", "7L1", "6L1", "5L1", "4L1"],
 			darkpulse: ["9M", "8M", "7M", "6M", "5T", "4M"],
-			defog: ["7T"],
+			defog: ["8M", "7T"],
 			disarmingvoice: ["7S2"],
 			discharge: ["9L50", "8L50", "7L1", "6L1", "5L64", "4L50"],
 			doubleteam: ["9L1", "8L1", "7M", "7L15", "6M", "6L15", "5M", "5L15", "4M", "4L15"],
@@ -59162,7 +59160,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			taunt: ["9M", "8M", "7M", "6M", "5M", "4M"],
 			terablast: ["8M"],
 			torment: ["7M", "6M", "5M", "4M"],
-			toxic: ["7M", "6M", "5M", "4M"],
+			toxic: ["8M", "7M", "6M", "5M", "4M"],
 			uproar: ["8M", "7T", "6T", "5T", "4T"],
 			willowisp: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
@@ -60102,7 +60100,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			seismictoss: ["9L1", "7L1", "6L1", "5L1", "4L1"],
 			shadowball: ["9M", "7M", "6M", "5M", "4M"],
 			shadowclaw: ["9M", "7M", "6M", "5M", "4M"],
-			shadowforce: ["4S0"],
+			shadowforce: ["8M", "4S0"],
 			shockwave: ["7T", "6T", "4M"],
 			signalbeam: ["7T", "6T", "5T", "4T"],
 			silverwind: ["4M"],
@@ -72984,7 +72982,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			confide: ["7M", "6M"],
 			crunch: ["9M", "9L40", "8M", "8L40", "7L43", "7S4", "7S5", "6L49", "6S3", "5L49"],
 			darkpulse: ["9M", "8M", "7M", "7L67", "6M", "6L73", "5T", "5L73"],
-			defog: ["7T"],
+			defog: ["8M", "7T"],
 			doubleteam: ["7M", "6M", "5M"],
 			embargo: ["7M", "6M", "5M"],
 			endure: ["9M", "8M"],
@@ -73183,7 +73181,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			confide: ["7M", "6M"],
 			crunch: ["9M", "9L16", "8M", "8L16", "7L71", "6L71", "5L71"],
 			cut: ["6M", "5M"],
-			defog: ["7T"],
+			defog: ["8M", "7T"],
 			doubleedge: ["8M"],
 			doubleteam: ["7M", "6M", "5M"],
 			dracometeor: ["9M", "8T", "7T", "7S6", "6T", "5T", "5S2"],
@@ -73239,7 +73237,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			rockslide: ["9M", "8M", "7M", "6M", "5M"],
 			rocksmash: ["6M", "5M"],
 			rocktomb: ["9M", "8M", "7M", "6M", "5M"],
-			roost: ["7M", "6M", "5T"],
+			roost: ["8M", "7M", "6M", "5T"],
 			round: ["8M", "7M", "6M", "5M"],
 			safeguard: ["8M", "7M", "6M", "5M"],
 			scaleshot: ["9M", "8T"],
@@ -73483,7 +73481,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			{ generation: 7, level: 60, shiny: 1, moves: ["earthpower", "rockslide", "earthquake", "sandstorm"] },
 			{ generation: 8, level: 70, shiny: 1, moves: ["sandtomb", "rockslide", "bulldoze", "focusblast"] },
 		],
-		eventOnly: true,
 	},
 	landorustherian: {
 		eventOnly: true,
@@ -92938,7 +92935,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			{ generation: 8, level: 60, perfectIVs: 3, moves: ["crosspoison", "dragonpulse", "flamethrower", "dynamaxcannon"] },
 			{ generation: 8, level: 100, shiny: true, nature: "Timid", perfectIVs: 6, moves: ["eternabeam", "dynamaxcannon", "sludgebomb", "flamethrower"], pokeball: "cherishball" },
 		],
-		eventOnly: true,
 	},
 	kubfu: {
 		learnset: {
@@ -97792,7 +97788,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			{ generation: 9, level: 75, shiny: 1, perfectIVs: 4, moves: ["takedown", "shadowball", "hex", "powergem"] },
 			{ generation: 9, level: 20, nature: "Timid", ivs: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 31 }, moves: ["astonish", "tackle"], pokeball: "cherishball" },
 		],
-		eventOnly: true,
+		eventOnly: false,
 	},
 	gholdengo: {
 		learnset: {
@@ -97905,7 +97901,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			{ generation: 9, level: 45, nature: "Naughty", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["rapidspin", "brickbreak", "knockoff", "stompingtantrum"] },
 			{ generation: 9, level: 57, shiny: 1, moves: ["stompingtantrum", "knockoff", "earthquake", "gigaimpact"] },
 		],
-		eventOnly: true,
 	},
 	brutebonnet: {
 		learnset: {
@@ -98844,7 +98839,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			chillingwater: ["8M"],
 			drillpeck: ["9L28", "9S0"],
 			electricterrain: ["9M", "9L1"],
-			encore: ["8M"],
+			encore: ["9M"],
 			endure: ["8M"],
 			facade: ["8M"],
 			fling: ["8M"],
@@ -98866,7 +98861,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			rest: ["8M"],
 			sleeptalk: ["8M"],
 			snowscape: ["9M", "9L70"],
-			substitute: ["8M"],
+			substitute: ["9M"],
 			swift: ["8M"],
 			takedown: ["9M", "9L21"],
 			taunt: ["8M"],
@@ -99210,7 +99205,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			crunch: ["8M"],
 			dig: ["8M"],
 			doubleedge: ["8M"],
-			dracometeor: ["8M"],
+			dracometeor: ["9M", "8M"],
 			dragoncheer: ["8M"],
 			dragonclaw: ["9M", "9L42"],
 			dragonpulse: ["8M"],
@@ -99219,13 +99214,13 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			dualwingbeat: ["8M"],
 			endure: ["9M", "9S0"],
 			facade: ["8M"],
-			fireblast: ["8M"],
+			fireblast: ["9M", "8M"],
 			firefang: ["8M"],
 			firespin: ["8M"],
 			flamecharge: ["8M"],
 			flamethrower: ["9M", "9L49", "9S0", "9S1"],
 			flareblitz: ["9M", "9L91"],
-			focusblast: ["8M"],
+			focusblast: ["9M", "8M"],
 			focuspunch: ["8M"],
 			gigaimpact: ["9M", "9L98", "9S1"],
 			heatcrash: ["8M"],
@@ -99237,7 +99232,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			ironhead: ["8M"],
 			lowkick: ["8M"],
 			lowsweep: ["8M"],
-			meteorbeam: ["8M"],
+			meteorbeam: ["9M", "8M"],
 			mudshot: ["8M"],
 			mudslap: ["8M"],
 			outrage: ["9M", "9L77"],
@@ -99337,7 +99332,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			{ generation: 9, level: 68, nature: "Quirky", ivs: { hp: 31, atk: 31, def: 28, spa: 31, spd: 28, spe: 31 }, moves: ["powergem", "electrodrift", "endure", "terablast"], pokeball: "pokeball" },
 			{ generation: 9, level: 72, nature: "Modest", ivs: { hp: 25, atk: 31, def: 25, spa: 31, spd: 25, spe: 31 }, moves: ["hyperbeam", "charge", "electrodrift", "powergem"] },
 		],
-		eventOnly: true,
 	},
 	tinkatink: {
 		learnset: {
@@ -100193,7 +100187,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 		eventData: [
 			{ generation: 9, level: 70, moves: ["superpower", "crunch", "brutalswing", "poisonjab"] },
 		],
-		eventOnly: true,
 	},
 	munkidori: {
 		learnset: {
@@ -100399,17 +100392,10 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			{ generation: 9, level: 20, nature: "Lonely", ivs: { hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["ivycudgel", "slam", "growth", "vinewhip"] },
 			{ generation: 9, level: 70, nature: "Lonely", ivs: { hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["ivycudgel", "lowkick", "slam", "grassyterrain"] },
 		],
-		eventOnly: true,
 	},
-	ogerponhearthflame: {
-		eventOnly: true,
-	},
-	ogerponwellspring: {
-		eventOnly: true,
-	},
-	ogerponcornerstone: {
-		eventOnly: true,
-	},
+	ogerponhearthflame: {},
+	ogerponwellspring: {},
+	ogerponcornerstone: {},
 	archaludon: {
 		learnset: {
 			aurasphere: ["8M"],
@@ -107200,6 +107186,7 @@ const addToLearnset = () => {
 		const pokemon = Pokedex[key];
 		if (pokemon && pokemon.num < -1001 && pokemon.forme && pokemon.forme === "Mega") {
 			for (const learnKey of Object.keys(Learnsets[toID(pokemon.baseSpecies)].learnset)) {
+				if (!Learnsets[toID(pokemon.baseSpecies)])
 				Learnsets[key].learnset[learnKey] = Learnsets[toID(pokemon.baseSpecies)].learnset[learnKey];
 			}
 		}
