@@ -2,32 +2,7 @@
   "permissions": {
     "allow": [
       "Bash(git rebase:*)",
-      "Bash(git stash:*)",
-      "Bash(sed -i '58416s/defog: \\\\[\"7T\"\\\\]/defog: [\"8M\", \"7T\"]/' \"C:\\\\Users\\\\korea\\\\OneDrive\\\\Documents\\\\GitHub\\\\pokemon-showdown\\\\data\\\\mods\\\\gen8bdsp\\\\learnsets.ts\")",
-      "Bash(sed -i '60109s/shadowforce: \\\\[\"4S0\"\\\\]/shadowforce: [\"8M\", \"4S0\"]/' \"C:\\\\Users\\\\korea\\\\OneDrive\\\\Documents\\\\GitHub\\\\pokemon-showdown\\\\data\\\\mods\\\\gen8bdsp\\\\learnsets.ts\")",
-      "Bash(sed -i '73190s/defog: \\\\[\"7T\"\\\\]/defog: [\"8M\", \"7T\"]/' \"C:\\\\Users\\\\korea\\\\OneDrive\\\\Documents\\\\GitHub\\\\pokemon-showdown\\\\data\\\\mods\\\\gen8bdsp\\\\learnsets.ts\")",
-      "Bash(sed -i '73246s/roost: \\\\[\"7M\", \"6M\", \"5T\"\\\\]/roost: [\"8M\", \"7M\", \"6M\", \"5T\"]/' \"C:\\\\Users\\\\korea\\\\OneDrive\\\\Documents\\\\GitHub\\\\pokemon-showdown\\\\data\\\\mods\\\\gen8bdsp\\\\learnsets.ts\")",
-      "Bash(git log *)",
-      "Bash(git *)",
-      "Bash(node pokemon-showdown *)",
-      "Bash(cat)",
-      "Bash(node /tmp/check-heatran.js)",
-      "Bash(node check-heatran.js)",
-      "Bash(rm check-heatran.js)",
-      "Bash(echo \"Exit: $?\")",
-      "Bash(awk -F: '$1 > 32847 && $1 < 36300 || $1 > 57901 && $1 < 58100 || $1 > 78972 && $1 < 79100 || $1 > 98875 && $1 < 99000 || $1 > 106337 && $1 < 106500 {print}')",
-      "Bash(awk -F: '\\($1 > 27939 && $1 < 28100\\) || \\($1 > 52478 && $1 < 52600\\) || \\($1 > 73400 && $1 < 73500\\) || \\($1 > 73492 && $1 < 73510\\) || \\($1 > 92885 && $1 < 93000\\) || \\($1 > 97850 && $1 < 98000\\) || \\($1 > 100129 && $1 < 100250\\) {print}')",
-      "Bash(awk -F: '$1 >= 27939 && $1 < 28200')",
-      "Bash(awk -F: '$1 >= 52478 && $1 < 52600')",
-      "Bash(awk -F: 'prev && $1 - prev > 1 && /chikorita|deoxys|kubfu|brutebonnet|munkidori|kyurem/ {print prev_line\"\\\\n\"$0; print \"---\"} {prev=$1; prev_line=$0}')",
-      "Bash(awk -F: '$2>=105043 && $2<=105100')",
-      "Bash(awk 'NR>=105043 && NR<=105100 && \\(/encore: /||/substitute: /\\){print NR\": \"$0}' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/data/learnsets.ts)",
-      "Bash(awk '/ironbundle:/{flag=1} flag && /encore:|substitute:/{print NR\": \"$0; if\\(/substitute:/\\){flag=0}}' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/dist/data/learnsets.js)",
-      "Bash(awk '/ironbundle:/{flag=1} flag && /encore:|substitute:/{print NR\": \"$0; if\\(/substitute:/\\){flag=0}}' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/dist/data/mods/gen8bdsp/learnsets.js)",
-      "Bash(awk '/canUseHomeRelearner|getExternalLearnsetData/{print NR\": \"$0}' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/sim/team-validator.ts)",
-      "Bash(awk 'NR>=105043 && NR<=105100' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/data/learnsets.ts)",
-      "Bash(awk 'NR>=98843 && NR<=98870' c:/Users/korea/OneDrive/Documents/GitHub/pokemon-showdown/data/mods/gen8bdsp/learnsets.ts)",
-      "PowerShell(Select-String -Path \"data/mods/gen8bdsp/learnsets.ts\" -Pattern \"gholdengo|eventData\" | Where-Object { $_.LineNumber -gt 97790 -and $_.LineNumber -lt 97900 })"
+      "Bash(git stash:*)"
     ]
   }
 }

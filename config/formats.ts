@@ -238,19 +238,21 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		banlist: ['Sub-Legendary', 'Paradox', 'Gouging Fire', 'Iron Boulder', 'Iron Crown', 'Raging Bolt'],
 	},
 	{
-		name: "[Gen 9] NatDex HELL VGC",
+		name: "[Gen 9] HELL VGC",
 		mod: 'gen9',
 		gameType: 'doubles',
 		bestOfDefault: true,
 		teraPreviewDefault: true,
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 1', 'VGC Timer', 'Force Open Team Sheets', 'Best of = 3', '+Unobtainable', '+Past', '+LGPE'],
+		//restricted: ['Restricted Legendary'],
 	},
 	{
-		name: "[Gen 9] NatDex HELL VGC (Bo3)",
+		name: "[Gen 9] HELL VGC (Bo3)",
 		mod: 'gen9',
 		gameType: 'doubles',
 		teraPreviewDefault: true,
 		ruleset: ['Flat Rules', '!! Adjust Level = 50', 'Min Source Gen = 1', 'VGC Timer', 'Force Open Team Sheets', 'Best of = 3', '+Unobtainable', '+Past', '+LGPE'],
+		//restricted: ['Restricted Legendary'],
 	},
 	{
 		name: "[Gen 9] VGC 2025 Reg J",

@@ -10,16 +10,20 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	, "comfeymega": { "learnset": { "hell": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"] } }
 	, "corviknightmega": { "learnset": { "hell": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "roost": ["9L4", "9L3"] } }
 	, "ironclaw": { "learnset": { "hell": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "bugbite": ["9L4", "9L3"], "chloroblast": ["9L4", "9L3"], "crosspoison": ["9L4", "9L3"], "direclaw": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "falseswipe": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "grassyglide": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "paraboliccharge": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "petaldance": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "powerwhip": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "skittersmack": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "volttackle": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"], "xscissor": ["9L4", "9L3"] } }
-	, "natureclaw": { "learnset": { "hell": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "bugbite": ["9L4", "9L3"], "chloroblast": ["9L4", "9L3"]
-		, "crosspoison": ["9L4", "9L3"], "direclaw": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "energyball": ["9L4", "9L3"]
-		, "falseswipe": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "grassyglide": ["9L4", "9L3"]
-		, "knockoff": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"]
-		, "paraboliccharge": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "petaldance": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "powerwhip": ["9L4", "9L3"]
-		, "protect": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"]
-		, "skittersmack": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"]
-		, "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"]
-		, "wildcharge": ["9L4", "9L3"], "xscissor": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "toxic": ["9L4", "9L3"]
-		, "sludgewave": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"] } }
+	, "natureclaw": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "bugbite": ["9L4", "9L3"], "chloroblast": ["9L4", "9L3"]
+			, "crosspoison": ["9L4", "9L3"], "direclaw": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "energyball": ["9L4", "9L3"]
+			, "falseswipe": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "grassyglide": ["9L4", "9L3"]
+			, "knockoff": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"]
+			, "paraboliccharge": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "petaldance": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "powerwhip": ["9L4", "9L3"]
+			, "protect": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"]
+			, "skittersmack": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"]
+			, "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"]
+			, "wildcharge": ["9L4", "9L3"], "xscissor": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "toxic": ["9L4", "9L3"]
+			, "sludgewave": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"]
+		}
+	}
 	, "dragapultmega": { "learnset": { "hell": ["9L4", "9L3"], "dragondarts": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"] } }
 	, "ironpod": { "learnset": { "hell": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "autotomize": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "defensecurl": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "eerieimpulse": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "extrasensory": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "mist": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rapidspin": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "spikes": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "withdraw": ["9L4", "9L3"] } }
 	, "shatterjaw": { "learnset": { "hell": ["9L4", "9L3"], "accelerock": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bonerush": ["9L4", "9L3"], "bonemerang": ["9L4", "9L3"], "bugbite": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "clangoroussoul": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "disable": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragoncheer": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonenergy": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "glaiverush": ["9L4", "9L3"], "headsmash": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "liquidation": ["9L4", "9L3"], "lunge": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rockthrow": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"] } }
@@ -65,30 +69,38 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	, "glaceonmega": { "learnset": { "hell": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "wish": ["9L4", "9L3"] } }
 	, "leafeonmega": { "learnset": { "hell": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"] } }
 	, "shimmeringbloom": { "learnset": { "hell": ["9L4", "9L3"], "acidarmor": ["9L4", "9L3"], "aquajet": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flipturn": ["9L4", "9L3"], "freezedry": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "octazooka": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "rapidspin": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "tickle": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "substitute": ["9L4", "9L3"] } }
-	, "ironvwoom": { "learnset": { "hell": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "autotomize": ["9L4", "9L3"], "beatup": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"]
-		, "brickbreak": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "crosschop": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"]
-		, "discharge": ["9L4", "9L3"], "doubleshock": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "embargo": ["9L4", "9L3"]
-		, "feintattack": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"]
-		, "leafblade": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"]
-		, "nightslash": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "slash": ["9L4", "9L3"]
-		, "smartstrike": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "supercellslam": ["9L4", "9L3"]
-		, "superpower": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tachyoncutter": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
-		, "thunder": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"]
-		, "zingzap": ["9L4", "9L3"], "razorwind": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"]
-		, "leer": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "tackle": ["9L4", "9L3"]
-		, "scratch": ["9L4", "9L3"], "furyattack": ["9L4", "9L3"] } }
-	, "fantasticknight": { "learnset": { "hell": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "autotomize": ["9L4", "9L3"], "beatup": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"]
-		, "brickbreak": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "crosschop": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"]
-		, "doubleshock": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "embargo": ["9L4", "9L3"]
-		, "feintattack": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"]
-		, "leafblade": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"]
-		, "nightslash": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "slash": ["9L4", "9L3"]
-		, "smartstrike": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"]
-		, "superpower": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tachyoncutter": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
-		, "thunderbolt": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"]
-		, "zingzap": ["9L4", "9L3"], "razorwind": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"]
-		, "leer": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "tackle": ["9L4", "9L3"]
-		, "scratch": ["9L4", "9L3"], "furyattack": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "quickguard": ["9L4", "9L3"] } }
+	, "ironvwoom": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "autotomize": ["9L4", "9L3"], "beatup": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"]
+			, "brickbreak": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "crosschop": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"]
+			, "discharge": ["9L4", "9L3"], "doubleshock": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "embargo": ["9L4", "9L3"]
+			, "feintattack": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"]
+			, "leafblade": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"]
+			, "nightslash": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "slash": ["9L4", "9L3"]
+			, "smartstrike": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "supercellslam": ["9L4", "9L3"]
+			, "superpower": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tachyoncutter": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
+			, "thunder": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"]
+			, "zingzap": ["9L4", "9L3"], "razorwind": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"]
+			, "leer": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "tackle": ["9L4", "9L3"]
+			, "scratch": ["9L4", "9L3"], "furyattack": ["9L4", "9L3"]
+		}
+	}
+	, "fantasticknight": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "autotomize": ["9L4", "9L3"], "beatup": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"]
+			, "brickbreak": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "crosschop": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"]
+			, "doubleshock": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "embargo": ["9L4", "9L3"]
+			, "feintattack": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"]
+			, "leafblade": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"]
+			, "nightslash": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "slash": ["9L4", "9L3"]
+			, "smartstrike": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"]
+			, "superpower": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tachyoncutter": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
+			, "thunderbolt": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"]
+			, "zingzap": ["9L4", "9L3"], "razorwind": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"]
+			, "leer": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "tackle": ["9L4", "9L3"]
+			, "scratch": ["9L4", "9L3"], "furyattack": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "quickguard": ["9L4", "9L3"]
+		}
+	}
 	, "slicingsegment": { "learnset": { "hell": ["9L4", "9L3"], "acid": ["9L4", "9L3"], "acidarmor": ["9L4", "9L3"], "acidspray": ["9L4", "9L3"], "belch": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bugbite": ["9L4", "9L3"], "bugbuzz": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "coil": ["9L4", "9L3"], "constrict": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "dive": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "falseswipe": ["9L4", "9L3"], "fellstinger": ["9L4", "9L3"], "firefang": ["9L4", "9L3"], "firstimpression": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "glare": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "harden": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "infestation": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "leechlife": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lunge": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "poisonfang": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poisonsting": ["9L4", "9L3"], "pounce": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychicfangs": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "slackoff": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "spiderweb": ["9L4", "9L3"], "spikes": ["9L4", "9L3"], "steamroller": ["9L4", "9L3"], "stickyweb": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "stringshot": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tailglow": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "toxicthread": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "venomdrench": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "xscissor": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
 	, "strangemissile": { "learnset": { "hell": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "autotomize": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bravebird": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "eerieimpulse": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electrify": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "extremespeed": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flamecharge": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "headsmash": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "iondeluge": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "supercellslam": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "temperflare": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "whirlwind": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"] } }
 	, "armarougemega": { "learnset": { "hell": ["9L4", "9L3"], "lavaplume": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"] } }
@@ -121,154 +133,190 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	, "sudowoodomega": { "learnset": { "hell": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "woodhammer": ["9L4", "9L3"] } }
 	, "tinkatonmega": { "learnset": { "hell": ["9L4", "9L3"], "gigatonhammer": ["9L4", "9L3"], "playrough": ["9L4", "9L3"] } }
 	, "victreebelmega": { "learnset": { "hell": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"] } }
-	, "dashinghammer": { "learnset": { "hell": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firefang": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "hammerarm": ["9L4", "9L3"], "headsmash": ["9L4", "9L3"], "heatcrash": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lick": ["9L4", "9L3"], "mudbomb": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rockthrow": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "slash": ["9L4", "9L3"],"sleeptalk": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "woodhammer": ["9L4", "9L3"] } }
-	, "razorspine": { "learnset": { "hell": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "metalburst": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "meteormash": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rapidspin": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "shedtail": ["9L4", "9L3"], "slash": ["9L4", "9L3"],"sleeptalk": ["9L4", "9L3"], "spikes": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"], "steelroller": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"] } }
-	, "howlingflare": { "learnset": { "hell": ["9L4", "9L3"], "absorb": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "beakblast": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bravebird": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "dive": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dualwingbeat": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leafage": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "peck": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "pluck": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"],"sleeptalk": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "steelwing": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"] } }
-	, "risinghorn": { "learnset": { "hell": ["9L4", "9L3"], "alluringvoice": ["9L4", "9L3"], "aquajet": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "auroraveil": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bounce": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "disarmingvoice": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragonbreath": ["9L4", "9L3"], "dragoncheer": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flipturn": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "megahorn": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"], "mist": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "playnice": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pound": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "refresh": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "scaleshot": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretsword": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"],"sleeptalk": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "tickle": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
+	, "dashinghammer": { "learnset": { "hell": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firefang": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "hammerarm": ["9L4", "9L3"], "headsmash": ["9L4", "9L3"], "heatcrash": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lick": ["9L4", "9L3"], "mudbomb": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rockthrow": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "woodhammer": ["9L4", "9L3"] } }
+	, "razorspine": { "learnset": { "hell": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "metalburst": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "meteormash": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rapidspin": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "shedtail": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "spikes": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"], "steelroller": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"] } }
+	, "howlingflare": { "learnset": { "hell": ["9L4", "9L3"], "absorb": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "beakblast": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bravebird": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "dive": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dualwingbeat": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leafage": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "peck": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "pluck": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "steelwing": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"] } }
+	, "risinghorn": { "learnset": { "hell": ["9L4", "9L3"], "alluringvoice": ["9L4", "9L3"], "aquajet": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "auroraveil": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bounce": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "disarmingvoice": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragonbreath": ["9L4", "9L3"], "dragoncheer": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flipturn": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "megahorn": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"], "mist": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "playnice": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pound": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "refresh": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "scaleshot": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretsword": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "tickle": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
 	, "ironblaze": { "learnset": { "hell": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "burningbulwark": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "crushclaw": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "ember": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "extremespeed": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "flameburst": ["9L4", "9L3"], "flamecharge": ["9L4", "9L3"], "flamewheel": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "headsmash": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "highhorsepower": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "lavaplume": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "sacredfire": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "skyattack": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"] } }
 	, "ironmirage": { "learnset": { "hell": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "healblock": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "howl": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalburst": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "teleport": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "thunderclap": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"] } }
 	, "ironphantom": { "learnset": { "hell": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "extremespeed": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hydrosteam": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lastrespects": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lick": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "liquidation": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "metalburst": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "mist": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "nobleroar": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "poltergeist": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "shadowsneak": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snarl": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"] } }
 	, "irondrill": { "learnset": { "hell": ["9L4", "9L3"], "absorb": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "detect": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "drillrun": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassyglide": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "guardswap": ["9L4", "9L3"], "hammerarm": ["9L4", "9L3"], "highhorsepower": ["9L4", "9L3"], "horndrill": ["9L4", "9L3"], "hornleech": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "metalburst": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "meteormash": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "rapidspin": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rockthrow": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "snarl": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "withdraw": ["9L4", "9L3"], "woodhammer": ["9L4", "9L3"], "zingzap": ["9L4", "9L3"] } }
-	, "irongear": { "learnset": { "hell": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
-		, "confusion": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"]
-		, "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"]
-		, "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leer": ["9L4", "9L3"]
-		, "lightscreen": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"]
-		, "mirrorshot": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "moonlight": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"], "protect": ["9L4", "9L3"]
-		, "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"]
-		, "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"]
-		, "shadowball": ["9L4", "9L3"], "shiftgear": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"]
-		, "thunderbolt": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
-	, "fantasticgear": { "learnset": { "hell": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
-		, "confusion": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"]
-		, "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"]
-		, "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leer": ["9L4", "9L3"]
-		, "lightscreen": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"]
-		, "moonblast": ["9L4", "9L3"], "moonlight": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"], "protect": ["9L4", "9L3"]
-		, "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"]
-		, "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"]
-		, "shadowball": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"]
-		, "thunderbolt": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"]
-		, "flipturn": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "liquidation": ["9L4", "9L3"]
-		, "aquaring": ["9L4", "9L3"], "octazooka": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "watersport": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"]
-		, "raindance": ["9L4", "9L3"] } }
-	, "ironsaw": { "learnset": { "hell": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
-		, "chargebeam": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "detect": ["9L4", "9L3"]
-		, "discharge": ["9L4", "9L3"], "drillrun": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"], "explosion": ["9L4", "9L3"]
-		, "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "furyswipes": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
-		, "hyperbeam": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
-		, "magnetrise": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"]
-		, "nightslash": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
-		, "rapidspin": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "reflecttype": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"]
-		, "rocktomb": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "substitute": ["9L4", "9L3"]
-		, "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"]
-		, "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "triattack": ["9L4", "9L3"], "uturn": ["9L4", "9L3"]
-		, "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"] } }
-	, "naturesaw": { "learnset": { "hell": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
-		, "chargebeam": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "detect": ["9L4", "9L3"]
-		, "discharge": ["9L4", "9L3"], "drillrun": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"], "explosion": ["9L4", "9L3"]
-		, "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "furyswipes": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
-		, "hyperbeam": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
-		, "magnetrise": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"]
-		, "nightslash": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
-		, "reflect": ["9L4", "9L3"], "reflecttype": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"]
-		, "rocktomb": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "substitute": ["9L4", "9L3"]
-		, "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"]
-		, "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "triattack": ["9L4", "9L3"], "uturn": ["9L4", "9L3"]
-		, "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"]
-		, "absorb": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"] } }
-	, "ironspike": { "learnset": { "hell": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
-		, "chillingwater": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"]
-		, "flashcannon": ["9L4", "9L3"], "flipturn": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"]
-		, "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icespinner": ["9L4", "9L3"]
-		, "icywind": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
-		, "liquidation": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "mist": ["9L4", "9L3"]
-		, "mistyexplosion": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"], "playrough": ["9L4", "9L3"]
-		, "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rapidspin": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"]
-		, "scald": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"]
-		, "spikes": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"]
-		, "thunderbolt": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"]
-		, "withdraw": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "psychoboost": ["9L4", "9L3"]
-		, "futuresight": ["9L4", "9L3"], "teleport": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"] } }
-	, "strangespike": { "learnset": { "hell": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
-		, "chillingwater": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"]
-		, "flashcannon": ["9L4", "9L3"], "flipturn": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"]
-		, "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icespinner": ["9L4", "9L3"]
-		, "icywind": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
-		, "liquidation": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "mist": ["9L4", "9L3"]
-		, "mistyexplosion": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"], "playrough": ["9L4", "9L3"]
-		, "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rapidspin": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"]
-		, "scald": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"]
-		, "spikes": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"]
-		, "thunderbolt": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"]
-		, "withdraw": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "psychoboost": ["9L4", "9L3"]
-		, "futuresight": ["9L4", "9L3"], "teleport": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"] } }
-	, "strangemask": { "learnset": { "hell": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "ancientpower": ["9L4", "9L3"]
-		, "aquatail": ["9L4", "9L3"], "avalanche": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"]
-		, "brickbreak": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "celebrate": ["9L4", "9L3"]
-		, "chargebeam": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cosmicpower": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "discharge": ["9L4", "9L3"]
-		, "dive": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragonascent": ["9L4", "9L3"]
-		, "dragoncheer": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"]
-		, "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"]
-		, "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "extremespeed": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"]
-		, "flamethrower": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
-		, "gyroball": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"]
-		, "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"]
-		, "incinerate": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "meteorbeam": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"]
-		, "naturalgift": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
-		, "rest": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"]
-		, "round": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaleshot": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"]
-		, "shadowclaw": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"]
-		, "stealthrock": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "surf": ["9L4", "9L3"]
-		, "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
-		, "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "uproar": ["9L4", "9L3"]
-		, "vcreate": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"]
-		, "wildcharge": ["9L4", "9L3"], "psychoboost": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "psystrike": ["9L4", "9L3"]
-		, "psyshock": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"] } }
+	, "irongear": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
+			, "confusion": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"]
+			, "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"]
+			, "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leer": ["9L4", "9L3"]
+			, "lightscreen": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"]
+			, "mirrorshot": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "moonlight": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"], "protect": ["9L4", "9L3"]
+			, "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"]
+			, "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"]
+			, "shadowball": ["9L4", "9L3"], "shiftgear": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"]
+			, "thunderbolt": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"]
+		}
+	}
+	, "fantasticgear": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
+			, "confusion": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"]
+			, "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"]
+			, "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leer": ["9L4", "9L3"]
+			, "lightscreen": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"]
+			, "moonblast": ["9L4", "9L3"], "moonlight": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"], "protect": ["9L4", "9L3"]
+			, "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"]
+			, "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"]
+			, "shadowball": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"]
+			, "thunderbolt": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"]
+			, "flipturn": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "liquidation": ["9L4", "9L3"]
+			, "aquaring": ["9L4", "9L3"], "octazooka": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "watersport": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"]
+			, "raindance": ["9L4", "9L3"]
+		}
+	}
+	, "ironsaw": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
+			, "chargebeam": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "detect": ["9L4", "9L3"]
+			, "discharge": ["9L4", "9L3"], "drillrun": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"], "explosion": ["9L4", "9L3"]
+			, "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "furyswipes": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
+			, "hyperbeam": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
+			, "magnetrise": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"]
+			, "nightslash": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
+			, "rapidspin": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "reflecttype": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"]
+			, "rocktomb": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "substitute": ["9L4", "9L3"]
+			, "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"]
+			, "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "triattack": ["9L4", "9L3"], "uturn": ["9L4", "9L3"]
+			, "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"]
+		}
+	}
+	, "naturesaw": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
+			, "chargebeam": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "detect": ["9L4", "9L3"]
+			, "discharge": ["9L4", "9L3"], "drillrun": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"], "explosion": ["9L4", "9L3"]
+			, "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "furyswipes": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
+			, "hyperbeam": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
+			, "magnetrise": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"]
+			, "nightslash": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
+			, "reflect": ["9L4", "9L3"], "reflecttype": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"]
+			, "rocktomb": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "substitute": ["9L4", "9L3"]
+			, "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"]
+			, "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "triattack": ["9L4", "9L3"], "uturn": ["9L4", "9L3"]
+			, "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"]
+			, "absorb": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"]
+		}
+	}
+	, "ironspike": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
+			, "chillingwater": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"]
+			, "flashcannon": ["9L4", "9L3"], "flipturn": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"]
+			, "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icespinner": ["9L4", "9L3"]
+			, "icywind": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
+			, "liquidation": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "mist": ["9L4", "9L3"]
+			, "mistyexplosion": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"], "playrough": ["9L4", "9L3"]
+			, "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rapidspin": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"]
+			, "scald": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"]
+			, "spikes": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"]
+			, "thunderbolt": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"]
+			, "withdraw": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "psychoboost": ["9L4", "9L3"]
+			, "futuresight": ["9L4", "9L3"], "teleport": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"]
+		}
+	}
+	, "strangespike": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
+			, "chillingwater": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"]
+			, "flashcannon": ["9L4", "9L3"], "flipturn": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"]
+			, "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icespinner": ["9L4", "9L3"]
+			, "icywind": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
+			, "liquidation": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mirrorshot": ["9L4", "9L3"], "mist": ["9L4", "9L3"]
+			, "mistyexplosion": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "naturesmadness": ["9L4", "9L3"], "playrough": ["9L4", "9L3"]
+			, "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rapidspin": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"]
+			, "scald": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"]
+			, "spikes": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"]
+			, "thunderbolt": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"]
+			, "withdraw": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "psychoboost": ["9L4", "9L3"]
+			, "futuresight": ["9L4", "9L3"], "teleport": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"]
+		}
+	}
+	, "strangemask": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "ancientpower": ["9L4", "9L3"]
+			, "aquatail": ["9L4", "9L3"], "avalanche": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"]
+			, "brickbreak": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "celebrate": ["9L4", "9L3"]
+			, "chargebeam": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cosmicpower": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "discharge": ["9L4", "9L3"]
+			, "dive": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragonascent": ["9L4", "9L3"]
+			, "dragoncheer": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"]
+			, "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"]
+			, "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "extremespeed": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"]
+			, "flamethrower": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
+			, "gyroball": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"]
+			, "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"]
+			, "incinerate": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "meteorbeam": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"]
+			, "naturalgift": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
+			, "rest": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"]
+			, "round": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaleshot": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"]
+			, "shadowclaw": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"]
+			, "stealthrock": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "surf": ["9L4", "9L3"]
+			, "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
+			, "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "uproar": ["9L4", "9L3"]
+			, "vcreate": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"]
+			, "wildcharge": ["9L4", "9L3"], "psychoboost": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "psystrike": ["9L4", "9L3"]
+			, "psyshock": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"]
+		}
+	}
 	, "soaringhalo": { "learnset": { "hell": ["9L4", "9L3"], "accelerock": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "ancientpower": ["9L4", "9L3"], "aquatail": ["9L4", "9L3"], "avalanche": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "celebrate": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cosmicpower": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "dive": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragonascent": ["9L4", "9L3"], "dragoncheer": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "extremespeed": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gyroball": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "meteorbeam": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockpolish": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "round": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaleshot": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "vcreate": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"] } }
 	, "ironobliviontype1": { "learnset": { "hell": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "extremespeed": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hydrosteam": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lastrespects": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lick": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "liquidation": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "metalburst": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "mist": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "nobleroar": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "poltergeist": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "shadowsneak": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snarl": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"] } }
 	, "ironobliviontype2": { "learnset": { "hell": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "burningbulwark": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "crushclaw": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "ember": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "extremespeed": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "flameburst": ["9L4", "9L3"], "flamecharge": ["9L4", "9L3"], "flamewheel": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "headsmash": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "highhorsepower": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "lavaplume": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "sacredfire": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "skyattack": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"] } }
 	, "ironobliviontype3": { "learnset": { "hell": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "healblock": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "howl": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalburst": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "teleport": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "thunderclap": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"] } }
-	, "ironyfriends": { "learnset": { "hell": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"]
-		, "bodyslam": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
-		, "celebrate": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "chillyreception": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "confusion": ["9L4", "9L3"]
-		, "crunch": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"]
-		, "fireblast": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
-		, "guardswap": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"]
-		, "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "instruct": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"]
-		, "ironhead": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"]
-		, "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mudbomb": ["9L4", "9L3"], "mudsport": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"]
-		, "poisonjab": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychic": ["9L4", "9L3"]
-		, "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"]
-		, "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "scratch": ["9L4", "9L3"]
-		, "screech": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shellsidearm": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"]
-		, "slackoff": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludge": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"]
-		, "sludgewave": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "tackle": ["9L4", "9L3"]
-		, "teleport": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"]
-		, "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"]
-		, "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
-	, "fantasticfriends": { "learnset": { "hell": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"]
-		, "bodyslam": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
-		, "celebrate": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "chillyreception": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "confusion": ["9L4", "9L3"]
-		, "crunch": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"]
-		, "fireblast": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
-		, "guardswap": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"]
-		, "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "instruct": ["9L4", "9L3"]
-		, "knockoff": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"]
-		, "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mudbomb": ["9L4", "9L3"], "mudsport": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"]
-		, "poisonjab": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychic": ["9L4", "9L3"]
-		, "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"]
-		, "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "scratch": ["9L4", "9L3"]
-		, "screech": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shellsidearm": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"]
-		, "slackoff": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludge": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"]
-		, "sludgewave": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "tackle": ["9L4", "9L3"]
-		, "teleport": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"]
-		, "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"]
-		, "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "followme": ["9L4", "9L3"] } }
+	, "ironyfriends": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"]
+			, "bodyslam": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
+			, "celebrate": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "chillyreception": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "confusion": ["9L4", "9L3"]
+			, "crunch": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"]
+			, "fireblast": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
+			, "guardswap": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"]
+			, "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "instruct": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"]
+			, "ironhead": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"]
+			, "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mudbomb": ["9L4", "9L3"], "mudsport": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"]
+			, "poisonjab": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychic": ["9L4", "9L3"]
+			, "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"]
+			, "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "scratch": ["9L4", "9L3"]
+			, "screech": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shellsidearm": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"]
+			, "slackoff": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludge": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"]
+			, "sludgewave": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "tackle": ["9L4", "9L3"]
+			, "teleport": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"]
+			, "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"]
+			, "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"]
+		}
+	}
+	, "fantasticfriends": {
+		"learnset": {
+			"hell": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"]
+			, "bodyslam": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"]
+			, "celebrate": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "chillyreception": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "confusion": ["9L4", "9L3"]
+			, "crunch": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"]
+			, "fireblast": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
+			, "guardswap": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"]
+			, "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "instruct": ["9L4", "9L3"]
+			, "knockoff": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"]
+			, "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "mudbomb": ["9L4", "9L3"], "mudsport": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"]
+			, "poisonjab": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychic": ["9L4", "9L3"]
+			, "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"]
+			, "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "scratch": ["9L4", "9L3"]
+			, "screech": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shellsidearm": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"]
+			, "slackoff": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludge": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"]
+			, "sludgewave": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "tackle": ["9L4", "9L3"]
+			, "teleport": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"]
+			, "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"]
+			, "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "followme": ["9L4", "9L3"]
+		}
+	}
 	, "jaggedmaw": { "learnset": { "hell": ["9L4", "9L3"], "absorb": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragoncheer": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragonrage": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"], "firefang": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "jawlock": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "nightdaze": ["9L4", "9L3"], "powerwhip": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "sandtomb": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaleshot": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "slackoff": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spikyshield": ["9L4", "9L3"], "spitup": ["9L4", "9L3"], "stockpile": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "submission": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "swallow": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "vinewhip": ["9L4", "9L3"] } }
 	, "mightyspine": { "learnset": { "hell": ["9L4", "9L3"], "acupressure": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bugbite": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "constrict": ["9L4", "9L3"], "crabhammer": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "crushclaw": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "detect": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "direclaw": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"], "firstimpression": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "furyswipes": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "mudsport": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poisonsting": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rockthrow": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "rollout": ["9L4", "9L3"], "sandattack": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "xscissor": ["9L4", "9L3"] } }
 	, "slicingsear": { "learnset": { "hell": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "beakblast": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bravebird": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "crushclaw": ["9L4", "9L3"], "doublekick": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragonrage": ["9L4", "9L3"], "dualwingbeat": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "ember": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firefang": ["9L4", "9L3"], "firelash": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "flameburst": ["9L4", "9L3"], "flamecharge": ["9L4", "9L3"], "flamewheel": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "furyswipes": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "heatcrash": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "peck": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "skyattack": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "submission": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
@@ -363,53 +411,65 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	, "serperiorchained": { "learnset": { "aerialace": ["9L4", "9L3"], "aquatail": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "coil": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "frenzyplant": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gastroacid": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "glare": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grasspledge": ["9L4", "9L3"], "grassyglide": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "growth": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "holdback": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leaftornado": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "meanlook": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "naturepower": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "petalblizzard": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "pursuit": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "scaleshot": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "snatch": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "sweetscent": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "vinewhip": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"], "wrap": ["9L4", "9L3"], "wringout": ["9L4", "9L3"] } }
 	, "torterrachained": { "learnset": { "absorb": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "block": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "frenzyplant": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grasspledge": ["9L4", "9L3"], "grassyglide": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "growth": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "headlongrush": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "naturepower": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "rockpolish": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shellsmash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "spitup": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "stockpile": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swallow": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thrash": ["9L4", "9L3"], "tickle": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "withdraw": ["9L4", "9L3"], "woodhammer": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
 	, "fantastichorse": { "learnset": { "agility": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bounce": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "doublekick": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drillrun": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "ember": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "flameburst": ["9L4", "9L3"], "flamecharge": ["9L4", "9L3"], "flamewheel": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "furyattack": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "headcharge": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hornattack": ["9L4", "9L3"], "horndrill": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypnosis": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "inferno": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megahorn": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mysticalfire": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "payday": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "round": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "stomp": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "temperflare": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thrash": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"] } }
-	, "fantasticprince": { "learnset": { "focusblast": ["9L4", "9L3"],"agility": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"]
-		, "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"]
-		, "confusion": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "encore": ["9L4", "9L3"]
-		, "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"], "facade": ["9L4", "9L3"]
-		, "futuresight": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "gravity": ["9L4", "9L3"]
-		, "hardpress": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"]
-		, "hyperbeam": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"]
-		, "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"]
-		, "magicalleaf": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"]
-		, "mudshot": ["9L4", "9L3"], "payday": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"], "pound": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "protect": ["9L4", "9L3"]
-		, "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"]
-		, "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "round": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"]
-		, "seedbomb": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"]
-		, "snarl": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "speedswap": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "takedown": ["9L4", "9L3"]
-		, "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "triattack": ["9L4", "9L3"]
-		, "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "playrough": ["9L4", "9L3"]
-		, "moonblast": ["9L4", "9L3"], "takeheart": ["9L4", "9L3"] } }
+	, "fantasticprince": {
+		"learnset": {
+			"focusblast": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"]
+			, "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"]
+			, "confusion": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "encore": ["9L4", "9L3"]
+			, "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"], "facade": ["9L4", "9L3"]
+			, "futuresight": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "gravity": ["9L4", "9L3"]
+			, "hardpress": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"]
+			, "hyperbeam": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"]
+			, "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"]
+			, "magicalleaf": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"]
+			, "mudshot": ["9L4", "9L3"], "payday": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"], "pound": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "protect": ["9L4", "9L3"]
+			, "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"]
+			, "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "round": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"]
+			, "seedbomb": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"]
+			, "snarl": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "speedswap": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "takedown": ["9L4", "9L3"]
+			, "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "triattack": ["9L4", "9L3"]
+			, "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "playrough": ["9L4", "9L3"]
+			, "moonblast": ["9L4", "9L3"], "takeheart": ["9L4", "9L3"]
+		}
+	}
 	, "chromerider": { "learnset": { "agility": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "boltstrike": ["9L4", "9L3"], "bounce": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confusion": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "doublekick": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "drillrun": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "ember": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "flameburst": ["9L4", "9L3"], "flamecharge": ["9L4", "9L3"], "flamewheel": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "furyattack": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "headcharge": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hornattack": ["9L4", "9L3"], "horndrill": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypnosis": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "inferno": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megahorn": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "mysticalfire": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "payday": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"], "pound": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "round": ["9L4", "9L3"], "sacredfire": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shiftgear": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "snarl": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "speedswap": ["9L4", "9L3"], "stomp": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "temperflare": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thrash": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "triattack": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "vcreate": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
 	, "fantasticranger": { "learnset": { "aerialace": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "cosmicpower": ["9L4", "9L3"], "covet": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"], "faketears": ["9L4", "9L3"], "feint": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "flatter": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pounce": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "quash": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "skittersmack": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spikes": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "xscissor": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
-	, "chrometurbo": { "learnset": { "astonish": ["9L4", "9L3"], "babydolleyes": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"]
-		, "brutalswing": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "covet": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"]
-		, "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fairywind": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"]
-		, "faketears": ["9L4", "9L3"], "feint": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "flatter": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"]
-		, "gigaimpact": ["9L4", "9L3"], "gigatonhammer": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"]
-		, "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icehammer": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
-		, "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pounce": ["9L4", "9L3"]
-		, "protect": ["9L4", "9L3"], "quash": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"]
-		, "rocktomb": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "skittersmack": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"]
-		, "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "spikes": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "supercellslam": ["9L4", "9L3"], "sweetkiss": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
-		, "thief": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"]
-		, "thunderbolt": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"] } }
-	, "fantasticturbo": { "learnset": { "astonish": ["9L4", "9L3"], "babydolleyes": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"]
-		, "brutalswing": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "covet": ["9L4", "9L3"]
-		, "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fairywind": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"]
-		, "faketears": ["9L4", "9L3"], "feint": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "flatter": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"]
-		, "gigaimpact": ["9L4", "9L3"], "gigatonhammer": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"]
-		, "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icehammer": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
-		, "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pounce": ["9L4", "9L3"]
-		, "protect": ["9L4", "9L3"], "quash": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"]
-		, "rocktomb": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "skittersmack": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"]
-		, "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "spikes": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "sweetkiss": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
-		, "thief": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"]
-		, "beakblast": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"]
-		, "mistyterrain": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "roost": ["9L4", "9L3"] } }
+	, "chrometurbo": {
+		"learnset": {
+			"astonish": ["9L4", "9L3"], "babydolleyes": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"]
+			, "brutalswing": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "covet": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"]
+			, "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fairywind": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"]
+			, "faketears": ["9L4", "9L3"], "feint": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "flatter": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"]
+			, "gigaimpact": ["9L4", "9L3"], "gigatonhammer": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"]
+			, "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icehammer": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
+			, "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pounce": ["9L4", "9L3"]
+			, "protect": ["9L4", "9L3"], "quash": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"]
+			, "rocktomb": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "skittersmack": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"]
+			, "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "spikes": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "supercellslam": ["9L4", "9L3"], "sweetkiss": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
+			, "thief": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"]
+			, "thunderbolt": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"]
+		}
+	}
+	, "fantasticturbo": {
+		"learnset": {
+			"astonish": ["9L4", "9L3"], "babydolleyes": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"]
+			, "brutalswing": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "covet": ["9L4", "9L3"]
+			, "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fairywind": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"]
+			, "faketears": ["9L4", "9L3"], "feint": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "flatter": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"]
+			, "gigaimpact": ["9L4", "9L3"], "gigatonhammer": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"]
+			, "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icehammer": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"]
+			, "metalclaw": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pounce": ["9L4", "9L3"]
+			, "protect": ["9L4", "9L3"], "quash": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"]
+			, "rocktomb": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "skittersmack": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"]
+			, "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "spikes": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "sweetkiss": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
+			, "thief": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"]
+			, "beakblast": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"]
+			, "mistyterrain": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "roost": ["9L4", "9L3"]
+		}
+	}
 	, "cleffaluma": { "learnset": { "afteryou": ["9L4", "9L3"], "alluringvoice": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bellydrum": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confusion": ["9L4", "9L3"], "copycat": ["9L4", "9L3"], "cosmicpower": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "covet": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "defensecurl": ["9L4", "9L3"], "detect": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "disarmingvoice": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "faketears": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "followme": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "lastresort": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "nightmare": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pound": ["9L4", "9L3"], "present": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "psywave": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "recycle": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "roleplay": ["9L4", "9L3"], "rollout": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seismictoss": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sing": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "softboiled": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "sweetkiss": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "telekinesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "tickle": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "wish": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "zapcannon": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
 	, "throhmario": { "learnset": { "attract": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "block": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "circlethrow": ["9L4", "9L3"], "coaching": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focusenergy": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "matblock": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "retaliate": ["9L4", "9L3"], "return": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "round": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seismictoss": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "stormthrow": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "vitalthrow": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
 	, "sawkluigi": { "learnset": { "attract": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "block": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "coaching": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doublekick": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focusenergy": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "karatechop": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "quickguard": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "retaliate": ["9L4", "9L3"], "return": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "round": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
@@ -482,66 +542,82 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	, "ironpixel": { "learnset": { "acidspray": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "clearsmog": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "corrosivegas": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "destinybond": ["9L4", "9L3"], "disable": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grudge": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypnosis": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "infestation": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lick": ["9L4", "9L3"], "meanlook": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "nightshade": ["9L4", "9L3"], "nightmare": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "perishsong": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poltergeist": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psywave": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "selfdestruct": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "smog": ["9L4", "9L3"], "snatch": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "telekinesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zapcannon": ["9L4", "9L3"] } }
 	, "strangepixel": { "learnset": { "acidspray": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "clearsmog": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "corrosivegas": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "destinybond": ["9L4", "9L3"], "disable": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grudge": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypnosis": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "infestation": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lick": ["9L4", "9L3"], "meanlook": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "nightshade": ["9L4", "9L3"], "nightmare": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "perishsong": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poltergeist": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psywave": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "selfdestruct": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "smog": ["9L4", "9L3"], "snatch": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "telekinesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zapcannon": ["9L4", "9L3"] } }
 	, "naturespark": { "learnset": { "agility": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "babydolleyes": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "charge": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "doublekick": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "eerieimpulse": ["9L4", "9L3"], "electricterrain": ["9L4", "9L3"], "electroball": ["9L4", "9L3"], "electroweb": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "faketears": ["9L4", "9L3"], "firefang": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "howl": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicfangs": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "risingvoltage": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "round": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snarl": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "supercellslam": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderfang": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
-	, "ironspore": { "learnset": { "absorb": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"]
-		, "bodyslam": ["9L4", "9L3"], "bounce": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "charm": ["9L4", "9L3"]
-		, "cottonguard": ["9L4", "9L3"], "cottonspore": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"]
-		, "electricterrain": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"]
-		, "facade": ["9L4", "9L3"], "fairywind": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
-		, "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"]
-		, "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lunge": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"]
-		, "magnetrise": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "poisonpowder": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"]
-		, "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "ragepowder": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
-		, "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"]
-		, "solarbeam": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "switcheroo": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"]
-		, "tackle": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
-		, "thief": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"]
-		, "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"] } }
-	, "naturespore": { "learnset": { "defog": ["9L4", "9L3"], "absorb": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"]
-		, "bodyslam": ["9L4", "9L3"], "bounce": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "charm": ["9L4", "9L3"]
-		, "cottonguard": ["9L4", "9L3"], "cottonspore": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"]
-		, "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"]
-		, "facade": ["9L4", "9L3"], "fairywind": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
-		, "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"]
-		, "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lunge": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"]
-		, "magnetrise": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "poisonpowder": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"]
-		, "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "ragepowder": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
-		, "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"]
-		, "solarbeam": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "switcheroo": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"]
-		, "tackle": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
-		, "thief": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"]
-		, "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"]
-		, "gyroball": ["9L4", "9L3"] } }
-	, "wildwind": { "learnset": { "absorb": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"]
-		, "bounce": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "cottonguard": ["9L4", "9L3"]
-		, "cottonspore": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "direclaw": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"]
-		, "drainingkiss": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"]
-		, "fairywind": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
-		, "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"]
-		, "irontail": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lunge": ["9L4", "9L3"]
-		, "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "playrough": ["9L4", "9L3"]
-		, "poisonpowder": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "ragepowder": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
-		, "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"]
-		, "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "switcheroo": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"]
-		, "tackle": ["9L4", "9L3"], "tailslap": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
-		, "thief": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "wish": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"] } }
-	, "naturewind": { "learnset": { "absorb": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"]
-		, "bounce": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "cottonguard": ["9L4", "9L3"]
-		, "cottonspore": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "direclaw": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"]
-		, "drainingkiss": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"]
-		, "fairywind": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
-		, "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"]
-		, "irontail": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lunge": ["9L4", "9L3"]
-		, "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "playrough": ["9L4", "9L3"]
-		, "poisonpowder": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "ragepowder": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
-		, "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"]
-		, "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "switcheroo": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"]
-		, "tackle": ["9L4", "9L3"], "tailslap": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
-		, "thief": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "wish": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"], "airslash": ["9L4", "9L3"]
-		, "aircutter": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "defog": ["9L4", "9L3"] } }
+	, "ironspore": {
+		"learnset": {
+			"absorb": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"]
+			, "bodyslam": ["9L4", "9L3"], "bounce": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "charm": ["9L4", "9L3"]
+			, "cottonguard": ["9L4", "9L3"], "cottonspore": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"]
+			, "electricterrain": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"]
+			, "facade": ["9L4", "9L3"], "fairywind": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
+			, "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"]
+			, "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lunge": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"]
+			, "magnetrise": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "poisonpowder": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"]
+			, "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "ragepowder": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
+			, "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"]
+			, "solarbeam": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "switcheroo": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"]
+			, "tackle": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
+			, "thief": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"]
+			, "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "wildcharge": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"]
+		}
+	}
+	, "naturespore": {
+		"learnset": {
+			"defog": ["9L4", "9L3"], "absorb": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"]
+			, "bodyslam": ["9L4", "9L3"], "bounce": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "charm": ["9L4", "9L3"]
+			, "cottonguard": ["9L4", "9L3"], "cottonspore": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"]
+			, "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"]
+			, "facade": ["9L4", "9L3"], "fairywind": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
+			, "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"]
+			, "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lunge": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"]
+			, "magnetrise": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "poisonpowder": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"]
+			, "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "ragepowder": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
+			, "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"]
+			, "solarbeam": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "switcheroo": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"]
+			, "tackle": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
+			, "thief": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"]
+			, "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "magnetbomb": ["9L4", "9L3"]
+			, "gyroball": ["9L4", "9L3"]
+		}
+	}
+	, "wildwind": {
+		"learnset": {
+			"absorb": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"]
+			, "bounce": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "cottonguard": ["9L4", "9L3"]
+			, "cottonspore": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "direclaw": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"]
+			, "drainingkiss": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"]
+			, "fairywind": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
+			, "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"]
+			, "irontail": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lunge": ["9L4", "9L3"]
+			, "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "playrough": ["9L4", "9L3"]
+			, "poisonpowder": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "ragepowder": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
+			, "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"]
+			, "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "switcheroo": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"]
+			, "tackle": ["9L4", "9L3"], "tailslap": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
+			, "thief": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "wish": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"]
+		}
+	}
+	, "naturewind": {
+		"learnset": {
+			"absorb": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"]
+			, "bounce": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "cottonguard": ["9L4", "9L3"]
+			, "cottonspore": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "direclaw": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"]
+			, "drainingkiss": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"]
+			, "fairywind": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"]
+			, "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"]
+			, "irontail": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lunge": ["9L4", "9L3"]
+			, "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "playrough": ["9L4", "9L3"]
+			, "poisonpowder": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "ragepowder": ["9L4", "9L3"], "raindance": ["9L4", "9L3"]
+			, "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"]
+			, "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "switcheroo": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"]
+			, "tackle": ["9L4", "9L3"], "tailslap": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"]
+			, "thief": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "wish": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"], "airslash": ["9L4", "9L3"]
+			, "aircutter": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "defog": ["9L4", "9L3"]
+		}
+	}
 	, "spikeclaw": { "learnset": { "absorb": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bounce": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "cottonguard": ["9L4", "9L3"], "cottonspore": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "direclaw": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fairywind": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lunge": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "poisonpowder": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "ragepowder": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "splash": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "switcheroo": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "tailslap": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "wish": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"] } }
 	, "natureterrarium": { "learnset": { "absorb": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "aromaticmist": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "decorate": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "floralhealing": ["9L4", "9L3"], "frenzyplant": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grassyglide": ["9L4", "9L3"], "grasspledge": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "growth": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "highhorsepower": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "moonlight": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "sandtomb": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shellsmash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "spitup": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "stockpile": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swallow": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thrash": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "tickle": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"], "withdraw": ["9L4", "9L3"], "woodhammer": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
 	, "mankeyhisuifury": { "learnset": { "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "assurance": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "avalanche": ["9L4", "9L3"], "beatup": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "burningjealousy": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "covet": ["9L4", "9L3"], "crosschop": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "defensecurl": ["9L4", "9L3"], "detect": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainpunch": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"], "dynamicpunch": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "finalgambit": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firefang": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "flamewheel": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focusenergy": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "foresight": ["9L4", "9L3"], "freezedry": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "furyswipes": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "iciclecrash": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "karatechop": ["9L4", "9L3"], "lashout": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "meditate": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "payday": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "powertrip": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "punishment": ["9L4", "9L3"], "pursuit": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "retaliate": ["9L4", "9L3"], "return": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "roleplay": ["9L4", "9L3"], "round": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "seismictoss": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "smellingsalts": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spite": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "submission": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "thrash": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "vacuumwave": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "workup": ["9L4", "9L3"] } }
@@ -572,24 +648,28 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	, "orchestarrot": { "learnset": { "aerialace": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "boomburst": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "chatter": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "featherdance": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "furyattack": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mirrormove": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "nightshade": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "peck": ["9L4", "9L3"], "pluck": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "roleplay": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "round": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "sing": ["9L4", "9L3"], "skyattack": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "steelwing": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "supersonic": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "synchronoise": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "confusion": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "psychic terrain": ["9L4", "9L3"] } }
 	, "pecharuntpure": { "learnset": { "absorb": ["9L4", "9L3"], "alluringvoice": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "defensecurl": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "faketears": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "growth": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "meanlook": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "petalblizzard": ["9L4", "9L3"], "petaldance": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rollout": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "seedflare": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "solarblade": ["9L4", "9L3"], "spite": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "sweetscent": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "teleport": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "withdraw": ["9L4", "9L3"] } }
 	, "plasmatomb": { "learnset": { "allyswitch": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "burningjealousy": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "destinybond": ["9L4", "9L3"], "disable": ["9L4", "9L3"], "discharge": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grudge": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypnosis": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "infestation": ["9L4", "9L3"], "lashout": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "nightshade": ["9L4", "9L3"], "nightmare": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "poltergeist": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "pursuit": ["9L4", "9L3"], "quash": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "retaliate": ["9L4", "9L3"], "return": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "round": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowsneak": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "silverwind": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smokescreen": ["9L4", "9L3"], "snarl": ["9L4", "9L3"], "snatch": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spark": ["9L4", "9L3"], "spite": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "telekinesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thundershock": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "voltswitch": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"] } }
-	, "naturetriffid": { "learnset": { "absorb": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"]
-		, "breakingswipe": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cottonspore": ["9L4", "9L3"]
-		, "covet": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"]
-		, "dragoncheer": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"]
-		, "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "extrasensory": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flash": ["9L4", "9L3"]
-		, "furycutter": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grasswhistle": ["9L4", "9L3"]
-		, "grassyglide": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "growth": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"]
-		, "ingrain": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"]
-		, "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mindreader": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"]
-		, "naturalgift": ["9L4", "9L3"], "naturepower": ["9L4", "9L3"], "nightmare": ["9L4", "9L3"], "petalblizzard": ["9L4", "9L3"], "petaldance": ["9L4", "9L3"]
-		, "pinmissile": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poisonsting": ["9L4", "9L3"], "powerwhip": ["9L4", "9L3"], "protect": ["9L4", "9L3"]
-		, "psychup": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "round": ["9L4", "9L3"]
-		, "scaleshot": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"]
-		, "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "spikes": ["9L4", "9L3"]
-		, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "sweetkiss": ["9L4", "9L3"], "sweetscent": ["9L4", "9L3"]
-		, "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "uproar": ["9L4", "9L3"]
-		, "watersport": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "toxic": ["9L4", "9L3"]
-		, "toxicspikes": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"] } }
+	, "naturetriffid": {
+		"learnset": {
+			"absorb": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"]
+			, "breakingswipe": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cottonspore": ["9L4", "9L3"]
+			, "covet": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"]
+			, "dragoncheer": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"]
+			, "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "extrasensory": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flash": ["9L4", "9L3"]
+			, "furycutter": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grasswhistle": ["9L4", "9L3"]
+			, "grassyglide": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "growth": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"]
+			, "ingrain": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"]
+			, "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mindreader": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"]
+			, "naturalgift": ["9L4", "9L3"], "naturepower": ["9L4", "9L3"], "nightmare": ["9L4", "9L3"], "petalblizzard": ["9L4", "9L3"], "petaldance": ["9L4", "9L3"]
+			, "pinmissile": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poisonsting": ["9L4", "9L3"], "powerwhip": ["9L4", "9L3"], "protect": ["9L4", "9L3"]
+			, "psychup": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "round": ["9L4", "9L3"]
+			, "scaleshot": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"]
+			, "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "spikes": ["9L4", "9L3"]
+			, "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "sweetkiss": ["9L4", "9L3"], "sweetscent": ["9L4", "9L3"]
+			, "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "uproar": ["9L4", "9L3"]
+			, "watersport": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "toxic": ["9L4", "9L3"]
+			, "toxicspikes": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"]
+		}
+	}
 	, "regifly": { "learnset": { "acrobatics": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aeroblast": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "assurance": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bleakwindstorm": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bounce": ["9L4", "9L3"], "bravebird": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dualwingbeat": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "extrasensory": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "featherdance": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "gust": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "mirrormove": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "moonlight": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "peck": ["9L4", "9L3"], "pluck": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "roleplay": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "round": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "skyattack": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "steelwing": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "thrash": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "wingattack": ["9L4", "9L3"] } }
 	, "revavroomgearmoto": { "learnset": { "acidspray": ["9L4", "9L3"], "assurance": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "gyroball": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "highhorsepower": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "lashout": ["9L4", "9L3"], "lick": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "partingshot": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "selfdestruct": ["9L4", "9L3"], "shiftgear": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludge": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "smog": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spinout": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "temperflare": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
 	, "revavroomgearpull": { "learnset": { "acidspray": ["9L4", "9L3"], "assurance": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "gyroball": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "highhorsepower": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "lashout": ["9L4", "9L3"], "lick": ["9L4", "9L3"], "magnetrise": ["9L4", "9L3"], "metalsound": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "partingshot": ["9L4", "9L3"], "poisongas": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "selfdestruct": ["9L4", "9L3"], "shiftgear": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludge": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "smog": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spinout": ["9L4", "9L3"], "steelbeam": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "temperflare": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
@@ -604,7 +684,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	, "roseradehellmega": { "learnset": { "absorb": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "assurance": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "babydolleyes": ["9L4", "9L3"], "beatup": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cottonspore": ["9L4", "9L3"], "covet": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "extrasensory": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "falsesurrender": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grasswhistle": ["9L4", "9L3"], "grassyglide": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "growth": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "ingrain": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "lashout": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mindreader": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "naturepower": ["9L4", "9L3"], "nightdaze": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "nightmare": ["9L4", "9L3"], "partingshot": ["9L4", "9L3"], "petalblizzard": ["9L4", "9L3"], "petaldance": ["9L4", "9L3"], "pinmissile": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poisonsting": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "pursuit": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "retaliate": ["9L4", "9L3"], "return": ["9L4", "9L3"], "round": ["9L4", "9L3"], "sacredsword": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "snarl": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "spikes": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "sweetkiss": ["9L4", "9L3"], "sweetscent": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "switcheroo": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "venomdrench": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "wakeupslap": ["9L4", "9L3"], "watersport": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "wickedblow": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"] } }
 	, "drifblimhell": { "learnset": { "acid": ["9L4", "9L3"], "acidarmor": ["9L4", "9L3"], "acidspray": ["9L4", "9L3"], "acupressure": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "aurorabeam": ["9L4", "9L3"], "barrier": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brine": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "clearsmog": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "constrict": ["9L4", "9L3"], "corrosivegas": ["9L4", "9L3"], "crosspoison": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "destinybond": ["9L4", "9L3"], "disable": ["9L4", "9L3"], "dive": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypnosis": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "infestation": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "minimize": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "muddywater": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poisonsting": ["9L4", "9L3"], "pounce": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "recycle": ["9L4", "9L3"], "reflecttype": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "rollout": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "selfdestruct": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "skittersmack": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "spitup": ["9L4", "9L3"], "spite": ["9L4", "9L3"], "stockpile": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "supersonic": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swallow": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "telekinesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "tickle": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "venomdrench": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "wrap": ["9L4", "9L3"], "wringout": ["9L4", "9L3"] } }
 	, "drifblimhellmega": { "learnset": { "acid": ["9L4", "9L3"], "acidarmor": ["9L4", "9L3"], "acidspray": ["9L4", "9L3"], "acupressure": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "aurorabeam": ["9L4", "9L3"], "barrier": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brine": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "clearsmog": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "constrict": ["9L4", "9L3"], "corrosivegas": ["9L4", "9L3"], "crosspoison": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "destinybond": ["9L4", "9L3"], "disable": ["9L4", "9L3"], "dive": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypnosis": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "infestation": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "minimize": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "muddywater": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poisonsting": ["9L4", "9L3"], "pounce": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "recycle": ["9L4", "9L3"], "reflecttype": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "rollout": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "selfdestruct": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "skittersmack": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "spitup": ["9L4", "9L3"], "spite": ["9L4", "9L3"], "stockpile": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "strengthsap": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "supersonic": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swallow": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "telekinesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "tickle": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "toxicspikes": ["9L4", "9L3"], "venomdrench": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "wrap": ["9L4", "9L3"], "wringout": ["9L4", "9L3"] } }
-	, "floatzelhell": { "learnset": { "acrobatics": ["9L4", "9L3"],"flowertrick": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "aurasphere": ["9L4", "9L3"], "axekick": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "brine": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulletpunch": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confusion": ["9L4", "9L3"], "cosmicpower": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "detect": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doublehit": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainpunch": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"], "feint": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "forcepalm": ["9L4", "9L3"], "foresight": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "guardswap": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "highjumpkick": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "icespinner": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "jumpkick": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "meditate": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mindreader": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "powertrick": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "pursuit": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "quickguard": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "razorwind": ["9L4", "9L3"], "recycle": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "retaliate": ["9L4", "9L3"], "return": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rockthrow": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "roleplay": ["9L4", "9L3"], "round": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seismictoss": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "snarl": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "sonicboom": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tailslap": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "telekinesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "upperhand": ["9L4", "9L3"], "vacuumwave": ["9L4", "9L3"], "whirlwind": ["9L4", "9L3"], "wish": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
+	, "floatzelhell": { "learnset": { "acrobatics": ["9L4", "9L3"], "flowertrick": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "aurasphere": ["9L4", "9L3"], "axekick": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "brine": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "bulletpunch": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confusion": ["9L4", "9L3"], "cosmicpower": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "detect": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doublehit": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainpunch": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"], "feint": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "forcepalm": ["9L4", "9L3"], "foresight": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "guardswap": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "highjumpkick": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "icespinner": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "jumpkick": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "meditate": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mindreader": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "powertrick": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "pursuit": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "quickguard": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "razorwind": ["9L4", "9L3"], "recycle": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "retaliate": ["9L4", "9L3"], "return": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rockthrow": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "roleplay": ["9L4", "9L3"], "round": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "seismictoss": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smartstrike": ["9L4", "9L3"], "snarl": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "sonicboom": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tailslap": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "telekinesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "upperhand": ["9L4", "9L3"], "vacuumwave": ["9L4", "9L3"], "whirlwind": ["9L4", "9L3"], "wish": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
 	, "altariahell": { "learnset": { "acrobatics": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "alluringvoice": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bravebird": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cottonguard": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "disarmingvoice": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dragonbreath": ["9L4", "9L3"], "dragoncheer": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "dualwingbeat": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "falseswipe": ["9L4", "9L3"], "featherdance": ["9L4", "9L3"], "fierydance": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "furyattack": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "healbell": ["9L4", "9L3"], "heatcrash": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "lavaplume": ["9L4", "9L3"], "magmastorm": ["9L4", "9L3"], "meteorbeam": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mirrormove": ["9L4", "9L3"], "mist": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "peck": ["9L4", "9L3"], "perishsong": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pluck": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "pursuit": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "refresh": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "sing": ["9L4", "9L3"], "skyattack": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "steelwing": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"] } }
 	, "altariahellmega": { "learnset": { "acrobatics": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "alluringvoice": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bravebird": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cottonguard": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "disarmingvoice": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dragonbreath": ["9L4", "9L3"], "dragoncheer": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "dualwingbeat": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "falseswipe": ["9L4", "9L3"], "featherdance": ["9L4", "9L3"], "fierydance": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "furyattack": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "healbell": ["9L4", "9L3"], "heatcrash": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "lavaplume": ["9L4", "9L3"], "magmastorm": ["9L4", "9L3"], "meteorbeam": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mirrormove": ["9L4", "9L3"], "mist": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "peck": ["9L4", "9L3"], "perishsong": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "pluck": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "pursuit": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "refresh": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "sing": ["9L4", "9L3"], "skyattack": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "steelwing": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "uproar": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"] } }
 	, "reuniclushell": { "learnset": { "afteryou": ["9L4", "9L3"], "alluringvoice": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "cottonguard": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "dizzypunch": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "drainpunch": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "explosion": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "guardswap": ["9L4", "9L3"], "gyroball": ["9L4", "9L3"], "hammerarm": ["9L4", "9L3"], "healblock": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "healingwish": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "infestation": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "nightshade": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "roleplay": ["9L4", "9L3"], "rollout": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "sing": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snatch": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "steelroller": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "telekinesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "wish": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
@@ -627,7 +707,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	, "flygonmegaz": { "learnset": { "agility": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "alluringvoice": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "boomburst": ["9L4", "9L3"], "bugbuzz": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dracometeor": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "dualwingbeat": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "firstimpression": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "stealthrock": ["9L4", "9L3"], "steelwing": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "vacuumwave": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bugbite": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dragonbreath": ["9L4", "9L3"], "dragoncheer": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "feint": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "fissure": ["9L4", "9L3"], "flail": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "focusenergy": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gust": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "round": ["9L4", "9L3"], "sandattack": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "sandtomb": ["9L4", "9L3"], "scaleshot": ["9L4", "9L3"], "screech": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "silverwind": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "sonicboom": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "strugglebug": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "supersonic": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "uproar": ["9L4", "9L3"] } }
 	, "mewtwomegaz": { "learnset": { "agility": ["9L4", "9L3"], "aquatail": ["9L4", "9L3"], "aurasphere": ["9L4", "9L3"], "avalanche": ["9L4", "9L3"], "barrier": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "bulkup": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "detect": ["9L4", "9L3"], "disable": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainpunch": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lashout": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "magiccoat": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "nightshade": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "psystrike": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "seismictoss": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "teleport": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "triattack": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "ancientpower": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "confusion": ["9L4", "9L3"], "dive": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "dynamicpunch": ["9L4", "9L3"], "electroball": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "guardswap": ["9L4", "9L3"], "hail": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "mefirst": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "miracleeye": ["9L4", "9L3"], "mist": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "nightmare": ["9L4", "9L3"], "payday": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psywave": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "recycle": ["9L4", "9L3"], "reversal": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "roleplay": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "selfdestruct": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "snatch": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "speedswap": ["9L4", "9L3"], "spite": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "submission": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "telekinesis": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"], "zapcannon": ["9L4", "9L3"] } }
 	, "slowbromegag": { "learnset": { "avalanche": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "disable": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainpunch": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "liquidation": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "razorshell": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shellsidearm": ["9L4", "9L3"], "slackoff": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "triattack": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "yawn": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "acid": ["9L4", "9L3"], "acidspray": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "belch": ["9L4", "9L3"], "bellydrum": ["9L4", "9L3"], "block": ["9L4", "9L3"], "brine": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "confusion": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "dive": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "hail": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "muddywater": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "payday": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "stomp": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "withdraw": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"] } }
-	, "glowbro": { "learnset": { "avalanche": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "disable": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainpunch": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icefang": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "liquidation": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "razorshell": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "rockblast": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shellsidearm": ["9L4", "9L3"], "slackoff": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "triattack": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "yawn": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "acid": ["9L4", "9L3"], "acidspray": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "belch": ["9L4", "9L3"], "bellydrum": ["9L4", "9L3"], "block": ["9L4", "9L3"], "brine": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "confusion": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "dive": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "hail": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "muddywater": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "payday": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "snowscape": ["9L4", "9L3"], "stomp": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "withdraw": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"] } }
 	, "darkraimegaz": { "learnset": { "blizzard": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "disable": ["9L4", "9L3"], "drainpunch": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "foulplay": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hypnosis": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lashout": ["9L4", "9L3"], "lastresort": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "nightshade": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "pursuit": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "spacialrend": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "xscissor": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "darkvoid": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "nightmare": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "retaliate": ["9L4", "9L3"], "roaroftime": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "snarl": ["9L4", "9L3"], "snatch": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spite": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "torment": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"] } }
 	, "regigigasshine": { "learnset": { "ancientpower": ["9L4", "9L3"], "avalanche": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "darkestlariat": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainpunch": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "hammerarm": ["9L4", "9L3"], "heatcrash": ["9L4", "9L3"], "heavyslam": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "highhorsepower": ["9L4", "9L3"], "boomburst": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "rockpolish": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "stoneedge": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "superpower": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "block": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "crushgrip": ["9L4", "9L3"], "dizzypunch": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "foresight": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "hardpress": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "naturepower": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "pound": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "retaliate": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "terrainpulse": ["9L4", "9L3"], "wideguard": ["9L4", "9L3"] } }
 	, "hatterenealolagigamax": { "learnset": { "afteryou": ["9L4", "9L3"], "agility": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "aromaticmist": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brine": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "confusion": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "disarmingvoice": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "expandingforce": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "flipturn": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "guardswap": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "healpulse": ["9L4", "9L3"], "healingwish": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "liquidation": ["9L4", "9L3"], "magicpowder": ["9L4", "9L3"], "magicroom": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "metronome": ["9L4", "9L3"], "mist": ["9L4", "9L3"], "mistyexplosion": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "mysticalfire": ["9L4", "9L3"], "nuzzle": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "playnice": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "powerswap": ["9L4", "9L3"], "powerwhip": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "psychicnoise": ["9L4", "9L3"], "psychicterrain": ["9L4", "9L3"], "psychocut": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "quash": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "skillswap": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "watersport": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "wonderroom": ["9L4", "9L3"] } }
@@ -641,7 +720,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	, "gardevoirhell": { "learnset": { "airslash": ["9L4", "9L3"], "allyswitch": ["9L4", "9L3"], "ancientpower": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "babydolleyes": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "disarmingvoice": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "ember": ["9L4", "9L3"], "encore": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fairywind": ["9L4", "9L3"], "falseswipe": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "furyattack": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "glare": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "gravity": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "leafblade": ["9L4", "9L3"], "lightofruin": ["9L4", "9L3"], "lovelykiss": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "moonlight": ["9L4", "9L3"], "mudbomb": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "naturepower": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "spiritbreak": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "sweetkiss": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "tickle": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "trick": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"] } }
 	, "gloomhorn": { "learnset": { "absorb": ["9L4", "9L3"], "acid": ["9L4", "9L3"], "acidarmor": ["9L4", "9L3"], "acidspray": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "armthrust": ["9L4", "9L3"], "aromatherapy": ["9L4", "9L3"], "assurance": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "batonpass": ["9L4", "9L3"], "belch": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "chipaway": ["9L4", "9L3"], "circlethrow": ["9L4", "9L3"], "closecombat": ["9L4", "9L3"], "comeuppance": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "constrict": ["9L4", "9L3"], "crosschop": ["9L4", "9L3"], "crosspoison": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "darkestlariat": ["9L4", "9L3"], "doublehit": ["9L4", "9L3"], "doublekick": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "drainpunch": ["9L4", "9L3"], "dualchop": ["9L4", "9L3"], "embargo": ["9L4", "9L3"], "endeavor": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "feint": ["9L4", "9L3"], "feintattack": ["9L4", "9L3"], "flail": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "forcepalm": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "grassyglide": ["9L4", "9L3"], "grudge": ["9L4", "9L3"], "gunkshot": ["9L4", "9L3"], "hammerarm": ["9L4", "9L3"], "hell": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hornattack": ["9L4", "9L3"], "hornleech": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "ingrain": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "lashout": ["9L4", "9L3"], "lastresort": ["9L4", "9L3"], "lowkick": ["9L4", "9L3"], "lowsweep": ["9L4", "9L3"], "machpunch": ["9L4", "9L3"], "meanlook": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "megahorn": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "moonlight": ["9L4", "9L3"], "nastyplot": ["9L4", "9L3"], "nightshade": ["9L4", "9L3"], "nightslash": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "payback": ["9L4", "9L3"], "playrough": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "poisonpowder": ["9L4", "9L3"], "poltergeist": ["9L4", "9L3"], "pound": ["9L4", "9L3"], "powertrip": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "punishment": ["9L4", "9L3"], "pursuit": ["9L4", "9L3"], "ragepowder": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "revenge": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "sandtomb": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "shadowpunch": ["9L4", "9L3"], "shadowsneak": ["9L4", "9L3"], "slam": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludge": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "sludgewave": ["9L4", "9L3"], "snatch": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "stunspore": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "suckerpunch": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thief": ["9L4", "9L3"], "throatchop": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "uturn": ["9L4", "9L3"], "vinewhip": ["9L4", "9L3"], "vitalthrow": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "wrap": ["9L4", "9L3"] } }
 	, "venusaurprime": { "learnset": { "hell": ["9L4", "9L3"], "extrasensory": ["9L4", "9L3"], "pollenpuff": ["9L4", "9L3"], "sappyseed": ["9L4", "9L3"], "malignantchain": ["9L4", "9L3"], "matchagotcha": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "grassknot": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "knockoff": ["9L4", "9L3"], "leafstorm": ["9L4", "9L3"], "leechseed": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "petalblizzard": ["9L4", "9L3"], "poisonjab": ["9L4", "9L3"], "powerwhip": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "seedbomb": ["9L4", "9L3"], "sleeppowder": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "sludgebomb": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "synthesis": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "trailblaze": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "acidspray": ["9L4", "9L3"], "amnesia": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bind": ["9L4", "9L3"], "block": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "bulletseed": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "celebrate": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "defensecurl": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "falseswipe": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "frenzyplant": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "grasspledge": ["9L4", "9L3"], "grasswhistle": ["9L4", "9L3"], "grassyglide": ["9L4", "9L3"], "grassyterrain": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "growth": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "ingrain": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "megadrain": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "naturepower": ["9L4", "9L3"], "petaldance": ["9L4", "9L3"], "poisonpowder": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "razorleaf": ["9L4", "9L3"], "razorwind": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "sludge": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "stompingtantrum": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "stringshot": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "sweetscent": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terrainpulse": ["9L4", "9L3"], "venoshock": ["9L4", "9L3"], "vinewhip": ["9L4", "9L3"], "workup": ["9L4", "9L3"], "worryseed": ["9L4", "9L3"] } }
-	, "charizardprime": { "learnset": { "hell": ["9L4", "9L3"], "aeroblast": ["8M"],"trailblaze": ["8M"], "earthpower": ["9L4", "9L3"], "bitterblade": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "ancientpower": ["9L4", "9L3"], "blazekick": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "dualwingbeat": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firefang": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "flamecharge": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "seismic toss": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "steelwing": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "beatup": ["9L4", "9L3"], "bellydrum": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "blastburn": ["9L4", "9L3"], "block": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "celebrate": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "defensecurl": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dragonbreath": ["9L4", "9L3"], "dragoncheer": ["9L4", "9L3"], "dragonrage": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "dynamicpunch": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "ember": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "falseswipe": ["9L4", "9L3"], "firepledge": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "fissure": ["9L4", "9L3"], "flameburst": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "furyswipes": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "heatcrash": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "holdhands": ["9L4", "9L3"], "howl": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "inferno": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "mysticalfire": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "round": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaleshot": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "smokescreen": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "submission": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "temperflare": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "wingattack": ["9L4", "9L3"], "workup": ["9L4", "9L3"] } }
+	, "charizardprime": { "learnset": { "hell": ["9L4", "9L3"], "aeroblast": ["8M"], "trailblaze": ["8M"], "earthpower": ["9L4", "9L3"], "bitterblade": ["9L4", "9L3"], "acrobatics": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "ancientpower": ["9L4", "9L3"], "blazekick": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dragonclaw": ["9L4", "9L3"], "dragondance": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "dualwingbeat": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "firefang": ["9L4", "9L3"], "firepunch": ["9L4", "9L3"], "flamecharge": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "honeclaws": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "quickattack": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "seismic toss": ["9L4", "9L3"], "shadowclaw": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "steelwing": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "swordsdance": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunderpunch": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "beatup": ["9L4", "9L3"], "bellydrum": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "blastburn": ["9L4", "9L3"], "block": ["9L4", "9L3"], "breakingswipe": ["9L4", "9L3"], "brutalswing": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "celebrate": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "cut": ["9L4", "9L3"], "defensecurl": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dragonbreath": ["9L4", "9L3"], "dragoncheer": ["9L4", "9L3"], "dragonrage": ["9L4", "9L3"], "dragonrush": ["9L4", "9L3"], "dynamicpunch": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "ember": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "falseswipe": ["9L4", "9L3"], "firepledge": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "fissure": ["9L4", "9L3"], "flameburst": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "furycutter": ["9L4", "9L3"], "furyswipes": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "growl": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "heatcrash": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "holdhands": ["9L4", "9L3"], "howl": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "inferno": ["9L4", "9L3"], "leer": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "metalclaw": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "mysticalfire": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "round": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "scaleshot": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "scratch": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "slash": ["9L4", "9L3"], "smokescreen": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "submission": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "temperflare": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "wingattack": ["9L4", "9L3"], "workup": ["9L4", "9L3"] } }
 	, "flutterlame": { "learnset": { "hell": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "dazzlinggleam": ["9L4", "9L3"], "drainingkiss": ["9L4", "9L3"], "energyball": ["9L4", "9L3"], "hex": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "memento": ["9L4", "9L3"], "moonblast": ["9L4", "9L3"], "mysticalfire": ["9L4", "9L3"], "nightshade": ["9L4", "9L3"], "painsplit": ["9L4", "9L3"], "perishsong": ["9L4", "9L3"], "poltergeist": ["9L4", "9L3"], "powergem": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psyshock": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "storedpower": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "taunt": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "wish": ["9L4", "9L3"], "astonish": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "charm": ["9L4", "9L3"], "confuseray": ["9L4", "9L3"], "disarmingvoice": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "faketears": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "magicalleaf": ["9L4", "9L3"], "meanlook": ["9L4", "9L3"], "mistyterrain": ["9L4", "9L3"], "phantomforce": ["9L4", "9L3"], "psybeam": ["9L4", "9L3"], "spite": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "trickroom": ["9L4", "9L3"] } }
 	, "blastoiseprime": { "learnset": { "hell": ["9L4", "9L3"], "freezedry": ["9L4", "9L3"], "armorcannon": ["9L4", "9L3"], "shoreup": ["9L4", "9L3"], "originpulse": ["9L4", "9L3"], "aquajet": ["9L4", "9L3"], "aquatail": ["9L4", "9L3"], "aurasphere": ["9L4", "9L3"], "avalanche": ["9L4", "9L3"], "blizzard": ["9L4", "9L3"], "bodypress": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "brickbreak": ["9L4", "9L3"], "counter": ["9L4", "9L3"], "crunch": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "darkpulse": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dragonpulse": ["9L4", "9L3"], "dragontail": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fakeout": ["9L4", "9L3"], "flashcannon": ["9L4", "9L3"], "flipturn": ["9L4", "9L3"], "focusblast": ["9L4", "9L3"], "focuspunch": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "haze": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hydropump": ["9L4", "9L3"], "icebeam": ["9L4", "9L3"], "icespinner": ["9L4", "9L3"], "irondefense": ["9L4", "9L3"], "irontail": ["9L4", "9L3"], "liquidation": ["9L4", "9L3"], "outrage": ["9L4", "9L3"], "poweruppunch": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "rapidspin": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "refresh": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "rockslide": ["9L4", "9L3"], "scald": ["9L4", "9L3"], "seismictoss": ["9L4", "9L3"], "shellsmash": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "surf": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "waterfall": ["9L4", "9L3"], "waterspout": ["9L4", "9L3"], "wavecrash": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "yawn": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "aquaring": ["9L4", "9L3"], "attract": ["9L4", "9L3"], "bide": ["9L4", "9L3"], "bite": ["9L4", "9L3"], "block": ["9L4", "9L3"], "brine": ["9L4", "9L3"], "bubble": ["9L4", "9L3"], "bubblebeam": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "captivate": ["9L4", "9L3"], "celebrate": ["9L4", "9L3"], "chillingwater": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "confusion": ["9L4", "9L3"], "defensecurl": ["9L4", "9L3"], "dig": ["9L4", "9L3"], "dive": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dynamicpunch": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "falseswipe": ["9L4", "9L3"], "fissure": ["9L4", "9L3"], "flail": ["9L4", "9L3"], "fling": ["9L4", "9L3"], "followme": ["9L4", "9L3"], "foresight": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gyroball": ["9L4", "9L3"], "hail": ["9L4", "9L3"], "headbutt": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hydrocannon": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "icepunch": ["9L4", "9L3"], "icywind": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"], "megakick": ["9L4", "9L3"], "megapunch": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mirrorcoat": ["9L4", "9L3"], "mist": ["9L4", "9L3"], "muddywater": ["9L4", "9L3"], "mudshot": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "mudspore": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "rage": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "rocktomb": ["9L4", "9L3"], "rollout": ["9L4", "9L3"], "round": ["9L4", "9L3"], "scaryface": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "skullbash": ["9L4", "9L3"], "smackdown": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "submission": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "tackle": ["9L4", "9L3"], "tailwhip": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "terrainpulse": ["9L4", "9L3"], "watergun": ["9L4", "9L3"], "waterpledge": ["9L4", "9L3"], "waterpulse": ["9L4", "9L3"], "whirlpool": ["9L4", "9L3"], "withdraw": ["9L4", "9L3"], "workup": ["9L4", "9L3"] } }
 	, "hoho": { "learnset": { "hell": ["9L4", "9L3"], "airslash": ["9L4", "9L3"], "ancientpower": ["9L4", "9L3"], "bodyslam": ["9L4", "9L3"], "bravebird": ["9L4", "9L3"], "calmmind": ["9L4", "9L3"], "curse": ["9L4", "9L3"], "defog": ["9L4", "9L3"], "detect": ["9L4", "9L3"], "doubleedge": ["9L4", "9L3"], "dualwingbeat": ["9L4", "9L3"], "earthpower": ["9L4", "9L3"], "earthquake": ["9L4", "9L3"], "extrasensory": ["9L4", "9L3"], "facade": ["9L4", "9L3"], "fireblast": ["9L4", "9L3"], "flamecharge": ["9L4", "9L3"], "flamethrower": ["9L4", "9L3"], "flareblitz": ["9L4", "9L3"], "frustration": ["9L4", "9L3"], "futuresight": ["9L4", "9L3"], "gigadrain": ["9L4", "9L3"], "heatwave": ["9L4", "9L3"], "hiddenpower": ["9L4", "9L3"], "hurricane": ["9L4", "9L3"], "hypervoice": ["9L4", "9L3"], "ironhead": ["9L4", "9L3"], "lightscreen": ["9L4", "9L3"], "overheat": ["9L4", "9L3"], "protect": ["9L4", "9L3"], "psychic": ["9L4", "9L3"], "recover": ["9L4", "9L3"], "reflect": ["9L4", "9L3"], "rest": ["9L4", "9L3"], "return": ["9L4", "9L3"], "roar": ["9L4", "9L3"], "roost": ["9L4", "9L3"], "sacredfire": ["9L4", "9L3"], "scorchingsands": ["9L4", "9L3"], "shadowball": ["9L4", "9L3"], "signalbeam": ["9L4", "9L3"], "sleeptalk": ["9L4", "9L3"], "substitute": ["9L4", "9L3"], "tailwind": ["9L4", "9L3"], "terablast": ["9L4", "9L3"], "thunder": ["9L4", "9L3"], "thunderbolt": ["9L4", "9L3"], "thunderwave": ["9L4", "9L3"], "toxic": ["9L4", "9L3"], "weatherball": ["9L4", "9L3"], "whirlwind": ["9L4", "9L3"], "willowisp": ["9L4", "9L3"], "zenheadbutt": ["9L4", "9L3"], "aerialace": ["9L4", "9L3"], "aircutter": ["9L4", "9L3"], "bulldoze": ["9L4", "9L3"], "burnup": ["9L4", "9L3"], "celebrate": ["9L4", "9L3"], "chargebeam": ["9L4", "9L3"], "confide": ["9L4", "9L3"], "doubleteam": ["9L4", "9L3"], "dragonbreath": ["9L4", "9L3"], "dreameater": ["9L4", "9L3"], "echoedvoice": ["9L4", "9L3"], "endure": ["9L4", "9L3"], "firespin": ["9L4", "9L3"], "flash": ["9L4", "9L3"], "fly": ["9L4", "9L3"], "gigaimpact": ["9L4", "9L3"], "gust": ["9L4", "9L3"], "helpinghand": ["9L4", "9L3"], "hyperbeam": ["9L4", "9L3"], "imprison": ["9L4", "9L3"], "incinerate": ["9L4", "9L3"], "laserfocus": ["9L4", "9L3"], "lifedew": ["9L4", "9L3"], "mimic": ["9L4", "9L3"], "mudslap": ["9L4", "9L3"], "mysticalfire": ["9L4", "9L3"], "naturalgift": ["9L4", "9L3"], "nightmare": ["9L4", "9L3"], "ominouswind": ["9L4", "9L3"], "pluck": ["9L4", "9L3"], "psychup": ["9L4", "9L3"], "punishment": ["9L4", "9L3"], "raindance": ["9L4", "9L3"], "rocksmash": ["9L4", "9L3"], "round": ["9L4", "9L3"], "safeguard": ["9L4", "9L3"], "sandstorm": ["9L4", "9L3"], "secretpower": ["9L4", "9L3"], "shockwave": ["9L4", "9L3"], "skyattack": ["9L4", "9L3"], "skydrop": ["9L4", "9L3"], "snore": ["9L4", "9L3"], "solarbeam": ["9L4", "9L3"], "steelwing": ["9L4", "9L3"], "strength": ["9L4", "9L3"], "sunnyday": ["9L4", "9L3"], "swagger": ["9L4", "9L3"], "swift": ["9L4", "9L3"], "takedown": ["9L4", "9L3"], "twister": ["9L4", "9L3"], "zapcannon": ["9L4", "9L3"] } }
@@ -9336,6 +9415,390 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			gunkshot: ["9M"],
 		},
 	},
+	cobbarisu: {
+		"learnset": {
+			"absorb": ["9L4", "9L3"],
+			"aerialace": ["9L4", "9L3"],
+			"agility": ["9L4", "9L3"],
+			"alluringvoice": ["9L4", "9L3"],
+			"attract": ["9L4", "9L3"],
+			"aurasphere": ["9L4", "9L3"],
+			"babydolleyes": ["9L4", "9L3"],
+			"barrage": ["9L4", "9L3"],
+			"bestow": ["9L4", "9L3"],
+			"bide": ["9L4", "9L3"],
+			"bite": ["9L4", "9L3"],
+			"bulletseed": ["9L4", "9L3"],
+			"captivate": ["9L4", "9L3"],
+			"charge": ["9L4", "9L3"],
+			"chargebeam": ["9L4", "9L3"],
+			"charm": ["9L4", "9L3"],
+			"covet": ["9L4", "9L3"],
+			"cut": ["9L4", "9L3"],
+			"dazzlinggleam": ["9L4", "9L3"],
+			"defensecurl": ["9L4", "9L3"],
+			"dig": ["9L4", "9L3"],
+			"discharge": ["9L4", "9L3"],
+			"doubleteam": ["9L4", "9L3"],
+			"echoedvoice": ["9L4", "9L3"],
+			"eerieimpulse": ["9L4", "9L3"],
+			"electricterrain": ["9L4", "9L3"],
+			"electroball": ["9L4", "9L3"],
+			"electroweb": ["9L4", "9L3"],
+			"encore": ["9L4", "9L3"],
+			"endeavor": ["9L4", "9L3"],
+			"endure": ["9L4", "9L3"],
+			"energyball": ["9L4", "9L3"],
+			"facade": ["9L4", "9L3"],
+			"fakeout": ["9L4", "9L3"],
+			"faketears": ["9L4", "9L3"],
+			"flail": ["9L4", "9L3"],
+			"flash": ["9L4", "9L3"],
+			"flatter": ["9L4", "9L3"],
+			"fling": ["9L4", "9L3"],
+			"focusblast": ["9L4", "9L3"],
+			"followme": ["9L4", "9L3"],
+			"frenzyplant": ["9L4", "9L3"],
+			"frustration": ["9L4", "9L3"],
+			"gigadrain": ["9L4", "9L3"],
+			"gigaimpact": ["9L4", "9L3"],
+			"grassknot": ["9L4", "9L3"],
+			"grasswhistle": ["9L4", "9L3"],
+			"grassyglide": ["9L4", "9L3"],
+			"grassyterrain": ["9L4", "9L3"],
+			"growl": ["9L4", "9L3"],
+			"growth": ["9L4", "9L3"],
+			"gunkshot": ["9L4", "9L3"],
+			"gyroball": ["9L4", "9L3"],
+			"headbutt": ["9L4", "9L3"],
+			"hell": ["9L4", "9L3"],
+			"helpinghand": ["9L4", "9L3"],
+			"hiddenpower": ["9L4", "9L3"],
+			"hyperbeam": ["9L4", "9L3"],
+			"hyperfang": ["9L4", "9L3"],
+			"ingrain": ["9L4", "9L3"],
+			"iondeluge": ["9L4", "9L3"],
+			"irontail": ["9L4", "9L3"],
+			"laserfocus": ["9L4", "9L3"],
+			"lastresort": ["9L4", "9L3"],
+			"leafstorm": ["9L4", "9L3"],
+			"leechseed": ["9L4", "9L3"],
+			"lightscreen": ["9L4", "9L3"],
+			"magicalleaf": ["9L4", "9L3"],
+			"magnetrise": ["9L4", "9L3"],
+			"megadrain": ["9L4", "9L3"],
+			"mudbomb": ["9L4", "9L3"],
+			"mudshot": ["9L4", "9L3"],
+			"mudslap": ["9L4", "9L3"],
+			"naturalgift": ["9L4", "9L3"],
+			"nuzzle": ["9L4", "9L3"],
+			"playrough": ["9L4", "9L3"],
+			"powerwhip": ["9L4", "9L3"],
+			"protect": ["9L4", "9L3"],
+			"quickattack": ["9L4", "9L3"],
+			"raindance": ["9L4", "9L3"],
+			"razorleaf": ["9L4", "9L3"],
+			"rest": ["9L4", "9L3"],
+			"return": ["9L4", "9L3"],
+			"rockblast": ["9L4", "9L3"],
+			"rollout": ["9L4", "9L3"],
+			"round": ["9L4", "9L3"],
+			"secretpower": ["9L4", "9L3"],
+			"seedbomb": ["9L4", "9L3"],
+			"shadowball": ["9L4", "9L3"],
+			"shockwave": ["9L4", "9L3"],
+			"sleeptalk": ["9L4", "9L3"],
+			"snore": ["9L4", "9L3"],
+			"solarbeam": ["9L4", "9L3"],
+			"spark": ["9L4", "9L3"],
+			"substitute": ["9L4", "9L3"],
+			"sunnyday": ["9L4", "9L3"],
+			"superfang": ["9L4", "9L3"],
+			"swagger": ["9L4", "9L3"],
+			"sweetkiss": ["9L4", "9L3"],
+			"swift": ["9L4", "9L3"],
+			"synthesis": ["9L4", "9L3"],
+			"tailwhip": ["9L4", "9L3"],
+			"takedown": ["9L4", "9L3"],
+			"terablast": ["9L4", "9L3"],
+			"thief": ["9L4", "9L3"],
+			"thunder": ["9L4", "9L3"],
+			"thunderbolt": ["9L4", "9L3"],
+			"thunderfang": ["9L4", "9L3"],
+			"thunderpunch": ["9L4", "9L3"],
+			"thundershock": ["9L4", "9L3"],
+			"thunderwave": ["9L4", "9L3"],
+			"toxic": ["9L4", "9L3"],
+			"trailblaze": ["9L4", "9L3"],
+			"uproar": ["9L4", "9L3"],
+			"uturn": ["9L4", "9L3"],
+			"voltswitch": ["9L4", "9L3"],
+			"weatherball": ["9L4", "9L3"],
+			"wildcharge": ["9L4", "9L3"],
+			"worryseed": ["9L4", "9L3"],
+			"zapcannon": ["9L4", "9L3"]
+		}
+	},
+	scorcherisu: { 
+		"learnset": {
+			"aerialace": ["9L4", "9L3"],
+			"agility": ["9L4", "9L3"],
+			"alluringvoice": ["9L4", "9L3"],
+			"attract": ["9L4", "9L3"],
+			"babydolleyes": ["9L4", "9L3"],
+			"bestow": ["9L4", "9L3"],
+			"bide": ["9L4", "9L3"],
+			"bite": ["9L4", "9L3"],
+			"blastburn": ["9L4", "9L3"],
+			"blazekick": ["9L4", "9L3"],
+			"bounce": ["9L4", "9L3"],
+			"brickbreak": ["9L4", "9L3"],
+			"bulkup": ["9L4", "9L3"],
+			"captivate": ["9L4", "9L3"],
+			"charge": ["9L4", "9L3"],
+			"chargebeam": ["9L4", "9L3"],
+			"charm": ["9L4", "9L3"],
+			"covet": ["9L4", "9L3"],
+			"cut": ["9L4", "9L3"],
+			"defensecurl": ["9L4", "9L3"],
+			"dig": ["9L4", "9L3"],
+			"discharge": ["9L4", "9L3"],
+			"doubleteam": ["9L4", "9L3"],
+			"echoedvoice": ["9L4", "9L3"],
+			"eerieimpulse": ["9L4", "9L3"],
+			"electricterrain": ["9L4", "9L3"],
+			"electroball": ["9L4", "9L3"],
+			"electroweb": ["9L4", "9L3"],
+			"ember": ["9L4", "9L3"],
+			"encore": ["9L4", "9L3"],
+			"endeavor": ["9L4", "9L3"],
+			"endure": ["9L4", "9L3"],
+			"facade": ["9L4", "9L3"],
+			"fakeout": ["9L4", "9L3"],
+			"faketears": ["9L4", "9L3"],
+			"fireblast": ["9L4", "9L3"],
+			"firefang": ["9L4", "9L3"],
+			"firepunch": ["9L4", "9L3"],
+			"firespin": ["9L4", "9L3"],
+			"flail": ["9L4", "9L3"],
+			"flameburst": ["9L4", "9L3"],
+			"flamecharge": ["9L4", "9L3"],
+			"flamethrower": ["9L4", "9L3"],
+			"flamewheel": ["9L4", "9L3"],
+			"flareblitz": ["9L4", "9L3"],
+			"flash": ["9L4", "9L3"],
+			"flatter": ["9L4", "9L3"],
+			"fling": ["9L4", "9L3"],
+			"focusblast": ["9L4", "9L3"],
+			"focuspunch": ["9L4", "9L3"],
+			"followme": ["9L4", "9L3"],
+			"frustration": ["9L4", "9L3"],
+			"gigaimpact": ["9L4", "9L3"],
+			"grassknot": ["9L4", "9L3"],
+			"growl": ["9L4", "9L3"],
+			"gunkshot": ["9L4", "9L3"],
+			"headbutt": ["9L4", "9L3"],
+			"heatwave": ["9L4", "9L3"],
+			"hell": ["9L4", "9L3"],
+			"helpinghand": ["9L4", "9L3"],
+			"hiddenpower": ["9L4", "9L3"],
+			"highjumpkick": ["9L4", "9L3"],
+			"hyperbeam": ["9L4", "9L3"],
+			"hyperfang": ["9L4", "9L3"],
+			"incinerate": ["9L4", "9L3"],
+			"iondeluge": ["9L4", "9L3"],
+			"irontail": ["9L4", "9L3"],
+			"jumpkick": ["9L4", "9L3"],
+			"knockoff": ["9L4", "9L3"],
+			"laserfocus": ["9L4", "9L3"],
+			"lastresort": ["9L4", "9L3"],
+			"lavaplume": ["9L4", "9L3"],
+			"lightscreen": ["9L4", "9L3"],
+			"lowkick": ["9L4", "9L3"],
+			"lowsweep": ["9L4", "9L3"],
+			"machpunch": ["9L4", "9L3"],
+			"magnetrise": ["9L4", "9L3"],
+			"mudshot": ["9L4", "9L3"],
+			"mudslap": ["9L4", "9L3"],
+			"naturalgift": ["9L4", "9L3"],
+			"nuzzle": ["9L4", "9L3"],
+			"overheat": ["9L4", "9L3"],
+			"playrough": ["9L4", "9L3"],
+			"poisonjab": ["9L4", "9L3"],
+			"protect": ["9L4", "9L3"],
+			"quickattack": ["9L4", "9L3"],
+			"ragingfury": ["9L4", "9L3"],
+			"raindance": ["9L4", "9L3"],
+			"rest": ["9L4", "9L3"],
+			"return": ["9L4", "9L3"],
+			"reversal": ["9L4", "9L3"],
+			"rocksmash": ["9L4", "9L3"],
+			"rollout": ["9L4", "9L3"],
+			"round": ["9L4", "9L3"],
+			"secretpower": ["9L4", "9L3"],
+			"seedbomb": ["9L4", "9L3"],
+			"shockwave": ["9L4", "9L3"],
+			"sleeptalk": ["9L4", "9L3"],
+			"snore": ["9L4", "9L3"],
+			"spark": ["9L4", "9L3"],
+			"stompingtantrum": ["9L4", "9L3"],
+			"submission": ["9L4", "9L3"],
+			"substitute": ["9L4", "9L3"],
+			"sunnyday": ["9L4", "9L3"],
+			"superfang": ["9L4", "9L3"],
+			"superpower": ["9L4", "9L3"],
+			"swagger": ["9L4", "9L3"],
+			"sweetkiss": ["9L4", "9L3"],
+			"swift": ["9L4", "9L3"],
+			"tailwhip": ["9L4", "9L3"],
+			"takedown": ["9L4", "9L3"],
+			"temperflare": ["9L4", "9L3"],
+			"terablast": ["9L4", "9L3"],
+			"thief": ["9L4", "9L3"],
+			"thunder": ["9L4", "9L3"],
+			"thunderbolt": ["9L4", "9L3"],
+			"thunderfang": ["9L4", "9L3"],
+			"thunderpunch": ["9L4", "9L3"],
+			"thundershock": ["9L4", "9L3"],
+			"thunderwave": ["9L4", "9L3"],
+			"toxic": ["9L4", "9L3"],
+			"trailblaze": ["9L4", "9L3"],
+			"upperhand": ["9L4", "9L3"],
+			"uproar": ["9L4", "9L3"],
+			"uturn": ["9L4", "9L3"],
+			"voltswitch": ["9L4", "9L3"],
+			"wildcharge": ["9L4", "9L3"],
+			"willowisp": ["9L4", "9L3"],
+			"workup": ["9L4", "9L3"]
+		}
+	}, 
+	waverisu: { 
+		"learnset": {
+			"aerialace": ["9L4", "9L3"],
+			"agility": ["9L4", "9L3"],
+			"airslash": ["9L4", "9L3"],
+			"alluringvoice": ["9L4", "9L3"],
+			"aquacutter": ["9L4", "9L3"],
+			"aquaring": ["9L4", "9L3"],
+			"aquatail": ["9L4", "9L3"],
+			"attract": ["9L4", "9L3"],
+			"babydolleyes": ["9L4", "9L3"],
+			"bestow": ["9L4", "9L3"],
+			"bide": ["9L4", "9L3"],
+			"bite": ["9L4", "9L3"],
+			"blizzard": ["9L4", "9L3"],
+			"bounce": ["9L4", "9L3"],
+			"brine": ["9L4", "9L3"],
+			"bubble": ["9L4", "9L3"],
+			"bubblebeam": ["9L4", "9L3"],
+			"captivate": ["9L4", "9L3"],
+			"charge": ["9L4", "9L3"],
+			"chargebeam": ["9L4", "9L3"],
+			"charm": ["9L4", "9L3"],
+			"chillingwater": ["9L4", "9L3"],
+			"covet": ["9L4", "9L3"],
+			"cut": ["9L4", "9L3"],
+			"dazzlinggleam": ["9L4", "9L3"],
+			"defensecurl": ["9L4", "9L3"],
+			"dig": ["9L4", "9L3"],
+			"discharge": ["9L4", "9L3"],
+			"dive": ["9L4", "9L3"],
+			"doubleteam": ["9L4", "9L3"],
+			"drillrun": ["9L4", "9L3"],
+			"echoedvoice": ["9L4", "9L3"],
+			"eerieimpulse": ["9L4", "9L3"],
+			"electricterrain": ["9L4", "9L3"],
+			"electroball": ["9L4", "9L3"],
+			"electroweb": ["9L4", "9L3"],
+			"encore": ["9L4", "9L3"],
+			"endeavor": ["9L4", "9L3"],
+			"endure": ["9L4", "9L3"],
+			"facade": ["9L4", "9L3"],
+			"fakeout": ["9L4", "9L3"],
+			"faketears": ["9L4", "9L3"],
+			"flail": ["9L4", "9L3"],
+			"flash": ["9L4", "9L3"],
+			"flatter": ["9L4", "9L3"],
+			"fling": ["9L4", "9L3"],
+			"followme": ["9L4", "9L3"],
+			"frustration": ["9L4", "9L3"],
+			"gigaimpact": ["9L4", "9L3"],
+			"grassknot": ["9L4", "9L3"],
+			"growl": ["9L4", "9L3"],
+			"gunkshot": ["9L4", "9L3"],
+			"headbutt": ["9L4", "9L3"],
+			"hell": ["9L4", "9L3"],
+			"helpinghand": ["9L4", "9L3"],
+			"hiddenpower": ["9L4", "9L3"],
+			"hydrocannon": ["9L4", "9L3"],
+			"hydropump": ["9L4", "9L3"],
+			"hyperbeam": ["9L4", "9L3"],
+			"hyperfang": ["9L4", "9L3"],
+			"icebeam": ["9L4", "9L3"],
+			"icepunch": ["9L4", "9L3"],
+			"icywind": ["9L4", "9L3"],
+			"iondeluge": ["9L4", "9L3"],
+			"irontail": ["9L4", "9L3"],
+			"laserfocus": ["9L4", "9L3"],
+			"lastresort": ["9L4", "9L3"],
+			"lightscreen": ["9L4", "9L3"],
+			"liquidation": ["9L4", "9L3"],
+			"magnetrise": ["9L4", "9L3"],
+			"mist": ["9L4", "9L3"],
+			"muddywater": ["9L4", "9L3"],
+			"mudshot": ["9L4", "9L3"],
+			"mudslap": ["9L4", "9L3"],
+			"naturalgift": ["9L4", "9L3"],
+			"nuzzle": ["9L4", "9L3"],
+			"playrough": ["9L4", "9L3"],
+			"protect": ["9L4", "9L3"],
+			"quickattack": ["9L4", "9L3"],
+			"raindance": ["9L4", "9L3"],
+			"rapidspin": ["9L4", "9L3"],
+			"rest": ["9L4", "9L3"],
+			"return": ["9L4", "9L3"],
+			"rollout": ["9L4", "9L3"],
+			"round": ["9L4", "9L3"],
+			"scald": ["9L4", "9L3"],
+			"secretpower": ["9L4", "9L3"],
+			"seedbomb": ["9L4", "9L3"],
+			"shockwave": ["9L4", "9L3"],
+			"sing": ["9L4", "9L3"],
+			"sleeptalk": ["9L4", "9L3"],
+			"snore": ["9L4", "9L3"],
+			"soak": ["9L4", "9L3"],
+			"spark": ["9L4", "9L3"],
+			"substitute": ["9L4", "9L3"],
+			"sunnyday": ["9L4", "9L3"],
+			"superfang": ["9L4", "9L3"],
+			"surf": ["9L4", "9L3"],
+			"swagger": ["9L4", "9L3"],
+			"sweetkiss": ["9L4", "9L3"],
+			"swift": ["9L4", "9L3"],
+			"tailwhip": ["9L4", "9L3"],
+			"takedown": ["9L4", "9L3"],
+			"terablast": ["9L4", "9L3"],
+			"thief": ["9L4", "9L3"],
+			"thunder": ["9L4", "9L3"],
+			"thunderbolt": ["9L4", "9L3"],
+			"thunderfang": ["9L4", "9L3"],
+			"thunderpunch": ["9L4", "9L3"],
+			"thundershock": ["9L4", "9L3"],
+			"thunderwave": ["9L4", "9L3"],
+			"toxic": ["9L4", "9L3"],
+			"trailblaze": ["9L4", "9L3"],
+			"uproar": ["9L4", "9L3"],
+			"uturn": ["9L4", "9L3"],
+			"voltswitch": ["9L4", "9L3"],
+			"waterfall": ["9L4", "9L3"],
+			"watergun": ["9L4", "9L3"],
+			"waterpulse": ["9L4", "9L3"],
+			"watersport": ["9L4", "9L3"],
+			"wavecrash": ["9L4", "9L3"],
+			"whirlpool": ["9L4", "9L3"],
+			"wildcharge": ["9L4", "9L3"]
+		}
+	},
 	// End of Custom Pokemon Learnset
 	missingno: {
 		learnset: {
@@ -11711,10 +12174,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "surf"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "surf"], pokeball: "pokeball", },
 			{ generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "wish"], pokeball: "pokeball" },
 			{ generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "teeterdance"], pokeball: "pokeball" },
-			{ generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "followme"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["thundershock", "charm", "followme"], pokeball: "pokeball", },
 			{ generation: 4, level: 1, moves: ["volttackle", "thunderbolt", "grassknot", "return"], pokeball: "pokeball" },
 			{ generation: 4, level: 30, shiny: true, gender: "M", nature: "Jolly", moves: ["charge", "volttackle", "endeavor", "endure"], pokeball: "cherishball" },
 			{ generation: 9, level: 30, shiny: true, gender: "M", nature: "Jolly", moves: ["charge", "volttackle", "endure", "helpinghand"], pokeball: "cherishball" },
@@ -15039,7 +15502,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zapcannon: ["7V"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["sing", "charm", "defensecurl", "tickle"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["sing", "charm", "defensecurl", "tickle"], pokeball: "pokeball", },
 		],
 	},
 	jigglypuff: {
@@ -17526,7 +17989,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 		eventData: [
 			{ generation: 3, level: 27, gender: "M", nature: "Lax", ivs: { hp: 31, atk: 16, def: 12, spa: 29, spd: 31, spe: 14 }, abilities: ["damp"], moves: ["tailwhip", "confusion", "disable", "screech"], pokeball: "pokeball" },
-			{ generation: 3, level: 5, shiny: 1, moves: ["watersport", "scratch", "tailwhip", "mudsport"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["watersport", "scratch", "tailwhip", "mudsport"], pokeball: "pokeball", },
 		],
 		encounters: [
 			{ generation: 1, level: 15 },
@@ -21143,6 +21606,118 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		],
 	},
 	slowbrogalar: {
+		learnset: {
+			acid: ["9L1", "8L1"],
+			acidspray: ["9M"],
+			amnesia: ["9M", "9L27", "8M", "8L27"],
+			attract: ["8M"],
+			avalanche: ["9M", "8M"],
+			blizzard: ["9M", "8M"],
+			bodypress: ["9M"],
+			bodyslam: ["9M", "8M"],
+			brickbreak: ["9M", "8M"],
+			brine: ["8M"],
+			brutalswing: ["8M"],
+			bulldoze: ["9M", "8M"],
+			calmmind: ["9M", "8M"],
+			chillingwater: ["9M"],
+			confusion: ["9L12", "8L12"],
+			curse: ["9M", "9L1", "8L1"],
+			dig: ["9M", "8M"],
+			disable: ["9L15", "8L15"],
+			dive: ["8M"],
+			doubleedge: ["9M"],
+			drainpunch: ["9M", "8M"],
+			earthquake: ["9M", "8M"],
+			endure: ["9M", "8M"],
+			expandingforce: ["9M", "8T"],
+			facade: ["9M", "8M"],
+			fireblast: ["9M", "8M"],
+			flamethrower: ["9M", "8M"],
+			fling: ["9M", "8M"],
+			focusblast: ["9M", "8M"],
+			foulplay: ["9M", "8M"],
+			futuresight: ["8M"],
+			gigaimpact: ["9M", "8M"],
+			grassknot: ["9M", "8M"],
+			growl: ["9L1", "8L1"],
+			gunkshot: ["9M"],
+			hail: ["8M"],
+			haze: ["9M"],
+			headbutt: ["9L21", "8L21"],
+			healpulse: ["9L45", "8L45"],
+			helpinghand: ["9M"],
+			hydropump: ["9M", "8M"],
+			hyperbeam: ["9M", "8M"],
+			icebeam: ["9M", "8M"],
+			icefang: ["9M"],
+			icepunch: ["9M", "8M"],
+			icywind: ["9M", "8M"],
+			imprison: ["9M", "8M"],
+			irondefense: ["9M", "8M"],
+			irontail: ["8M"],
+			lightscreen: ["9M", "8M"],
+			liquidation: ["9M", "8M"],
+			megakick: ["8M"],
+			megapunch: ["8M"],
+			metronome: ["9M"],
+			muddywater: ["9M", "8M"],
+			mudshot: ["9M", "8M"],
+			nastyplot: ["9M", "8M"],
+			payday: ["8M"],
+			poisonjab: ["9M", "8M"],
+			powergem: ["9M"],
+			protect: ["9M", "8M"],
+			psybeam: ["9M"],
+			psychic: ["9M", "9L36", "8M", "8L36"],
+			psychicterrain: ["9M", "8M"],
+			psychup: ["9M", "9L39", "8L39"],
+			psyshock: ["9M", "8M"],
+			raindance: ["9M", "9L42", "8M", "8L42"],
+			razorshell: ["8M"],
+			rest: ["9M", "8M"],
+			rockblast: ["9M"],
+			round: ["8M"],
+			safeguard: ["8M"],
+			sandstorm: ["9M"],
+			scald: ["8M"],
+			scaryface: ["9M"],
+			shadowball: ["9M", "8M"],
+			shellsidearm: ["9L0", "8L0"],
+			skillswap: ["9M", "8M"],
+			slackoff: ["9L33", "8L33"],
+			sleeptalk: ["9M", "8M"],
+			sludgebomb: ["9M", "8M"],
+			sludgewave: ["9M", "8M"],
+			smackdown: ["9M"],
+			snore: ["8M"],
+			snowscape: ["9M"],
+			storedpower: ["9M", "8M"],
+			substitute: ["9M", "8M"],
+			sunnyday: ["9M", "8M"],
+			surf: ["9M", "9L30", "8M", "8L30"],
+			swift: ["9M", "8M"],
+			tackle: ["9L1", "8L1"],
+			takedown: ["9M"],
+			terablast: ["9M"],
+			thunderwave: ["9M", "8M"],
+			toxic: ["9M"],
+			triattack: ["8M"],
+			trick: ["9M", "8M"],
+			trickroom: ["9M", "8M"],
+			venoshock: ["9M", "8M"],
+			waterfall: ["9M"],
+			watergun: ["8L1"],
+			waterpulse: ["9M", "9L18", "8L18"],
+			weatherball: ["9M", "8M"],
+			whirlpool: ["9M", "8M"],
+			withdraw: ["9L1", "8L1"],
+			wonderroom: ["8M"],
+			yawn: ["9L9", "8L9"],
+			zenheadbutt: ["9M", "9L24", "8M", "8L24"],
+		},
+	},
+	glowbro: {
 		learnset: {
 			acid: ["9L1", "8L1"],
 			acidspray: ["9M"],
@@ -33249,6 +33824,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 8, level: 1, moves: ['pound', 'reflecttype'], source: 'gen8bdsp' },
 			{ generation: 9, level: 5, moves: ["pollenpuff", "darkpulse", "dragonpulse", "thunderbolt", "dazzlinggleam", "aurasphere", "flamethrower", "airslash", "shadowball", "energyball", "earthpower", "icebeam", "hypervoice", "sludgebomb", "psyshock", "powergem", "flashcannon", "surf", "swift", "lightscreen", "lifedew"], pokeball: "pokeball" },
 		],
+		eventOnly: true,
 	},
 	chikorita: {
 		learnset: {
@@ -33884,116 +34460,6 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 6, level: 50, isHidden: true, moves: ["overheat", "flamewheel", "flamecharge", "swift"], pokeball: "pokeball" },
 		],
 	},
-	htyphlosion: {
-		learnset: {
-			aerialace: ["9M", "7M", "6M", "5M", "4M", "3M"],
-			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
-			blastburn: ["9M", "7T", "6T", "5T", "4T"],
-			bodyslam: ["9M", "3T"],
-			brickbreak: ["9M", "7M", "6M", "5M", "4M", "3M"],
-			bulldoze: ["9M", "7M", "6M", "5M"],
-			burningjealousy: ["9M"],
-			burnup: ["7L74"],
-			captivate: ["4M"],
-			confide: ["7M", "6M"],
-			counter: ["3T"],
-			covet: ["7T", "6T", "5T"],
-			curse: ["9M", "7V"],
-			cut: ["7V", "6M", "5M", "4M", "3M"],
-			defensecurl: ["9L24", "7L24", "7V", "6L24", "5L24", "4L24", "3T"],
-			detect: ["7V"],
-			dig: ["9M", "7V", "6M", "5M", "4M", "3M"],
-			doubleedge: ["9M", "9L1", "7L1", "6L1", "5L69", "4L53", "3T"],
-			doubleteam: ["7M", "7V", "6M", "5M", "4M", "3M"],
-			dynamicpunch: ["7V", "3T"],
-			earthquake: ["9M", "7M", "7V", "6M", "5M", "4M", "3M"],
-			ember: ["9L1", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
-			endeavor: ["9M"],
-			endure: ["9M", "7V", "4M", "3T"],
-			eruption: ["9L1", "7L1", "6L1", "5L74", "4L57"],
-			facade: ["9M", "7M", "6M", "5M", "4M", "3M"],
-			fireblast: ["9M", "7M", "7V", "6M", "5M", "4M", "3M"],
-			firefang: ["9M"],
-			firepledge: ["9M", "7T", "6T", "5T"],
-			firepunch: ["9M", "7T", "7V", "6T", "5T", "4T", "3T"],
-			firespin: ["9M"],
-			flamecharge: ["9M", "9L35", "7M", "7L35", "6M", "6L35", "6S1", "5M", "5L35"],
-			flamethrower: ["9M", "9L48", "7M", "7L48", "7V", "6M", "6L48", "5M", "5L48", "4M", "4L42", "3M", "3L60", "3S0"],
-			flamewheel: ["9L20", "7L20", "7V", "6L20", "6S1", "5L20", "4L20", "3L31", "3S0"],
-			flareblitz: ["9M"],
-			fling: ["9M", "7M", "6M", "5M", "4M"],
-			focusblast: ["9M", "7M", "6M", "5M", "4M"],
-			focuspunch: ["9M", "7T", "6T", "4M", "3M"],
-			frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
-			furycutter: ["7V", "4T", "3T"],
-			gigaimpact: ["9M", "7M", "6M", "5M", "4M"],
-			gyroball: ["9M", "9L1", "7M", "7L1", "6M", "6L1", "5M", "5L1", "4M", "4L1"],
-			headbutt: ["7V", "4T"],
-			heatwave: ["9M", "7T", "6T", "5T", "4T"],
-			helpinghand: ["9M"],
-			hiddenpower: ["7M", "7V", "6M", "5M", "4M", "3M"],
-			hyperbeam: ["9M", "7M", "7V", "6M", "5M", "4M", "3M"],
-			incinerate: ["6M", "5M"],
-			inferno: ["9L56", "7L56", "6L56", "5L56"],
-			ironhead: ["9M"],
-			irontail: ["7V"],
-			laserfocus: ["7T"],
-			lavaplume: ["9L43", "7L43", "6L43", "5L43", "4L35"],
-			leer: ["9L1", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
-			lowkick: ["9M", "7T", "6T", "5T", "4T"],
-			megakick: ["3T"],
-			megapunch: ["3T"],
-			mimic: ["3T"],
-			mudslap: ["7V", "4T", "3T"],
-			naturalgift: ["4M"],
-			naturepower: ["7M", "6M"],
-			overheat: ["9M", "9L74", "7M", "6M", "6S1", "5M", "4M", "3M"],
-			playrough: ["9M"],
-			poweruppunch: ["6M"],
-			protect: ["9M", "7M", "7V", "6M", "5M", "4M", "3M"],
-			quickattack: ["9L13", "7L13", "7V", "6L13", "5L13", "4L13", "3L21", "3S0"],
-			rest: ["9M", "7M", "7V", "6M", "5M", "4M", "3M"],
-			return: ["7M", "7V", "6M", "5M", "4M", "3M"],
-			reversal: ["9M"],
-			roar: ["9M", "7M", "7V", "6M", "5M", "4M", "3M"],
-			rockclimb: ["4M"],
-			rockslide: ["9M", "7M", "6M", "5M", "4M", "3T"],
-			rocksmash: ["7V", "6M", "5M", "4M", "3M"],
-			rocktomb: ["9M", "7M", "6M", "5M", "4M"],
-			rollout: ["9L61", "7L61", "7V", "6L61", "5L61", "4T", "4L46", "3T"],
-			round: ["7M", "6M", "5M"],
-			scorchingsands: ["9M"],
-			secretpower: ["6M", "4M", "3M"],
-			seismictoss: ["3T"],
-			shadowball: ["9M"],
-			shadowclaw: ["9M", "7M", "6M", "5M", "4M"],
-			sleeptalk: ["9M", "7M", "7V", "6M", "5T", "4M", "3T"],
-			smokescreen: ["9L1", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
-			snore: ["7T", "7V", "6T", "5T", "4T", "3T"],
-			solarbeam: ["9M", "7M", "6M", "5M", "4M"],
-			stompingtantrum: ["9M", "7T"],
-			strength: ["7V", "6M", "5M", "4M", "3M"],
-			substitute: ["9M", "7M", "6M", "5M", "4M", "3T"],
-			sunnyday: ["9M", "7M", "7V", "6M", "5M", "4M", "3M"],
-			swagger: ["7M", "7V", "6M", "5M", "4M", "3T"],
-			swift: ["9M", "9L31", "7L31", "7V", "6L31", "6S1", "5L31", "4T", "4L31", "3T", "3L45", "3S0"],
-			tackle: ["9L1", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
-			takedown: ["9M"],
-			temperflare: ["9M"],
-			terablast: ["9M"],
-			throatchop: ["9M", "7T"],
-			thunderpunch: ["9M", "7T", "7V", "6T", "5T", "4T", "3T"],
-			toxic: ["7M", "7V", "6M", "5M", "4M", "3M"],
-			wildcharge: ["9M", "7M", "6M", "5M"],
-			willowisp: ["9M", "7M", "6M", "5M", "4M"],
-			workup: ["7M"],
-			zenheadbutt: ["9M"],
-		},
-		eventData: [
-			{ generation: 3, level: 70, moves: ["quickattack", "flamewheel", "swift", "flamethrower"], pokeball: "pokeball" },
-			{ generation: 6, level: 50, isHidden: true, moves: ["overheat", "flamewheel", "flamecharge", "swift"], pokeball: "pokeball" },
-		],
-	},
 	typhlosionprime: {
 		learnset: {
 			burningbulwark: ["9M"],
@@ -34110,6 +34576,79 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		],
 	},
 	typhlosionhisui: {
+		learnset: {
+			aerialace: ["9M"],
+			blastburn: ["9M"],
+			bodyslam: ["9M"],
+			brickbreak: ["9M"],
+			bulldoze: ["9M"],
+			burningjealousy: ["9M"],
+			calmmind: ["9M"],
+			confuseray: ["9M"],
+			curse: ["9M"],
+			defensecurl: ["9L24"],
+			dig: ["9M"],
+			doubleedge: ["9M", "9L1"],
+			earthquake: ["9M"],
+			ember: ["9L1"],
+			endeavor: ["9M"],
+			endure: ["9M"],
+			eruption: ["9L1"],
+			facade: ["9M"],
+			fireblast: ["9M"],
+			firefang: ["9M"],
+			firepledge: ["9M"],
+			firepunch: ["9M"],
+			firespin: ["9M"],
+			flamecharge: ["9M", "9L35"],
+			flamethrower: ["9M", "9L48"],
+			flamewheel: ["9L20"],
+			flareblitz: ["9M"],
+			focusblast: ["9M"],
+			focuspunch: ["9M"],
+			gigaimpact: ["9M"],
+			gyroball: ["9M", "9L1"],
+			heatwave: ["9M"],
+			hex: ["9M"],
+			hyperbeam: ["9M"],
+			infernalparade: ["9L0"],
+			inferno: ["9L56"],
+			ironhead: ["9M"],
+			lavaplume: ["9L43"],
+			leer: ["9L1"],
+			lowkick: ["9M"],
+			nightshade: ["9M"],
+			overheat: ["9M", "9L74"],
+			playrough: ["9M"],
+			poltergeist: ["9M"],
+			protect: ["9M"],
+			quickattack: ["9L13"],
+			rest: ["9M"],
+			reversal: ["9M"],
+			roar: ["9M"],
+			rockslide: ["9M"],
+			rollout: ["9L61"],
+			shadowball: ["9M"],
+			shadowclaw: ["9M"],
+			sleeptalk: ["9M"],
+			smokescreen: ["9L1"],
+			solarbeam: ["9M"],
+			spite: ["9M"],
+			stompingtantrum: ["9M"],
+			substitute: ["9M"],
+			sunnyday: ["9M"],
+			swift: ["9M", "9L31"],
+			tackle: ["9L1"],
+			takedown: ["9M"],
+			temperflare: ["9M"],
+			terablast: ["9M"],
+			thunderpunch: ["9M"],
+			wildcharge: ["9M"],
+			willowisp: ["9M"],
+			zenheadbutt: ["9M"],
+		},
+	},
+	htyphlosion: {
 		learnset: {
 			aerialace: ["9M"],
 			blastburn: ["9M"],
@@ -38541,7 +39080,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			tickle: ["3S0"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["splash", "charm", "encore", "tickle"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["splash", "charm", "encore", "tickle"], pokeball: "pokeball", },
 		],
 	},
 	wobbuffet: {
@@ -41391,7 +41930,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			whirlpool: ["8M", "7V", "4M"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["tackle", "mudsport"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["tackle", "mudsport"], pokeball: "pokeball", },
 			{ generation: 7, level: 50, gender: "F", nature: "Serious", abilities: ["hustle"], moves: ["tackle", "powergem"], pokeball: "ultraball" },
 		],
 	},
@@ -41502,7 +42041,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			hell: ["9M"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["tackle", "mudsport"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["tackle", "mudsport"], pokeball: "pokeball", },
 			{ generation: 7, level: 50, gender: "F", nature: "Serious", abilities: ["hustle"], moves: ["tackle", "powergem"], pokeball: "ultraball" },
 		],
 	},
@@ -45735,7 +46274,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		},
 		eventData: [
 			{ generation: 3, level: 5, shiny: true, abilities: ["pickup"], moves: ["tackle", "growl", "tailwhip"], pokeball: "pokeball" },
-			{ generation: 3, level: 5, shiny: 1, abilities: ["pickup"], moves: ["tackle", "growl", "tailwhip", "extremespeed"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, abilities: ["pickup"], moves: ["tackle", "growl", "tailwhip", "extremespeed"], pokeball: "pokeball", },
 		],
 		encounters: [
 			{ generation: 3, level: 2 },
@@ -46914,7 +47453,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			workup: ["7M", "5M"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["peck", "growl", "focusenergy", "featherdance"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["peck", "growl", "focusenergy", "featherdance"], pokeball: "pokeball", },
 		],
 		encounters: [
 			{ generation: 3, level: 4 },
@@ -47745,7 +48284,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			watersport: ["7L14", "6L14", "5L19", "4L19", "3L19"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["bubble", "mudsport"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["bubble", "mudsport"], pokeball: "pokeball", },
 			{ generation: 3, level: 10, gender: "M", moves: ["bubble", "quickattack"], pokeball: "pokeball" },
 		],
 		encounters: [
@@ -48767,7 +49306,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["8M", "7T", "6T", "5T", "5D", "4T"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["pound", "uproar", "teeterdance"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["pound", "uproar", "teeterdance"], pokeball: "pokeball", },
 		],
 	},
 	loudred: {
@@ -49442,8 +49981,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["7T", "7E", "6T", "6E", "5T", "5E", "4T", "4E"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["tackle", "growl", "tailwhip", "payday"], pokeball: "pokeball",  },
-			{ generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["growl", "tackle", "tailwhip", "rollout"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["tackle", "growl", "tailwhip", "payday"], pokeball: "pokeball", },
+			{ generation: 3, level: 5, shiny: 1, abilities: ["cutecharm"], moves: ["growl", "tackle", "tailwhip", "rollout"], pokeball: "pokeball", },
 			{ generation: 3, level: 10, gender: "M", abilities: ["cutecharm"], moves: ["growl", "tackle", "tailwhip", "attract"], pokeball: "pokeball" },
 		],
 		encounters: [
@@ -50639,7 +51178,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["9E", "7E", "6E", "5E", "4E", "3E"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["growl", "thunderwave", "watersport"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["growl", "thunderwave", "watersport"], pokeball: "pokeball", },
 			{ generation: 3, level: 10, gender: "M", moves: ["growl", "thunderwave", "quickattack"], pokeball: "pokeball" },
 		],
 	},
@@ -50733,7 +51272,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wish: ["9E", "7E", "6E", "5E", "4E", "3E"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["growl", "thunderwave", "mudsport"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["growl", "thunderwave", "mudsport"], pokeball: "pokeball", },
 			{ generation: 3, level: 10, gender: "M", moves: ["growl", "thunderwave", "quickattack"], pokeball: "pokeball" },
 		],
 	},
@@ -52048,7 +52587,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["9M", "9E", "7T", "7L26", "7E", "6T", "6L26", "6E", "5T", "5L26", "5E", "4T", "4L26", "4E"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, abilities: ["owntempo"], moves: ["splash", "uproar"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, abilities: ["owntempo"], moves: ["splash", "uproar"], pokeball: "pokeball", },
 		],
 	},
 	grumpig: {
@@ -52284,7 +52823,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			zenheadbutt: ["7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["tackle", "uproar", "sing"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["tackle", "uproar", "sing"], pokeball: "pokeball", },
 		],
 	},
 	trapinch: {
@@ -52674,7 +53213,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			worryseed: ["7T", "7E", "6T", "6E", "5T", "5E", "4T"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["poisonsting", "leer", "absorb", "encore"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["poisonsting", "leer", "absorb", "encore"], pokeball: "pokeball", },
 		],
 	},
 	cacturne: {
@@ -52885,7 +53424,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			uproar: ["8M", "7T", "6T", "5T", "4T"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["peck", "growl", "falseswipe"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["peck", "growl", "falseswipe"], pokeball: "pokeball", },
 			{ generation: 5, level: 1, shiny: true, moves: ["peck", "growl"], pokeball: "pokeball" },
 			{ generation: 6, level: 1, isHidden: true, moves: ["peck", "growl", "hypervoice"], pokeball: "pokeball" },
 		],
@@ -53712,7 +54251,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			xscissor: ["9M", "8M", "7M", "6M", "5M", "4M"],
 		},
 		eventData: [
-			{ generation: 3, level: 5, shiny: 1, moves: ["bubble", "watersport"], pokeball: "pokeball",  },
+			{ generation: 3, level: 5, shiny: 1, moves: ["bubble", "watersport"], pokeball: "pokeball", },
 		],
 	},
 	crawdaunt: {
@@ -58139,6 +58678,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 8, level: 70, nature: "Timid", moves: ["meteormash", "psychic", "rest", "wish"], pokeball: "cherishball" },
 			{ generation: 8, level: 5, moves: ['confusion', 'wish'], source: 'gen8bdsp' },
 		],
+		eventOnly: true,
 	},
 	deoxys: {
 		learnset: {
@@ -63935,7 +64475,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["7M", "7S2", "6M"],
 			confuseray: ["9M", "9L10", "8L10", "7L1", "6L1", "5L1", "4L1"],
 			darkpulse: ["9M", "8M", "7M", "6M", "5T", "4M"],
-			defog: ["9M", "7T"],
+			defog: ["7T"],
 			disarmingvoice: ["7S2"],
 			discharge: ["9L50", "8L50", "7L1", "6L1", "5L64", "4L50"],
 			doubleteam: ["9L1", "8L1", "7M", "7L15", "6M", "6L15", "5M", "5L15", "4M", "4L15"],
@@ -65629,7 +66169,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			seismictoss: ["9L1", "7L1", "6L1", "5L1", "4L1"],
 			shadowball: ["9M", "7M", "6M", "5M", "4M"],
 			shadowclaw: ["9M", "7M", "6M", "5M", "4M"],
-			shadowforce: ["9M", "4S0"],
+			shadowforce: ["4S0"],
 			shockwave: ["7T", "6T", "4M"],
 			signalbeam: ["7T", "6T", "5T", "4T"],
 			silverwind: ["4M"],
@@ -78863,7 +79403,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			confide: ["7M", "6M"],
 			crunch: ["9M", "9L16", "8M", "8L16", "7L71", "6L71", "5L71"],
 			cut: ["6M", "5M"],
-			defog: ["9M", "7T"],
+			defog: ["7T"],
 			doubleedge: ["9M"],
 			doubleteam: ["7M", "6M", "5M"],
 			dracometeor: ["9M", "8T", "7T", "7S6", "6T", "5T", "5S2"],
@@ -78919,7 +79459,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			rockslide: ["9M", "8M", "7M", "6M", "5M"],
 			rocksmash: ["6M", "5M"],
 			rocktomb: ["9M", "8M", "7M", "6M", "5M"],
-			roost: ["9M", "7M", "6M", "5T"],
+			roost: ["7M", "6M", "5T"],
 			round: ["8M", "7M", "6M", "5M"],
 			safeguard: ["8M", "7M", "6M", "5M"],
 			scaleshot: ["9M", "8T"],
@@ -79164,6 +79704,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 7, level: 60, shiny: 1, moves: ["earthpower", "rockslide", "earthquake", "sandstorm"] },
 			{ generation: 8, level: 70, shiny: 1, moves: ["sandtomb", "rockslide", "bulldoze", "focusblast"] },
 		],
+		eventOnly: true,
 	},
 	landorustherian: {
 		eventOnly: true,
@@ -99036,6 +99577,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 8, level: 60, perfectIVs: 3, moves: ["crosspoison", "dragonpulse", "flamethrower", "dynamaxcannon"] },
 			{ generation: 8, level: 100, shiny: true, nature: "Timid", perfectIVs: 6, moves: ["eternabeam", "dynamaxcannon", "sludgebomb", "flamethrower"], pokeball: "cherishball" },
 		],
+		eventOnly: true,
 	},
 	kubfu: {
 		learnset: {
@@ -104105,7 +104647,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 9, level: 75, shiny: 1, perfectIVs: 4, moves: ["takedown", "shadowball", "hex", "powergem"] },
 			{ generation: 9, level: 20, nature: "Timid", ivs: { hp: 0, atk: 0, def: 0, spa: 0, spd: 0, spe: 31 }, moves: ["astonish", "tackle"], pokeball: "cherishball" },
 		],
-		eventOnly: false,
+		eventOnly: true,
 	},
 	gholdengo: {
 		learnset: {
@@ -104221,6 +104763,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 9, level: 45, nature: "Naughty", ivs: { hp: 30, atk: 30, def: 30, spa: 30, spd: 30, spe: 30 }, moves: ["rapidspin", "brickbreak", "knockoff", "stompingtantrum"] },
 			{ generation: 9, level: 57, shiny: 1, moves: ["stompingtantrum", "knockoff", "earthquake", "gigaimpact"] },
 		],
+		eventOnly: true,
 	},
 	brutebonnet: {
 		learnset: {
@@ -105652,6 +106195,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 9, level: 68, nature: "Quirky", ivs: { hp: 31, atk: 31, def: 28, spa: 31, spd: 28, spe: 31 }, moves: ["powergem", "electrodrift", "endure", "terablast"], pokeball: "pokeball" },
 			{ generation: 9, level: 72, nature: "Modest", ivs: { hp: 25, atk: 31, def: 25, spa: 31, spd: 25, spe: 31 }, moves: ["hyperbeam", "charge", "electrodrift", "powergem"] },
 		],
+		eventOnly: true,
 	},
 	tinkatink: {
 		learnset: {
@@ -106507,6 +107051,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 		eventData: [
 			{ generation: 9, level: 70, moves: ["superpower", "crunch", "brutalswing", "poisonjab"] },
 		],
+		eventOnly: true,
 	},
 	munkidori: {
 		learnset: {
@@ -106712,10 +107257,17 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			{ generation: 9, level: 20, nature: "Lonely", ivs: { hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["ivycudgel", "slam", "growth", "vinewhip"] },
 			{ generation: 9, level: 70, nature: "Lonely", ivs: { hp: 31, atk: 31, def: 20, spa: 20, spd: 20, spe: 31 }, moves: ["ivycudgel", "lowkick", "slam", "grassyterrain"] },
 		],
+		eventOnly: true,
 	},
-	ogerponhearthflame: {},
-	ogerponwellspring: {},
-	ogerponcornerstone: {},
+	ogerponhearthflame: {
+		eventOnly: true,
+	},
+	ogerponwellspring: {
+		eventOnly: true,
+	},
+	ogerponcornerstone: {
+		eventOnly: true,
+	},
 	archaludon: {
 		learnset: {
 			aurasphere: ["9M"],
@@ -113573,7 +114125,6 @@ const addToLearnset = () => {
 		const pokemon = Pokedex[key];
 		if (pokemon && pokemon.num < -1001 && pokemon.forme && pokemon.forme === "Mega") {
 			for (const learnKey of Object.keys(Learnsets[toID(pokemon.baseSpecies)].learnset)) {
-				if (!Learnsets[key].learnset) continue; // Skip
 				Learnsets[key].learnset[learnKey] = Learnsets[toID(pokemon.baseSpecies)].learnset[learnKey];
 			}
 		}

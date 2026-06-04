@@ -4353,14 +4353,14 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyDefPriority: 2,
 		onModifyDef(def, pokemon) {
-			const includedSpecies = ['lumineon', 'wobbuffet', 'bronzong', 'heracross', 'sableye', 'kecleon', 'chatot', 'mothim', 'spiritomb', 'rampardos', 'pinsir', 'bouffalant', 'grumpig', 'alomomola', 'sigilyph', 'golisopod', 'tentacruel', 'golurk'];
+			const includedSpecies = ['pachirisu', 'lumineon', 'wobbuffet', 'bronzong', 'heracross', 'sableye', 'kecleon', 'chatot', 'mothim', 'spiritomb', 'rampardos', 'pinsir', 'bouffalant', 'grumpig', 'alomomola', 'sigilyph', 'golisopod', 'tentacruel', 'golurk'];
 			if (pokemon.baseSpecies.nfe || includedSpecies.includes(pokemon.species.id)) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpDPriority: 2,
 		onModifySpD(spd, pokemon) {
-			const includedSpecies = ['lumineon', 'wobbuffet', 'bronzong', 'heracross', 'sableye', 'kecleon', 'chatot', 'mothim', 'spiritomb', 'rampardos', 'pinsir', 'bouffalant', 'grumpig', 'alomomola', 'sigilyph', 'golisopod', 'tentacruel', 'golurk'];
+			const includedSpecies = ['pachirisu', 'lumineon', 'wobbuffet', 'bronzong', 'heracross', 'sableye', 'kecleon', 'chatot', 'mothim', 'spiritomb', 'rampardos', 'pinsir', 'bouffalant', 'grumpig', 'alomomola', 'sigilyph', 'golisopod', 'tentacruel', 'golurk'];
 			if (pokemon.baseSpecies.nfe || includedSpecies.includes(pokemon.species.id)) {
 				return this.chainModify(1.5);
 			}

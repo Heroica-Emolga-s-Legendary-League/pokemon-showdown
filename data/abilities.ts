@@ -3153,6 +3153,71 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: -1151,
 	},
+	thelobber: {
+		name: "The Lobber",
+		onBasePowerPriority: 19,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['bullet']) {
+				this.debug('The Lobber boost: ball/bomb move');
+				return this.chainModify(1.5);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1152,
+	},
+	shockingcurrents: {
+		name: "Shocking Currents",
+		onModifyMove(move, source, target) {
+			if (move.type === 'Water' && move.category !== 'Status') {
+				if (!move.secondaries) move.secondaries = [];
+				move.secondaries.push({
+					chance: 50,
+					status: 'par',
+					ability: this.dex.abilities.get('shockingcurrents'),
+				});
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1153,
+	},
+	unyielding: {
+		name: "Unyielding",
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, pokemon) {
+			const ratio = pokemon.hp / pokemon.maxhp;
+			if (ratio <= 0.25) {
+				this.debug('Unyielding: 2x damage (<=25% HP)');
+				return this.chainModify(2);
+			} else if (ratio <= 0.50) {
+				this.debug('Unyielding: 1.5x damage (<=50% HP)');
+				return this.chainModify(1.5);
+			} else if (ratio <= 0.75) {
+				this.debug('Unyielding: 1.2x damage (<=75% HP)');
+				return this.chainModify(1.2);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(spa, pokemon) {
+			const ratio = pokemon.hp / pokemon.maxhp;
+			if (ratio <= 0.25) {
+				this.debug('Unyielding: 2x damage (<=25% HP)');
+				return this.chainModify(2);
+			} else if (ratio <= 0.50) {
+				this.debug('Unyielding: 1.5x damage (<=50% HP)');
+				return this.chainModify(1.5);
+			} else if (ratio <= 0.75) {
+				this.debug('Unyielding: 1.2x damage (<=75% HP)');
+				return this.chainModify(1.2);
+			}
+		},
+		flags: {},
+		rating: 3,
+		num: -1154,
+	},
+
+
 	// End of Custom Abilities
 	noability: {
 		isNonstandard: "Past",
