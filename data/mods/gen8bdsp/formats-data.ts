@@ -3796,6 +3796,91 @@ export const FormatsData: import('../../../sim/dex-species').ModdedSpeciesFormat
 		doublesTier: "DUber",
 		natDexTier: "Uber",
 	},
+	arceusbug: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusdark: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusdragon: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceuselectric: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusfairy: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusfighting: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusfire: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusflying: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusghost: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusgrass: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusground: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusice: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceuspoison: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceuspsychic: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceusrock: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceussteel: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
+	arceuswater: {
+		tier: "HELL",
+		doublesTier: "DUber",
+		natDexTier: "Uber",
+	},
 	victini: {
 		isNonstandard: "Past",
 		tier: "HELL",
