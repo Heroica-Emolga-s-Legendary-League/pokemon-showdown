@@ -3153,7 +3153,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: -1151,
 	},
-	thelobber: {
+		thelobber: {
 		name: "The Lobber",
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
@@ -3216,8 +3216,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -1154,
 	},
-
-
 	// End of Custom Abilities
 	noability: {
 		isNonstandard: "Past",

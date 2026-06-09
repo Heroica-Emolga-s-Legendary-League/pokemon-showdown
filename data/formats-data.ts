@@ -1171,7 +1171,7 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		natDexTier: "HELL",
 	},
 	// End of Custom Pokemon Tier
-	//ZA Start
+	// ZA Start
 	greninjamegaza: {
 		isNonstandard: "Past",
 		tier: "HELL",
