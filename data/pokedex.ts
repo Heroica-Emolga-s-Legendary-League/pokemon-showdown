@@ -11958,6 +11958,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		heightm: 2,
 		weightkg: 168,
 		color: "Brown",
+    prevo: "Growlithe-Hisui",
+		evoType: "useItem",
+		evoItem: "Fire Stone",
 		eggGroups: ["Field"],
 	},
 	goliant: {
