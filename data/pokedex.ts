@@ -11957,6 +11957,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     abilities: { 0: "Intimidate", 1: "Flash Fire", H: "Rock Head" },
     heightm: 2,
     weightkg: 168,
+    prevo: "Growlithe-Hisui",
+    evoType: "useItem",
+    evoItem: "Fire Stone",
     color: "Brown",
     eggGroups: ["Field"],
   },
@@ -12923,6 +12926,9 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     heightm: 1.6,
     weightkg: 70.5,
     color: "Pink",
+    prevo: "Slowpoke-Galar",
+    evoType: "useItem",
+    evoItem: "Galarica Cuff",
     eggGroups: ["Monster", "Water 1"],
   },
   htyphlosion: {
@@ -12935,6 +12941,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     heightm: 1.6,
     weightkg: 69.8,
     color: "Yellow",
+    prevo: "Quilava",
+    evoLevel: 36,
     eggGroups: ["Field"],
   },
   cobbarisu: {
