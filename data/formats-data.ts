@@ -1170,6 +1170,26 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "HELL",
 		natDexTier: "HELL",
 	},
+	bulby: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	emolgamage: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	gourgeisthell: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	trevenantmega: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
 	// End of Custom Pokemon Tier
 	// ZA Start
 	greninjamegaza: {

@@ -986,16 +986,16 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -1051,
 		rating: 3.5,
 	},
-	infernalsurge: {
-		name: 'Infernal Surge',
+	firemane: {
+		name: 'Fire Mane',
 		onModifyAtk(_, _attacker, _defender, move) {
 			if (move.type !== 'Fire') return;
-			this.debug('Infernal Surge boost');
+			this.debug('Fire Mane boost');
 			return this.chainModify(1.5);
 		},
 		onModifySpA(_, _attacker, _defender, move) {
 			if (move.type !== 'Fire') return;
-			this.debug('Infernal Surge boost');
+			this.debug('Fire Mane boost');
 			return this.chainModify(1.5);
 		},
 		num: -1052,
@@ -3216,6 +3216,89 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -1154,
 	},
+	mentalfortitude: {
+		onDamagingHit(damage, target, source, effect) {
+			this.boost({ spd: 1 });
+		},
+		flags: {},
+		name: "Mental Fortitude",
+		rating: 4,
+		num: -1155,
+	},
+	eelevate: {
+		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
+		onSourceAfterFaint(length, target, source, effect) {
+			if (effect && effect.effectType === 'Move') {
+				const bestStat = source.getBestStat(true, true);
+				this.boost({ [bestStat]: length }, source);
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Eelevate",
+		rating: 3.5,
+		num: -1156,
+	},
+	purify: {
+		name: "Purify",
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Poison') {
+				this.add('-immune', target, '[from] ability: Purify');
+				return null;
+			}
+		},
+		onSetStatus(status, target, source, effect) {
+			if ((effect as Move)?.status) {
+				this.add('-immune', target, '[from] ability: Purify');
+			}
+			return false;
+		},
+		onUpdate(pokemon) {
+			if (pokemon.status) {
+				this.add('-activate', pokemon, 'ability: Purify');
+				pokemon.cureStatus();
+			}
+		},
+		flags: {breakable: 1},
+		rating: 3.5,
+		num: -1157,
+	},
+	refreshingjuices: {
+		name: "Refreshing Juices",
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (move.category === 'Status') return;
+			if (!source.hasType(move.type)) return; // Not STAB
+			if (!move.totalDamage || move.totalDamage <= 0) return;
+			
+			const healAmount = Math.floor(move.totalDamage * 0.5);
+			this.heal(healAmount, source, source);
+			this.add('-heal', source, source.getHealth, '[from] ability: Refreshing Juices');
+		},
+		flags: {},
+		rating: 4,
+		num: -1158,
+	},
+	maliciousprank: {
+		name: "Malicious Prank",
+		onStart(pokemon) {
+			let activated = false;
+			for (const target of pokemon.adjacentFoes()) {
+				if (!activated) {
+					this.add('-ability', pokemon, 'Malicious Prank');
+					activated = true;
+				}
+				// Apply Trick-Or-Treat effect (adds Ghost typing)
+				if (!target.hasType('Ghost')) {
+					target.addType('Ghost');
+					this.add('-start', target, 'typeadd', 'Ghost', '[from] ability: Malicious Prank');
+				}
+			}
+		},
+		flags: {},
+		rating: 3.5,
+		num: -1159,
+	},
+
+
 	// End of Custom Abilities
 	noability: {
 		isNonstandard: "Past",
