@@ -1205,6 +1205,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "HELL",
 		natDexTier: "HELL",
 	},
+	satsuggon: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
 	// End of Custom Pokemon Tier
 	// ZA Start
 	greninjamegaza: {
