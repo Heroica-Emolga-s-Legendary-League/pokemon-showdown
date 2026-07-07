@@ -65543,7 +65543,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			bounce: ["8M", "7T", "7E", "6T", "6E", "5T", "5E"],
 			bulletseed: ["8M", "7E", "6E", "5E"],
 			confide: ["7M", "6M"],
-			cottonguard: ["8L60", "7L1", "6L1", "5L55"],
 			cottonspore: ["8L40", "7L18", "6L18", "5L18"],
 			doubleteam: ["7M", "6M", "5M"],
 			drainpunch: ["8M", "7T", "6T", "5T"],
