@@ -13038,7 +13038,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Red",
 		eggGroups: ["Bug", "Dragon"],
 	},
-	flygonhellmegas: {
+	flygonmegahells: {
 		num: -1766,
 		name: "Flygon-Mega-HELL-S",
 		types: ["Fire", "Steel"],
@@ -13052,7 +13052,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		forme: "Mega",
 		eggGroups: ["Bug", "Dragon"],
 	},
-	flygonhellmegah: {
+	flygonmegahellh: {
 		num: -1767,
 		name: "Flygon-Mega-HELL-H",
 		types: ["Fire", "Steel"],
