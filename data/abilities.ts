@@ -1905,11 +1905,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		onStart(pokemon) {
 			this.boost({def: 1, spd: 1, atk: -1, spa: -1, spe: -1}, pokemon, pokemon, this.effect);
 		},
-		onDamagingHit(damage, target, source, move) {
-			if (this.randomChance(1, 5)) { // 20% chance
-				this.boost({def: -1, spd: -1}, source, target, null, true);
-			}
-		},
 		flags: {},
 		rating: 3,
 		num: -1098,
@@ -2916,9 +2911,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				// Trigger ability onStart effects
 				this.singleEvent('Start', newAbility, target.abilityState, target);
 				
-				// Grant stat boost
-				this.boost({atk: 1, spe: 1}, target, target, this.effect);
-				
 				// Force a second heal to ensure display updates
 				this.heal(target.maxhp, target, target);
 				
@@ -2965,9 +2957,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				
 				// Trigger ability onStart
 				this.singleEvent('Start', newAbility, pokemon.abilityState, pokemon);
-				
-				// Grant stat boost
-				this.boost({atk: 1, spe: 1}, pokemon, pokemon, this.effect);
 				
 				// Force second heal
 				this.heal(pokemon.maxhp, pokemon, pokemon);
@@ -3016,29 +3005,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				// Trigger ability onStart
 				this.singleEvent('Start', newAbility, pokemon.abilityState, pokemon);
 				
-				// Grant stat boost
-				this.boost({atk: 1, spe: 1}, pokemon, pokemon, this.effect);
-				
 				// Force second heal
 				this.heal(pokemon.maxhp, pokemon, pokemon);
 				
 				// Show messages
 				this.add('-activate', pokemon, 'ability: Springlock');
 				this.add('-message', `${pokemon.name} transformed into Diggersby-Springtrap and restored to full health!`);
-			}
-		},
-		onSwitchIn(pokemon) {
-			// Logic for Diggersby-Springtrap - only after transformation
-			if (pokemon.species.id === 'diggersbyspringtrap' && !pokemon.abilityState.springlockBoostUsed) {
-				// Count how many Pokémon have fainted on the user's side
-				const faintedCount = pokemon.side.pokemon.filter(p => p.fainted).length;
-				
-				if (faintedCount > 0) {
-					this.add('-activate', pokemon, 'ability: Springlock');
-					this.boost({atk: 1, spe: 1}, pokemon, pokemon, this.effect);
-					this.add('-message', `${pokemon.name} gains +1 Attack and +1 Speed from fallen allies!`);
-					pokemon.abilityState.springlockBoostUsed = true;
-				}
 			}
 		},
 		flags: {failroleplay: 1, noreceiver: 1, noentrain: 1, notrace: 1, failskillswap: 1},
@@ -3297,7 +3269,38 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: -1159,
 	},
-
+	faeslayer: {
+		name: "Fae Slayer",
+		shortDesc: "Fairy Immunity. User's Dragon moves become neutral to Fairy",
+			onModifyMovePriority: -5,
+			onModifyMove(move) {
+				if (!move.ignoreImmunity) move.ignoreImmunity = {};
+				if (move.ignoreImmunity !== true) {
+					move.ignoreImmunity['Dragon'] = true;
+				}
+			},    
+			onTryHit(target, source, move) {
+				if (target !== source && move.type === 'Fairy') {
+					this.add('-immune', target, '[from] ability: Fae Slayer');
+					return null;
+				}
+			},
+		flags: {},
+		rating: 3.5,
+		num: -1160,
+	},
+	remnant: {
+		name: "Remnant",
+		onStart(pokemon) {
+			if (pokemon.side.faintedThisTurn) {
+				this.debug('Boosted for a faint this turn');
+				return this.boost({ spe: 1 }, pokemon);
+			}
+		},
+		flags: {},
+		rating: 1.5,
+		num: -1161,
+	},
 
 	// End of Custom Abilities
 	noability: {

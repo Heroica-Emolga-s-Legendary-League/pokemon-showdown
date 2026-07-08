@@ -375,6 +375,36 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return true;
 		},
 	},
+	"flygonitehells": {
+		name: "FlygoniteHELLS",
+		megaStone: "Flygon-Mega-HELL-S",
+		itemUser: ["Flygon-HELL"],
+		megaEvolves: "Flygon-HELL",
+		num: -1026,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
+	"flygonitehellh": {
+		name: "FlygoniteHELLH",
+		megaStone: "Flygon-Mega-HELL-H",
+		itemUser: ["Flygon-HELL"],
+		megaEvolves: "Flygon-HELL",
+		num: -1026,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
 	"delphoxite": {
 		name: "Delphoxite",
 		megaStone: "Delphox-Mega",
@@ -4368,14 +4398,14 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		},
 		onModifyDefPriority: 2,
 		onModifyDef(def, pokemon) {
-			const includedSpecies = ['lumineon', 'wobbuffet', 'bronzong', 'heracross', 'sableye', 'kecleon', 'chatot', 'mothim', 'spiritomb', 'rampardos', 'pinsir', 'bouffalant', 'grumpig', 'alomomola', 'sigilyph', 'golisopod', 'tentacruel', 'golurk'];
+			const includedSpecies = ['druddigon', 'lumineon', 'wobbuffet', 'bronzong', 'heracross', 'sableye', 'kecleon', 'chatot', 'mothim', 'spiritomb', 'rampardos', 'pinsir', 'bouffalant', 'grumpig', 'alomomola', 'sigilyph', 'golisopod', 'tentacruel', 'golurk'];
 			if (pokemon.baseSpecies.nfe || includedSpecies.includes(pokemon.species.id)) {
 				return this.chainModify(1.5);
 			}
 		},
 		onModifySpDPriority: 2,
 		onModifySpD(spd, pokemon) {
-			const includedSpecies = ['lumineon', 'wobbuffet', 'bronzong', 'heracross', 'sableye', 'kecleon', 'chatot', 'mothim', 'spiritomb', 'rampardos', 'pinsir', 'bouffalant', 'grumpig', 'alomomola', 'sigilyph', 'golisopod', 'tentacruel', 'golurk'];
+			const includedSpecies = ['druddigon', 'lumineon', 'wobbuffet', 'bronzong', 'heracross', 'sableye', 'kecleon', 'chatot', 'mothim', 'spiritomb', 'rampardos', 'pinsir', 'bouffalant', 'grumpig', 'alomomola', 'sigilyph', 'golisopod', 'tentacruel', 'golurk'];
 			if (pokemon.baseSpecies.nfe || includedSpecies.includes(pokemon.species.id)) {
 				return this.chainModify(1.5);
 			}
