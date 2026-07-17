@@ -20599,10 +20599,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			wavecrash: ["9M"],
 			aquajet: ["9M"],
 			barbbarrage: ["9M"],
-			mortalspin: ["9M"],
 			taunt: ["9M"],
 			lifedew: ["9M"],
-			recover: ["9M"],
 			hell: ["9M"],
 		},
 	},
@@ -77542,6 +77540,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			knockoff: ["6M", "5M"],
 			drainpunch: ["6M", "5M"],
 			swordsdance: ["6M", "5M"],
+			roost: ["6M", "5M"],
 		},
 		eventData: [
 			{ generation: 5, level: 1, shiny: true, moves: ["leer", "scratch"], pokeball: "pokeball" },
