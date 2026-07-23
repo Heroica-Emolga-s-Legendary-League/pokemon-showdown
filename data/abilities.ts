@@ -3301,6 +3301,27 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 1.5,
 		num: -1161,
 	},
+	pristinelight: {
+		name: "Pristine Light",
+		shortDesc: "Super-effective damage reduced and heals 25% of damage dealt",
+		onSourceModifyDamage(damage, source, target, move) {
+			if (target.getMoveHitData(move).typeMod > 0) {
+				this.debug('Filter Drain neutralize');
+				return this.chainModify(0.75);
+			}
+		},
+		onAfterMoveSecondarySelf(source, target, move) {
+			if (move.category === 'Status') return;
+			if (!move.totalDamage || move.totalDamage <= 0) return;
+			
+			const healAmount = Math.floor(move.totalDamage * 0.25);
+			this.heal(healAmount, source, source);
+			this.add('-heal', source, source.getHealth, '[from] ability: Filter Drain');
+		},
+		flags: {breakable: 1},
+		rating: 4.5,
+		num: -1162,
+	},
 
 	// End of Custom Abilities
 	noability: {

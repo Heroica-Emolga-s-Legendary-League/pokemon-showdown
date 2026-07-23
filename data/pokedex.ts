@@ -44,11 +44,11 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		},
 		"baseStats": {
 			"hp": 110,
-			"atk": 163,
-			"def": 85,
-			"spa": 140,
-			"spd": 85,
-			"spe": 45,
+			"atk": 153,
+			"def": 115,
+			"spa": 80,
+			"spd": 115,
+			"spe": 55,
 		},
 		"abilities": {
 			"0": "Rock Head",
@@ -670,10 +670,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		"baseStats": {
 			"hp": 75,
 			"atk": 128,
-			"def": 100,
+			"def": 90,
 			"spa": 144,
-			"spd": 100,
-			"spe": 55,
+			"spd": 90,
+			"spe": 75,
 		},
 		"abilities": {
 			"0": "Boots of Ruin",
@@ -10233,7 +10233,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		"name": "Wailord-Mega",
 		"types": [
 			"Water",
-			"Fairy",
+			"Steel",
 		],
 		"genderRatio": {
 			"M": 0.875,
@@ -10241,10 +10241,10 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		},
 		"baseStats": {
 			"hp": 170,
-			"atk": 110,
-			"def": 75,
-			"spa": 110,
-			"spd": 75,
+			"atk": 120,
+			"def": 95,
+			"spa": 60,
+			"spd": 95,
 			"spe": 60,
 		},
 		"abilities": {
@@ -13081,6 +13081,30 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Red",
 		prevo: "Druddigon",
 		eggGroups: ["Monster", "Dragon"],
+	},
+	cyanieon: {
+		num: -1769,
+		name: "Cyanieon",
+		types: ["Water", "Poison"],
+		baseStats: { hp: 95, atk: 69, def: 95, spa: 104, spd: 96, spe: 106 },
+		abilities: { 0: "Storm Drain", 1: "Venom Rush", H: "Verdant Blessing" },
+		heightm: 1.8,
+		weightkg: 34,
+		color: "Blue",
+		prevo: "Lumineon",
+		eggGroups: ["Water 2"],
+	},
+	anglure: {
+		num: -1770,
+		name: "Anglure",
+		types: ["Water", "Electric"],
+		baseStats: { hp: 139, atk: 68, def: 78, spa: 96, spd: 96, spe: 72 },
+		abilities: { 0: "Volt Absorb", 1: "Pristine Light", H: "Water Absorb" },
+		heightm: 1.7,
+		weightkg: 42.5,
+		color: "Blue",
+		prevo: "Lanturn",
+		eggGroups: ["Water 2"],
 	},
   
   // End of Custom Pokemon
@@ -17465,6 +17489,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 22.5,
 		color: "Blue",
 		prevo: "Chinchou",
+		evos: ["Anglure"],
+		nfe: true,
 		evoLevel: 27,
 		eggGroups: ["Water 2"],
 	},
@@ -22080,6 +22106,8 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Blue",
 		prevo: "Finneon",
 		evoLevel: 31,
+		evos: ["Abyluxneon", "Cyanieon"],
+		nfe: true,
 		eggGroups: ["Water 2"],
 	},
 	mantyke: {
