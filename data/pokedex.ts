@@ -13074,7 +13074,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		num: -1768,
 		name: "Satsuggon",
 		types: ["Dragon", "Dark"],
-		baseStats: { hp: 112, atk: 145, def: 107, spa: 60, spd: 94, spe: 43 },
+		baseStats: { hp: 112, atk: 130, def: 107, spa: 75, spd: 94, spe: 43 },
 		abilities: { 0: "Rough Skin", 1: "Fae Slayer", H: "Mold Breaker" },
 		heightm: 1.6,
 		weightkg: 139,
