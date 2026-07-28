@@ -15,6 +15,149 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		target: "normal",
 		type: "Normal",
 	},
+	sugarrush: {
+		num: -2,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Sugar Rush",
+		pp: 5,
+		priority: 2,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		secondary: null,
+		target: "normal",
+		type: "Fairy",
+		contestType: "Cool",
+	},
+	lifedrain: {
+		num: -3,
+		accuracy: 100,
+		basePower: 50,
+		category: "Special",
+		name: "Life Drain",
+		pp: 10,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, heal: 1, metronome: 1 },
+		drain: [3, 4],
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Cute",
+	},
+	blackmagic: {
+		num: -4,
+		accuracy: 100,
+		basePower: 120,
+		category: "Special",
+		name: "Black Magic",
+		pp: 5,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		self: {
+			boosts: {
+				def: -1,
+				spd: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Tough",
+	},
+	basiliskconcoction: {
+		num: -5,
+		accuracy: 85,
+		basePower: 75,
+		category: "Special",
+		name: "Basilisk Concoction",
+		pp: 15,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		secondary: {
+			chance: 100,
+			onHit(target, source) {
+				const result = this.random(2);
+				if (result === 0) {
+					target.trySetStatus('psn', source);
+				} else {
+					target.trySetStatus('par', source);
+				}
+			},
+		},
+		target: "normal",
+		type: "Poison",
+	},
+	distortingscale: {
+		num: -6,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Distorting Scale",
+		pp: 5,
+		priority: 0,
+		flags: { snatch: 1, sound: 1, dance: 1 },
+		onTry(source) {
+			if (source.hp <= (source.maxhp * 25 / 100) || source.maxhp === 1) return false;
+		},
+		onTryHit(pokemon, target, move) {
+			if (!this.boost(move.boosts!)) return null;
+			delete move.boosts;
+		},
+		onHit(pokemon) {
+			this.directDamage(pokemon.maxhp * 25 / 100);
+		},
+		boosts: {
+			atk: 1,
+			def: 1,
+			spa: 1,
+			spd: 1,
+			spe: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Poison",
+	},
+	piercingstrike: {
+		num: -7,
+		accuracy: 95,
+		basePower: 100,
+		category: "Physical",
+		name: "Piercing Strike",
+		pp: 10,
+		priority: 0,
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
+		onHit(target, source) {
+			// Clear all stat boosts from the target
+			let cleared = false;
+			for (const stat in target.boosts) {
+				if (target.boosts[stat as BoostID]! > 0) {
+					target.boosts[stat as BoostID] = 0;
+					cleared = true;
+				}
+			}
+			if (cleared) {
+				this.add('-clearboost', target, '[from] move: Piercing Strike');
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+	},
+	dragonstorm: {
+		num: -8,
+		accuracy: 75,
+		basePower: 100,
+		category: "Special",
+		name: "Dragon Storm",
+		pp: 5,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		volatileStatus: 'partiallytrapped',
+		secondary: null,
+		target: "normal",
+		type: "Dragon",
+		contestType: "Tough",
+	},
 	// End of Custom Moves
 	"10000000voltthunderbolt": {
 		num: 719,
