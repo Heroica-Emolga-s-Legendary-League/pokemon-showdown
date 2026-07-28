@@ -969,6 +969,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage in exchange for the user losing 33% of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Defense, Special Attack, Special Defense, and Speed stat stages would not change.",
 		shortDesc: "User loses 33% of its max HP. +1 to all stats.",
 	},
+	distortingscale: {
+		name: "Distorting Scale",
+		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage in exchange for the user losing 33% of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Defense, Special Attack, Special Defense, and Speed stat stages would not change.",
+		shortDesc: "User loses 33% of its max HP. +1 to all stats.",
+	},
 	clangoroussoulblaze: {
 		name: "Clangorous Soulblaze",
 		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
@@ -980,6 +985,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	closecombat: {
 		name: "Close Combat",
+		desc: "Lowers the user's Defense and Special Defense by 1 stage.",
+		shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
+	},
+	blackmagic: {
+		name: "blackmagic",
 		desc: "Lowers the user's Defense and Special Defense by 1 stage.",
 		shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
 	},
@@ -1394,6 +1404,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		desc: "Has a 50% chance to cause the target to either fall asleep, become poisoned, or become paralyzed.",
 		shortDesc: "50% chance to sleep, poison, or paralyze target.",
 	},
+	basiliskconcoction: {
+		name: "Basilisk Concoction",
+		desc: "This move will always either poison or paralyze if it hits the target.",
+		shortDesc: "100% poisons or paralyzes target.",
+	},
 	disable: {
 		name: "Disable",
 		desc: "For 4 turns, the target's last move used becomes disabled. Fails if one of the target's moves is already disabled, if the target has not made a move, if the target no longer knows the move, or if the move was a Max or G-Max Move.",
@@ -1612,6 +1627,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	drainingkiss: {
 		name: "Draining Kiss",
+		desc: "The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
+		shortDesc: "User recovers 75% of the damage dealt.",
+	},
+	lifedrain: {
+		name: "Life Drain",
 		desc: "The user recovers 3/4 the HP lost by the target, rounded half up. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded half down.",
 		shortDesc: "User recovers 75% of the damage dealt.",
 	},
@@ -1904,6 +1924,14 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Raises user's Atk, Def, SpA, SpD, and Spe by 2.",
 	},
 	extremespeed: {
+		name: "Extreme Speed",
+		desc: "No additional effect.",
+		shortDesc: "Nearly always goes first.",
+		gen4: {
+			shortDesc: "Usually goes first.",
+		},
+	},
+	sugarrush: {
 		name: "Extreme Speed",
 		desc: "No additional effect.",
 		shortDesc: "Nearly always goes first.",
@@ -3791,6 +3819,26 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		},
 
 		start: "  [POKEMON] became trapped by swirling magma!",
+	},
+	dragonstorm: {
+		name: "Dragon Storm",
+		desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Shed Tail, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Mortal Spin, Rapid Spin, or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+		shortDesc: "Traps and damages the target for 4-5 turns.",
+		gen8: {
+			desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+		},
+		gen7: {
+			desc: "Prevents the target from switching for four or five turns (seven turns if the user is holding Grip Claw). Causes damage to the target equal to 1/8 of its maximum HP (1/6 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, Parting Shot, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+		},
+		gen5: {
+			desc: "Prevents the target from switching for four or five turns; seven turns if the user is holding Grip Claw. Causes damage to the target equal to 1/16 of its maximum HP (1/8 if the user is holding Binding Band), rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin. This effect is not stackable or reset by using this or another partial-trapping move.",
+		},
+		gen4: {
+			desc: "Prevents the target from switching for two to five turns (always five turns if the user is holding Grip Claw). Causes damage to the target equal to 1/16 of its maximum HP, rounded down, at the end of each turn during effect. The target can still switch out if it is holding Shed Shell or uses Baton Pass or U-turn. The effect ends if either the user or the target leaves the field, or if the target uses Rapid Spin or Substitute successfully. This effect is not stackable or reset by using this or another binding move.",
+			shortDesc: "Traps and damages the target for 2-5 turns.",
+		},
+
+		start: "  [POKEMON] became trapped by chaotic dragon energy!",
 	},
 	magnetbomb: {
 		name: "Magnet Bomb",
@@ -7436,6 +7484,11 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 		name: "Wicked Blow",
 		desc: "This move is always a critical hit unless the target is under the effect of Lucky Chant or has the Battle Armor or Shell Armor Abilities.",
 		shortDesc: "Always results in a critical hit.",
+	},
+	piercingstrike: {
+		name: "Piercing Strike",
+		desc: "This move will remove the stat buffs of opponents after hit.",
+		shortDesc: "Removes stat buffs after hit.",
 	},
 	wickedtorque: {
 		name: "Wicked Torque",

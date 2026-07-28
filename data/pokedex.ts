@@ -13106,6 +13106,21 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		prevo: "Lanturn",
 		eggGroups: ["Water 2"],
 	},
+	cinccinomega: {
+		num: -1771,
+		name: "Cinccino-Mega",
+		baseSpecies: "Cinccino",
+		forme: "Mega",
+		types: ["Normal", "Fairy"],
+		genderRatio: { M: 0.25, F: 0.75 },
+		baseStats: { hp: 75, atk: 105, def: 110, spa: 65, spd: 110, spe: 95 },
+		abilities: { 0: "Clean Freak" },
+		heightm: 0.9,
+		weightkg: 18.5,
+		requiredItem: "Cinccinite",
+		color: "Gray",
+		eggGroups: ["Field"],
+	},
   
   // End of Custom Pokemon
 

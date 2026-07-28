@@ -190,6 +190,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			delete pokemon.volatiles['lithogrit'];
 			this.add('-end', pokemon, 'lithogrit', '[silent]');
 		},
+		onImmunity(type, pokemon) {
+			if (type === 'sandstorm') return false;
+		},
 		condition: {
 			noCopy: true,
 			onStart(pokemon, source, effect) {
