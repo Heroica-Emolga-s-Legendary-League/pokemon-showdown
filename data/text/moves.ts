@@ -972,7 +972,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	distortingscale: {
 		name: "Distorting Scale",
 		desc: "Raises the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage in exchange for the user losing 33% of its maximum HP, rounded down. Fails if the user would faint or if its Attack, Defense, Special Attack, Special Defense, and Speed stat stages would not change.",
-		shortDesc: "User loses 33% of its max HP. +1 to all stats.",
+		shortDesc: "User loses 25% of its max HP. +1 to all stats.",
 	},
 	clangoroussoulblaze: {
 		name: "Clangorous Soulblaze",
