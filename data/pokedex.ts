@@ -13099,7 +13099,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		name: "Anglure",
 		types: ["Water", "Electric"],
 		baseStats: { hp: 139, atk: 68, def: 78, spa: 96, spd: 96, spe: 72 },
-		abilities: { 0: "Volt Absorb", 1: "Pristine Light", H: "Water Absorb" },
+		abilities: { 0: "Electrolysis", 1: "Illuminate", H: "Filter" },
 		heightm: 1.7,
 		weightkg: 42.5,
 		color: "Blue",
