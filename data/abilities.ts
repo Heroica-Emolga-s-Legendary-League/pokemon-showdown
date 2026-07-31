@@ -3325,6 +3325,20 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 4.5,
 		num: -1162,
 	},
+	electrolysis: {
+		onTryHit(target, source, move) {
+			if (target !== source && (move.type === 'Water' || move.type === 'Electric')) {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Electrolysis');
+				}
+				return null;
+			}
+		},
+		flags: { breakable: 1 },
+		name: "Electrolysis",
+		rating: 3.5,
+		num: 11,
+	},
 
 	// End of Custom Abilities
 	noability: {
