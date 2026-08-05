@@ -339,12 +339,23 @@ export class RoomAuth extends Auth {
 export class GlobalAuth extends Auth {
 	usernames = new Map<ID, string>();
 	sectionLeaders = new Map<ID, RoomSection>();
+	private resolveUsergroupsPath() {
+		const usergroupsPath = FS('config/usergroups.csv');
+		if (!usergroupsPath.existsSync()) return usergroupsPath;
+		if (usergroupsPath.isDirectorySync()) {
+			Monitor.warn(
+				`config/usergroups.csv is a directory; using config/usergroups.csv/usergroups.csv instead.`
+			);
+			return FS('config/usergroups.csv/usergroups.csv');
+		}
+		return usergroupsPath;
+	}
 	constructor() {
 		super();
 		this.load();
 	}
 	save() {
-		FS('config/usergroups.csv').writeUpdate(() => {
+		this.resolveUsergroupsPath().writeUpdate(() => {
 			let buffer = '';
 			for (const [userid, groupSymbol] of this) {
 				buffer += `${this.usernames.get(userid) || userid},${groupSymbol},${this.sectionLeaders.get(userid) || ''}\n`;
@@ -353,7 +364,7 @@ export class GlobalAuth extends Auth {
 		});
 	}
 	load() {
-		const data = FS('config/usergroups.csv').readIfExistsSync();
+		const data = this.resolveUsergroupsPath().readIfExistsSync();
 		for (const row of data.split("\n")) {
 			if (!row) continue;
 			const [name, symbol, sectionid] = row.split(",");
