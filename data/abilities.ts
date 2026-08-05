@@ -2875,6 +2875,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	springlock: {
 		name: "Springlock",
 		onDamagePriority: 1,
+		shortDesc: "Transforms into Diggersby-Springtrap when knocked out by an attack, rain, or status effect",
 		onDamage(damage, target, source, effect) {
 			// Only trigger for Bunnelby-Springtrap that hasn't transformed yet
 			if (target.species.id !== 'bunnelbyspringtrap') return;
@@ -3022,6 +3023,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	megasol: {
 		name: "Mega Sol",
+		shortDesc: "Moves function as if under the harsh sunlight effect",
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Mega Sol');
 		},
@@ -3096,6 +3098,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	piercingdrill: {
 		name: "Piercing Drill",
+		shortDesc: "Contact Moves deal 1/4 damage through protect",
 		onModifyMove(move) {
 			if (move.flags['contact'] && move.category !== 'Status') {
 				// Remove protect flag so the move bypasses protection (like Unseen Fist)
@@ -3119,6 +3122,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	spicyspray: {
 		name: "Spicy Spray",
+		shortDesc: "Burns attacker when hit",
 		onDamagingHit(damage, target, source, move) {
 			if (move.category !== 'Status') {
 				source.trySetStatus('brn', target);
@@ -3128,8 +3132,9 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3.5,
 		num: -1151,
 	},
-		thelobber: {
+	thelobber: {
 		name: "The Lobber",
+		shortDesc: "Bullet moves deal 1.5x damage",
 		onBasePowerPriority: 19,
 		onBasePower(basePower, attacker, defender, move) {
 			if (move.flags['bullet']) {
@@ -3143,6 +3148,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	shockingcurrents: {
 		name: "Shocking Currents",
+		shortDesc: "Water Attacks have 50% chance to paralyze",
 		onModifyMove(move, source, target) {
 			if (move.type === 'Water' && move.category !== 'Status') {
 				if (!move.secondaries) move.secondaries = [];
@@ -3159,6 +3165,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	unyielding: {
 		name: "Unyielding",
+		shortDesc: "The lower the health of user, the more damage they deal",
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, pokemon) {
 			const ratio = pokemon.hp / pokemon.maxhp;
@@ -3192,6 +3199,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -1154,
 	},
 	mentalfortitude: {
+		shortDesc: "Special Defenses increases by 1 when hit by an attack",
 		onDamagingHit(damage, target, source, effect) {
 			this.boost({ spd: 1 });
 		},
@@ -3202,6 +3210,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	eelevate: {
 		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
+		shortDesc: "Levitate + Beast Boost",
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
 				const bestStat = source.getBestStat(true, true);
@@ -3215,6 +3224,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	purify: {
 		name: "Purify",
+		shortDesc: "Immune to Poison Moves and Status Effects",
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Poison') {
 				this.add('-immune', target, '[from] ability: Purify');
@@ -3239,6 +3249,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	refreshingjuices: {
 		name: "Refreshing Juices",
+		shortDesc: "STAB attacks heal 50% of damage dealt",
 		onAfterMoveSecondarySelf(source, target, move) {
 			if (move.category === 'Status') return;
 			if (!source.hasType(move.type)) return; // Not STAB
@@ -3254,6 +3265,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	maliciousprank: {
 		name: "Malicious Prank",
+		shortDesc: "Adds Ghost Typing on Opponent(s) on switch-in",
 		onStart(pokemon) {
 			let activated = false;
 			for (const target of pokemon.adjacentFoes()) {
@@ -3294,6 +3306,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	remnant: {
 		name: "Remnant",
+		shortDesc: "One time: if an ally is fainted, +1 speed",
 		onStart(pokemon) {
 			if (pokemon.side.faintedThisTurn) {
 				this.debug('Boosted for a faint this turn');
@@ -3334,6 +3347,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				return null;
 			}
 		},
+		shortDesc: "Heals 1/4 from Water and Electric Attacks, Immune to them.",
 		flags: { breakable: 1 },
 		name: "Electrolysis",
 		rating: 3.5,
