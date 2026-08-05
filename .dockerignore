@@ -3,5 +3,8 @@
 node_modules
 dist
 config/config.js
+logs
+databases/*.db
+databases/*.sqlite
 *.log
 .env

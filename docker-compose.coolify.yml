@@ -1,0 +1,21 @@
+version: "3.9"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      PORT: "8000"
+    expose:
+      - "8000"
+    volumes:
+      - ps-config:/app/config
+      - ps-logs:/app/logs
+      - ps-databases:/app/databases
+
+volumes:
+  ps-config:
+  ps-logs:
+  ps-databases:
