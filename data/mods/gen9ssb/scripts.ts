@@ -7,7 +7,12 @@ import { type SwitchAction } from "../../../sim/battle-queue";
 // Similar to User.usergroups. Cannot import here due to users.ts requiring Chat
 // This also acts as a cache, meaning ranks will only update when a hotpatch/restart occurs
 const usergroups: { [userid: string]: string } = {};
-const usergroupData = FS('config/usergroups.csv').readIfExistsSync().split('\n');
+const usergroupsPath = FS('config/usergroups.csv');
+const usergroupData = (
+	usergroupsPath.existsSync() && usergroupsPath.isDirectorySync() ?
+		FS('config/usergroups.csv/usergroups.csv') :
+		usergroupsPath
+).readIfExistsSync().split('\n');
 for (const row of usergroupData) {
 	if (!toID(row)) continue;
 
