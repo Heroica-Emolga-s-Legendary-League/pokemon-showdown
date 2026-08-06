@@ -961,7 +961,9 @@ export const LogSearcher: Searcher = new (
 	Config.chatlogreader === 'ripgrep' ? RipgrepLogSearcher : FSLogSearcher
 )();
 
-const accessLog = Monitor.logPath(`chatlog-access.txt`).createAppendStream();
+const accessLogPath = Monitor.logPath(`chatlog-access.txt`);
+accessLogPath.parentDir().mkdirpSync();
+const accessLog = accessLogPath.createAppendStream();
 
 export const pages: Chat.PageTable = {
 	async chatlog(args, user, connection) {
