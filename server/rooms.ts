@@ -2098,7 +2098,9 @@ export class GameRoom extends BasicRoom {
 			);
 		} catch (e) {
 			connection?.popup(`Your replay could not be saved: ${e}`);
-			throw e;
+			const status = axios.isAxiosError(e) ? ` (HTTP ${e.response?.status ?? 'network error'})` : '';
+			Monitor.warn(`Replay upload failed for ${id}${status}: ${e}`);
+			return;
 		}
 
 		if (Replays.db) {
