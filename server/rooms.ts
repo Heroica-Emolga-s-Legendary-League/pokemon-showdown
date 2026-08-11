@@ -2086,8 +2086,11 @@ export class GameRoom extends BasicRoom {
 				inputlog: battle.inputLog?.join('\n') || null,
 				uploadtime: Math.trunc(Date.now() / 1000),
 			};
-			await axios.post(`https://sdserver.zapto.org/replays`, body);
-			const url = `https://sdserver.zapto.org/replays/${id}`;
+			const response = await axios.post<{ id: string, path_name: string }>(
+				`https://sdserver.zapto.org/replays`, body
+			);
+			id = response.data.id;
+			const url = `https://sdserver.zapto.org/replays/${encodeURIComponent(id)}`;
 			connection?.popup(
 				`|html|<p>Your replay has been uploaded! It's available at:</p><p> ` +
 				`<a class="no-panel-intercept" href="${url}" target="_blank">${url}</a> ` +
