@@ -110,6 +110,11 @@ describe('Chat monitor', () => {
 			);
 		});
 
+		it('should load default configured bad words from the chat filter file', () => {
+			assert(Chat.filterWords.warn.some(entry => entry.word === 'badword'));
+			assert(Chat.filterWords.warn.some(entry => entry.word === 'slurword'));
+		});
+
 		it('should prevent filtered words from being said', async () => {
 			assert(!this.user.locked);
 			Filters.add({
