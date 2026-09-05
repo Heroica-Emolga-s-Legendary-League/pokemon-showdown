@@ -12811,7 +12811,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     baseSpecies: "Pidgeot",
     forme: "Mega",
     types: ["Flying"],
-    baseStats: { hp: 83, atk: 90, def: 80, spa: 155, spd: 80, spe: 136 },
+    baseStats: { hp: 83, atk: 90, def: 85, spa: 155, spd: 85, spe: 136 },
     abilities: { 0: "No Guard" },
     heightm: 2.2,
     weightkg: 50.5,
