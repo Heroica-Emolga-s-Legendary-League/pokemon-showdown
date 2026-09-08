@@ -2087,10 +2087,10 @@ export class GameRoom extends BasicRoom {
 				uploadtime: Math.trunc(Date.now() / 1000),
 			};
 			const response = await axios.post<{ id: string, path_name: string }>(
-				`https://sdserver.zapto.org/replays`, body
+				`https://replay.heroicemolgaslegendaryleague.com//replays`, body
 			);
 			id = response.data.id;
-			const url = `https://sdserver.zapto.org/replays/${encodeURIComponent(id)}`;
+			const url = `https://replay.heroicemolgaslegendaryleague.com/replays/${encodeURIComponent(id)}`;
 			connection?.popup(
 				`|html|<p>Your replay has been uploaded! It's available at:</p><p> ` +
 				`<a class="no-panel-intercept" href="${url}" target="_blank">${url}</a> ` +
