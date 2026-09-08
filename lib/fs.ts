@@ -203,7 +203,11 @@ export class FSPath {
 			throttleTimer: null,
 		};
 		__fsState.pendingUpdates.set(this.path, update);
-		void this.safeWrite(dataFetcher(), options).then(() => this.finishUpdate());
+		void this.safeWrite(dataFetcher(), options).catch(err => {
+			// don't let a transient FS error (e.g. EBUSY on rename) crash the process
+			// or leave this path stuck forever waiting on a write that will never finish
+			console.error(`FS: Failed to write update to ${this.path}: ${err?.stack || err}`);
+		}).then(() => this.finishUpdate());
 	}
 	checkNextUpdate() {
 		const pendingUpdate = __fsState.pendingUpdates.get(this.path);
