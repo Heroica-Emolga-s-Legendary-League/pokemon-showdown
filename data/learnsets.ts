@@ -80714,6 +80714,10 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	meloettahell: {
 		"learnset": {
 			"protect": ["9L4", "9L3"],
+			"hex": ["9L4", "9L3"],
+			"astonish": ["9L4", "9L3"],
+			"destinybond": ["9L4", "9L3"],
+			"curse": ["9L4", "9L3"],
 			"terablast": ["9L4", "9L3"],
 			"substitute": ["9L4", "9L3"],
 			"facade": ["9L4", "9L3"],
