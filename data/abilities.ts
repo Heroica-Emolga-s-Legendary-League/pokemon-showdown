@@ -3354,7 +3354,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -1163,
 	},
 	bonvoyage: {
-		name: "Bonvoyage",
+		name: "Bon Voyage",
 		shortDesc: "Damages foe for 1/8th while Perish Song is on an active pokemon, extends perish song by 3 turns",
 		onUpdate(pokemon) {
 				if (pokemon.volatiles['perishsong'] && !pokemon.volatiles['perishbodyactivated']) {
@@ -3384,22 +3384,31 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
     },
 	forbiddenmagic: {
 		name: "Forbidden Magic",
-		shortDesc: "Loses 1/8 max health each turn, all others lose 1/4 max health each turn",
-		onResidualOrder: 5,
-		onResidualSubOrder: 1,
-		onResidual(pokemon) {
-			// Skip the turn the pokemon switches in
-			if (pokemon.activeTurns === 0) return;
+		shortDesc: "Steals opponent's buffs on knocking them out",
+		onSourceAfterFaint(length, target, source, effect) {
+			if (!effect || effect.effectType !== 'Move') return;
 			
-			// Damage all other active pokemon by 1/4 max health
-			for (const target of this.getAllActive()) {
-				if (target === pokemon) continue;
-				if (target.fainted) continue;
-				this.damage(target.baseMaxhp / 4, target, pokemon);
+			// Check if the fainted target had any positive stat boosts
+			let hasBoosts = false;
+			for (const stat in target.boosts) {
+				if (target.boosts[stat as BoostID]! > 0) {
+					hasBoosts = true;
+					break;
+				}
+			}
+			if (!hasBoosts) return;
+			
+			// Copy all positive stat boosts from the fainted target to the user
+			const stolenBoosts: SparseBoostsTable = {};
+			for (const stat in target.boosts) {
+				if (target.boosts[stat as BoostID]! > 0) {
+					stolenBoosts[stat as BoostID] = target.boosts[stat as BoostID]!;
+				}
 			}
 			
-			// Damage the user by 1/8 max health
-			this.damage(pokemon.baseMaxhp / 8, pokemon, pokemon);
+			this.add('-activate', source, 'ability: Forbidden Magic');
+			this.add('-message', `${source.name} absorbed ${target.name}'s stat boosts!`);
+			this.boost(stolenBoosts, source, source, this.effect);
 		},
 		flags: {},
 		rating: 4,

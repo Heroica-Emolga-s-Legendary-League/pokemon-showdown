@@ -74899,6 +74899,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	emolgamage: {
 		learnset: {
 			hell: ["9L4", "9L3"],
+			darkpulse: ["9L4", "9L3"],
 			calmmind: ["9L4", "9L3"],
 			psychoboost: ["9L4", "9L3"],
 			psyshock: ["9L4", "9L3"],
