@@ -13121,6 +13121,33 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		color: "Gray",
 		eggGroups: ["Field"],
 	},
+	emolgamagemegax: {
+		num: -1772,
+		name: "Emolga-Mage-Mega-X",
+		baseSpecies: "Emolga-Mage",
+		forme: "Mega",
+		types: ["Electric", "Dark"],
+		baseStats: { hp: 60, atk: 80, def: 75, spa: 135, spd: 90, spe: 128 },
+		abilities: { 0: "Forbidden Magic" },
+		heightm: 0.9,
+		weightkg: 9,
+		color: "White",
+		requiredItem: "EmolgiteMageX",
+		eggGroups: ["Field"],
+	},
+	meloettahell: {
+		num: -1773,
+		name: "Meloetta-HELL",
+		types: ["Normal", "Ghost"],
+		gender: "N",
+		baseStats: { hp: 100, atk: 64, def: 94, spa: 124, spd: 124, spe: 64 },
+		abilities: { 0: "Bon Voyage" },
+		heightm: 0.6,
+		weightkg: 6.5,
+		color: "White",
+		eggGroups: ["Undiscovered"],
+		tags: ["Mythical"],
+	},
   
   // End of Custom Pokemon
 

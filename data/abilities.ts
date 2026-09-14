@@ -3351,7 +3351,59 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		flags: { breakable: 1 },
 		name: "Electrolysis",
 		rating: 3.5,
-		num: 11,
+		num: -1163,
+	},
+	bonvoyage: {
+		name: "Bonvoyage",
+		shortDesc: "Damages foe for 1/8th while Perish Song is on an active pokemon, extends perish song by 3 turns",
+		onUpdate(pokemon) {
+				if (pokemon.volatiles['perishsong'] && !pokemon.volatiles['perishbodyactivated']) {
+				if (pokemon.volatiles['perishsong'].duration !== undefined)    
+					pokemon.volatiles['perishsong'].duration += 3;
+					pokemon.addVolatile('perishbodyactivated');
+				}
+		},
+		onAfterMove(source, target, move) {
+			if (move.id !== 'perishsong') return;
+			this.add(
+				'-hint',
+				`Perish song has been extended by 3 turns`
+			);        
+		},
+		onResidual(pokemon) {
+			const foes = pokemon.side.foe.active;
+			for (const target of foes) {
+				if (!target || target.fainted) continue;
+				if (!pokemon.volatiles['perishsong'] && !target.volatiles['perishsong']) continue;
+				this.damage(target.baseMaxhp / 8, target);
+			}
+		},    
+		flags: {},
+		rating: 2.5,
+		num: -1164,
+    },
+	forbiddenmagic: {
+		name: "Forbidden Magic",
+		shortDesc: "Loses 1/8 max health each turn, all others lose 1/4 max health each turn",
+		onResidualOrder: 5,
+		onResidualSubOrder: 1,
+		onResidual(pokemon) {
+			// Skip the turn the pokemon switches in
+			if (pokemon.activeTurns === 0) return;
+			
+			// Damage all other active pokemon by 1/4 max health
+			for (const target of this.getAllActive()) {
+				if (target === pokemon) continue;
+				if (target.fainted) continue;
+				this.damage(target.baseMaxhp / 4, target, pokemon);
+			}
+			
+			// Damage the user by 1/8 max health
+			this.damage(pokemon.baseMaxhp / 8, pokemon, pokemon);
+		},
+		flags: {},
+		rating: 4,
+		num: -1165,
 	},
 
 	// End of Custom Abilities
