@@ -420,6 +420,21 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 			return true;
 		},
 	},
+	"emolgitemagex": {
+		name: "EmolgiteMageX",
+		megaStone: "Emolga-Mage-Mega-X",
+		itemUser: ["Emolga-Mage"],
+		megaEvolves: "Emolga-Mage",
+		num: -1026,
+		isNonstandard: "Past",
+		gen: 9,
+		onTakeItem: (item, source) => {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) {
+				return false;
+			}
+			return true;
+		},
+	},
 	"delphoxite": {
 		name: "Delphoxite",
 		megaStone: "Delphox-Mega",

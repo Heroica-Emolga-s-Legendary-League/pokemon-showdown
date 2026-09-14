@@ -1225,6 +1225,16 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "HELL",
 		natDexTier: "HELL",
 	},
+	emolgamagemegax: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
+	meloettahell: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
 	// End of Custom Pokemon Tier
 	// ZA Start
 	greninjamegaza: {
