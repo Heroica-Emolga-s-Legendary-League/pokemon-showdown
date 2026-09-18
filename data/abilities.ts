@@ -3356,13 +3356,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	bonvoyage: {
 		name: "Bon Voyage",
 		shortDesc: "Damages foe for 1/8th while Perish Song is on an active pokemon, extends perish song for user by 3 turns",
-		onUpdate(pokemon) {
-				if (pokemon.volatiles['perishsong'] && !pokemon.volatiles['perishbodyactivated']) {
-				if (pokemon.volatiles['perishsong'].duration !== undefined)    
-					pokemon.volatiles['perishsong'].duration += 3;
-					pokemon.addVolatile('perishbodyactivated');
-				}
-		},
 		onAfterMove(source, target, move) {
 			if (move.id !== 'perishsong') return;
 			this.add(
