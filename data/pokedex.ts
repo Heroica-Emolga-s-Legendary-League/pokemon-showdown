@@ -5823,7 +5823,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		},
 		"abilities": {
 			"0": "Thick Fat",
-			"1": "Cursed Body",
+			"1": "Ethereal Presence",
 			"H": "Refrigerate",
 		},
 		"heightm": 2.1,
@@ -5853,7 +5853,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 			"spe": 40,
 		},
 		"abilities": {
-			"0": "Sheer Force",
+			"0": "Ethereal Presence",
 		},
 		"heightm": 3,
 		"weightkg": 930,

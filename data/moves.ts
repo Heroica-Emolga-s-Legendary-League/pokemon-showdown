@@ -13884,7 +13884,12 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 					result = true;
 				} else if (!pokemon.volatiles['perishsong']) {
 					pokemon.addVolatile('perishsong');
-					this.add('-start', pokemon, 'perish3', '[silent]');
+					if (source.hasAbility('bonvoyage')) {
+						this.add('-start', pokemon, 'perish7', '[silent]');
+					} else {
+						this.add('-start', pokemon, 'perish3', '[silent]');
+					}
+					
 					result = true;
 					message = true;
 				}
