@@ -12912,7 +12912,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
     num: -1755,
     name: "Diggersby-Springtrap",
     types: ["Steel", "Ghost"],
-    baseStats: { hp: 105, atk: 100, def: 92, spa: 40, spd: 92, spe: 77 },
+    baseStats: { hp: 105, atk: 100, def: 86, spa: 87, spd: 86, spe: 77 },
     abilities: { 0: "Remnant"},
     heightm: 1.4,
     weightkg: 92.4,
