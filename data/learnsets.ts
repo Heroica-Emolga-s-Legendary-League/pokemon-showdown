@@ -9378,6 +9378,8 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 	},
 	diggersbyspringtrap: {
 		learnset: {
+			bulkup: ["9M"],
+			honeclaws: ["9M"],
 			agility: ["9M"],
 			bite: ["9L1"],
 			bodyslam: ["9M"],

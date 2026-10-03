@@ -555,7 +555,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			const abilityHolder = this.effectState.target;
 			if (target.hasAbility('Boots of Ruin')) return;
 			this.debug('Boots of Ruin spe drop');
-			return this.chainModify(0.75);
+			return this.chainModify(0.5);
 		},
 		num: -1018,
 		rating: 4,
@@ -3148,12 +3148,12 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	shockingcurrents: {
 		name: "Shocking Currents",
-		shortDesc: "Water Attacks have 50% chance to paralyze",
+		shortDesc: "Water Attacks have 30% chance to paralyze",
 		onModifyMove(move, source, target) {
 			if (move.type === 'Water' && move.category !== 'Status') {
 				if (!move.secondaries) move.secondaries = [];
 				move.secondaries.push({
-					chance: 50,
+					chance: 30,
 					status: 'par',
 					ability: this.dex.abilities.get('shockingcurrents'),
 				});
@@ -3286,20 +3286,30 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	faeslayer: {
 		name: "Fae Slayer",
-		shortDesc: "Fairy Immunity. User's Dragon moves become neutral to Fairy",
-			onModifyMovePriority: -5,
-			onModifyMove(move) {
-				if (!move.ignoreImmunity) move.ignoreImmunity = {};
-				if (move.ignoreImmunity !== true) {
-					move.ignoreImmunity['Dragon'] = true;
+		shortDesc: "Dragon moves hit Fairy for 0.5x. Takes 0.5x from Fairy moves instead of being immune.",
+		// Offense: let Dragon connect on Fairy, then set the Fairy matchup to resisted
+		onModifyMovePriority: -5,
+		onModifyMove(move) {
+			if (move.type !== 'Dragon') return;
+			if (!move.ignoreImmunity) move.ignoreImmunity = {};
+			if (move.ignoreImmunity !== true) {
+				move.ignoreImmunity['Dragon'] = true;
+			}
+			const originalOnEffectiveness = move.onEffectiveness;
+			move.onEffectiveness = function (typeMod, target, type, m) {
+				if (type === 'Fairy') return -1;
+				if (originalOnEffectiveness) {
+					return originalOnEffectiveness.call(this, typeMod, target, type, m);
 				}
-			},    
-			onTryHit(target, source, move) {
-				if (target !== source && move.type === 'Fairy') {
-					this.add('-immune', target, '[from] ability: Fae Slayer');
-					return null;
-				}
-			},
+			};
+		},
+		// Defense: Fairy moves are always resisted against the holder (no immunity)
+		onEffectiveness(typeMod, target, type, move) {
+			if (!target || move.type !== 'Fairy') return;
+			// This runs once per holder type, so only the first type contributes -1
+			// and the rest contribute 0, giving exactly one resist step total.
+			return type === target.getTypes()[0] ? -1 : 0;
+		},
 		flags: {},
 		rating: 3.5,
 		num: -1160,
@@ -3308,11 +3318,11 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		name: "Remnant",
 		shortDesc: "One time: if an ally is fainted, +1 speed",
 		onStart(pokemon) {
-			if (pokemon.side.faintedThisTurn) {
-				this.debug('Boosted for a faint this turn');
-				return this.boost({ spe: 1 }, pokemon);
-			}
-		},
+            if (pokemon.side.faintedThisTurn) {
+                this.debug('Boosted for a faint this turn');
+                return this.boost({ atk: 1, spe: 1 }, pokemon);
+            }
+        },
 		flags: {},
 		rating: 1.5,
 		num: -1161,

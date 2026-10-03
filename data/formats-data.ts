@@ -1155,6 +1155,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "HELL",
 		natDexTier: "HELL",
 	},
+	diggersbyspringtrap: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
 	cobbarisu: {
 		isNonstandard: "Past",
 		tier: "HELL",
