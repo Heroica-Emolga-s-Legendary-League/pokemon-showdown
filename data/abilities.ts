@@ -3364,8 +3364,8 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		num: -1163,
 	},
 	bonvoyage: {
-		name: "Bon Voyage",
-		shortDesc: "Damages foe for 1/8th while Perish Song is on an active pokemon, extends perish song for user by 3 turns",
+		name: "Bonvoyage",
+		shortDesc: "Damages foe for 1/8th while Perish Song is on an active pokemon, extends perish song by 3 turns",
 		onAfterMove(source, target, move) {
 			if (move.id !== 'perishsong') return;
 			this.add(
@@ -3383,7 +3383,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		},    
 		flags: {},
 		rating: 2.5,
-		num: -1164,
+		num: 9999,
     },
 	forbiddenmagic: {
 		name: "Forbidden Magic",
