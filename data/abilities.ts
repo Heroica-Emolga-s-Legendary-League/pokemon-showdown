@@ -1443,6 +1443,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			pokemon.addVolatile('dnatracing');
 			pokemon.volatiles['dnatracing'].originalTypes = pokemon.getTypes(true);
 			this.actions.useMove('reflecttype', pokemon, { target });
+			this.add('-start', pokemon, 'typechange', target.types.join('/'), '[from] ability: DNA Tracing');
 		},
 		onResidualOrder: 29,
 		onResidual(pokemon) {
@@ -1451,6 +1452,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			this.add('-ability', pokemon, 'DNA Tracing');
 			this.add('-message', `${pokemon.name}'s DNA Tracing reverted its type!`);
 			pokemon.setType(originalTypes);
+			this.add('-start', pokemon, 'typechange', originalTypes.join('/'), '[from] ability: DNA Tracing');
 			pokemon.removeVolatile('dnatracing');
 		},
 		flags: {},
