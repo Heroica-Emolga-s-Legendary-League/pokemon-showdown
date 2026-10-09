@@ -130,7 +130,7 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 			// Clear all stat boosts from the target
 			let cleared = false;
 			for (const stat in target.boosts) {
-				if (target.boosts[stat as BoostID]! > 0) {
+				if (target.boosts[stat as BoostID] > 0) {
 					target.boosts[stat as BoostID] = 0;
 					cleared = true;
 				}
@@ -13865,38 +13865,51 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		contestType: "Cool",
 	},
 	perishsong: {
-        num: 195,
-        accuracy: true,
-        basePower: 0,
-        category: "Status",
-        name: "Perish Song",
-        pp: 5,
-        priority: 0,
-        flags: { sound: 1, distance: 1, bypasssub: 1, metronome: 1 },
-        onHitField(target, source, move) {
-            let result = false;
-            let message = false;
-            for (const pokemon of this.getAllActive()) {
-                if (this.runEvent('Invulnerability', pokemon, source, move) === false) {
-                    this.add('-miss', source, pokemon);
-                    result = true;
-                } else if (this.runEvent('TryHit', pokemon, source, move) === null) {
-                    result = true;
-                } else if (!pokemon.volatiles['perishsong']) {
-                    pokemon.addVolatile('perishsong');
-                    if (pokemon.hasAbility('bonvoyage')) {
-                        pokemon.volatiles['perishsong'].duration += 3;
-                        this.add('-start', pokemon, 'perish6', '[silent]');
-                    } else {
-                        this.add('-start', pokemon, 'perish3', '[silent]');
-                    }
-                    result = true;
-                    message = true;
-                }
-            }
-            if (!result) return false;
-            if (message) this.add('-fieldactivate', 'move: Perish Song');
-        },
+		num: 195,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Perish Song",
+		pp: 5,
+		priority: 0,
+		flags: { sound: 1, distance: 1, bypasssub: 1, metronome: 1 },
+		onHitField(target, source, move) {
+			let result = false;
+			let message = false;
+			for (const pokemon of this.getAllActive()) {
+				if (this.runEvent('Invulnerability', pokemon, source, move) === false) {
+					this.add('-miss', source, pokemon);
+					result = true;
+				} else if (this.runEvent('TryHit', pokemon, source, move) === null) {
+					result = true;
+				} else if (!pokemon.volatiles['perishsong']) {
+					pokemon.addVolatile('perishsong');
+					this.add('-start', pokemon, 'perish3', '[silent]');
+					result = true;
+					message = true;
+				}
+			}
+			if (!result) return false;
+			if (message) this.add('-fieldactivate', 'move: Perish Song');
+		},
+		condition: {
+			duration: 4,
+			durationCallback(pokemon, source, effect) {
+				if (source.hasAbility('bonvoyage')) {
+					return 7;
+				}
+				return 4;
+			},
+			onEnd(target) {
+				this.add('-start', target, 'perish0');
+				target.faint();
+			},
+			onResidualOrder: 24,
+			onResidual(pokemon) {
+				const duration = pokemon.volatiles['perishsong'].duration;
+				this.add('-start', pokemon, `perish${duration}`);
+			},
+		},
 		secondary: null,
 		target: "all",
 		type: "Normal",
