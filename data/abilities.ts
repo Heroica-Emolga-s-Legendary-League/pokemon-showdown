@@ -3317,13 +3317,15 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	remnant: {
 		name: "Remnant",
-		shortDesc: "+1 attack and speed if it comes in after an ally fainted",
+		shortDesc: "If an ally fainted this turn, +1 Atk, +1 Spe, but held item has no effect",
 		onStart(pokemon) {
-            if (pokemon.side.faintedThisTurn) {
-                this.debug('Boosted for a faint this turn');
-                return this.boost({ atk: 1, spe: 1 }, pokemon);
-            }
-        },
+			if (pokemon.side.faintedThisTurn) {
+				this.debug('Boosted for a faint this turn');
+				this.boost({ atk: 1, spe: 1 }, pokemon);
+				if (pokemon.item && pokemon.addVolatile('embargo')) {    pokemon.volatiles['embargo'].duration = 0;
+				}
+			}
+		},
 		flags: {},
 		rating: 1.5,
 		num: -1161,
