@@ -547,6 +547,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	bootsofruin: {
 		name: 'Boots of Ruin',
+		shortDesc: "Active Pokemon without this Ability have their Speed multiplied by 0.5",
 		onStart(pokemon) {
 			if (this.suppressingAbility(pokemon)) return;
 			this.add('-ability', pokemon, 'Boots of Ruin');
@@ -3318,13 +3319,15 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	remnant: {
 		name: "Remnant",
-		shortDesc: "One time: if an ally is fainted, +1 speed",
+		shortDesc: "If an ally fainted this turn, +1 Atk, +1 Spe, but held item has no effect",
 		onStart(pokemon) {
-            if (pokemon.side.faintedThisTurn) {
-                this.debug('Boosted for a faint this turn');
-                return this.boost({ atk: 1, spe: 1 }, pokemon);
-            }
-        },
+			if (pokemon.side.faintedThisTurn) {
+				this.debug('Boosted for a faint this turn');
+				this.boost({ atk: 1, spe: 1 }, pokemon);
+				if (pokemon.item && pokemon.addVolatile('embargo')) {    pokemon.volatiles['embargo'].duration = 0;
+				}
+			}
+		},
 		flags: {},
 		rating: 1.5,
 		num: -1161,
@@ -3367,14 +3370,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	bonvoyage: {
 		name: "Bon Voyage",
-		shortDesc: "Damages foe for 1/8th while Perish Song is on an active pokemon, extends perish song by 3 turns",
-		onAfterMove(source, target, move) {
-			if (move.id !== 'perishsong') return;
-			this.add(
-				'-hint',
-				`Perish song has been extended by 3 turns`
-			);        
-		},
+		shortDesc: "Damages foe for 1/8th while Perish Song is on an active pokemon, extends perish song by 3 turns.",
 		onResidual(pokemon) {
 			const foes = pokemon.side.foe.active;
 			for (const target of foes) {
@@ -3389,31 +3385,29 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
     },
 	forbiddenmagic: {
 		name: "Forbidden Magic",
-		shortDesc: "Steals opponent's buffs on knocking them out",
-		onSourceAfterFaint(length, target, source, effect) {
-			if (!effect || effect.effectType !== 'Move') return;
-			
-			// Check if the fainted target had any positive stat boosts
+		shortDesc: "Steals opponent's stat boosts on knocking them out",
+		// Runs right after damage lands, before the faint is processed, so boosts still exist
+		onSourceDamagingHit(damage, target, source, move) {
+			if (target.hp > 0) return;
+			const boosts: SparseBoostsTable = {};
 			let hasBoosts = false;
-			for (const stat in target.boosts) {
-				if (target.boosts[stat as BoostID]! > 0) {
+			let i: BoostID;
+			for (i in target.boosts) {
+				if (target.boosts[i] > 0) {
+					boosts[i] = target.boosts[i];
 					hasBoosts = true;
-					break;
 				}
 			}
-			if (!hasBoosts) return;
-			
-			// Copy all positive stat boosts from the fainted target to the user
-			const stolenBoosts: SparseBoostsTable = {};
-			for (const stat in target.boosts) {
-				if (target.boosts[stat as BoostID]! > 0) {
-					stolenBoosts[stat as BoostID] = target.boosts[stat as BoostID]!;
-				}
-			}
-			
+			this.effectState.stolen = hasBoosts ? {target, boosts} : null;
+		},
+		// Runs after the faint, so apply the snapshot
+		onSourceAfterFaint(length, target, source, effect) {
+			const stolen = this.effectState.stolen;
+			this.effectState.stolen = null;
+			if (!stolen || stolen.target !== target) return;
+			if (!effect || effect.effectType !== 'Move') return;
 			this.add('-activate', source, 'ability: Forbidden Magic');
-			this.add('-message', `${source.name} absorbed ${target.name}'s stat boosts!`);
-			this.boost(stolenBoosts, source, source, this.effect);
+			this.boost(stolen.boosts, source, source, this.effect);
 		},
 		flags: {},
 		rating: 4,
