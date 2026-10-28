@@ -13148,6 +13148,19 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Undiscovered"],
 		tags: ["Mythical"],
 	},
+	scolipedehell: {
+		num: -1774,
+		name: "Scolipede-HELL",
+		types: ["Bug", "Ground"],
+		baseStats: { hp: 60, atk: 100, def: 89, spa: 55, spd: 69, spe: 112 },
+		abilities: { 0: "Toxic Veins", 1: "Bone Eater", H: "Speed Boost" },
+		heightm: 2.5,
+		weightkg: 326.6,
+		color: "Red",
+		//prevo: "Whirlipede",
+		//evoLevel: 30,
+		eggGroups: ["Bug"],
+	},
   
   // End of Custom Pokemon
 

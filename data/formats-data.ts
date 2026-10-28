@@ -1215,6 +1215,11 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		tier: "HELL",
 		natDexTier: "HELL",
 	},
+	scolipedehell: {
+		isNonstandard: "Past",
+		tier: "HELL",
+		natDexTier: "HELL",
+	},
 	cyanieon: {
 		isNonstandard: "Past",
 		tier: "HELL",
