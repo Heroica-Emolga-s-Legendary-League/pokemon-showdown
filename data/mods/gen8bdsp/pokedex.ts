@@ -16400,7 +16400,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
   sunflora: {
     num: 192,
     name: "Sunflora",
-    types: ["Grass"],
+    types: ["Grass", "Fire"],
     baseStats: { hp: 115, atk: 45, def: 85, spa: 125, spd: 115, spe: 50 },
     abilities: { 0: "Chlorophyll", 1: "Solar Power", H: "Drought" },
     heightm: 0.8,
@@ -24569,7 +24569,7 @@ export const Pokedex: import('../../../sim/dex-species').ModdedSpeciesDataTable 
     types: ["Fairy"],
     gender: "F",
     baseStats: { hp: 78, atk: 65, def: 68, spa: 112, spd: 154, spe: 75 },
-    abilities: { 0: "Flower Veil", H: "Symbiosis" },
+    abilities: { 0: "Falling Flowers", H: "Symbiosis" },
     heightm: 1.1,
     weightkg: 10,
     color: "White",

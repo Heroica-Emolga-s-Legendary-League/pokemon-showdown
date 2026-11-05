@@ -3287,7 +3287,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 	},
 	faeslayer: {
 		name: "Fae Slayer",
-		shortDesc: "Dragon moves hit Fairy for 0.5x. Takes 0.5x from Fairy moves instead of being immune.",
+		shortDesc: "Dragon moves hit Fairy for resisted damage. Takes resisted damage from Fairy moves.",
 		// Offense: let Dragon connect on Fairy, then set the Fairy matchup to resisted
 		onModifyMovePriority: -5,
 		onModifyMove(move) {
