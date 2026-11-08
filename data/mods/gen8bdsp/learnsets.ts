@@ -98928,10 +98928,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			waterpulse: ["8M"],
 			whirlpool: ["9M", "9L14"],
 		},
-		eventData: [
-			{ generation: 9, level: 52, shiny: 1, moves: ["drillpeck", "helpinghand", "freezedry", "flipturn"] },
-		],
-		eventOnly: true,
 	},
 	ironvaliant: {
 		learnset: {
@@ -100880,10 +100876,6 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 			withdraw: ["8M"],
 			zenheadbutt: ["9M", "9S0"],
 		},
-		eventData: [
-			{ generation: 9, level: 85, gender: "M", nature: "Hardy", ivs: { hp: 31, atk: 15, def: 31, spa: 31, spd: 31, spe: 31 }, moves: ["terastarstorm", "zenheadbutt", "earthpower", "waterpulse"] },
-		],
-		eventOnly: true,
 	},
 	pecharunt: {
 		learnset: {
