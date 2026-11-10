@@ -2058,11 +2058,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 				return this.chainModify(1.1);
 			}
 		},
-		onModifyMove(move, pokemon, target) {
-			if (move.flags['punch']) {
-				move.ignoreImmunity = true;
-			}
-		},
 		flags: {},
 		rating: 4,
 		num: -1106,
