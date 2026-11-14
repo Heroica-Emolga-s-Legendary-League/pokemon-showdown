@@ -1693,7 +1693,7 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 			}
 		},
 		onSwitchIn(pokemon) {
-			if (pokemon.side.getSideCondition('stealthrock')) {
+			if (pokemon.side.removeSideCondition('stealthrock')) {
 				this.heal(pokemon.baseMaxhp / 8);
 				this.add('-heal', pokemon, pokemon.getHealth, '[from] ability: Bone Eater');
 				this.add('-sideend', pokemon.side, 'move: Stealth Rock', '[from] ability: Bone Eater');
