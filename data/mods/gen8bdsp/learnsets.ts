@@ -61051,6 +61051,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 	},
 	samurott: {
 		learnset: {
+			shellsmash: ["8M"],
 			aerialace: ["9M", "9L29", "7M", "6M", "5M"],
 			airslash: ["8M"],
 			aquajet: ["9L34", "7L34", "6L33", "5L33"],
@@ -73837,6 +73838,7 @@ export const Learnsets: import('../../../sim/dex-species').ModdedLearnsetDataTab
 	},
 	keldeo: {
 		learnset: {
+			icebeam: ["9M", "8M"],
 			aerialace: ["9M", "7M", "6M", "5M"],
 			airslash: ["9M", "8M"],
 			aquajet: ["9L1", "8L1", "7L1", "6L1", "6S2", "6S3", "5L1", "5S0", "5S1"],
