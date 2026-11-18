@@ -8199,7 +8199,7 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 				return this.chainModify([4915, 4096]);
 			}
 		},
-		itemUser: ["Latios", "Latias"],
+		itemUser: ["Latios", "Latias", "Laties", "Latius", "Latiis", "Latias-Chained"],
 		num: 225,
 		gen: 3,
 	},
