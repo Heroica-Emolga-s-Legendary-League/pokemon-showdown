@@ -57806,7 +57806,7 @@ export const Learnsets: import('../sim/dex-species').LearnsetDataTable = {
 			miracleeye: ["7L29", "6L26", "5L26"],
 			mudslap: ["9M", "4T", "3T"],
 			naturalgift: ["4M"],
-			poweruppunch: ["6M"],
+			poweruppunch: ["9M", "6M"],
 			protect: ["9M", "8M", "7M", "6M", "5M", "5S3", "4M", "3M"],
 			psychic: ["9M", "9L34", "8M", "8L34", "7M", "7L38", "6M", "6L38", "5M", "5L36", "5S5", "5S6", "4M", "4L36", "3M", "3L38"],
 			psychicfangs: ["9M"],
